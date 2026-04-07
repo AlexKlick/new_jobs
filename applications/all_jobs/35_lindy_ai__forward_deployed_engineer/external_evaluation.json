@@ -1,0 +1,77 @@
+{
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "note": "Proper prose format throughout, no ## or other headers",
+      "status": "PASS"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "note": "Opens with engaging question about what keeps candidate up at night - compelling entry",
+      "status": "PASS"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "note": "Lindy AI mentioned in salutation; role referenced naturally once",
+      "status": "PASS"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "note": "Multi-agent systems and forward-deployed experience not explicitly acknowledged",
+      "status": "WARN"
+    },
+    {
+      "item": "No recycled/template language",
+      "note": "Some phrases like 'technical depth and user impact' feel slightly generic",
+      "status": "WARN"
+    },
+    {
+      "item": "Contact info present",
+      "note": "Email and phone in both documents",
+      "status": "PASS"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "note": "Most bullets include numbers: ~100 users, 300+, tens of thousands, 3 junior engineers",
+      "status": "PASS"
+    },
+    {
+      "item": "Consistent formatting",
+      "note": "Clean, consistent formatting throughout both documents",
+      "status": "PASS"
+    }
+  ],
+  "scores": {
+    "ats_keyword_coverage": 4,
+    "clarity_conciseness": 4,
+    "company_specificity": 3,
+    "differentiation": 3,
+    "factual_grounding": 4,
+    "gap_handling": 3,
+    "metric_specificity": 4,
+    "narrative_voice": 4,
+    "role_alignment": 4
+  },
+  "strengths": [
+    "Specific, verifiable claims throughout (exact numbers for users, documents, team size)",
+    "Strong keyword coverage for AI/LLM role: Python, LangChain, Agents SDK, MCP, pgvector, RAG, rerankers",
+    "Engaging opening hook in cover letter - 'what keeps me up at night' draws reader in",
+    "Measurable outcomes in resume bullets: ~100 users piloted, 300+ onboarding, tens of thousands of documents",
+    "Proper prose format in cover letter - no section headers or broken formatting",
+    "Clear narrative voice with personal perspective ('I've spent three years', 'the overlap was hard to miss')",
+    "Contacts present in both resume and cover letter"
+  ],
+  "revision_suggestions": [
+    "Add a line showing research into Lindy AI - reference their specific product, approach, or recent announcement",
+    "Explicitly connect modular component architecture to multi-agent system design",
+    "Consider adding forward-deployed or customer-facing implementation language if applicable",
+    "The cover letter would be stronger with one specific insight about Lindy's approach"
+  ],
+  "verdict": "READY_TO_SEND",
+  "weaknesses": [
+    "Limited company-specificity: only generic references to 'autonomous AI agents for professionals' - could apply to many companies",
+    "Multi-agent systems experience not explicitly demonstrated despite role requiring it",
+    "Forward deployed / customer-facing deployment experience unclear (appears consulting-focused)",
+    "Some template-adjacent language: 'where technical depth and user impact both matter' could appear elsewhere"
+  ]
+}

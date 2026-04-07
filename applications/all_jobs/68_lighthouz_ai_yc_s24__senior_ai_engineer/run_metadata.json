@@ -1,0 +1,67 @@
+{
+  "run_id": "20260309_220448_29_live-optimized",
+  "created_at": "2026-03-10T04:05:40.357685+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 29,
+    "heading": "Lighthouz AI (YC S24) — Senior AI Engineer 🟢",
+    "company": "Lighthouz AI (YC S24)",
+    "role": "Senior AI Engineer",
+    "salary": "Competitive",
+    "remote": "🟢 Fully remote",
+    "experience": "3–6 years (good fit)",
+    "key_skills": [
+      "LLM fine-tuning",
+      "document classification",
+      "entity extraction",
+      "AI agents for email/phone",
+      "Python"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/77202",
+    "apply_url": "https://www.workatastartup.com/jobs/77202",
+    "why_fit": "Fully remote YC-backed startup building AI agents with a 3–6 year experience window that fits well. The document AI focus is slightly different from primary strengths, but agent building and LLM work align.",
+    "summary": "Automating freight finance with AI agents. YC S24, team from Google, Georgia Tech, Progressive."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "quality_repair_applied: 3 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/rubric_scores.json"
+  }
+}

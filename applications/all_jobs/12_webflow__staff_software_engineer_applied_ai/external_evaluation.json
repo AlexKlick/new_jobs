@@ -1,0 +1,81 @@
+{
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers."
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "WARN",
+      "note": "Opening 'I'm reaching out because your Applied AI team at Webflow is solving exactly the kind of problem I've spent three years obsessing over' sounds template-like and manufactured."
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Webflow and Staff Software Engineer, Applied AI appear naturally in context."
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "FAIL",
+      "note": "Role requires React, TypeScript, Node.js. Resume shows 'comfortable with TypeScript' but no Node.js or React proficiency demonstrated. These gaps are not acknowledged."
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Phrases like 'solving exactly the kind of problem I've spent three years obsessing over', 'lights me up', and 'that's the part of this role that lights me up' read as AI-generated or template language."
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email and phone present in both resume and cover letter header."
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Strong metrics: 50,000+ documents, 40% latency reduction, weeks-to-days improvement, 300+ users, 400+ consultants."
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Resume and cover letter both use clean, consistent formatting."
+    }
+  ],
+  "scores": {
+    "ats_keyword_coverage": 3,
+    "clarity_conciseness": 4,
+    "company_specificity": 3,
+    "differentiation": 3,
+    "factual_grounding": 4,
+    "gap_handling": 2,
+    "metric_specificity": 4,
+    "narrative_voice": 3,
+    "role_alignment": 4
+  },
+  "strengths": [
+    "Strong factual grounding with specific metrics: 50,000+ documents, 40% latency reduction, 'weeks to days' improvement",
+    "Resume bullets have measurable outcomes and concrete achievements",
+    "Clear AI/ML stack alignment: pgvector, Chroma, LangChain, Agents SDK, OpenAI",
+    "Role-appropriate experience: 3+ years in RAG and document intelligence",
+    "Mentorship experience demonstrates senior-level maturity",
+    "Education background shows continuous learning (Turing School backend engineering)"
+  ],
+  "weaknesses": [
+    "Gap handling FAIL: No React or Node.js skills demonstrated despite these being key requirements",
+    "Cover letter opening hook feels inauthentic - 'exactly the kind of problem I've spent three years obsessing over' reads as AI-generated",
+    "Template language in cover letter: 'lights me up', 'retrieval quality and user trust are the same problem' - too polished",
+    "Limited company specificity beyond surface-level Webflow observations ('millions of users', 'visual editor')",
+    "ATS keyword gaps: 'prompt engineering' not explicitly mentioned, no Node.js",
+    "Company name could be swapped out - content is generic enough to apply to many AI roles",
+    "Narrative voice feels slightly manufactured rather than conversational"
+  ],
+  "revision_suggestions": [
+    "Address the React/Node.js gap directly in cover letter: 'While my background is primarily Python, I've worked extensively in TypeScript environments and am eager to expand into React/Node.js work alongside your team'",
+    "Rewrite opening hook to be more specific and authentic - lead with the biopharma story instead of generic flattery",
+    "Remove or rework phrases like 'lights me up' and 'obsessing over' - they undermine authenticity",
+    "Add more Webflow-specific understanding: mention Webflow's visual editor, no-code platform, or recent AI features if genuine",
+    "Explicitly mention 'prompt engineering' as a skill since it's in the job requirements",
+    "Consider removing the Turing School mention - it may raise questions about formal CS credentials at Staff level"
+  ],
+  "verdict": "NEEDS_REVISION"
+}

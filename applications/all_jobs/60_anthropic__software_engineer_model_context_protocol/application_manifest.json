@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-03-26T04:53:03.412291+00:00",
+  "canonical_index": 60,
+  "identity_key": "url:https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+  "job": {
+    "index": 60,
+    "heading": "Anthropic \u2014 Software Engineer, Model Context Protocol",
+    "company": "Anthropic",
+    "role": "Software Engineer, Model Context Protocol",
+    "salary": "$320,000\u2013$560,000",
+    "remote": "\ud83d\udd34 NYC-based hybrid \u2014 would require relocating to New York City. The $320K\u2013$560K salary range may make relocation worth seriously considering as a career-defining move.",
+    "experience": "Bachelor's degree + relevant experience",
+    "key_skills": [
+      "Protocol development",
+      "open-source SDKs",
+      "MCP ecosystem",
+      "distributed systems",
+      "API design"
+    ],
+    "apply": "https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+    "why_fit": "MCP expertise directly applies to the company that created the protocol. This is a once-in-a-career opportunity to shape the industry standard. The trade-off is clear \u2014 NYC hybrid relocation required.",
+    "summary": "Anthropic is the creator of MCP and one of the leading AI companies globally. The most prestigious MCP-specific role available.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:58:19.425389+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:58:19.425389+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/21_anthropic__software_engineer_model_context_protocol",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/21_anthropic__software_engineer_model_context_protocol/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:58:19.425389+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:58:19.425389+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

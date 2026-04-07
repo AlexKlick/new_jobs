@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-26T04:53:03.410967+00:00",
+  "canonical_index": 53,
+  "identity_key": "url:https://recruiting.paylocity.com/recruiting/jobs/Details/3702179/YCHARTS-INC/Software-Engineer-II---Applied-AI",
+  "job": {
+    "index": 53,
+    "heading": "YCharts \u2014 Software Engineer II, Applied AI",
+    "company": "YCharts",
+    "role": "Software Engineer II, Applied AI",
+    "salary": "$140,000\u2013$180,000",
+    "remote": "\ud83d\udfe2 Fully remote (US)",
+    "experience": "Mid-level (4+ years \u2014 exact fit)",
+    "key_skills": [
+      "FastAPI",
+      "Django",
+      "Pinecone",
+      "MySQL",
+      "OpenAI",
+      "Anthropic",
+      "Angular"
+    ],
+    "apply": "https://recruiting.paylocity.com/recruiting/jobs/Details/3702179/YCHARTS-INC/Software-Engineer-II---Applied-AI",
+    "apply_url": "https://recruiting.paylocity.com/recruiting/jobs/Details/3702179/YCHARTS-INC/Software-Engineer-II---Applied-AI",
+    "why_fit": "One of the best experience-level fits in this list \u2014 the mid-level role matches ~4 years precisely. Uses FastAPI (a core strength) and multiple LLM providers for building AI agents. Active listing confirmed via HN March 2026 thread.",
+    "summary": "Investment research platform building AI agents for financial data. Posted in the March 2026 Hacker News \"Who is Hiring\" thread.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:41:12.586721+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:41:12.586721+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/14_ycharts__software_engineer_ii_applied_ai",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/14_ycharts__software_engineer_ii_applied_ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:41:12.586721+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_213851_14_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_213851_14_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:41:12.586721+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

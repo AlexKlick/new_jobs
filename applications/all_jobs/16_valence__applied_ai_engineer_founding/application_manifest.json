@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-26T04:53:03.404678+00:00",
+  "canonical_index": 16,
+  "identity_key": "url:https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+  "job": {
+    "index": 16,
+    "heading": "Valence \u2014 Applied AI Engineer (Founding)",
+    "company": "Valence",
+    "role": "Applied AI Engineer (Founding)",
+    "salary": "$140,000\u2013$180,000 + equity [est.]",
+    "remote": "Remote (US)",
+    "experience": "3+ years",
+    "key_skills": [
+      "Generative AI",
+      "LLMs",
+      "NLP",
+      "conversational systems",
+      "information retrieval",
+      "Python",
+      "full-stack development"
+    ],
+    "apply": "https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+    "apply_url": "https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+    "why_fit": "A founding AI engineering role with direct reporting to Head of AI at a well-positioned enterprise company. Your LLM application and agentic systems expertise maps directly to building AI-powered coaching products. Small team with high ownership. Trade-off: Enterprise SaaS coaching is outside your preferred industries, though it checks most other boxes.",
+    "summary": "AI-powered enterprise coaching platform. ~50\u2013100 employees, Series A, Fortune 500 clients.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T21:51:32.364687+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T21:51:32.364687+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T21:51:32.364687+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_164341_16_valence",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_164341_16_valence/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T16:47:27.724947+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

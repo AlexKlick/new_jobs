@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-03-26T04:53:03.405657+00:00",
+  "canonical_index": 21,
+  "identity_key": "url:https://builtin.com/job/senior-ai-engineer/8680298",
+  "job": {
+    "index": 21,
+    "heading": "SailPoint \u2014 Senior AI Engineer",
+    "company": "SailPoint",
+    "role": "Senior AI Engineer",
+    "salary": "$119,000\u2013$201,000",
+    "remote": "Remote or Hybrid (United States)",
+    "experience": "Senior level",
+    "key_skills": [
+      "Python",
+      "AWS",
+      "Bedrock",
+      "Sagemaker",
+      "Airflow",
+      "Kafka",
+      "Generative AI",
+      "autonomous systems"
+    ],
+    "apply": "https://builtin.com/job/senior-ai-engineer/8680298",
+    "apply_url": "https://builtin.com/job/senior-ai-engineer/8680298",
+    "why_fit": "SailPoint is building AI-powered autonomous identity security systems, aligning with your agentic AI expertise. Cybersecurity is one of your target industries. Trade-off: Larger company and the salary floor ($119k) suggests the range is broad \u2014 you'd need to negotiate toward the upper half.",
+    "summary": "Identity security platform. Publicly traded (NASDAQ: SAIL), ~2,000 employees.",
+    "company_context": null
+  },
+  "status": "MARKDOWN",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T17:08:10.820054+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T17:08:10.820054+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:08:10.820054+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

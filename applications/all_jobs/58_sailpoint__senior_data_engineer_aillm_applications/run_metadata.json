@@ -1,0 +1,68 @@
+{
+  "run_id": "20260309_215236_19_live-optimized",
+  "created_at": "2026-03-10T03:54:51.412240+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 19,
+    "heading": "SailPoint — Senior Data Engineer, AI/LLM Applications 🟢",
+    "company": "SailPoint",
+    "role": "Senior Data Engineer, AI/LLM Applications",
+    "salary": "$141,000–$262,000",
+    "remote": "🟢 Remote (US)",
+    "experience": "Senior level",
+    "key_skills": [
+      "LLM application development",
+      "RAG architectures",
+      "Python",
+      "LangChain",
+      "Hugging Face",
+      "GCP",
+      "CI/CD",
+      "data pipelines"
+    ],
+    "apply": "https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+    "apply_url": "https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+    "why_fit": "Building LLM-powered production solutions with RAG and LangChain at a major enterprise. Python and cloud expertise match well. The wide salary range ($141K–$262K) offers significant upside.",
+    "summary": "Identity security cloud platform. Public company (acquired by Thoma Bravo for $6.9B). 2,000+ employees."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [],
+  "notes": [],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/rubric_scores.json"
+  }
+}

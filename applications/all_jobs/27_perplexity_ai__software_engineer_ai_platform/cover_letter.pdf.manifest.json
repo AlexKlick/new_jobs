@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-26T04:44:15.056078+00:00",
+  "job_id": "b8500b4f-f905-49c0-b7b0-7b307ba38c2f",
+  "artifact_id": "78384c51-e21c-412c-b200-a43ef95904dd",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/cover_letter.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/cover_letter.export.md",
+  "input_hash": "8ee449a38beadf5e83bdd0a360dc0b1302f9a20adbc2feb419050dc99b4c143e",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 3145,
+  "warnings": [],
+  "diagnostics": {}
+}

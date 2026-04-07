@@ -1,0 +1,71 @@
+{
+  "run_id": "20260309_204040_03_live-optimized",
+  "created_at": "2026-03-10T02:43:57.115888+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 3,
+    "heading": "Webflow — Staff Software Engineer, AI Developer Productivity 🟢",
+    "company": "Webflow",
+    "role": "Staff Software Engineer, AI Developer Productivity",
+    "salary": "$154,000–$281,000 (zone-based pay bands)",
+    "remote": "🟢 Remote-first (US; BC & ON, Canada)",
+    "experience": "7+ years developer tooling, 2+ years AI/AI Platform",
+    "key_skills": [
+      "LLMs",
+      "vector databases",
+      "RAG",
+      "**MCP (Model Context Protocol)**",
+      "prompt engineering",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "AWS"
+    ],
+    "apply": "https://job-boards.greenhouse.io/webflow/jobs/6929034",
+    "apply_url": "https://job-boards.greenhouse.io/webflow/jobs/6929034",
+    "why_fit": "One of the rare listings **explicitly requiring MCP experience** — a direct match to this candidate's specialized expertise. Also requires RAG, LLMs, and TypeScript, all core strengths. Experience requirement is a stretch at 7+ years, but MCP specialization is rare enough to create flexibility.",
+    "summary": "Webflow is a no-code website experience platform going AI-native. Remote-first, ~800 employees, backed by YC and Accel."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 10.0,
+    "role_alignment": 9.0,
+    "metric_specificity": 9.0,
+    "clarity_conciseness": 9.0,
+    "ats_keyword_coverage": 10.0
+  },
+  "final_scores": {
+    "factual_grounding": 10.0,
+    "role_alignment": 10.0,
+    "metric_specificity": 9.5,
+    "clarity_conciseness": 9.5,
+    "ats_keyword_coverage": 10.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "quality_repair_applied: 2 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/rubric_scores.json"
+  }
+}

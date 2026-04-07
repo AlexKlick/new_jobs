@@ -1,0 +1,42 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.5,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 4.5,
+    "company_specificity": 5.0,
+    "differentiation": 4.5,
+    "gap_handling": 4.5
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with React frontend development",
+      "reason": "No evidence in fact set; listed as skill gap"
+    },
+    {
+      "statement": "Experience with Node.js backend development",
+      "reason": "No evidence in fact set; listed as skill gap"
+    },
+    {
+      "statement": "Direct experience with AI-powered scoring systems",
+      "reason": "No direct evidence in fact set; listed as skill gap"
+    },
+    {
+      "statement": "8-10+ years of professional experience",
+      "reason": "Fact set shows ~4 years (2022-present); job requires 8-10+ but this would be fabrication"
+    }
+  ]
+}

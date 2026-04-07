@@ -1,0 +1,39 @@
+{
+  "policy": "tiered",
+  "status": "PASS",
+  "blocked": false,
+  "score": 100.0,
+  "summary": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "documents": {
+    "resume": {
+      "document": "resume",
+      "status": "PASS",
+      "blocked": false,
+      "score": 100,
+      "issues": [],
+      "word_count": 329,
+      "pdf_path": "/home/alexk/documents/new_job/outputs/20260309_203708_02_live-optimized/resume.pdf"
+    },
+    "cover_letter": {
+      "document": "cover_letter",
+      "status": "PASS",
+      "blocked": false,
+      "score": 100,
+      "issues": [],
+      "word_count": 361,
+      "pdf_path": "/home/alexk/documents/new_job/outputs/20260309_203708_02_live-optimized/cover_letter.pdf"
+    }
+  },
+  "warnings": [],
+  "auto_fixes_applied": [
+    "strip_fact_references",
+    "inject_resume_contact_line",
+    "inject_cover_letter_letterhead",
+    "strip_table_of_contents",
+    "inject_pdf_frontmatter"
+  ]
+}

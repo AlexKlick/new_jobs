@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "ffe86ccf-030c-4cd4-8e9e-b83b920b3130",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/resume.pdf",
+      "size_kb": 12.7,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2926,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "b64569cb-ed42-48be-9758-6f1a5d78918a",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "46d9e303-4f05-4d0f-9c36-54959ce0b68c",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/resume.pdf.manifest.json",
+      "size_kb": 12.7
+    }
+  ]
+}

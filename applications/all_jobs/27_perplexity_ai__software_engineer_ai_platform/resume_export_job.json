@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "79ceaf80-9db0-496c-baf4-c2e1832857db",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/resume.pdf",
+      "size_kb": 13.0,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 3266,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "970080d1-4c43-432f-a1f9-10d7adcf2160",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "21abef6b-d771-4310-b69f-1fc56da036ee",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/resume.pdf.manifest.json",
+      "size_kb": 13.0
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-03-26T04:53:03.409743+00:00",
+  "canonical_index": 46,
+  "identity_key": "url:https://www.workatastartup.com/jobs/61911",
+  "job": {
+    "index": 46,
+    "heading": "Rejoy Health (YC W21) \u2014 AI Engineer",
+    "company": "Rejoy Health (YC W21)",
+    "role": "AI Engineer",
+    "salary": "$180,000\u2013$250,000 + 0.50%\u20131.00% equity",
+    "remote": "\ud83d\udfe2 Remote (US)",
+    "experience": "1+ years (low bar)",
+    "key_skills": [
+      "Machine learning",
+      "AI algorithms",
+      "NLP",
+      "data pipelines",
+      "mobile/web integration"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/61911",
+    "apply_url": "https://www.workatastartup.com/jobs/61911",
+    "why_fit": "Healthcare AI with excellent compensation ($180K+ base) and meaningful equity. Remote US, low experience threshold, and YC backing. Healthcare domain experience and AI engineering skills position this candidate as an overqualified but highly valued hire. The equity stake (0.5\u20131.0%) represents significant upside.",
+    "summary": "YC-backed healthcare tech company building an AI-powered at-home physical therapy platform.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:19:29.541530+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:19:29.541530+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/07_rejoy_health_yc_w21__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/07_rejoy_health_yc_w21__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:19:29.541530+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_211659_07_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_211659_07_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:19:29.541530+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_152714_07_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_152714_07_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T21:30:37.250419+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

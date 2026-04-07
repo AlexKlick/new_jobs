@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-03-26T04:53:03.411671+00:00",
+  "canonical_index": 57,
+  "identity_key": "name:zapier::senior engineer, backend \u2013 mcp",
+  "job": {
+    "index": 57,
+    "heading": "Zapier \u2014 Senior Engineer, Backend \u2013 MCP",
+    "company": "Zapier",
+    "role": "Senior Engineer, Backend \u2013 MCP",
+    "salary": "~$160K\u2013$210K [est.]",
+    "remote": "\ud83d\udfe2 Remote (United States) \u2014 Zapier is a famous remote-first company, no office requirements",
+    "experience": "6+ years designing and maintaining complex production systems",
+    "key_skills": [
+      "Python/Node.js",
+      "API design",
+      "database modeling",
+      "CI/CD",
+      "MCP/agent frameworks",
+      "AI tools"
+    ],
+    "apply": "Search Zapier careers page for MCP role",
+    "apply_url": null,
+    "why_fit": "One of the few roles explicitly titled around MCP \u2014 directly leveraging MCP expertise. Zapier's integration ecosystem is a natural platform for MCP server development. The 6+ year experience requirement is a stretch but MCP expertise is rare enough to create leverage.",
+    "summary": "Zapier is the dominant workflow automation platform, now building MCP integrations for AI agent ecosystems. Well-funded, remote-first.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:52:36.400218+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:52:36.400218+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/18_zapier__senior_engineer_backend_\u2013_mcp",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/18_zapier__senior_engineer_backend_\u2013_mcp/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:52:36.400218+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:52:36.400218+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

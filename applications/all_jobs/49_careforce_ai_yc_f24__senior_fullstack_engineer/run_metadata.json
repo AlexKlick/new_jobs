@@ -1,0 +1,91 @@
+{
+  "run_id": "20260309_212602_10_live-optimized",
+  "created_at": "2026-03-10T03:29:15.128572+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 10,
+    "heading": "Careforce AI (YC F24) — Senior Fullstack Engineer 🟢",
+    "company": "Careforce AI (YC F24)",
+    "role": "Senior Fullstack Engineer",
+    "salary": "$120,000–$180,000 + 0.20%–1.00% equity + 2x/year bonus",
+    "remote": "🟢 Fully remote (US)",
+    "experience": "5–7+ years (may flex for strong AI skills)",
+    "key_skills": [
+      "Python",
+      "React",
+      "FastAPI",
+      "Supabase",
+      "GCP",
+      "LLMs",
+      "Voice AI",
+      "agentic applications"
+    ],
+    "apply": "https://www.ycombinator.com/companies/careforce-prev-helpcare-ai/jobs/Hjx9nA3-senior-fullstack-engineer",
+    "apply_url": "https://www.ycombinator.com/companies/careforce-prev-helpcare-ai/jobs/Hjx9nA3-senior-fullstack-engineer",
+    "why_fit": "The stack is a near-perfect overlay — Python, FastAPI, React deployed for healthcare AI agents. Entire company is organized around agent teams (Agent Experience, Agent Interfaces, Agent Alignment, Agent Deployment). Base salary starts borderline but bonuses and early-stage equity (0.2–1.0%) push total comp well above threshold.",
+    "summary": "YC-backed healthcare AI startup building autonomous AI agents for healthcare administrative tasks. ~10 employees, rapid growth."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "claim": "React experience",
+      "reason": "Job requires React but fact set contains only TypeScript/JavaScript without explicit React framework experience"
+    },
+    {
+      "claim": "Voice AI experience",
+      "reason": "Job lists Voice AI as key skill but no facts support voice/speech AI work"
+    },
+    {
+      "claim": "GCP (Google Cloud Platform) experience",
+      "reason": "Job lists GCP but facts do not specify cloud platform used"
+    },
+    {
+      "claim": "Supabase experience",
+      "reason": "Job lists Supabase but facts only mention pgvector, Chroma without Supabase-specific experience"
+    },
+    {
+      "claim": "Full-stack frontend development",
+      "reason": "Job title is Senior Fullstack Engineer but facts emphasize backend/AI work; only TypeScript/JavaScript listed without frontend framework specifics"
+    }
+  ],
+  "notes": [
+    "quality_repair_applied: 1 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/rubric_scores.json"
+  }
+}

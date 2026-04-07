@@ -1,0 +1,62 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 3.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with financial workflows, fintech domain, or spend management",
+      "reason": "No evidence in fact set; fact-40e74e248a84, fact-2a1e374fda5f, fact-4ad1afb6a6ac indicate industry preferences are healthcare technology, biopharma, and enterprise software platforms\u2014not fintech"
+    },
+    {
+      "statement": "NYC/SF location or willingness to relocate",
+      "reason": "No location information in fact set; job notes suggest likely NYC/SF presence requirement but cannot claim candidate meets this"
+    },
+    {
+      "statement": "Direct LLM fine-tuning or model training experience",
+      "reason": "Fact set shows LLM API usage (OpenAI, LangChain, Agents SDK) but no evidence of model fine-tuning or training"
+    },
+    {
+      "statement": "Specific Ramp product knowledge or customer references",
+      "reason": "Web access unavailable; cannot claim specific knowledge of Ramp's product features, customer base, or recent initiatives beyond publicly available general information"
+    },
+    {
+      "statement": "Experience with financial compliance or regulatory frameworks (SOX, PCI, etc.)",
+      "reason": "No evidence in fact set; while candidate has biopharma regulatory experience, this does not translate to financial regulatory experience"
+    },
+    {
+      "statement": "Prompt engineering as a primary skill",
+      "reason": "While implied through LLM work, fact set does not explicitly mention prompt engineering as a distinct skill\u2014removed from skills section to maintain factual grounding"
+    },
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-17fc11120e3d"
+      ]
+    },
+    {
+      "statement": "Skills: document ingestion, PDF chunking, LLM evaluation",
+      "unknown_fact_ids": [
+        "fact-17fc11120e3d"
+      ]
+    }
+  ]
+}

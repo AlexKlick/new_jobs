@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-03-26T04:53:03.413901+00:00",
+  "canonical_index": 69,
+  "identity_key": "url:https://weaviate.io/company/careers",
+  "job": {
+    "index": 69,
+    "heading": "Weaviate \u2014 Engineering Roles",
+    "company": "Weaviate",
+    "role": "Engineering Roles",
+    "salary": "Competitive AI infrastructure comp [est.]",
+    "remote": "\ud83d\udfe2 Fully remote, global (remote-first company \u2014 no office, Colorado is fine)",
+    "experience": "Varies by role",
+    "key_skills": [
+      "Vector databases",
+      "AI/ML",
+      "distributed systems",
+      "TypeScript",
+      "Kubernetes"
+    ],
+    "apply": "https://weaviate.io/company/careers",
+    "apply_url": "https://weaviate.io/company/careers",
+    "why_fit": "Weaviate is core infrastructure for RAG systems \u2014 deep RAG and vector database expertise applies directly. Weaviate is also building \"Agent Skills,\" aligning with agentic AI experience. Specific engineering roles need to be confirmed on the careers page.",
+    "summary": "Open-source vector database for AI applications. Series B, backed by NEA, IVP, Sapphire Ventures. Remote-first.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-26T03:57:53.264549+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-26T03:57:53.264549+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-26T03:57:53.264549+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/30_weaviate__engineering_roles",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/30_weaviate__engineering_roles/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:06:24.720161+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220540_30_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220540_30_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:06:24.720161+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

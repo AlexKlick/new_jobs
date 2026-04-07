@@ -1,0 +1,33 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 3.0,
+    "differentiation": 4.0,
+    "gap_handling": 3.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.5,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 4.5,
+    "company_specificity": 4.0,
+    "differentiation": 4.5,
+    "gap_handling": 4.5
+  },
+  "rejected_claims": [
+    {
+      "statement": "Pioneer agent orchestration systems at Pax8 Labs with culture of collaboration and experimentation",
+      "fact_ids": [
+        "fact-9a96f8eeb4bd"
+      ],
+      "reason": "This narrative point specifically references Pax8 Labs, a different company. Cannot repurpose for Splitero application without inventing new claims."
+    }
+  ]
+}

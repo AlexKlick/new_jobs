@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix df: <https://docforge.org/ontology/1.0#> .
+@prefix doc: <https://docforge.org/doc/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+doc:c910665e334bb229_finding_1 a df:ValidationFinding ;
+    df:aboutDocument doc:c910665e334bb229 ;
+    df:category "schema_sections"^^xsd:string ;
+    df:message "Missing required section heading: Opening"^^xsd:string ;
+    df:severity "FAIL"^^xsd:string .
+
+doc:c910665e334bb229_finding_2 a df:ValidationFinding ;
+    df:aboutDocument doc:c910665e334bb229 ;
+    df:category "schema_sections"^^xsd:string ;
+    df:message "Missing required section heading: Role Alignment"^^xsd:string ;
+    df:severity "FAIL"^^xsd:string .
+
+doc:c910665e334bb229_finding_3 a df:ValidationFinding ;
+    df:aboutDocument doc:c910665e334bb229 ;
+    df:category "schema_sections"^^xsd:string ;
+    df:message "Missing required section heading: Evidence Highlights"^^xsd:string ;
+    df:severity "FAIL"^^xsd:string .
+
+doc:c910665e334bb229_finding_4 a df:ValidationFinding ;
+    df:aboutDocument doc:c910665e334bb229 ;
+    df:category "schema_sections"^^xsd:string ;
+    df:message "Missing required section heading: Closing"^^xsd:string ;
+    df:severity "FAIL"^^xsd:string .
+
+doc:c910665e334bb229_section_1 a df:Section ;
+    dcterms:title "Opening"^^xsd:string ;
+    df:belongsToDocument doc:c910665e334bb229 ;
+    df:order 1 .
+
+doc:c910665e334bb229_section_2 a df:Section ;
+    dcterms:title "Role Alignment"^^xsd:string ;
+    df:belongsToDocument doc:c910665e334bb229 ;
+    df:order 2 .
+
+doc:c910665e334bb229_section_3 a df:Section ;
+    dcterms:title "Evidence Highlights"^^xsd:string ;
+    df:belongsToDocument doc:c910665e334bb229 ;
+    df:order 3 .
+
+doc:c910665e334bb229_section_4 a df:Section ;
+    dcterms:title "Closing"^^xsd:string ;
+    df:belongsToDocument doc:c910665e334bb229 ;
+    df:order 4 .
+
+doc:c910665e334bb229 a df:Document ;
+    dcterms:date "2026-03-25"^^xsd:date ;
+    dcterms:title "Alex Klick"^^xsd:string ;
+    df:contentHash "c910665e334bb2293865476856eeff5e4e424e0956a5ccd6db2348b39ffe10bb"^^xsd:string ;
+    df:schemaId "cover_letter_doc.v1"^^xsd:string ;
+    df:validationStatus "FAIL"^^xsd:string .
+

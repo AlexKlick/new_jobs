@@ -1,0 +1,96 @@
+{
+  "run_id": "20260325_203430_11_braintrust",
+  "created_at": "2026-03-25T20:38:01.138943+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "minimax",
+  "provider_used": "minimax",
+  "fallback_provider": "zai",
+  "fallback_used": false,
+  "job": {
+    "index": 11,
+    "heading": "Braintrust — Open Source Engineer, Python",
+    "company": "Braintrust",
+    "role": "Open Source Engineer, Python",
+    "salary": "$150,000–$190,000 [est.]",
+    "remote": "Remote explicitly listed as location option",
+    "experience": "Mid-to-senior",
+    "key_skills": [
+      "Python",
+      "open-source SDK development",
+      "AI tooling",
+      "LLM integrations"
+    ],
+    "apply": "https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+    "apply_url": "https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+    "why_fit": "Building open-source SDKs for AI evaluation infrastructure leverages your deep Python expertise and LLM framework knowledge. Braintrust is an AI-core developer tools company with top-tier VC backing. Open source involvement is a nice-to-have from your criteria. Trade-off: Less agentic AI focus than your ideal role.",
+    "summary": "AI evaluation and observability platform. Backed by a16z and Tiger Global, Series B. Helps teams ship reliable AI products.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "reason": "No fact provided for AWS or cloud deployment experience",
+      "statement": "Experience with AWS/cloud deployment"
+    },
+    {
+      "reason": "No fact provided for Docker or Kubernetes",
+      "statement": "Containerization experience (Docker/Kubernetes)"
+    },
+    {
+      "reason": "No fact provided for specific company size or team structure at Credera beyond what's stated",
+      "statement": "Led a team of X engineers"
+    },
+    {
+      "reason": "No fact for GitHub stars or open-source repo metrics",
+      "statement": "Open-source project with X stars"
+    }
+  ],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "quality_issues_detected: 2",
+    "External evaluation: NEEDS_REVISION. See /home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/external_evaluation.json.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/pdf_quality_audit.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/rubric_scores.json"
+  }
+}

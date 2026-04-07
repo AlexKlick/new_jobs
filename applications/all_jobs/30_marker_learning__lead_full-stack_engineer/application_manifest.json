@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-03-26T04:53:03.407123+00:00",
+  "canonical_index": 30,
+  "identity_key": "name:marker learning::lead full-stack engineer",
+  "job": {
+    "index": 30,
+    "heading": "Marker Learning \u2014 Lead Full-Stack Engineer",
+    "company": "Marker Learning",
+    "role": "Lead Full-Stack Engineer",
+    "salary": "$185,000\u2013$250,000",
+    "remote": "Fully remote (US only)",
+    "experience": "Lists 8\u201310+ years experience \u2014 a significant stretch, but your specialized AI skills could compensate. Worth a shot given the upside.",
+    "key_skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "AI-powered scoring",
+      "data pipelines"
+    ],
+    "apply": "Email lucie@markerlearning.com with subject \"Lead Engineer Application (I am not a bot)\"",
+    "apply_url": null,
+    "why_fit": "a16z-backed company in health/education building AI-powered assessment tools. Your healthcare experience differentiates you. Exceptional salary range. Constraint: Lists 8\u201310+ years experience \u2014 a significant stretch, but your specialized AI skills could compensate. Worth a shot given the upside.",
+    "summary": "AI-enhanced assessment platform for learning disabilities. Series B, backed by a16z, Reach Capital, Primary.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-26T04:34:45.210716+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-26T04:34:45.210716+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-26T04:34:45.210716+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_173228_30_marker-learning",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_173228_30_marker-learning/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:38:05.793056+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

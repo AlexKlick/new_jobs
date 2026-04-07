@@ -1,0 +1,76 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 3.5,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4.5,
+    "company_specificity": 4,
+    "differentiation": 4,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Strong opening hook with specific project story (RTF extraction) that immediately establishes domain credibility",
+    "Honest acknowledgment of React gap\u2014rare and refreshing, shows self-awareness",
+    "Healthcare/regulatory focus directly relevant to Glass Health's clinical decision support mission",
+    "Kaiser Permanente investment reference shows genuine company research",
+    "Cover letter voice feels authentic and personal, not AI-generated",
+    "Resume is clean, scannable, with specific technologies and scale metrics (~100\u2192300+ users, tens of thousands of documents)",
+    "The consulting \u2192 scaled rollout narrative demonstrates ability to take systems from pilot to production"
+  ],
+  "weaknesses": [
+    "Resume bullets focus on what was built but could include more outcome metrics (accuracy improvements, time saved, cost reductions)",
+    "TypeScript/React depth unclear\u2014skills list shows it but no bullets demonstrate it",
+    "Consulting background may raise questions about ownership vs. advisory experience for a founding role",
+    "Could strengthen the 'why founding engineer specifically' angle\u2014what excites about 0\u21921 vs. scaling existing systems"
+  ],
+  "revision_suggestions": [
+    "Consider adding 1-2 outcome metrics to resume bullets (e.g., 'reduced retrieval latency by X%', 'improved answer accuracy to Y%')",
+    "If any TypeScript/React work exists, even minor, consider a bullet to demonstrate familiarity",
+    "In cover letter, one more sentence on why founding-stage specifically (beyond 'shape technical direction') could strengthen the fit narrative"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers or section breaks"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific project story about RTF extraction, not generic company praise"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Glass Health mentioned organically; Kaiser Permanente reference shows research depth"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "React gap explicitly acknowledged: 'I'm upfront that my React experience is lighter than what the posting emphasizes'"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "No 'I am writing to express my interest' or 'I believe I would be a great asset' clich\u00e9s"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn all present in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has scale metrics (users, documents) but lacks outcome metrics (accuracy, latency, cost savings)"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting throughout, no orphaned headers or artifacts"
+    }
+  ]
+}

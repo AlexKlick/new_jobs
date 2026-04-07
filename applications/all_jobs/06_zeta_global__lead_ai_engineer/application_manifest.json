@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-26T04:53:03.402848+00:00",
+  "canonical_index": 6,
+  "identity_key": "url:https://builtin.com/job/lead-ai-engineer/8577284",
+  "job": {
+    "index": 6,
+    "heading": "Zeta Global \u2014 Lead AI Engineer",
+    "company": "Zeta Global",
+    "role": "Lead AI Engineer",
+    "salary": "$200,000\u2013$215,000",
+    "remote": "Remote or Hybrid (United States)",
+    "experience": "Senior level",
+    "key_skills": [
+      "Python",
+      "PyTorch",
+      "AWS Bedrock",
+      "OpenAI API",
+      "RAG",
+      "agentic LLM systems",
+      "tool use",
+      "multi-step reasoning",
+      "workflow orchestration"
+    ],
+    "apply": "https://builtin.com/job/lead-ai-engineer/8577284",
+    "apply_url": "https://builtin.com/job/lead-ai-engineer/8577284",
+    "why_fit": "This role involves deploying agentic LLM systems with RAG, tool-calling, and multi-step reasoning \u2014 all direct matches for your production experience. The confirmed $200k\u2013$215k salary nearly doubles your current compensation. The \"Lead\" title and public company stability offer both career progression and compensation certainty.",
+    "summary": "AI-powered marketing platform. Publicly traded (NYSE: ZETA), ~2,000 employees.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T20:29:34.636362+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T20:29:34.636362+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T20:29:34.636362+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

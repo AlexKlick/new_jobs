@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-03-26T04:53:03.402378+00:00",
+  "canonical_index": 4,
+  "identity_key": "url:https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+  "job": {
+    "index": 4,
+    "heading": "EvolutionIQ \u2014 Senior Software Engineer, AI/LLM (Medhub)",
+    "company": "EvolutionIQ",
+    "role": "Senior Software Engineer, AI/LLM (Medhub)",
+    "salary": "$185,000\u2013$235,000 base + annual bonus + RSUs",
+    "remote": "NYC or Remote",
+    "experience": "3+ years Python, 1+ year LLM product deployment",
+    "key_skills": [
+      "Python",
+      "LLMs",
+      "RAG",
+      "embeddings-based retrieval",
+      "prompt engineering",
+      "fine-tuning",
+      "API services/microservices",
+      "evaluating LLM outputs"
+    ],
+    "apply": "https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+    "apply_url": "https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+    "why_fit": "The Medhub product synthesizes complex medical documents \u2014 directly leveraging your experience building claim validation pipelines and compliance-checking systems for pharmaceutical companies. Your RAG systems expertise and production LLM deployment experience are core requirements. The $185k\u2013$235k range puts this among the highest-paying roles in the search.",
+    "summary": "AI guidance platform for insurance claims, specializing in complex medical document processing. Named Inc. Best Workplaces three years running. Fast-growing enterprise AI.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T20:16:40.673657+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T20:16:40.673657+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T20:16:40.673657+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

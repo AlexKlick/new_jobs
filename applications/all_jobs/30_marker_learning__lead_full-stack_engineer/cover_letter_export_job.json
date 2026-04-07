@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "job_id": "6f7f8705-6dc8-4e48-855d-07cf36c40687",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Role Alignment",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Evidence Highlights",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Closing",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 4,
+      "warn": 0,
+      "total": 4
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/cover_letter.pdf",
+      "size_kb": 10.7,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2815,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "81435cb5-bf8b-4c19-8854-aad78b81d454",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/cover_letter.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/cover_letter.ttl.manifest.json",
+      "size_kb": 2.1533203125
+    },
+    {
+      "artifact_id": "93482a0e-265a-4f48-9fa3-5d746f4ecd4a",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/cover_letter.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/cover_letter.pdf.manifest.json",
+      "size_kb": 10.7
+    }
+  ]
+}

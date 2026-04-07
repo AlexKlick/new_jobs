@@ -1,0 +1,1079 @@
+@prefix career: <urn:career:> .
+@prefix ns1: <urn:career:prop:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+career:assertsObject a owl:DatatypeProperty .
+
+career:assertsPredicate a owl:ObjectProperty .
+
+<urn:career:fact:fact-04be5ff77223> a career:Fact ;
+    career:assertsObject "Mentored three junior engineers on agentic workflow reliability and performance practices." ;
+    career:assertsPredicate ns1:leadershipSignal ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-04be5ff77223:backstory_dump.md> ;
+    career:tag "backstory",
+        "leadership" .
+
+<urn:career:fact:fact-067df40a9e04> a career:Fact ;
+    career:assertsObject "Led quality analyses to select/deploy the best sentence-transformers reranker model at scale" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-067df40a9e04:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-0708ee4596a3> a career:Fact ;
+    career:assertsObject "pytorch" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-0708ee4596a3:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-07f3b2217674> a career:Fact ;
+    career:assertsObject """I developed vector search and reranker
+systems to power Credera’s internal enterprise chat tools used daily by hundreds of
+consultants, while mentoring junior engineers in developing agentic workflows.""" ;
+    career:assertsPredicate ns1:narrativePoint ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-07f3b2217674:cover_letter.pdf> ;
+    career:tag "cover_letter",
+        "narrative" .
+
+<urn:career:fact:fact-09f71c3d713d> a career:Fact ;
+    career:assertsObject "LLM evaluation" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-09f71c3d713d:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-0ce9f6a6f873> a career:Fact ;
+    career:assertsObject "Prototyped the architecture and delivered and initial set of lego-block components to" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-0ce9f6a6f873:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-0d1c216cdfe5> a career:Fact ;
+    career:assertsObject "LangChain" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-0d1c216cdfe5:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-17fc11120f3d> a career:Fact ;
+    career:assertsObject "Document ingestion" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-17fc11120f3d:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-1a739912fd66> a career:Fact ;
+    career:assertsObject """My experience spans building scalable
+backends in Python and TypeScript, deploying commercial AI models, experimenting
+with agent frameworks and patterns, and tinkering with open-source models.""" ;
+    career:assertsPredicate ns1:narrativePoint ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-1a739912fd66:cover_letter.pdf> ;
+    career:tag "cover_letter",
+        "narrative" .
+
+<urn:career:fact:fact-1e69e5de1dd0> a career:Fact ;
+    career:assertsObject "Pydantic" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-1e69e5de1dd0:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-2693a71d9da6> a career:Fact ;
+    career:assertsObject "pydantic)" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-2693a71d9da6:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-27000be787ee> a career:Fact ;
+    career:assertsObject "Sentence transformers" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-27000be787ee:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-2a1e374fda5f> a career:Fact ;
+    career:assertsObject "Biopharma and life sciences" ;
+    career:assertsPredicate ns1:industryPreference ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-2a1e374fda5f:backstory_dump.md> ;
+    career:tag "backstory",
+        "preferences" .
+
+<urn:career:fact:fact-2b6bc5399fe5> a career:Fact ;
+    career:assertsObject "Designed and modular component model so agents populate structured JSON to create and edit" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-2b6bc5399fe5:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-2d2800e6eb5c> a career:Fact ;
+    career:assertsObject "open-source models)" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-2d2800e6eb5c:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-2e6100c60920> a career:Fact ;
+    career:assertsObject "Blends engineering execution with clear communication across design, analysts, and product stakeholders." ;
+    career:assertsPredicate ns1:differentiator ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-2e6100c60920:backstory_dump.md> ;
+    career:tag "backstory",
+        "differentiator" .
+
+<urn:career:fact:fact-2ef0946b001b> a career:Fact ;
+    career:assertsObject "HuggingFace)" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-2ef0946b001b:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-3d2428517128> a career:Fact ;
+    career:assertsObject "Senior AI/ LLM Consultant @ Credera (Jan 2025 – Present)" ;
+    career:assertsPredicate ns1:heldRoleAt ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-3d2428517128:Resume.pdf> ;
+    career:tag "experience" .
+
+<urn:career:fact:fact-3e8f0705f9c4> a career:Fact ;
+    career:assertsObject "Partnered with design/BA to iterate on UX and translate user feedback and findings into UI" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-3e8f0705f9c4:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-40e74e248a84> a career:Fact ;
+    career:assertsObject "Healthcare technology" ;
+    career:assertsPredicate ns1:industryPreference ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-40e74e248a84:backstory_dump.md> ;
+    career:tag "backstory",
+        "preferences" .
+
+<urn:career:fact:fact-42eb2e649ec9> a career:Fact ;
+    career:assertsObject "Mentored group of 3 junior engineers in techniques to improve performance and reliability, such" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-42eb2e649ec9:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-463c9d5a5699> a career:Fact ;
+    career:assertsObject "Piloted with ~100 users; now onboarding 300+ with enterprise rollout planned to several" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-463c9d5a5699:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-4ad1afb6a6ac> a career:Fact ;
+    career:assertsObject "Enterprise software platforms" ;
+    career:assertsPredicate ns1:industryPreference ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-4ad1afb6a6ac:backstory_dump.md> ;
+    career:tag "backstory",
+        "preferences" .
+
+<urn:career:fact:fact-4f9e072d8aa8> a career:Fact ;
+    career:assertsObject "Completed backend engineering training at Turing School and moved into consulting work focused on applied AI/LLM delivery." ;
+    career:assertsPredicate ns1:originStory ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-4f9e072d8aa8:backstory_dump.md> ;
+    career:tag "backstory",
+        "origin" .
+
+<urn:career:fact:fact-5531ba6f4497> a career:Fact ;
+    career:assertsObject "pgvector" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-5531ba6f4497:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-58889d9a4c01> a career:Fact ;
+    career:assertsObject "OpenAI API" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-58889d9a4c01:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-5cb5788cfec8> a career:Fact ;
+    career:assertsObject "Comfortable moving from ambiguous business requirements to shipped, observable production systems." ;
+    career:assertsPredicate ns1:differentiator ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-5cb5788cfec8:backstory_dump.md> ;
+    career:tag "backstory",
+        "differentiator" .
+
+<urn:career:fact:fact-635af779ae13> a career:Fact ;
+    career:assertsObject "Combines strong Python backend execution with practical LLM architecture, vector retrieval, and cross-functional product delivery." ;
+    career:assertsPredicate ns1:elevatorPitch ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-635af779ae13:backstory_dump.md> ;
+    career:tag "backstory",
+        "positioning" .
+
+<urn:career:fact:fact-6476855c9693> a career:Fact ;
+    career:assertsObject "linkedin.com/in/alex-klick" ;
+    career:assertsPredicate ns1:hasLinkedIn ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-6476855c9693:Resume.pdf> ;
+    career:tag "identity" .
+
+<urn:career:fact:fact-688503b53618> a career:Fact ;
+    career:assertsObject "Regularly partners with design and business analysts to convert feedback into deliverable roadmap changes." ;
+    career:assertsPredicate ns1:leadershipSignal ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-688503b53618:backstory_dump.md> ;
+    career:tag "backstory",
+        "leadership" .
+
+<urn:career:fact:fact-6e374f0894a7> a career:Fact ;
+    career:assertsObject "Embeddings" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-6e374f0894a7:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-7292860793cb> a career:Fact ;
+    career:assertsObject "Developed system for processing rtf documents to extract complex tabular clinical data with" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-7292860793cb:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-73e2e6a0732f> a career:Fact ;
+    career:assertsObject "Vector database" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-73e2e6a0732f:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-76fe56c8ed92> a career:Fact ;
+    career:assertsObject "Prefers clear ownership boundaries, high documentation quality, and evidence-driven decisions." ;
+    career:assertsPredicate ns1:workStyle ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-76fe56c8ed92:backstory_dump.md> ;
+    career:tag "backstory",
+        "workstyle" .
+
+<urn:career:fact:fact-770b40162407> a career:Fact ;
+    career:assertsObject "Prefers roles where technical depth and user impact both matter, especially when retrieval quality and trust are critical." ;
+    career:assertsPredicate ns1:motivation ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-770b40162407:backstory_dump.md> ;
+    career:tag "backstory",
+        "motivation" .
+
+<urn:career:fact:fact-7a6dc7149099> a career:Fact ;
+    career:assertsObject "Reusable systems over one-off scripts." ;
+    career:assertsPredicate ns1:valueStatement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-7a6dc7149099:backstory_dump.md> ;
+    career:tag "backstory",
+        "values" .
+
+<urn:career:fact:fact-7cf7fad7ec1a> a career:Fact ;
+    career:assertsObject "Built vector database and reranker system for serving searchable data from tens’s of thousands" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-7cf7fad7ec1a:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-8167e694fa32> a career:Fact ;
+    career:assertsObject "SQL" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-8167e694fa32:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-8214ce176d78> a career:Fact ;
+    career:assertsObject "aklick12@gmail.com" ;
+    career:assertsPredicate ns1:hasEmail ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-8214ce176d78:Resume.pdf> ;
+    career:tag "identity" .
+
+<urn:career:fact:fact-847e7e153df4> a career:Fact ;
+    career:assertsObject "AI/ LLM Consultant @ Credera (Feb 2022 – Jan 2025)" ;
+    career:assertsPredicate ns1:heldRoleAt ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-847e7e153df4:Resume.pdf> ;
+    career:tag "experience" .
+
+<urn:career:fact:fact-86b94576d67d> a career:Fact ;
+    career:assertsObject "Designed sub-section PDF chunking pipelines for biopharma regulatory workflows at Fortune-200 scale." ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-86b94576d67d:backstory_dump.md> ;
+    career:tag "backstory",
+        "highlights" .
+
+<urn:career:fact:fact-87717fb86394> a career:Fact ;
+    career:assertsObject "Python (pandas" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-87717fb86394:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-880b678a17e1> a career:Fact ;
+    career:assertsObject "MCP (FastMCP)" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-880b678a17e1:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-8ccd233e8995> a career:Fact ;
+    career:assertsObject "embeddings (OpenAI" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-8ccd233e8995:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-8f25f224ed7c> a career:Fact ;
+    career:assertsObject "Senior AI/LLM Engineer" ;
+    career:assertsPredicate ns1:rolePreference ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-8f25f224ed7c:backstory_dump.md> ;
+    career:tag "backstory",
+        "preferences" .
+
+<urn:career:fact:fact-953fe53f62eb> a career:Fact ;
+    career:assertsObject "(sentence-transformers" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-953fe53f62eb:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-99057173729c> a career:Fact ;
+    career:assertsObject "TypeScript/JavaScript" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-99057173729c:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-9a96f8eeb4bd> a career:Fact ;
+    career:assertsObject """What excites me most about Pax8 Labs is the opportunity to pioneer agent
+orchestration systems in real-world production at scale, and to contribute to a culture of
+collaboration, experimentation, and refinement.""" ;
+    career:assertsPredicate ns1:narrativePoint ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-9a96f8eeb4bd:cover_letter.pdf> ;
+    career:tag "cover_letter",
+        "narrative" .
+
+<urn:career:fact:fact-9f02c46c84b2> a career:Fact ;
+    career:assertsObject "vector DBs (pgvector" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-9f02c46c84b2:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-a4b4f903d85f> a career:Fact ;
+    career:assertsObject "Reranking" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-a4b4f903d85f:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-a6208421d584> a career:Fact ;
+    career:assertsObject "Generative AI Engineer" ;
+    career:assertsPredicate ns1:rolePreference ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-a6208421d584:backstory_dump.md> ;
+    career:tag "backstory",
+        "preferences" .
+
+<urn:career:fact:fact-a64f56a22d5d> a career:Fact ;
+    career:assertsObject "Applied AI Engineer (RAG, retrieval, document intelligence)" ;
+    career:assertsPredicate ns1:rolePreference ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-a64f56a22d5d:backstory_dump.md> ;
+    career:tag "backstory",
+        "preferences" .
+
+<urn:career:fact:fact-a65f45b56fe1> a career:Fact ;
+    career:assertsObject "PDF chunking" ;
+    career:assertsPredicate ns1:atsKeyword ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-a65f45b56fe1:backstory_dump.md> ;
+    career:tag "backstory",
+        "keywords" .
+
+<urn:career:fact:fact-a806f6a0d003> a career:Fact ;
+    career:assertsObject "Shipped modular agent components adopted by ~100 users and expanded toward 300+ enterprise users." ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-a806f6a0d003:backstory_dump.md> ;
+    career:tag "backstory",
+        "highlights" .
+
+<urn:career:fact:fact-a86b59f65fc6> a career:Fact ;
+    career:assertsObject "Most motivated by building AI products that are genuinely useful in high-consequence domains like healthcare." ;
+    career:assertsPredicate ns1:motivation ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-a86b59f65fc6:backstory_dump.md> ;
+    career:tag "backstory",
+        "motivation" .
+
+<urn:career:fact:fact-aaa7896b9739> a career:Fact ;
+    career:assertsObject "Built vector database and reranker systems serving tens of thousands of documents for enterprise teams." ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-aaa7896b9739:backstory_dump.md> ;
+    career:tag "backstory",
+        "highlights" .
+
+<urn:career:fact:fact-b360e1331639> a career:Fact ;
+    career:assertsObject "Built RTF processing capabilities to extract complex clinical table data for downstream submission workflows." ;
+    career:assertsPredicate ns1:impactStory ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-b360e1331639:backstory_dump.md> ;
+    career:tag "backstory",
+        "impact" .
+
+<urn:career:fact:fact-b8d620dcacef> a career:Fact ;
+    career:assertsObject "Strong at connecting retrieval architecture decisions (chunking, embeddings, reranking) directly to user outcomes." ;
+    career:assertsPredicate ns1:differentiator ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-b8d620dcacef:backstory_dump.md> ;
+    career:tag "backstory",
+        "differentiator" .
+
+<urn:career:fact:fact-bf3c062033c0> a career:Fact ;
+    career:assertsObject "Pragmatic and iterative: deliver quickly, measure quality, then harden with better abstractions." ;
+    career:assertsPredicate ns1:workStyle ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-bf3c062033c0:backstory_dump.md> ;
+    career:tag "backstory",
+        "workstyle" .
+
+<urn:career:fact:fact-bfc348f588b1> a career:Fact ;
+    career:assertsObject "Eastern Michigan University, BA in Economics (with minor in mathematics) 2019" ;
+    career:assertsPredicate ns1:education ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-bfc348f588b1:Resume.pdf> ;
+    career:tag "education" .
+
+<urn:career:fact:fact-c144f48a6902> a career:Fact ;
+    career:assertsObject "Re-architected document ingestion and retrieval to improve precision and speed for regulated document workflows." ;
+    career:assertsPredicate ns1:impactStory ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-c144f48a6902:backstory_dump.md> ;
+    career:tag "backstory",
+        "impact" .
+
+<urn:career:fact:fact-c6e1665ca837> a career:Fact ;
+    career:assertsObject "rerankers" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-c6e1665ca837:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-c6eb6f6fdde9> a career:Fact ;
+    career:assertsObject "OpenAI API" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-c6eb6f6fdde9:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-d275a927f88c> a career:Fact ;
+    career:assertsObject "Chroma)" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-d275a927f88c:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-d5d7d57e6d7c> a career:Fact ;
+    career:assertsObject "User trust, clarity, and measurable outcomes." ;
+    career:assertsPredicate ns1:valueStatement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-d5d7d57e6d7c:backstory_dump.md> ;
+    career:tag "backstory",
+        "values" .
+
+<urn:career:fact:fact-d7750d7798f4> a career:Fact ;
+    career:assertsObject "Factual correctness over hype, especially in AI-generated outputs." ;
+    career:assertsPredicate ns1:valueStatement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-d7750d7798f4:backstory_dump.md> ;
+    career:tag "backstory",
+        "values" .
+
+<urn:career:fact:fact-d7fad2f864dc> a career:Fact ;
+    career:assertsObject "Alex Klick" ;
+    career:assertsPredicate ns1:hasName ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-d7fad2f864dc:Resume.pdf> ;
+    career:tag "identity" .
+
+<urn:career:fact:fact-e29a02f0c3ad> a career:Fact ;
+    career:assertsObject "fastapi" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-e29a02f0c3ad:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-e566fe12dbeb> a career:Fact ;
+    career:assertsObject "Agents SDK" ;
+    career:assertsPredicate ns1:hasSkill ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-e566fe12dbeb:Resume.pdf> ;
+    career:tag "skills" .
+
+<urn:career:fact:fact-e5dad74b9d7d> a career:Fact ;
+    career:assertsObject "Turing School of Software and Design, backend engineering 2021" ;
+    career:assertsPredicate ns1:education ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-e5dad74b9d7d:Resume.pdf> ;
+    career:tag "education" .
+
+<urn:career:fact:fact-e99455d7907c> a career:Fact ;
+    career:assertsObject "Started in economics and mathematics, then transitioned to software engineering to build systems that improve decision quality." ;
+    career:assertsPredicate ns1:originStory ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-e99455d7907c:backstory_dump.md> ;
+    career:tag "backstory",
+        "origin" .
+
+<urn:career:fact:fact-edd88b715091> a career:Fact ;
+    career:assertsObject "Designed and implemented RAG ingestion pipeline with precise sub-section level chunking of pdf" ;
+    career:assertsPredicate ns1:achievement ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-edd88b715091:Resume.pdf> ;
+    career:tag "achievement",
+        "experience" .
+
+<urn:career:fact:fact-ef0fa9c61cdb> a career:Fact ;
+    career:assertsObject """I built
+RAG ingestion pipelines for a Fortune-200 biopharma client, enabling regulatory
+submissions at unprecedented speed by integrating precise and reliable document
+parsing and agentic context engineering.""" ;
+    career:assertsPredicate ns1:narrativePoint ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-ef0fa9c61cdb:cover_letter.pdf> ;
+    career:tag "cover_letter",
+        "narrative" .
+
+<urn:career:fact:fact-f9da6faab479> a career:Fact ;
+    career:assertsObject "AI/LLM engineer with 3+ years delivering production RAG and document intelligence systems in enterprise and regulated biopharma environments." ;
+    career:assertsPredicate ns1:elevatorPitch ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-f9da6faab479:backstory_dump.md> ;
+    career:tag "backstory",
+        "positioning" .
+
+<urn:career:fact:fact-fad768ce0cab> a career:Fact ;
+    career:assertsObject "Led model-quality evaluation for sentence-transformer rerankers and deployed selected approach at production scale." ;
+    career:assertsPredicate ns1:impactStory ;
+    career:confidence 1.0 ;
+    career:subject <urn:career:person:alex-klick> ;
+    career:supportedBy <urn:career:evidence:fact-fad768ce0cab:backstory_dump.md> ;
+    career:tag "backstory",
+        "impact" .
+
+career:ontology a owl:Ontology .
+
+career:supportedBy a owl:ObjectProperty .
+
+career:Person a owl:Class .
+
+<urn:career:evidence:fact-04be5ff77223:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Mentored three junior engineers on agentic workflow reliability and performance practices." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-067df40a9e04:Resume.pdf> a career:Evidence ;
+    career:excerpt "Led quality analyses to select/deploy the best sentence-transformers reranker model at scale" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-0708ee4596a3:Resume.pdf> a career:Evidence ;
+    career:excerpt "(sentence-transformers, pytorch, HuggingFace)" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-07f3b2217674:cover_letter.pdf> a career:Evidence ;
+    career:excerpt """I developed vector search and reranker
+systems to power Credera’s internal enterprise chat tools used daily by hundreds of
+consultants, while mentoring junior engineers in developing agentic workflows.""" ;
+    career:sourceFile "cover_letter.pdf" .
+
+<urn:career:evidence:fact-09f71c3d713d:backstory_dump.md> a career:Evidence ;
+    career:excerpt "LLM evaluation" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-0ce9f6a6f873:Resume.pdf> a career:Evidence ;
+    career:excerpt "Prototyped the architecture and delivered and initial set of lego-block components to" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-0d1c216cdfe5:Resume.pdf> a career:Evidence ;
+    career:excerpt "Agentic Frameworks: LangChain, OpenAI API, Agents SDK, MCP (FastMCP)" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-17fc11120f3d:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Document ingestion" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-1a739912fd66:cover_letter.pdf> a career:Evidence ;
+    career:excerpt """My experience spans building scalable
+backends in Python and TypeScript, deploying commercial AI models, experimenting
+with agent frameworks and patterns, and tinkering with open-source models.""" ;
+    career:sourceFile "cover_letter.pdf" .
+
+<urn:career:evidence:fact-1e69e5de1dd0:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Pydantic" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-2693a71d9da6:Resume.pdf> a career:Evidence ;
+    career:excerpt "Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript, SQL;" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-27000be787ee:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Sentence transformers" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-2a1e374fda5f:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Biopharma and life sciences" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-2b6bc5399fe5:Resume.pdf> a career:Evidence ;
+    career:excerpt "Designed and modular component model so agents populate structured JSON to create and edit" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-2d2800e6eb5c:Resume.pdf> a career:Evidence ;
+    career:excerpt "AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector, Chroma), rerankers" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-2e6100c60920:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Blends engineering execution with clear communication across design, analysts, and product stakeholders." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-2ef0946b001b:Resume.pdf> a career:Evidence ;
+    career:excerpt "(sentence-transformers, pytorch, HuggingFace)" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-3d2428517128:Resume.pdf> a career:Evidence ;
+    career:excerpt "Credera— Jan 2025 – Present" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-3e8f0705f9c4:Resume.pdf> a career:Evidence ;
+    career:excerpt "Partnered with design/BA to iterate on UX and translate user feedback and findings into UI" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-40e74e248a84:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Healthcare technology" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-42eb2e649ec9:Resume.pdf> a career:Evidence ;
+    career:excerpt "Mentored group of 3 junior engineers in techniques to improve performance and reliability, such" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-463c9d5a5699:Resume.pdf> a career:Evidence ;
+    career:excerpt "Piloted with ~100 users; now onboarding 300+ with enterprise rollout planned to several" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-4ad1afb6a6ac:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Enterprise software platforms" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-4f9e072d8aa8:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Completed backend engineering training at Turing School and moved into consulting work focused on applied AI/LLM delivery." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-5531ba6f4497:backstory_dump.md> a career:Evidence ;
+    career:excerpt "pgvector" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-58889d9a4c01:backstory_dump.md> a career:Evidence ;
+    career:excerpt "OpenAI API" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-5cb5788cfec8:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Comfortable moving from ambiguous business requirements to shipped, observable production systems." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-635af779ae13:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Combines strong Python backend execution with practical LLM architecture, vector retrieval, and cross-functional product delivery." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-6476855c9693:Resume.pdf> a career:Evidence ;
+    career:excerpt "linkedin.com/in/alex-klick" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-688503b53618:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Regularly partners with design and business analysts to convert feedback into deliverable roadmap changes." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-6e374f0894a7:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Embeddings" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-7292860793cb:Resume.pdf> a career:Evidence ;
+    career:excerpt "Developed system for processing rtf documents to extract complex tabular clinical data with" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-73e2e6a0732f:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Vector database" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-76fe56c8ed92:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Prefers clear ownership boundaries, high documentation quality, and evidence-driven decisions." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-770b40162407:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Prefers roles where technical depth and user impact both matter, especially when retrieval quality and trust are critical." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-7a6dc7149099:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Reusable systems over one-off scripts." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-7cf7fad7ec1a:Resume.pdf> a career:Evidence ;
+    career:excerpt "Built vector database and reranker system for serving searchable data from tens’s of thousands" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-8167e694fa32:Resume.pdf> a career:Evidence ;
+    career:excerpt "Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript, SQL;" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-8214ce176d78:Resume.pdf> a career:Evidence ;
+    career:excerpt "aklick12@gmail.com" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-847e7e153df4:Resume.pdf> a career:Evidence ;
+    career:excerpt "Credera— Feb 2022 – Jan 2025" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-86b94576d67d:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Designed sub-section PDF chunking pipelines for biopharma regulatory workflows at Fortune-200 scale." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-87717fb86394:Resume.pdf> a career:Evidence ;
+    career:excerpt "Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript, SQL;" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-880b678a17e1:Resume.pdf> a career:Evidence ;
+    career:excerpt "Agentic Frameworks: LangChain, OpenAI API, Agents SDK, MCP (FastMCP)" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-8ccd233e8995:Resume.pdf> a career:Evidence ;
+    career:excerpt "AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector, Chroma), rerankers" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-8f25f224ed7c:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Senior AI/LLM Engineer" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-953fe53f62eb:Resume.pdf> a career:Evidence ;
+    career:excerpt "(sentence-transformers, pytorch, HuggingFace)" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-99057173729c:Resume.pdf> a career:Evidence ;
+    career:excerpt "Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript, SQL;" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-9a96f8eeb4bd:cover_letter.pdf> a career:Evidence ;
+    career:excerpt """What excites me most about Pax8 Labs is the opportunity to pioneer agent
+orchestration systems in real-world production at scale, and to contribute to a culture of
+collaboration, experimentation, and refinement.""" ;
+    career:sourceFile "cover_letter.pdf" .
+
+<urn:career:evidence:fact-9f02c46c84b2:Resume.pdf> a career:Evidence ;
+    career:excerpt "AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector, Chroma), rerankers" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-a4b4f903d85f:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Reranking" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-a6208421d584:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Generative AI Engineer" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-a64f56a22d5d:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Applied AI Engineer (RAG, retrieval, document intelligence)" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-a65f45b56fe1:backstory_dump.md> a career:Evidence ;
+    career:excerpt "PDF chunking" ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-a806f6a0d003:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Shipped modular agent components adopted by ~100 users and expanded toward 300+ enterprise users." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-a86b59f65fc6:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Most motivated by building AI products that are genuinely useful in high-consequence domains like healthcare." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-aaa7896b9739:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Built vector database and reranker systems serving tens of thousands of documents for enterprise teams." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-b360e1331639:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Built RTF processing capabilities to extract complex clinical table data for downstream submission workflows." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-b8d620dcacef:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Strong at connecting retrieval architecture decisions (chunking, embeddings, reranking) directly to user outcomes." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-bf3c062033c0:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Pragmatic and iterative: deliver quickly, measure quality, then harden with better abstractions." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-bfc348f588b1:Resume.pdf> a career:Evidence ;
+    career:excerpt "Eastern Michigan University, BA in Economics (with minor in mathematics) 2019" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-c144f48a6902:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Re-architected document ingestion and retrieval to improve precision and speed for regulated document workflows." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-c6e1665ca837:Resume.pdf> a career:Evidence ;
+    career:excerpt "AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector, Chroma), rerankers" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-c6eb6f6fdde9:Resume.pdf> a career:Evidence ;
+    career:excerpt "Agentic Frameworks: LangChain, OpenAI API, Agents SDK, MCP (FastMCP)" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-d275a927f88c:Resume.pdf> a career:Evidence ;
+    career:excerpt "AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector, Chroma), rerankers" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-d5d7d57e6d7c:backstory_dump.md> a career:Evidence ;
+    career:excerpt "User trust, clarity, and measurable outcomes." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-d7750d7798f4:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Factual correctness over hype, especially in AI-generated outputs." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-d7fad2f864dc:Resume.pdf> a career:Evidence ;
+    career:excerpt "Alex Klick" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-e29a02f0c3ad:Resume.pdf> a career:Evidence ;
+    career:excerpt "Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript, SQL;" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-e566fe12dbeb:Resume.pdf> a career:Evidence ;
+    career:excerpt "Agentic Frameworks: LangChain, OpenAI API, Agents SDK, MCP (FastMCP)" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-e5dad74b9d7d:Resume.pdf> a career:Evidence ;
+    career:excerpt "Turing School of Software and Design, backend engineering 2021" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-e99455d7907c:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Started in economics and mathematics, then transitioned to software engineering to build systems that improve decision quality." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-edd88b715091:Resume.pdf> a career:Evidence ;
+    career:excerpt "Designed and implemented RAG ingestion pipeline with precise sub-section level chunking of pdf" ;
+    career:sourceFile "Resume.pdf" .
+
+<urn:career:evidence:fact-ef0fa9c61cdb:cover_letter.pdf> a career:Evidence ;
+    career:excerpt """I built
+RAG ingestion pipelines for a Fortune-200 biopharma client, enabling regulatory
+submissions at unprecedented speed by integrating precise and reliable document
+parsing and agentic context engineering.""" ;
+    career:sourceFile "cover_letter.pdf" .
+
+<urn:career:evidence:fact-f9da6faab479:backstory_dump.md> a career:Evidence ;
+    career:excerpt "AI/LLM engineer with 3+ years delivering production RAG and document intelligence systems in enterprise and regulated biopharma environments." ;
+    career:sourceFile "backstory_dump.md" .
+
+<urn:career:evidence:fact-fad768ce0cab:backstory_dump.md> a career:Evidence ;
+    career:excerpt "Led model-quality evaluation for sentence-transformer rerankers and deployed selected approach at production scale." ;
+    career:sourceFile "backstory_dump.md" .
+
+career:Fact a owl:Class .
+
+<urn:career:person:alex-klick> a career:Person ;
+    rdfs:label "Alex Klick" ;
+    career:hasEmail "aklick12@gmail.com" ;
+    career:hasLinkedIn "linkedin.com/in/alex-klick" ;
+    career:hasLocation "Denver, CO" ;
+    career:hasPhone "+1-734-262-4232" ;
+    career:personId "alex-klick"^^xsd:string ;
+    ns1:achievement "Built vector database and reranker system for serving searchable data from tens’s of thousands",
+        "Built vector database and reranker systems serving tens of thousands of documents for enterprise teams.",
+        "Designed and implemented RAG ingestion pipeline with precise sub-section level chunking of pdf",
+        "Designed and modular component model so agents populate structured JSON to create and edit",
+        "Designed sub-section PDF chunking pipelines for biopharma regulatory workflows at Fortune-200 scale.",
+        "Developed system for processing rtf documents to extract complex tabular clinical data with",
+        "Led quality analyses to select/deploy the best sentence-transformers reranker model at scale",
+        "Mentored group of 3 junior engineers in techniques to improve performance and reliability, such",
+        "Partnered with design/BA to iterate on UX and translate user feedback and findings into UI",
+        "Piloted with ~100 users; now onboarding 300+ with enterprise rollout planned to several",
+        "Prototyped the architecture and delivered and initial set of lego-block components to",
+        "Shipped modular agent components adopted by ~100 users and expanded toward 300+ enterprise users." ;
+    ns1:atsKeyword "Document ingestion",
+        "Embeddings",
+        "LLM evaluation",
+        "OpenAI API",
+        "PDF chunking",
+        "Pydantic",
+        "Reranking",
+        "Sentence transformers",
+        "Vector database",
+        "pgvector" ;
+    ns1:differentiator "Blends engineering execution with clear communication across design, analysts, and product stakeholders.",
+        "Comfortable moving from ambiguous business requirements to shipped, observable production systems.",
+        "Strong at connecting retrieval architecture decisions (chunking, embeddings, reranking) directly to user outcomes." ;
+    ns1:education "Eastern Michigan University, BA in Economics (with minor in mathematics) 2019",
+        "Turing School of Software and Design, backend engineering 2021" ;
+    ns1:elevatorPitch "AI/LLM engineer with 3+ years delivering production RAG and document intelligence systems in enterprise and regulated biopharma environments.",
+        "Combines strong Python backend execution with practical LLM architecture, vector retrieval, and cross-functional product delivery." ;
+    ns1:hasEmail "aklick12@gmail.com" ;
+    ns1:hasLinkedIn "linkedin.com/in/alex-klick" ;
+    ns1:hasName "Alex Klick" ;
+    ns1:hasSkill "(sentence-transformers",
+        "Agents SDK",
+        "Chroma)",
+        "HuggingFace)",
+        "LangChain",
+        "MCP (FastMCP)",
+        "OpenAI API",
+        "Python (pandas",
+        "SQL",
+        "TypeScript/JavaScript",
+        "embeddings (OpenAI",
+        "fastapi",
+        "open-source models)",
+        "pydantic)",
+        "pytorch",
+        "rerankers",
+        "vector DBs (pgvector" ;
+    ns1:heldRoleAt "AI/ LLM Consultant @ Credera (Feb 2022 – Jan 2025)",
+        "Senior AI/ LLM Consultant @ Credera (Jan 2025 – Present)" ;
+    ns1:impactStory "Built RTF processing capabilities to extract complex clinical table data for downstream submission workflows.",
+        "Led model-quality evaluation for sentence-transformer rerankers and deployed selected approach at production scale.",
+        "Re-architected document ingestion and retrieval to improve precision and speed for regulated document workflows." ;
+    ns1:industryPreference "Biopharma and life sciences",
+        "Enterprise software platforms",
+        "Healthcare technology" ;
+    ns1:leadershipSignal "Mentored three junior engineers on agentic workflow reliability and performance practices.",
+        "Regularly partners with design and business analysts to convert feedback into deliverable roadmap changes." ;
+    ns1:motivation "Most motivated by building AI products that are genuinely useful in high-consequence domains like healthcare.",
+        "Prefers roles where technical depth and user impact both matter, especially when retrieval quality and trust are critical." ;
+    ns1:narrativePoint """I built
+RAG ingestion pipelines for a Fortune-200 biopharma client, enabling regulatory
+submissions at unprecedented speed by integrating precise and reliable document
+parsing and agentic context engineering.""",
+        """I developed vector search and reranker
+systems to power Credera’s internal enterprise chat tools used daily by hundreds of
+consultants, while mentoring junior engineers in developing agentic workflows.""",
+        """My experience spans building scalable
+backends in Python and TypeScript, deploying commercial AI models, experimenting
+with agent frameworks and patterns, and tinkering with open-source models.""",
+        """What excites me most about Pax8 Labs is the opportunity to pioneer agent
+orchestration systems in real-world production at scale, and to contribute to a culture of
+collaboration, experimentation, and refinement.""" ;
+    ns1:originStory "Completed backend engineering training at Turing School and moved into consulting work focused on applied AI/LLM delivery.",
+        "Started in economics and mathematics, then transitioned to software engineering to build systems that improve decision quality." ;
+    ns1:rolePreference "Applied AI Engineer (RAG, retrieval, document intelligence)",
+        "Generative AI Engineer",
+        "Senior AI/LLM Engineer" ;
+    ns1:valueStatement "Factual correctness over hype, especially in AI-generated outputs.",
+        "Reusable systems over one-off scripts.",
+        "User trust, clarity, and measurable outcomes." ;
+    ns1:workStyle "Pragmatic and iterative: deliver quickly, measure quality, then harden with better abstractions.",
+        "Prefers clear ownership boundaries, high documentation quality, and evidence-driven decisions." .
+

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-03-26T04:53:03.408535+00:00",
+  "canonical_index": 40,
+  "identity_key": "url:https://jobs.ashbyhq.com/airwallex/1d4b22cd-33cd-44b8-83fe-108d11907f2f",
+  "job": {
+    "index": 40,
+    "heading": "Airwallex \u2014 AI Engineer",
+    "company": "Airwallex",
+    "role": "AI Engineer",
+    "salary": "$150,000\u2013$190,000 [est.]",
+    "remote": "Remote or hybrid (SF); larger company (1,800+)",
+    "experience": "Not specified \u2014 verify during application",
+    "key_skills": [
+      "Python",
+      "LangChain",
+      "LlamaIndex",
+      "AutoGen",
+      "agentic frameworks",
+      "advanced orchestration"
+    ],
+    "apply": "https://jobs.ashbyhq.com/airwallex/1d4b22cd-33cd-44b8-83fe-108d11907f2f",
+    "apply_url": "https://jobs.ashbyhq.com/airwallex/1d4b22cd-33cd-44b8-83fe-108d11907f2f",
+    "why_fit": "Explicitly requires agentic frameworks, LangChain, and multi-agent orchestration. High-growth fintech unicorn. Constraint: Remote or hybrid (SF); larger company (1,800+).",
+    "summary": "Global fintech/payments platform. Valued at $6.2B, backed by Visa, Sequoia, DST Global. 1,800+ employees.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T20:50:32.906388+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T20:50:32.906388+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T20:50:32.906388+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

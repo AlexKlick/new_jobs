@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T21:51:32.313253+00:00",
+  "job_id": "c8c33212-c8b4-4b90-8ff1-a5b4b3ed0a71",
+  "artifact_id": "831ce0f5-f5b9-4b2a-b43c-85c1477af792",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/cover_letter.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/cover_letter.export.md",
+  "input_hash": "a003c71ab4352abea82e827a11506f95b6f78731b34b397ed75b8047b24ccaf5",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 3046,
+  "warnings": [],
+  "diagnostics": {}
+}

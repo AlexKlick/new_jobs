@@ -1,0 +1,42 @@
+{
+  "success": false,
+  "error": "Document failed schema validation",
+  "error_message": "Document failed schema validation",
+  "error_code": "validation_failed",
+  "job_id": "125defea-2f4c-44bc-84da-a430a9f30c0b",
+  "state": "REJECTED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Role Alignment",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Evidence Highlights",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Closing",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 4,
+      "warn": 0,
+      "total": 4
+    }
+  }
+}

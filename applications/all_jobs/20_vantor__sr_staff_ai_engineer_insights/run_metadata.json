@@ -1,0 +1,119 @@
+{
+  "run_id": "20260326_041122_20_vantor",
+  "created_at": "2026-03-26T04:22:05.301145+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 20,
+    "heading": "Vantor — Sr Staff AI Engineer, Insights",
+    "company": "Vantor",
+    "role": "Sr Staff AI Engineer, Insights",
+    "salary": "$124,000–$228,000",
+    "remote": "In-Office or Remote (Herndon, VA)",
+    "experience": "Senior level",
+    "key_skills": [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "JavaScript",
+      "AWS",
+      "GCP",
+      "Claude",
+      "Codex",
+      "Gemini"
+    ],
+    "apply": "https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+    "apply_url": "https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+    "why_fit": "Explicitly requires LangChain, LangGraph, Python, and experience with multiple LLM providers — a direct skills match. The salary ceiling ($228k) is strong. Trade-off: Defense sector may not align with your industry preferences, and the \"Sr Staff\" title typically implies more experience than 4 years.",
+    "summary": "Defense/AI analytics company (formerly Maxar Intelligence). Geospatial AI.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 3.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.5,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 4.5,
+    "company_specificity": 4.5,
+    "differentiation": 4.5,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with LangGraph",
+      "reason": "Job requires LangGraph but fact set contains no evidence of LangGraph experience"
+    },
+    {
+      "statement": "Experience with AWS or GCP cloud platforms",
+      "reason": "Job requires AWS/GCP but fact set contains no evidence of cloud platform deployment experience"
+    },
+    {
+      "statement": "Production experience with Claude, Codex, or Gemini models",
+      "reason": "Job requires multiple LLM providers but fact set only shows OpenAI API and open-source model experience"
+    },
+    {
+      "statement": "Defense or geospatial industry experience",
+      "reason": "No facts support defense/geospatial background; candidate's stated preferences are healthcare and biopharma"
+    }
+  ],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "quality_issues_detected: 1",
+    "resumed_from_partial_run: 20260326_040538_20_vantor",
+    "External evaluation: NEEDS_REVISION. See /home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/external_evaluation.json.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/pdf_quality_audit.json."
+  ],
+  "resumed_from_run_id": "20260326_040538_20_vantor",
+  "resumed_from_files": {
+    "resume_partial": "/home/alexk/documents/new_job_denjobs/outputs/20260326_040538_20_vantor/stream/draft.zai.resume.partial.md",
+    "cover_letter_partial": "/home/alexk/documents/new_job_denjobs/outputs/20260326_040538_20_vantor/stream/draft.zai.cover_letter.partial.md"
+  },
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "stream_draft_zai_cover_letter_partial_md": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/draft.zai.cover_letter.partial.md",
+    "stream_draft_zai_partial_json": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/draft.zai.partial.json",
+    "stream_draft_zai_resume_partial_md": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/draft.zai.resume.partial.md",
+    "stream_draft_zai_stream_txt": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/draft.zai.stream.txt",
+    "stream_final_zai_cover_letter_partial_md": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/final.zai.cover_letter.partial.md",
+    "stream_final_zai_partial_json": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/final.zai.partial.json",
+    "stream_final_zai_resume_partial_md": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/final.zai.resume.partial.md",
+    "stream_final_zai_stream_txt": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/final.zai.stream.txt",
+    "stream_repair_zai_cover_letter_partial_md": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/repair.zai.cover_letter.partial.md",
+    "stream_repair_zai_partial_json": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/repair.zai.partial.json",
+    "stream_repair_zai_resume_partial_md": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/repair.zai.resume.partial.md",
+    "stream_repair_zai_stream_txt": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/stream/repair.zai.stream.txt",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/rubric_scores.json"
+  }
+}

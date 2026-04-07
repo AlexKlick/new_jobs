@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "job_id": "aae57923-888e-4954-9b2e-db55d691fdbe",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Role Alignment",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Evidence Highlights",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Closing",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 4,
+      "warn": 0,
+      "total": 4
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.pdf",
+      "size_kb": 10.6,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 3055,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "4783733f-f1a8-4b7e-86b6-868115cc36b6",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.ttl.manifest.json",
+      "size_kb": 2.1533203125
+    },
+    {
+      "artifact_id": "5082e9d3-7998-4f33-8777-6383441d395d",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/cover_letter.pdf.manifest.json",
+      "size_kb": 10.6
+    }
+  ]
+}

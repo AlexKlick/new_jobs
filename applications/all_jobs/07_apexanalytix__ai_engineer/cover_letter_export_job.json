@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "job_id": "2a98bec9-c852-48cf-95dd-7b2e72350301",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Role Alignment",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Evidence Highlights",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Closing",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 4,
+      "warn": 0,
+      "total": 4
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/cover_letter.pdf",
+      "size_kb": 10.4,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 3086,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "8a9f2385-5d7b-402e-8a58-ead156bc3a34",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/cover_letter.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/cover_letter.ttl.manifest.json",
+      "size_kb": 2.1533203125
+    },
+    {
+      "artifact_id": "fb38060c-0924-4249-bd9b-fde095add1c4",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/cover_letter.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/cover_letter.pdf.manifest.json",
+      "size_kb": 10.4
+    }
+  ]
+}

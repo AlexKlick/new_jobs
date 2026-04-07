@@ -1,0 +1,746 @@
+{
+  "updated_at": "2026-03-27T01:11:48.828387Z",
+  "updated_by": "init_status_store.py",
+  "statuses": [
+    {
+      "index": 1,
+      "url": "https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 2,
+      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8447511002",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 3,
+      "url": "https://posthog.com/careers/ai-product-engineer",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 4,
+      "url": "https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 5,
+      "url": "https://job-boards.greenhouse.io/remesh/jobs/8450776002",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 6,
+      "url": "https://builtin.com/job/lead-ai-engineer/8577284",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 7,
+      "url": "https://himalayas.app/companies/apexanalytix/jobs/ai-engineer",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 8,
+      "url": "https://jobs.lever.co/BlackCloak/f4c238c6-0de3-4483-911b-25b54bd7a3d4",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "lever",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 9,
+      "url": "https://job-boards.greenhouse.io/coherehealth",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 10,
+      "url": "https://wellfound.com/role/r/ai-engineer",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 11,
+      "url": "https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 12,
+      "url": "https://builtin.com/job/staff-software-engineer-applied-ai/7238249",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 13,
+      "url": "https://builtin.com/job/ai-engineer-gen-ai-swe-weights-biases/8643571",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 14,
+      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8223246002",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 15,
+      "url": "https://www.remoterocketship.com/us/company/fastino-labs-ai/jobs/ai-engineer-united-states-remote/",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 16,
+      "url": "https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "lever",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 17,
+      "url": "https://jobs.lever.co/panopto/4c4fe959-597b-493f-bc08-a3a268153a32",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "lever",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 18,
+      "url": "https://www.remoterocketship.com/us/company/m3/jobs/ai-engineer-united-states-remote/",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 19,
+      "url": "https://jobs.lever.co/veeva/5de877f7-1b5e-4626-a3cf-366a2ff73600",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "lever",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 20,
+      "url": "https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 21,
+      "url": "https://builtin.com/job/senior-ai-engineer/8680298",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 22,
+      "url": "https://builtin.com/job/senior-ai-engineer/8285831",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 23,
+      "url": "https://www.workatastartup.com/jobs/64767",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 24,
+      "url": "https://aijobs.ai/job/applied-ai-engineer-61",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 25,
+      "url": "https://www.workatastartup.com/jobs/72021",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 26,
+      "url": "https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 27,
+      "url": "https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 28,
+      "url": "https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 29,
+      "url": "https://jobs.ashbyhq.com/evenup/edb85996-2c40-4fe3-b7c4-ef20566bcd4f",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 30,
+      "url": "Email lucie@markerlearning.com with subject \"Lead Engineer Application (I am not a bot)\"",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 31,
+      "url": "https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 32,
+      "url": "https://wellfound.com/role/l/artificial-intelligence-engineer/united-states",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 33,
+      "url": "https://www.workatastartup.com/jobs/73140",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 34,
+      "url": "https://www.workatastartup.com/jobs/77473",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 35,
+      "url": "https://careers.lindy.ai/ai-implementation-engineer",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 36,
+      "url": "https://ats.rippling.com/patronus-ai-jobs/jobs/334f09fc-61c5-4d1f-86b3-ee30d7e895a7",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 37,
+      "url": "https://www.braintrust.dev/careers?ashby_jid=1a8c2f24-97fe-4504-a30c-1cfe7f03278b",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 38,
+      "url": "https://job-boards.greenhouse.io/capitalrx/jobs/5142980008",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 39,
+      "url": "https://job-boards.greenhouse.io/leagueinc/jobs/5812776004",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 40,
+      "url": "https://jobs.ashbyhq.com/airwallex/1d4b22cd-33cd-44b8-83fe-108d11907f2f",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 41,
+      "url": "https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL/jobs/10789",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 42,
+      "url": "https://job-boards.greenhouse.io/webflow/jobs/6929034",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 43,
+      "url": "https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 44,
+      "url": "https://jobs.ashbyhq.com/neon-health/892d93e5-20f9-4633-8e5e-a34e9af716f4",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 45,
+      "url": "https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 46,
+      "url": "https://www.workatastartup.com/jobs/61911",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 47,
+      "url": "https://wellfound.com/company/gentoro/jobs",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 48,
+      "url": "https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 49,
+      "url": "https://www.ycombinator.com/companies/careforce-prev-helpcare-ai/jobs/Hjx9nA3-senior-fullstack-engineer",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 50,
+      "url": "https://jobs.ashbyhq.com/rula/2a27a5c4-02e8-4d71-b8d2-0f239d91a257",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 51,
+      "url": "https://builtin.com/job/principal-ai-engineer/6910705",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 52,
+      "url": "https://www.remoterocketship.com/company/webflow/jobs/lead-ai-engineer-united-states-remote/",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 53,
+      "url": "https://recruiting.paylocity.com/recruiting/jobs/Details/3702179/YCHARTS-INC/Software-Engineer-II---Applied-AI",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 54,
+      "url": "TBD",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 55,
+      "url": "Search \"Pocket\" on wellfound.com",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 56,
+      "url": "Search on wellfound.com for Deepgram",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 57,
+      "url": "Search Zapier careers page for MCP role",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 58,
+      "url": "https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 59,
+      "url": "https://www.workatastartup.com/jobs/79665",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 60,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "greenhouse",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 61,
+      "url": "https://www.ycombinator.com/companies/aden/jobs/JknjXNi-ai-engineering-lead",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 62,
+      "url": "https://coder.com/careers",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 63,
+      "url": "https://builtin.com/job/staff-ai-engineer-ai-engineering/7775912",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 64,
+      "url": "Search \"Ethos\" on wellfound.com",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 65,
+      "url": "https://careers.acentra.com/jobs/4983?lang=en-us",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 66,
+      "url": "https://builtin.com/job/ai-engineer/4133741",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 67,
+      "url": "https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 68,
+      "url": "https://www.workatastartup.com/jobs/77202",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 69,
+      "url": "https://weaviate.io/company/careers",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 70,
+      "url": "https://www.ycombinator.com/companies/avallon-ai/jobs/CH8oqKV-founding-software-engineer",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 71,
+      "url": "https://careers.lindy.ai/",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 72,
+      "url": "https://builtin.com/job/senior-ai-engineer/7125600",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 73,
+      "url": "https://www.mindoula.com/careers",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    },
+    {
+      "index": 74,
+      "url": "https://builtin.com/company/cordial/jobs",
+      "status": "UNKNOWN",
+      "lastChecked": null,
+      "error": "Not yet checked",
+      "source": "generic",
+      "httpStatusCode": null,
+      "responseTimeMs": null
+    }
+  ]
+}

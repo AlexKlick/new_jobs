@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-24T20:16:40.651052+00:00",
+  "job_id": "0bd37fbc-0322-4902-a0b3-90cf7eb1edf0",
+  "artifact_id": "1331cace-7659-405a-a4a1-520fb373c4d7",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/cover_letter.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/cover_letter.export.md",
+  "input_hash": "bd55b0257cc4b2a37b9f7316acf2231d8ab2862ce7a9e8a2256fc24543dcf137",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2635,
+  "warnings": [],
+  "diagnostics": {}
+}

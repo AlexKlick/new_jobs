@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-26T04:34:42.307157+00:00",
+  "job_id": "d55ac7cc-fa80-4bac-a9ff-0c52afc0dd90",
+  "artifact_id": "5e1aa573-ee23-4b9c-9149-33601e6f402a",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/resume.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/resume.export.md",
+  "input_hash": "30913821a9cf262c74b32fca0686f9512d616cc5f258c3d5dbec97d4389e3f21",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2825,
+  "warnings": [],
+  "diagnostics": {}
+}

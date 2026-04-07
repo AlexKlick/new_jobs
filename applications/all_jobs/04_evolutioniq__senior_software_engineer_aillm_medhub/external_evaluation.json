@@ -1,0 +1,76 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 4,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 3,
+    "company_specificity": 4,
+    "differentiation": 3.5,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Strong alignment with core requirements: RAG, embeddings-based retrieval, vector databases, and LLM evaluation are all well-documented with specific examples",
+    "Cover letter acknowledges the fine-tuning gap honestly and bridges it to relevant evaluation experience \u2014 shows self-awareness",
+    "Company research is evident: references Medhub's purpose (disability claims), EvolutionIQ's workplace recognition, and connects personal experience to their mission",
+    "Resume has specific, verifiable metrics: 'tens of thousands of documents', 'Fortune-200 biopharma', '~100 users to 300+'",
+    "Document intelligence experience with regulatory/medical-adjacent workflows is directly relevant to Medhub's medical records synthesis"
+  ],
+  "weaknesses": [
+    "Cover letter uses section headings (## Opening, ## Role Alignment, etc.) which breaks the convention of flowing prose \u2014 reads like a structured memo rather than a personal letter",
+    "Narrative voice has a slightly AI-generated quality: phrases like 'I discovered how much I value building AI systems where accuracy carries real consequences' feel polished but impersonal",
+    "No fine-tuning experience in resume \u2014 only mentioned in cover letter as a gap. Given the job listing includes 'fine-tuning' as a key skill, this could be a concern",
+    "Closing paragraph uses template-adjacent language: 'I'd value the opportunity to discuss how my production RAG experience could contribute...' could appear in any application"
+  ],
+  "revision_suggestions": [
+    "Remove section headings from cover letter \u2014 convert to flowing prose with natural paragraph transitions instead of ## Opening / ## Role Alignment markers",
+    "Tighten the opening hook: the Fortune-200 biopharma story is good but the sentence runs long. Consider breaking into two sentences for punchier impact",
+    "Add one concrete fine-tuning-adjacent experience if possible \u2014 even transfer learning experimentation, hyperparameter tuning, or model comparison work would help address the gap more proactively",
+    "Revise closing to be more specific to EvolutionIQ: reference something particular about their tech stack, recent product announcement, or a specific challenge Medhub faces",
+    "Consider adding 1-2 more quantified outcomes to resume bullets \u2014 e.g., 'reduced retrieval latency by X%' or 'improved answer accuracy by Y%' to strengthen metric specificity"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Cover letter has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing \u2014 these should be removed for flowing prose"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific story about Fortune-200 biopharma RAG pipeline \u2014 grounded and relevant"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "EvolutionIQ, Medhub, and disability claims context woven in naturally throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Fine-tuning gap acknowledged in Evidence Highlights section with reasonable bridge to evaluation experience"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Closing paragraph feels slightly generic; 'I'd value the opportunity to discuss...' could be more specific"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all present in cover letter header"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Good metrics: ~100 to 300+ users, tens of thousands of documents, Fortune-200 client, 3 junior engineers mentored"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting throughout resume and cover letter, no artifacts or broken structures"
+    }
+  ]
+}

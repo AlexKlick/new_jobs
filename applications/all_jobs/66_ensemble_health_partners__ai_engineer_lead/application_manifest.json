@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-03-26T04:53:03.413306+00:00",
+  "canonical_index": 66,
+  "identity_key": "url:https://builtin.com/job/ai-engineer/4133741",
+  "job": {
+    "index": 66,
+    "heading": "Ensemble Health Partners \u2014 AI Engineer (Lead)",
+    "company": "Ensemble Health Partners",
+    "role": "AI Engineer (Lead)",
+    "salary": "~$150K\u2013$200K [est.]",
+    "remote": "\ud83d\udfe2 Fully remote (US)",
+    "experience": "Senior level",
+    "key_skills": [
+      "LangChain",
+      "LlamaIndex",
+      "Haystack",
+      "Azure AI Studio",
+      "AWS",
+      "GCP",
+      "deep learning",
+      "ML",
+      "PyTorch"
+    ],
+    "apply": "https://builtin.com/job/ai-engineer/4133741",
+    "apply_url": "https://builtin.com/job/ai-engineer/4133741",
+    "why_fit": "Healthcare domain with LangChain, LlamaIndex, and Azure \u2014 all candidate strengths. The revenue cycle management focus is less cutting-edge than other healthcare AI companies but offers stable healthcare AI work.",
+    "summary": "Healthcare revenue cycle management company.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T04:03:47.013569+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:03:47.013569+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/27_ensemble_health_partners__ai_engineer_lead",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/27_ensemble_health_partners__ai_engineer_lead/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:03:47.013569+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220244_27_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220244_27_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:03:47.013569+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

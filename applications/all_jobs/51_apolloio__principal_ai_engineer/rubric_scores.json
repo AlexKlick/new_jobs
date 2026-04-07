@@ -1,0 +1,34 @@
+{
+  "draft": {
+    "factual_grounding": 10.0,
+    "role_alignment": 9.0,
+    "metric_specificity": 9.0,
+    "clarity_conciseness": 8.0,
+    "ats_keyword_coverage": 9.0
+  },
+  "final": {
+    "factual_grounding": 10.0,
+    "role_alignment": 9.5,
+    "metric_specificity": 9.5,
+    "clarity_conciseness": 9.5,
+    "ats_keyword_coverage": 9.5
+  },
+  "rejected_claims": [
+    {
+      "claim": "Rearchitected a 10-week project in 2 weeks",
+      "reason": "Referenced in 'Why Fit Notes' but no corresponding fact_id exists in verified fact set; cannot substantiate"
+    },
+    {
+      "claim": "AWS Bedrock experience",
+      "reason": "Listed in job requirements but candidate's verified skills only include OpenAI API and open-source models"
+    },
+    {
+      "claim": "LlamaIndex experience",
+      "reason": "Listed in job requirements but only LangChain appears in verified fact set (fact-0d1c216cdfe5)"
+    },
+    {
+      "claim": "Sequoia-backed company experience",
+      "reason": "Apollo.io is Sequoia-backed per job description, but this is not relevant candidate experience to claim"
+    }
+  ]
+}

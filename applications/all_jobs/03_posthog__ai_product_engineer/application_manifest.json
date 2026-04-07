@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-26T04:53:03.402053+00:00",
+  "canonical_index": 3,
+  "identity_key": "url:https://posthog.com/careers/ai-product-engineer",
+  "job": {
+    "index": 3,
+    "heading": "PostHog \u2014 AI Product Engineer",
+    "company": "PostHog",
+    "role": "AI Product Engineer",
+    "salary": "$199,000\u2013$272,000+ (SF benchmark; adjusted by location via transparent calculator \u2014 ~$199k\u2013$218k for lower-cost US regions) + significant equity",
+    "remote": "Fully remote (GMT+2 to GMT-8)",
+    "experience": "Mid-to-senior full-stack engineer with AI/agentic product experience",
+    "key_skills": [
+      "Python",
+      "React",
+      "TypeScript",
+      "Django",
+      "LLMs",
+      "autonomous agents",
+      "workflow automation",
+      "AI copilots",
+      "full-stack product development"
+    ],
+    "apply": "https://posthog.com/careers/ai-product-engineer",
+    "apply_url": "https://posthog.com/careers/ai-product-engineer",
+    "why_fit": "PostHog's engineering culture prizes speed, iteration, and output \u2014 exactly the environment you're seeking. The role requires shipping agentic AI applications end-to-end using Python, React, and TypeScript, which maps to your full-stack AI capabilities. At $199k+ base with equity at a company under 200 employees, this represents both excellent compensation and the small-team, high-impact environment you prefer.",
+    "summary": "Open-source product analytics platform. ~180 employees, raised $100M+, YC W20 alum. Transparent compensation, strong engineering culture.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T20:14:11.482083+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T20:14:11.482083+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_03_posthog",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_03_posthog/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T20:14:11.482083+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

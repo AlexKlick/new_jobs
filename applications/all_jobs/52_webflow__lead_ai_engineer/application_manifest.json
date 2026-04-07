@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-26T04:53:03.410763+00:00",
+  "canonical_index": 52,
+  "identity_key": "url:https://www.remoterocketship.com/company/webflow/jobs/lead-ai-engineer-united-states-remote",
+  "job": {
+    "index": 52,
+    "heading": "Webflow \u2014 Lead AI Engineer",
+    "company": "Webflow",
+    "role": "Lead AI Engineer",
+    "salary": "~$200K\u2013$300K total comp [est.]",
+    "remote": "\ud83d\udfe2 Fully remote (US)",
+    "experience": "Senior level",
+    "key_skills": [
+      "AI agents",
+      "agentic workflows",
+      "production AI systems",
+      "system architecture"
+    ],
+    "apply": "https://www.remoterocketship.com/company/webflow/jobs/lead-ai-engineer-united-states-remote/",
+    "apply_url": "https://www.remoterocketship.com/company/webflow/jobs/lead-ai-engineer-united-states-remote/",
+    "why_fit": "This role serves as the primary AI engineering partner to the CEO/exec team, translating ideas into production-ready AI agents with minimal oversight. The emphasis on agentic systems and concept-to-production ownership aligns with demonstrated ability to independently rearchitect complex applications.",
+    "summary": "Same company as Role #3.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:38:51.771577+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:38:51.771577+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/13_webflow__lead_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/13_webflow__lead_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:38:51.771577+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_213538_13_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_213538_13_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:38:51.771577+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

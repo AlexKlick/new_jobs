@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-03-26T04:53:03.411848+00:00",
+  "canonical_index": 58,
+  "identity_key": "url:https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+  "job": {
+    "index": 58,
+    "heading": "SailPoint \u2014 Senior Data Engineer, AI/LLM Applications",
+    "company": "SailPoint",
+    "role": "Senior Data Engineer, AI/LLM Applications",
+    "salary": "$141,000\u2013$262,000",
+    "remote": "\ud83d\udfe2 Remote (US)",
+    "experience": "Senior level",
+    "key_skills": [
+      "LLM application development",
+      "RAG architectures",
+      "Python",
+      "LangChain",
+      "Hugging Face",
+      "GCP",
+      "CI/CD",
+      "data pipelines"
+    ],
+    "apply": "https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+    "apply_url": "https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+    "why_fit": "Building LLM-powered production solutions with RAG and LangChain at a major enterprise. Python and cloud expertise match well. The wide salary range ($141K\u2013$262K) offers significant upside.",
+    "summary": "Identity security cloud platform. Public company (acquired by Thoma Bravo for $6.9B). 2,000+ employees.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:54:51.412240+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:54:51.412240+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/19_sailpoint__senior_data_engineer_ai_llm_applications",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/19_sailpoint__senior_data_engineer_ai_llm_applications/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:54:51.412240+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:54:51.412240+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

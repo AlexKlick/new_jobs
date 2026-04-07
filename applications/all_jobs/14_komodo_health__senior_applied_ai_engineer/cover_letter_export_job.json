@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "job_id": "8554b853-09ee-4537-81ac-8bddcb9da25c",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Role Alignment",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Evidence Highlights",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Closing",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 4,
+      "warn": 0,
+      "total": 4
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/cover_letter.pdf",
+      "size_kb": 10.5,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2996,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "ae983960-e1ca-4696-9258-d350e3b243da",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/cover_letter.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/cover_letter.ttl.manifest.json",
+      "size_kb": 2.1533203125
+    },
+    {
+      "artifact_id": "d067308a-3089-4a81-9ede-b1a6a1a28e41",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/cover_letter.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/cover_letter.pdf.manifest.json",
+      "size_kb": 10.5
+    }
+  ]
+}

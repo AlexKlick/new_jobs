@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-26T04:21:53.584365+00:00",
+  "job_id": "e5fe23a3-4076-4ccb-b6cd-3f3209f6d6c0",
+  "artifact_id": "20c59e6e-6d03-4d50-8d7c-9f10e7b9180f",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041106_26_tempus-ai/resume.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041106_26_tempus-ai/resume.export.md",
+  "input_hash": "f774b0391f5677297bc0e203416411f5088d800dce24baab1411ec12edd5cd5e",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2876,
+  "warnings": [],
+  "diagnostics": {}
+}

@@ -1,0 +1,42 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 3.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.5,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 4.5,
+    "company_specificity": 4.5,
+    "differentiation": 4.5,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with LangGraph",
+      "reason": "Job requires LangGraph but fact set contains no evidence of LangGraph experience"
+    },
+    {
+      "statement": "Experience with AWS or GCP cloud platforms",
+      "reason": "Job requires AWS/GCP but fact set contains no evidence of cloud platform deployment experience"
+    },
+    {
+      "statement": "Production experience with Claude, Codex, or Gemini models",
+      "reason": "Job requires multiple LLM providers but fact set only shows OpenAI API and open-source model experience"
+    },
+    {
+      "statement": "Defense or geospatial industry experience",
+      "reason": "No facts support defense/geospatial background; candidate's stated preferences are healthcare and biopharma"
+    }
+  ]
+}

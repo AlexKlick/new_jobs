@@ -1,0 +1,70 @@
+{
+  "run_id": "20260309_215451_20_live-optimized",
+  "created_at": "2026-03-10T03:57:28.274692+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 20,
+    "heading": "Elayne (YC + Accel) — Founding Senior Engineer (AI/ML) 🟡",
+    "company": "Elayne (YC + Accel)",
+    "role": "Founding Senior Engineer (AI/ML)",
+    "salary": "$160,000–$250,000",
+    "remote": "🟡 NYC-based team; remote status needs verification — reach out to confirm before investing time in the application",
+    "experience": "4+ years shipping production-grade AI features (exact match)",
+    "key_skills": [
+      "RAG",
+      "vector search",
+      "multi-step agent workflows",
+      "entity resolution",
+      "document classification",
+      "contextual memory management",
+      "prompt orchestration",
+      "embedding pipelines"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/79665",
+    "apply_url": "https://www.workatastartup.com/jobs/79665",
+    "why_fit": "The 4+ year requirement is an exact fit. Multi-step agent workflows, RAG, and contextual memory management are core strengths. Knowledge graph and entity resolution experience applies directly to legal/financial document processing.",
+    "summary": "Applied AI company reimagining estate planning, financial accounts, and legal documents. ~6-person team."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 9.0,
+    "role_alignment": 9.0,
+    "metric_specificity": 8.0,
+    "clarity_conciseness": 8.0,
+    "ats_keyword_coverage": 9.0
+  },
+  "final_scores": {
+    "factual_grounding": 9.5,
+    "role_alignment": 9.5,
+    "metric_specificity": 9.0,
+    "clarity_conciseness": 9.0,
+    "ats_keyword_coverage": 9.5
+  },
+  "rejected_claims": [],
+  "notes": [
+    "quality_repair_applied: 2 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/rubric_scores.json"
+  }
+}

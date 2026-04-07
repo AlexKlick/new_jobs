@@ -1,0 +1,75 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 4,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 4,
+    "company_specificity": 3,
+    "differentiation": 3.5,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Honest, direct acknowledgment of fintech gap with compelling transferability argument (regulated industries \u2192 financial workflows)",
+    "Strong opening hook with specific, verifiable story about scaling from 100 to 300+ users",
+    "Concrete metrics throughout: 'tens of thousands of documents', 'Fortune-200 clients', '3 junior engineers'",
+    "Cover letter sounds authentically human\u2014avoids AI-generated clich\u00e9 patterns",
+    "Technical skills align well with role requirements: RAG, vector databases, Python, production LLM systems",
+    "Resume bullets show progression (Consultant \u2192 Senior Consultant) and mentorship"
+  ],
+  "weaknesses": [
+    "Company specificity is thin\u2014references to 'automation-first approach' and 'fintech infrastructure' could apply to many companies; no mention of Ramp's actual products (receipt parsing, vendor categorization, bill pay automation)",
+    "Some resume bullets lack business impact: 'Architected modular agent component system'\u2014what was the efficiency gain? Time saved?",
+    "Cover letter closing ('I'd welcome the chance to discuss') is slightly generic",
+    "No GitHub portfolio, open source contributions, or public AI projects referenced"
+  ],
+  "revision_suggestions": [
+    "Add 1-2 Ramp-specific references: mention their receipt parsing AI, vendor categorization, or a recent product launch. Shows you did homework.",
+    "Add outcome metrics to at least one resume bullet: 'Reduced document processing time by X%' or 'Improved retrieval accuracy by Y%'",
+    "Strengthen the closing with a specific value proposition tied to Ramp's challenges rather than generic 'welcome the chance to discuss'"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific story about 100\u2192300 user rollout; feels genuine"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Ramp and Applied AI Engineer mentioned organically throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Direct acknowledgment: 'I should be direct about where my experience diverges from Ramp's domain: I haven't worked in fintech'"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Mostly fresh, but closing paragraph has standard phrases ('I'd welcome the chance to discuss', 'Thank you for your consideration')"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, and LinkedIn all included"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Good metrics: ~100 users, 300+, tens of thousands of documents, 3 mentees"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean, well-organized formatting with no artifacts"
+    }
+  ]
+}

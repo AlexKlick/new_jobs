@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-03-26T04:53:03.409558+00:00",
+  "canonical_index": 45,
+  "identity_key": "url:https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+  "job": {
+    "index": 45,
+    "heading": "Fabric Health \u2014 Senior Software Engineer, AI",
+    "company": "Fabric Health",
+    "role": "Senior Software Engineer, AI",
+    "salary": "~$170K\u2013$210K [est.]",
+    "remote": "\ud83d\udfe2 Remote-first (distributed team)",
+    "experience": "5+ years software engineering or applied ML; 3+ years hands-on with LLMs and LLM agents",
+    "key_skills": [
+      "Python (Flask/FastAPI)",
+      "LLMs",
+      "LLM agents",
+      "RAG",
+      "classification",
+      "NLP",
+      "embeddings/vector databases",
+      "LangChain",
+      "LangGraph",
+      "AWS",
+      "Kubernetes"
+    ],
+    "apply": "https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+    "apply_url": "https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+    "why_fit": "The skill requirements read like a description of this candidate's toolkit \u2014 FastAPI, LangChain, LangGraph, RAG, and LLM agents in a healthcare context. Clinical NLP components map well to the pharma compliance system experience. Top-tier VC backing signals strong trajectory.",
+    "summary": "Fabric Health transforms patient-provider interactions through AI. Backed by Thrive Capital, Google Ventures, General Catalyst, and Salesforce Ventures.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:16:59.420258+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:16:59.420258+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/06_fabric_health__senior_software_engineer_ai",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/06_fabric_health__senior_software_engineer_ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:16:59.420258+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:16:59.420258+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_022208_06_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_022208_06_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T08:25:55.307500+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

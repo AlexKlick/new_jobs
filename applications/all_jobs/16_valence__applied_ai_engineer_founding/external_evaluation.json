@@ -1,0 +1,77 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 3.5,
+    "company_specificity": 3,
+    "differentiation": 3.5,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Strong specific metrics throughout (~100 to 300+ users, tens of thousands of documents, three junior engineers mentored)",
+    "Excellent ATS keyword coverage for LLM/RAG roles - OpenAI, LangChain, Agents SDK, vector databases, embeddings all present",
+    "Honest acknowledgment of skill gaps in cover letter - explicitly names NLP and full-stack as growth areas",
+    "Opening hook in cover letter is genuine and specific - the pilot scaling story is memorable",
+    "Clean, scannable resume format with consistent structure",
+    "RAG and document intelligence focus is a differentiated specialization for enterprise AI roles"
+  ],
+  "weaknesses": [
+    "Company specificity is thin - 'AI-powered coaching' is mentioned but never explained or connected to candidate's retrieval expertise in a concrete way",
+    "Some cover letter phrases read as slightly generic: 'sits at the intersection I care about most,' 'tight collaboration between technical depth and user empathy'",
+    "TypeScript/full-stack listed in skills but not demonstrated anywhere in experience bullets - this creates a credibility gap",
+    "Resume is light on depth - only two positions shown, could benefit from more detail on technical implementation"
+  ],
+  "revision_suggestions": [
+    "Research Valence's product more deeply - what specific coaching use cases do they serve? What retrieval challenges does a coaching platform face? Connect your RAG experience to those specific problems.",
+    "Add 1-2 sentences about why AI coaching specifically matters to you, beyond the founding-team opportunity. Show you understand the product.",
+    "Either remove TypeScript from skills or add a brief bullet demonstrating full-stack work (even a side project or internal tool).",
+    "Replace generic phrases with more specific language: instead of 'sits at the intersection I care about most,' name the specific technical challenge that excites you.",
+    "Consider adding a Projects section to the resume if professional experience is limited - this could demonstrate broader technical range."
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter flows as prose without ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific pilot scaling story - memorable and genuine"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Valence and founding Applied AI Engineer role mentioned naturally in text"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges 'primary depth is in retrieval and document intelligence rather than traditional NLP or full-stack development'"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Some phrases feel generic: 'sits at the intersection I care about most,' 'tight collaboration between technical depth and user empathy'"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, and LinkedIn all present in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Numbers throughout: ~100 to 300+ users, tens of thousands of documents, three junior engineers"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting, no orphaned headers or broken lists"
+    }
+  ]
+}

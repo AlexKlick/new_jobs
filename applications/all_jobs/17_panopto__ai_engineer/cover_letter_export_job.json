@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "job_id": "5ef6c105-fd10-4a74-94ad-493f295dbf3c",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Role Alignment",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Evidence Highlights",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Closing",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 4,
+      "warn": 0,
+      "total": 4
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.pdf",
+      "size_kb": 10.8,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2965,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "5ea78a8e-85db-4fd1-ad4a-ae1a61a50cd2",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.ttl.manifest.json",
+      "size_kb": 2.1533203125
+    },
+    {
+      "artifact_id": "e0dce584-15f7-4c2a-a1a4-b6ac34031bfa",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.pdf.manifest.json",
+      "size_kb": 10.8
+    }
+  ]
+}

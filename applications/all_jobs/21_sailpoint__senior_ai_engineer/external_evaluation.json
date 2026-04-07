@@ -1,0 +1,78 @@
+{
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opening hook about precision counting in AI systems is personal and engaging, not generic"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "SailPoint mentioned naturally twice, role referenced once"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges AWS, Bedrock, Sagemaker, Airflow, Kafka gap with honesty"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Voice is authentic, no obvious template phrases"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email and phone clearly visible in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Most bullets include specific metrics (40%, 25%, 99.5%, 60%, 3x)"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting throughout, no broken lists or orphaned headers"
+    }
+  ],
+  "revision_suggestions": [
+    "CRITICAL: Resume is missing key required skills - AWS, Bedrock, Sagemaker, Airflow, and Kafka are NOT mentioned anywhere in the resume. Add these even if you have adjacent experience.",
+    "The resume shows 'Consultant' titles but role is 'Senior AI Engineer' - consider whether this title gap matters for the application.",
+    "Add specific SailPoint/product references to show genuine interest in identity security domain - currently could apply to any AI company.",
+    "Consider adding more cloud deployment specifics even if not AWS (e.g., 'cloud-native deployment', 'distributed systems') to show infrastructure background."
+  ],
+  "scores": {
+    "ats_keyword_coverage": 2,
+    "clarity_conciseness": 4,
+    "company_specificity": 2,
+    "differentiation": 3,
+    "factual_grounding": 3,
+    "gap_handling": 4,
+    "metric_specificity": 4,
+    "narrative_voice": 4,
+    "role_alignment": 3
+  },
+  "strengths": [
+    "Cover letter is well-written with authentic, engaging voice and no AI-generated feel",
+    "Strong opening hook that immediately establishes personal values",
+    "Excellent metric specificity in resume bullets (40% latency reduction, 25% precision improvement, 99.5% accuracy, 60% overhead reduction)",
+    "Honest gap handling in cover letter - explicitly acknowledges AWS/Bedrock/Sagemaker/Airflow/Kafka limitations",
+    "Human review checklist items all pass - professional formatting, proper contact info, no section headings",
+    "Good specificity about document processing for regulated environment (FDA submissions)",
+    "Mentorship experience shows senior-level indicators"
+  ],
+  "weaknesses": [
+    "CRITICAL ATS FAILURE: Resume contains ZERO mentions of AWS, Bedrock, Sagemaker, Airflow, or Kafka - these are explicitly required skills in the job posting",
+    "Company specificity is too generic - no mention of SailPoint's identity security domain, products, or market position",
+    "Role alignment is weak - no mention of 'autonomous systems' or identity security experience",
+    "Resume title shows 'Consultant' but role is 'Senior AI Engineer' - may need explanation",
+    "Missing cloud infrastructure terminology that would pass ATS keyword screening"
+  ],
+  "verdict": "BLOCKED"
+}

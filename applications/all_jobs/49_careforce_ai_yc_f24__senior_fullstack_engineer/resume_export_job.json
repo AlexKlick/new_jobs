@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "bb9a42e8-db6d-4229-9ffc-3af750d812b3",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.pdf",
+      "size_kb": 13.3,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 3143,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "284f2e42-0651-417d-b6fd-e9f88512cc82",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "3e8bbd9f-195e-4594-9e74-e64d69ea14da",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/resume.pdf.manifest.json",
+      "size_kb": 13.3
+    }
+  ]
+}

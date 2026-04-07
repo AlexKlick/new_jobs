@@ -1,0 +1,81 @@
+{
+  "run_id": "20260325_214643_16_valence",
+  "created_at": "2026-03-25T21:51:32.364687+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 16,
+    "heading": "Valence — Applied AI Engineer (Founding)",
+    "company": "Valence",
+    "role": "Applied AI Engineer (Founding)",
+    "salary": "$140,000–$180,000 + equity [est.]",
+    "remote": "Remote (US)",
+    "experience": "3+ years",
+    "key_skills": [
+      "Generative AI",
+      "LLMs",
+      "NLP",
+      "conversational systems",
+      "information retrieval",
+      "Python",
+      "full-stack development"
+    ],
+    "apply": "https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+    "apply_url": "https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+    "why_fit": "A founding AI engineering role with direct reporting to Head of AI at a well-positioned enterprise company. Your LLM application and agentic systems expertise maps directly to building AI-powered coaching products. Small team with high ownership. Trade-off: Enterprise SaaS coaching is outside your preferred industries, though it checks most other boxes.",
+    "summary": "AI-powered enterprise coaching platform. ~50–100 employees, Series A, Fortune 500 clients.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.5,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 4.5,
+    "company_specificity": 4.5,
+    "differentiation": 4.5,
+    "gap_handling": 4.5
+  },
+  "rejected_claims": [],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "External evaluation: NEEDS_REVISION. See /home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/external_evaluation.json.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/pdf_quality_audit.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/rubric_scores.json"
+  }
+}

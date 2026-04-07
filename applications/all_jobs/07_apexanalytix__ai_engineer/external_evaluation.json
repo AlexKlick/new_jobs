@@ -1,0 +1,73 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 4,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 3.5,
+    "narrative_voice": 4.5,
+    "company_specificity": 3.5,
+    "differentiation": 3.5,
+    "gap_handling": 5
+  },
+  "strengths": [
+    "Cover letter opening hook is authentic and specific\u2014scaling from 100 to 300+ users is a memorable, verifiable achievement",
+    "Gap handling is exemplary: directly acknowledges limited LangGraph, Docker/Kubernetes, and CI/CD experience rather than hoping they won't notice",
+    "Strong metric specificity throughout: tens of thousands of documents, hundreds of daily users, 3 junior engineers mentored",
+    "Factual grounding is solid\u2014Fortune-200 biopharma context, specific technologies (pgvector, Chroma, sentence-transformers), concrete timelines",
+    "Resume format is clean, scannable, and professionally structured"
+  ],
+  "weaknesses": [
+    "ATS keyword gap: Resume lacks Docker, Kubernetes, CI/CD, MLOps, and LangGraph\u2014keywords the ATS will likely scan for. These only appear in the cover letter as admitted gaps",
+    "Company specificity is thin: mentions procure-to-pay and Global 2000 but shows no evidence of deeper apexanalytix research (no product names, recent news, or specific challenges)",
+    "Differentiation is moderate: competent and honest, but lacks a truly unique angle or standout technical detail that would make it unforgettable in a stack of 200"
+  ],
+  "revision_suggestions": [
+    "Add a 'Technical Exposure' or 'Familiar With' section to the resume that includes Docker, Kubernetes, CI/CD concepts\u2014even if not production-deep, showing awareness helps ATS matching",
+    "Research apexanalytix more deeply: reference a specific product (e.g., their PRM platform), a recent case study, or a known industry challenge they're solving",
+    "Consider adding one unique technical detail or project nuance to the cover letter that no other candidate would mention\u2014something idiosyncratic that makes the application memorable"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific personal story about scaling a system from 100 to 300+ users\u2014genuine and memorable"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "apexanalytix and AI Engineer role mentioned naturally in context of their procure-to-pay mission"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges limited LangGraph, Docker/Kubernetes, CI/CD, MLOps experience with growth mindset"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "No generic phrases like 'I am writing to express my interest'\u2014voice is specific and personal throughout"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all included"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Strong metrics: 100\u2192300+ users, tens of thousands of documents, hundreds of daily users, 3 engineers mentored"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean structure, no orphaned headers or broken lists"
+    }
+  ]
+}

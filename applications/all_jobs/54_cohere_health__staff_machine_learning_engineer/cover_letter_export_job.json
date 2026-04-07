@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "cd3fa9f0-22ac-41a0-a62a-56689aeab4f4",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized/cover_letter.pdf",
+      "size_kb": 13.0,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 3394,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "202be3f1-6b16-4ce6-bcff-15ff32060598",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized/cover_letter.ttl",
+      "manifest_path": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized/cover_letter.ttl.manifest.json",
+      "size_kb": 1.123046875
+    },
+    {
+      "artifact_id": "55182cab-02ba-4b15-815d-4434ea0055bf",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized/cover_letter.pdf",
+      "manifest_path": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized/cover_letter.pdf.manifest.json",
+      "size_kb": 13.0
+    }
+  ]
+}

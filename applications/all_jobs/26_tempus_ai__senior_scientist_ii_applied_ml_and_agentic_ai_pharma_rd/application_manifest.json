@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-26T04:53:03.406368+00:00",
+  "canonical_index": 26,
+  "identity_key": "url:https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+  "job": {
+    "index": 26,
+    "heading": "Tempus AI \u2014 Senior Scientist II, Applied ML and Agentic AI, Pharma R&D",
+    "company": "Tempus AI",
+    "role": "Senior Scientist II, Applied ML and Agentic AI, Pharma R&D",
+    "salary": "$140,000\u2013$190,000 [est.]",
+    "remote": "May prefer in-office (Chicago/NYC). Verify remote options.",
+    "experience": "Not specified \u2014 verify during application",
+    "key_skills": [
+      "Python",
+      "LangGraph",
+      "agentic AI architecture",
+      "RAG",
+      "function calling",
+      "LLM evaluation",
+      "real-world evidence"
+    ],
+    "apply": "https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+    "apply_url": "https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+    "why_fit": "This role is purpose-built for your profile \u2014 building \"deep agents\" for pharma R&D using LangGraph, working directly with pharmaceutical companies. Your J&J/Janssen experience is a direct competitive advantage. Constraint: May prefer in-office (Chicago/NYC). Verify remote options.",
+    "summary": "Precision medicine leader (NASDAQ: TEM). 8M+ de-identified records, 350+ PB of clinical/molecular data. Partners with majority of top 20 pharma companies.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-26T04:21:56.458058+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-26T04:21:56.458058+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041106_26_tempus-ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041106_26_tempus-ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-26T04:21:56.458058+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_172142_26_tempus-ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_172142_26_tempus-ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:25:29.505377+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

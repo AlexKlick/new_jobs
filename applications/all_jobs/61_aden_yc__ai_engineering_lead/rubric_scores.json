@@ -1,0 +1,17 @@
+{
+  "draft": {
+    "factual_grounding": 10.0,
+    "role_alignment": 10.0,
+    "metric_specificity": 10.0,
+    "clarity_conciseness": 10.0,
+    "ats_keyword_coverage": 10.0
+  },
+  "final": {
+    "factual_grounding": 10.0,
+    "role_alignment": 10.0,
+    "metric_specificity": 10.0,
+    "clarity_conciseness": 10.0,
+    "ats_keyword_coverage": 10.0
+  },
+  "rejected_claims": []
+}

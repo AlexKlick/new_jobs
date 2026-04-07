@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T23:21:14.495892+00:00",
+  "job_id": "2c748040-b66a-4cd4-8db3-660d6bffdeed",
+  "artifact_id": "243994d7-0972-47d9-9004-56b3f2088e50",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/cover_letter.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/cover_letter.export.md",
+  "input_hash": "cdeca5d917f476d4e910a5df14062b1946e8cf75e33b9afb7c07d1661e429e88",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2495,
+  "warnings": [],
+  "diagnostics": {}
+}

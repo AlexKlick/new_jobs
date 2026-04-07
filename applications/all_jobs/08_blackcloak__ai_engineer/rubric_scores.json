@@ -1,0 +1,46 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 3.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.5,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.5,
+    "differentiation": 4.5,
+    "gap_handling": 4.5
+  },
+  "rejected_claims": [
+    {
+      "statement": "TypeScript/Node.js production leadership experience",
+      "reason": "Job requires TypeScript/Node.js but facts show TypeScript/JavaScript as a skill without evidence of leading a production TypeScript/Node.js codebase"
+    },
+    {
+      "statement": "Experience with Gemini, LLaMA, or Claude models specifically",
+      "reason": "Job requires experience with multiple LLMs including Gemini, LLaMA, Claude; facts only mention OpenAI API and open-source models generally, not these specific model families"
+    },
+    {
+      "statement": "PyTorch/TensorFlow deep learning framework expertise beyond sentence-transformers",
+      "reason": "Job requires PyTorch/TensorFlow; facts mention pytorch only in context of sentence-transformers usage, not standalone deep learning model development"
+    },
+    {
+      "statement": "MLOps infrastructure experience",
+      "reason": "Job requires MLOps; facts support hands-on deployment and monitoring but not building full MLOps infrastructure or pipelines"
+    },
+    {
+      "statement": "Cybersecurity domain experience",
+      "reason": "BlackCloak is in cybersecurity; no facts support prior cybersecurity or security-related work experience"
+    }
+  ]
+}

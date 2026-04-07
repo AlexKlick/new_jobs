@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "2b708084-c741-4453-8a2f-258bfb129e20",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems/resume.pdf",
+      "size_kb": 18.0,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 3236,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "ee0d96c0-7caf-4a2d-8e5a-4fb2a013a159",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "517eefd9-fc51-4ec1-9493-4ec114e7bf72",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems/resume.pdf.manifest.json",
+      "size_kb": 18.0
+    }
+  ]
+}

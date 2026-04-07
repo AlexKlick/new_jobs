@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-03-26T04:53:03.413509+00:00",
+  "canonical_index": 67,
+  "identity_key": "url:https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+  "job": {
+    "index": 67,
+    "heading": "SailPoint \u2014 Principal Engineer, Agentic AI",
+    "company": "SailPoint",
+    "role": "Principal Engineer, Agentic AI",
+    "salary": "$176,400\u2013$327,600 + bonus + equity",
+    "remote": "\ud83d\udfe1 Remote or Hybrid (US) \u2014 verify whether remote is fully optional or if there's a hybrid expectation tied to a specific office location",
+    "experience": "10+ years SWE, 3+ years agent systems (significant stretch)",
+    "key_skills": [
+      "LangChain/AutoGen",
+      "agent orchestration",
+      "agent lifecycle management",
+      "multi-agent collaboration",
+      "SDKs/APIs"
+    ],
+    "apply": "https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+    "apply_url": "https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+    "why_fit": "The role centers on building autonomous AI agent frameworks \u2014 directly leveraging agentic AI expertise. Apply as a long-shot, high-reward target given the $327K salary ceiling.",
+    "summary": "Same company as Role #19.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T04:04:48.709286+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:04:48.709286+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/28_sailpoint__principal_engineer_agentic_ai",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/28_sailpoint__principal_engineer_agentic_ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:04:48.709286+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:04:48.709286+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

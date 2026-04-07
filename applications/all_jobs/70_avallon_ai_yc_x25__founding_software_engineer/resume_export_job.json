@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "36dc71bd-f9f1-4a6b-ac01-cdb7bd3c2963",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/resume.pdf",
+      "size_kb": 13.3,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2726,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "6b52aace-c710-44c8-a339-fe2894b0edce",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "a1244288-fe6c-4ed3-a9d2-7acf872631e9",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/resume.pdf.manifest.json",
+      "size_kb": 13.3
+    }
+  ]
+}

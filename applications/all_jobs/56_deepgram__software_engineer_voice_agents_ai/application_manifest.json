@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-26T04:53:03.411467+00:00",
+  "canonical_index": 56,
+  "identity_key": "name:deepgram::software engineer, voice agents / ai",
+  "job": {
+    "index": 56,
+    "heading": "Deepgram \u2014 Software Engineer, Voice Agents / AI",
+    "company": "Deepgram",
+    "role": "Software Engineer, Voice Agents / AI",
+    "salary": "$160,000\u2013$250,000",
+    "remote": "\ud83d\udfe1 Remote + San Francisco \u2014 confirm that \"Remote\" is truly location-agnostic vs. SF-area preferred",
+    "experience": "Mid-senior level",
+    "key_skills": [
+      "Voice AI",
+      "AI agents",
+      "speech processing",
+      "Python"
+    ],
+    "apply": "Search on wellfound.com for Deepgram",
+    "apply_url": null,
+    "why_fit": "Deepgram is building voice-powered AI agents \u2014 agentic AI applied to speech. Agent architecture expertise translates well to designing voice agent workflows. Strong salary range and likely remote option.",
+    "summary": "AI speech API platform for transcription and voice AI. 51\u2013200 employees, well-funded.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:48:52.329812+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:48:52.329812+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/17_deepgram__software_engineer_voice_agents_ai",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/17_deepgram__software_engineer_voice_agents_ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:48:52.329812+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_214540_17_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_214540_17_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:48:52.329812+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

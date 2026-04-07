@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-10T03:58:19.394925+00:00",
+  "job_id": "81213900-1190-4f7d-a6ff-5e939eb7356f",
+  "artifact_id": "6558465d-22a6-4799-a08a-c0d41e4add7c",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/cover_letter.pdf",
+  "input_path": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/cover_letter.export.md",
+  "input_hash": "2b403e91e9f969eed24c6952ac02d15a35cd6efd6c17eeb0979afc3f5bda36b1",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 3353,
+  "warnings": [],
+  "diagnostics": {}
+}

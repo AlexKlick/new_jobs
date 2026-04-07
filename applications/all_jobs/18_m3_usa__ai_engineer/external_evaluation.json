@@ -1,0 +1,73 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 4,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4.5,
+    "company_specificity": 3.5,
+    "differentiation": 4,
+    "gap_handling": 5
+  },
+  "strengths": [
+    "Authentic narrative voice with specific opening story about biopharma regulatory work\u2014reads like a real person, not AI-generated",
+    "Honest and confident gap acknowledgment: explicitly addresses weaker REST API/cloud infrastructure experience while framing growth mindset",
+    "Strong quantifiable achievements: tens of thousands of documents, 100+ to 300+ user rollout, Fortune-200 client, three junior engineers mentored",
+    "Clear relevance to healthcare/regulated AI environments\u2014directly aligns with M3 USA's healthcare focus",
+    "Well-organized resume with logical skill categorization and clean scannability"
+  ],
+  "weaknesses": [
+    "Outcome metrics could be more specific: 'cut document review time dramatically' lacks a percentage or concrete number",
+    "Company research is surface-level: mentions M3 Inc.'s global scale but doesn't reference specific M3 USA products, services, or recent initiatives",
+    "Job requires Claude API experience but resume only mentions OpenAI\u2014no Claude/OpenAI comparison or multi-model experience shown"
+  ],
+  "revision_suggestions": [
+    "If possible, add a specific metric to the cover letter story: e.g., 'cut document review time by 40%' or 'reduced retrieval latency by half'",
+    "Research M3 USA's specific offerings (e.g., physician engagement platforms, medical education, market research) and reference one by name",
+    "If you have any Claude API experience, add it; if not, consider noting familiarity with multiple LLM providers in the skills section"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific story about biopharma regulatory team\u2014grabs attention immediately"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "M3 USA and AI Engineer position mentioned organically throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "REST API and cloud infrastructure gaps acknowledged honestly with growth framing"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "No generic 'I am writing to express my interest' or similar template phrases"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, and LinkedIn all present in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has numbers (tens of thousands, 100+ users, Fortune-200) but could include more impact percentages"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting, no orphaned headers or broken lists"
+    }
+  ]
+}

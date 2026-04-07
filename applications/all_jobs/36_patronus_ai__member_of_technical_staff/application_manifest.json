@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-03-26T04:53:03.408143+00:00",
+  "canonical_index": 36,
+  "identity_key": "url:https://ats.rippling.com/patronus-ai-jobs/jobs/334f09fc-61c5-4d1f-86b3-ee30d7e895a7",
+  "job": {
+    "index": 36,
+    "heading": "Patronus AI \u2014 Member of Technical Staff",
+    "company": "Patronus AI",
+    "role": "Member of Technical Staff",
+    "salary": "$150,000\u2013$200,000 [est.]",
+    "remote": "Listed as SF; remote policy unclear",
+    "experience": "Not specified \u2014 verify during application",
+    "key_skills": [
+      "Software engineering",
+      "AI evaluation systems",
+      "LLM testing infrastructure",
+      "Python"
+    ],
+    "apply": "https://ats.rippling.com/patronus-ai-jobs/jobs/334f09fc-61c5-4d1f-86b3-ee30d7e895a7",
+    "apply_url": "https://ats.rippling.com/patronus-ai-jobs/jobs/334f09fc-61c5-4d1f-86b3-ee30d7e895a7",
+    "why_fit": "Building AI evaluation infrastructure leverages your production LLM experience. AI safety/eval is a high-growth infrastructure category. Constraint: Listed as SF; remote policy unclear.",
+    "summary": "AI security and risk management \u2014 adversarial testing, hallucination detection, safety evaluation. Backed by Lightspeed Venture Partners, ~$50M+ raised.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T19:49:15.010532+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T19:49:15.010532+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_193955_36_patronus-ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_193955_36_patronus-ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T19:49:15.010532+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

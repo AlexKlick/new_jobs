@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-26T04:53:03.404158+00:00",
+  "canonical_index": 13,
+  "identity_key": "url:https://builtin.com/job/ai-engineer-gen-ai-swe-weights-biases/8643571",
+  "job": {
+    "index": 13,
+    "heading": "CoreWeave (Weights & Biases) \u2014 AI Engineer, Gen AI/SWE",
+    "company": "CoreWeave (Weights & Biases)",
+    "role": "AI Engineer, Gen AI/SWE",
+    "salary": "$188,000\u2013$275,000",
+    "remote": "In-Office or Remote (6 locations)",
+    "experience": "Senior level",
+    "key_skills": [
+      "Python",
+      "LLMs",
+      "Agent Frameworks",
+      "RAG",
+      "Embeddings",
+      "Vector DBs",
+      "TypeScript",
+      "CI/CD",
+      "GenAI"
+    ],
+    "apply": "https://builtin.com/job/ai-engineer-gen-ai-swe-weights-biases/8643571",
+    "apply_url": "https://builtin.com/job/ai-engineer-gen-ai-swe-weights-biases/8643571",
+    "why_fit": "Focuses on LLM applications, agent frameworks, RAG, and embeddings \u2014 all core strengths. W&B/CoreWeave is a top-tier AI infrastructure company where your production AI experience is highly valued. The salary range ($188k\u2013$275k) is among the highest in this search. Trade-off: Larger company (~1,500+ combined), and remote policy should be verified.",
+    "summary": "CoreWeave is a major AI cloud infrastructure provider (IPO-track). W&B is the leading ML experiment tracking platform, now part of CoreWeave ($12B+ valuation).",
+    "company_context": null
+  },
+  "status": "MARKDOWN",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T16:39:14.883088+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T16:39:14.883088+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_163252_13_coreweave-weights-biases",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_163252_13_coreweave-weights-biases/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T16:39:14.883088+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

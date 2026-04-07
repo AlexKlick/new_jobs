@@ -1,0 +1,75 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3.5,
+    "metric_specificity": 2.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 3,
+    "narrative_voice": 4,
+    "company_specificity": 3.5,
+    "differentiation": 3,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Cover letter has an authentic, specific opening hook about biopharma RAG work that immediately establishes credibility",
+    "Gap handling is excellent - honestly acknowledges lack of classical ML/NLP depth while positioning applied LLM experience as complementary",
+    "Document intelligence focus is genuinely relevant to EvenUp's legal document work - this is a strong narrative thread",
+    "Resume is clean, scannable, and well-structured with consistent formatting",
+    "Specific company research evident: valuation, investors, and personal injury law focus mentioned naturally"
+  ],
+  "weaknesses": [
+    "Resume bullets lack impact metrics - 'tens of thousands of documents' and '300+ users' describe scale but not outcomes (accuracy improvements? time saved? efficiency gains?)",
+    "ATS keyword coverage is thin on core ML terms - missing: 'machine learning', 'NLP', 'neural networks', 'model training', 'TensorFlow', 'scikit-learn'. The role is 'Machine Learning Engineer' but resume reads like 'LLM Engineer'",
+    "Cover letter company research is surface-level - mentions valuation and investors but not EvenUp's actual products (Demand, Discovery, Medical Chronologies) or specific technical challenges they face",
+    "Differentiation is moderate - the document intelligence angle is good but not memorable enough to stand out in 200+ applications"
+  ],
+  "revision_suggestions": [
+    "Add impact metrics to resume bullets: 'Reduced document retrieval time by X%' or 'Improved reranker accuracy by Y%' or 'Enabled Z faster regulatory submissions' - outcome metrics, not just scale metrics",
+    "Weave in more ML terminology naturally: 'ML systems', 'NLP pipelines', 'model evaluation', 'feature engineering' where accurate - this helps ATS matching for 'Machine Learning Engineer' title",
+    "Deepen EvenUp company research: Reference specific products (Demand letter generation, Medical Chronologies) or technical blog posts/papers to show genuine interest, not just surface-level research",
+    "Consider adding a 'Selected Projects' section to resume highlighting one deep technical case study with before/after metrics"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers or section breaks"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific biopharma RAG story - grabs attention with concrete work, not generic company praise"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "EvenUp and Machine Learning Engineer mentioned organically throughout, not forced"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges lacking classical ML/NLP depth while framing applied LLM experience as valuable - honest and well-handled"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Mostly fresh but 'meaningful impact' and 'technical ambition' in closing are slightly generic - could be more specific to EvenUp's mission"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, and LinkedIn all present in both resume and cover letter"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has scale metrics (300+ users, tens of thousands of docs) but lacks impact metrics (what improved? by how much?)"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean, professional formatting with no orphaned headers or broken lists"
+    }
+  ]
+}

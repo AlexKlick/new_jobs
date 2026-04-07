@@ -1,0 +1,42 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "reason": "No fact provided for AWS or cloud deployment experience",
+      "statement": "Experience with AWS/cloud deployment"
+    },
+    {
+      "reason": "No fact provided for Docker or Kubernetes",
+      "statement": "Containerization experience (Docker/Kubernetes)"
+    },
+    {
+      "reason": "No fact provided for specific company size or team structure at Credera beyond what's stated",
+      "statement": "Led a team of X engineers"
+    },
+    {
+      "reason": "No fact for GitHub stars or open-source repo metrics",
+      "statement": "Open-source project with X stars"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "run_id": "20260324_162434_01_pair-team",
+  "created_at": "2026-03-24T16:30:22.833634+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": "zai",
+  "fallback_used": false,
+  "job": {
+    "index": 1,
+    "heading": "Pair Team — Senior AI Engineer",
+    "company": "Pair Team",
+    "role": "Senior AI Engineer",
+    "salary": "$170,000–$200,000 + equity",
+    "remote": "Fully remote (United States)",
+    "experience": "4+ years building and shipping production software",
+    "key_skills": [
+      "Multi-agent/agentic systems in production",
+      "LangGraph",
+      "Claude Agents SDK",
+      "Langfuse/LangSmith",
+      "MCP implementations",
+      "systems architecture",
+      "evaluation frameworks"
+    ],
+    "apply": "https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+    "apply_url": "https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+    "why_fit": "This is the single best-fit role in the entire search. Pair Team explicitly requires 4+ years experience, production multi-agent systems, and lists LangGraph proficiency as \"strongly preferred\" — all direct strengths. Your healthcare compliance-checking work at J&J/Janssen and experience across three pharma companies gives you a differentiation edge that few applicants can match. The salary floor of $170k represents a 67% raise from your current compensation.",
+    "summary": "AI-enabled medical group serving Medicaid/Medicare populations. Public benefit corporation, 500+ employees, VC-backed, featured in Forbes and TechCrunch.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 4.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "External evaluation: NEEDS_REVISION. See /home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/external_evaluation.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/rubric_scores.json"
+  }
+}

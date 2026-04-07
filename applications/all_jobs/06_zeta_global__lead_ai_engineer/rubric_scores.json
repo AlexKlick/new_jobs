@@ -1,0 +1,38 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 5.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with AWS Bedrock",
+      "reason": "No evidence in fact set; explicitly identified as skill gap\u2014now proactively acknowledged in cover letter with transferable skills noted"
+    },
+    {
+      "statement": "Direct multi-step reasoning system design at enterprise marketing depth",
+      "reason": "No explicit evidence; proactively acknowledged as gap with genuine interest to extend experience"
+    },
+    {
+      "statement": "Previous marketing technology experience",
+      "reason": "No evidence in fact set; reframed transferable skills from regulated precision environments to marketing ROI contexts"
+    }
+  ]
+}

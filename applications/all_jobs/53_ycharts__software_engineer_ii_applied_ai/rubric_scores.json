@@ -1,0 +1,38 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "claim": "Experience with MySQL specifically",
+      "reason": "Facts only support generic SQL skill (fact-8167e694fa32), not MySQL specifically"
+    },
+    {
+      "claim": "Experience with Pinecone specifically",
+      "reason": "Facts only support pgvector and Chroma (fact-9f02c46c84b2, fact-d275a927f88c), not Pinecone"
+    },
+    {
+      "claim": "Experience with Django",
+      "reason": "No factual basis in provided fact set for Django experience"
+    },
+    {
+      "claim": "Experience with Angular",
+      "reason": "No factual basis in provided fact set for Angular; TypeScript/JavaScript skill (fact-99057173729c) does not extend to Angular framework"
+    },
+    {
+      "claim": "Experience with Anthropic API",
+      "reason": "Facts support OpenAI API and open-source models (fact-8ccd233e8995, fact-2d2800e6eb5c, fact-c6eb6f6fdde9) but do not explicitly mention Anthropic"
+    }
+  ]
+}

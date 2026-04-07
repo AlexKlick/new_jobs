@@ -1,0 +1,79 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3.5,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 3.5,
+    "narrative_voice": 3.5,
+    "company_specificity": 3,
+    "differentiation": 3.5,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Specific, credible claims with real scale metrics (Fortune-200, 300+ users, tens of thousands of documents)",
+    "Strong opening hook in cover letter with concrete biopharma RAG story",
+    "Honest gap acknowledgment for AWS Bedrock and deep reasoning chains\u2014shows self-awareness",
+    "Clear progression from AI/LLM Consultant to Senior demonstrates growth trajectory",
+    "Technical depth in RAG infrastructure, vector databases, and rerankers directly aligns with role requirements",
+    "Modular agent component architecture experience is relevant and differentiated"
+  ],
+  "weaknesses": [
+    "Cover letter uses section headings (## Opening, ## Role Alignment, etc.) which breaks the flowing prose expectation for professional cover letters",
+    "PyTorch is listed in skills but never demonstrated in experience\u2014the role requires it explicitly",
+    "Missing quantified outcomes on several resume bullets: What was the retrieval precision improvement from the reranker? What was the time saved?",
+    "Company specificity is thin\u2014mentions Zeta is a marketing platform but doesn't show deep research into their AI capabilities, recent news, or specific challenges",
+    "Some phrases edge toward template territory: 'values factual correctness, reusable abstractions, and measurable outcomes' could appear in any AI engineer's resume"
+  ],
+  "revision_suggestions": [
+    "Remove section headings from cover letter\u2014convert to flowing paragraphs with transitions. A professional cover letter should read as continuous prose, not a structured document with headers",
+    "Add a quantified outcome to the reranker bullet: 'Led quality analyses to select and deploy sentence-transformers reranker at production scale, improving retrieval precision by X%'",
+    "Either demonstrate PyTorch experience in a bullet or remove it from skills\u2014having it listed but never used in experience raises questions",
+    "Research Zeta Global more deeply and incorporate one specific detail: reference their Saggio AI platform, a recent case study, or a specific marketing intelligence challenge they solve",
+    "Add a metric to the agent components bullet: reduced development friction by how much? Faster iteration time? Quantify the impact",
+    "Consider adding 'multi-step reasoning' or 'workflow orchestration' language explicitly since those are in the job description\u2014your agent workflow work qualifies but isn't using their terminology"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Cover letter has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing\u2014should be flowing prose without headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific Fortune-200 biopharma RAG story that establishes credibility and context"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Zeta Global and Lead AI Engineer integrated naturally throughout, not forced"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "AWS Bedrock and deep reasoning chain gaps acknowledged honestly with growth framing"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Some phrases feel generic ('values factual correctness, reusable abstractions')\u2014could be more distinctive"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn all present and accessible"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has some metrics (300+ users, tens of thousands of documents) but reranker and agent component bullets lack quantified impact"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean, consistent structure with no orphaned headers or broken lists"
+    }
+  ]
+}

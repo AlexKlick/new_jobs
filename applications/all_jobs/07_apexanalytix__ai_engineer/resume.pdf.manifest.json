@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T21:11:52.875204+00:00",
+  "job_id": "0d075ab5-77c9-4a52-87ad-e261cb79c779",
+  "artifact_id": "b6fced3a-7845-4252-9517-7553603ff708",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/resume.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/resume.export.md",
+  "input_hash": "9d890208946c6a86bddb156d56706775e4b8e6132569f269d95867d09c095b76",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2945,
+  "warnings": [],
+  "diagnostics": {}
+}

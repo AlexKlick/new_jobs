@@ -1,0 +1,78 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 3.5,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 3,
+    "narrative_voice": 4.5,
+    "company_specificity": 4,
+    "differentiation": 3.5,
+    "gap_handling": 5
+  },
+  "strengths": [
+    "Exceptional gap handling - directly names missing technologies (LangGraph, Supabase, NextJS, Docker, AWS) rather than dodging or overstating",
+    "Strong narrative voice that sounds authentically human, not AI-generated",
+    "Specific, verifiable metrics throughout: 100\u2192300+ users, Fortune-200 client, tens of thousands of documents, 3 junior engineers mentored",
+    "Clear company research evident - mentions YC X25, 10x revenue growth, insurance claims domain specifics",
+    "Relevant domain experience: regulated biopharma translates well to insurance claims compliance requirements",
+    "Cover letter opens with concrete work experience, not generic fluff"
+  ],
+  "weaknesses": [
+    "ATS keyword gap: 5 of 10 required technologies (LangGraph, Supabase, NextJS, Docker, AWS, voice AI) are missing from resume entirely - ATS may auto-reject before human sees the honest cover letter",
+    "Metric specificity could improve: mentions document volumes but not retrieval accuracy rates, query latency, or performance benchmarks",
+    "No evidence of voice AI experience, which is listed in job requirements",
+    "Resume bullets focus on activities over outcomes - 'Led model-quality evaluation' doesn't state what accuracy improvement resulted",
+    "For a 'Founding Software Engineer' role, missing 50%+ of the tech stack is a significant hurdle even with honest acknowledgment"
+  ],
+  "revision_suggestions": [
+    "Add missing keywords to resume Skills section even at basic proficiency level: 'Docker (familiar)', 'AWS (learning)', 'LangGraph (exploring)' - gets past ATS while maintaining honesty",
+    "Quantify outcomes more: What was the retrieval accuracy improvement from reranker work? What latency targets were met? What error rates were achieved?",
+    "If any exposure to Supabase, NextJS, Docker, or AWS exists (even personal projects, tutorials, side work), include it - keyword presence matters for ATS",
+    "Consider adding a brief 'Technologies in Progress' or 'Currently Learning' section to capture keywords while signaling growth mindset",
+    "Add one bullet about voice/audio processing if any exists, or acknowledge in cover letter as another gap to address"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose without ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific scaling story from current role, not generic company praise"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Avallon AI and Founding Software Engineer mentioned organically throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Directly lists LangGraph, Supabase, NextJS, Docker, AWS as gaps - excellent honesty"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Minor: 'sits at the intersection of technical depth and tangible impact' reads slightly AI-ish, but overall authentic voice"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn all included in cover letter header"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has user counts and document volumes, but missing accuracy rates, performance metrics, latency improvements"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting throughout both documents"
+    }
+  ]
+}

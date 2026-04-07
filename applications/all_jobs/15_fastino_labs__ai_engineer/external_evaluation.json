@@ -1,0 +1,75 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 3.5,
+    "narrative_voice": 3.5,
+    "company_specificity": 4,
+    "differentiation": 3.5,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Specific, verifiable metrics throughout: 100\u2192300+ users, tens of thousands of documents, Fortune-200 client, 3 junior engineers mentored",
+    "Strong company research: mentions Fastino's investors (Microsoft, Khosla Ventures), team pedigree (Google Research, Apple), and focus on small language models",
+    "Honest gap acknowledgment: directly addresses missing Kubernetes/Docker production experience and knowledge-graph extraction without being defensive",
+    "Relevant domain experience in regulated biopharma environment shows ability to work in high-stakes contexts",
+    "Good opening hook with the scaling story\u2014feels like a real professional reflecting on their work"
+  ],
+  "weaknesses": [
+    "Cover letter uses section headings (## Opening, ## Role Alignment, etc.) which breaks the convention of flowing prose\u2014this signals inexperience with professional correspondence",
+    "Missing two key skills from job requirements: Kubernetes and Docker orchestration have no presence in resume, creating ATS keyword gaps",
+    "Cover letter has a few slightly formulaic phrases that reduce authenticity: 'represents something I've been working toward', 'I'd welcome the chance to discuss'",
+    "The biopharma regulatory work is interesting but undersold\u2014could emphasize the precision/compliance aspects more as differentiator"
+  ],
+  "revision_suggestions": [
+    "Remove all section headings from cover letter and rewrite as flowing paragraphs with natural transitions",
+    "Add a brief mention of containerization familiarity in resume\u2014even if not production Kubernetes, any Docker exposure would help ATS matching",
+    "Replace formulaic closing ('I'd welcome the chance to discuss') with something more specific to Fastino's mission or a question that invites conversation",
+    "Consider expanding the biopharma regulatory work bullet to emphasize compliance, precision, and auditability\u2014these matter for enterprise AI platforms"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing\u2014cover letters should be flowing prose without headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific scaling story (100 to 300+ users) and personal reflection\u2014feels genuine"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Fastino Labs and AI Engineer role woven in naturally, not forced"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Kubernetes, Docker, and knowledge-graph gaps acknowledged honestly with growth mindset"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "A few formulaic phrases ('represents something I've been working toward', 'I'd welcome the chance to discuss') but mostly authentic"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, and LinkedIn all present and correctly formatted"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Strong metrics: 300+ users, tens of thousands of documents, Fortune-200, 3 junior engineers"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean, professional formatting with no artifacts or inconsistencies"
+    }
+  ]
+}

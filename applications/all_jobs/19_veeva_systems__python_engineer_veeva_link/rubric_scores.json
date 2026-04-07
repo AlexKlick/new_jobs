@@ -1,0 +1,46 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 3.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 4.5
+  },
+  "rejected_claims": [
+    {
+      "statement": "Entity resolution experience",
+      "reason": "Job requires entity resolution but fact set contains no evidence of this skill"
+    },
+    {
+      "statement": "Machine learning experience",
+      "reason": "Job mentions ML but fact set only shows ML-adjacent tools (PyTorch, HuggingFace, sentence-transformers) used for reranking, not general ML"
+    },
+    {
+      "statement": "Elasticsearch experience",
+      "reason": "Job mentions Elasticsearch but fact set only shows pgvector and Chroma for vector search"
+    },
+    {
+      "statement": "GraphQL experience",
+      "reason": "Job mentions GraphQL but fact set contains no evidence of this skill"
+    },
+    {
+      "statement": "Django experience",
+      "reason": "Job mentions Django frameworks but fact set only shows FastAPI"
+    }
+  ]
+}

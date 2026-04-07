@@ -1,0 +1,79 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 2.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 2.5,
+    "narrative_voice": 3.5,
+    "company_specificity": 4,
+    "differentiation": 3,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Excellent company research - demonstrates genuine understanding of Marker Learning's mission and a16z backing",
+    "Specific, verifiable metrics throughout resume (tens of thousands of documents, Fortune-200, 300+ users)",
+    "Honest acknowledgment of skill gap between Python backend experience and React/Node.js requirements",
+    "Strong opening hook in cover letter with concrete project example, not generic company flattery",
+    "Document intelligence and RAG experience in regulated biopharma is genuinely unique and relevant to healthcare AI",
+    "Clean, scannable resume formatting with good use of white space"
+  ],
+  "weaknesses": [
+    "Major skill gap: Role requires React and Node.js but resume shows only Python backend experience (TypeScript listed in skills but not demonstrated in any experience bullet)",
+    "Experience gap: Role lists 8-10+ years; candidate has ~4.5 years (2021-present), acknowledged as 'a significant stretch'",
+    "ATS risk: Core keywords (React, Node.js) missing from experience section - may not pass initial filters",
+    "Cover letter has slightly formulaic AI-generated feel in middle paragraphs ('The precision required...mirrors what I developed' structure)",
+    "No demonstrated full-stack experience - this is a Lead Full-Stack role requiring both frontend and backend leadership",
+    "Some outcome metrics missing: what was the business impact of the RAG pipeline? Time saved? Accuracy improved?"
+  ],
+  "revision_suggestions": [
+    "If you have ANY React/Node.js experience (personal projects, bootcamp, minor work tasks), add it to experience section - even a single bullet demonstrating frontend work would help ATS and credibility",
+    "Consider applying for a backend-focused or AI/ML engineer role at Marker Learning instead - your RAG and document intelligence experience is strong but mismatched to Lead Full-Stack",
+    "Tighten cover letter middle section - the second and third paragraphs feel slightly templated. Replace 'The precision required...mirrors what I developed' with a more specific connection",
+    "Add outcome metrics to resume bullets: What accuracy did the reranker achieve? How much faster was document retrieval? What submission success rate resulted?",
+    "If committed to this application, add a brief technical project to resume showing React/TypeScript work - demonstrate you're actively building in the target stack"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific Fortune-200 RAG pipeline project, not generic company praise"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Marker Learning and Lead Full-Stack Engineer mentioned organically throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges Python vs React/Node.js gap with 'transferable systems-thinking' framing"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Middle paragraphs have slight AI-generated feel; 'I'd welcome the chance to discuss' closing is generic"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn all present in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Good metrics throughout: tens of thousands of documents, Fortune-200, ~100 to 300+ users, mentored 3 engineers"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting, no orphaned headers or broken lists"
+    }
+  ]
+}

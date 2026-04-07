@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-03-26T04:53:03.404332+00:00",
+  "canonical_index": 14,
+  "identity_key": "url:https://job-boards.greenhouse.io/komodohealth/jobs/8223246002",
+  "job": {
+    "index": 14,
+    "heading": "Komodo Health \u2014 Senior Applied AI Engineer",
+    "company": "Komodo Health",
+    "role": "Senior Applied AI Engineer",
+    "salary": "$190,000\u2013$240,000+ [est.]",
+    "remote": "Remote eligible",
+    "experience": "Full-stack AI delivery with mentoring experience",
+    "key_skills": [
+      "LLMs",
+      "agent-based systems",
+      "GenAI models",
+      "orchestration frameworks",
+      "prompt design",
+      "agent orchestration"
+    ],
+    "apply": "https://job-boards.greenhouse.io/komodohealth/jobs/8223246002",
+    "apply_url": "https://job-boards.greenhouse.io/komodohealth/jobs/8223246002",
+    "why_fit": "A more senior version of the Applied AI role that involves mentoring others in agent orchestration and prompt design. Your production pharma AI background positions you well. Trade-off: May expect more years of experience for the \"Senior\" title, but your specialized expertise could compensate.",
+    "summary": "a16z-backed healthcare analytics platform with the industry's largest de-identified healthcare data map. Serves pharma companies, payers, and health systems. ~500 employees.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T23:09:48.534217+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T23:09:48.534217+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T23:09:48.534217+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_163914_14_komodo-health",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_163914_14_komodo-health/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T16:43:41.341867+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

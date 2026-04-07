@@ -1,0 +1,78 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3.5,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4.5,
+    "company_specificity": 3.5,
+    "differentiation": 3.5,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Cover letter has authentic, human voice with genuine opening hook about RAG pipeline work",
+    "Honest acknowledgment of skill gaps (entity resolution, traditional ML) shows self-awareness",
+    "Relevant biopharma/regulatory document experience aligns well with life sciences domain",
+    "Specific metrics included: Fortune-200, tens of thousands of documents, 100\u2192300+ user expansion",
+    "Python and data pipeline skills clearly demonstrated",
+    "Company-specific details: mentions Veeva Link, public benefit corporation status"
+  ],
+  "weaknesses": [
+    "Resume contains empty [] brackets after nearly every bullet point - looks like broken formatting or unfilled placeholders",
+    "No explicit machine learning experience (job requirement) beyond LLM/embedding work",
+    "No entity resolution experience (core job requirement)",
+    "Education is Economics + certificate, not CS/Engineering as job specifies",
+    "Some resume bullets lack quantification (e.g., 'partnered with design and business analysts')"
+  ],
+  "revision_suggestions": [
+    "CRITICAL: Remove or fill the empty [] brackets throughout resume - they look like broken links or placeholder text that was never completed",
+    "Add any traditional ML experience, even if academic or side projects (scikit-learn, classification, clustering)",
+    "If any entity resolution/deduplication work exists, highlight it explicitly",
+    "Consider adding a line about the economics/mathematics background demonstrating analytical foundation",
+    "Quantify the 'modular agent components' bullet - what was the business impact of the 300+ user rollout?"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific story about RAG pipeline for Fortune-200 biopharma client"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Veeva Link, public benefit corporation, and Python Engineer role all integrated naturally"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Directly acknowledges entity resolution and traditional ML gaps with humility and transferability argument"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Specific to Veeva and applicant's experience; no generic phrases"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, and LinkedIn all present"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Some bullets have good metrics but others lack quantification; empty [] brackets are distracting"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "FAIL",
+      "note": "Empty [] brackets appear after nearly every resume bullet - looks like broken formatting or unfilled placeholders that must be fixed before submission"
+    }
+  ]
+}

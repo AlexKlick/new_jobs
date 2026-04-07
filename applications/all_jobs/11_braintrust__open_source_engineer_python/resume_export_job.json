@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "7684b4b5-826c-45eb-95d5-389d0a47f25b",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.pdf",
+      "size_kb": 13.1,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2815,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "d6219020-dc5e-4293-918d-ca2976b1de1d",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "6c7fe458-c371-4da0-8444-c9e0d0467fa4",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/resume.pdf.manifest.json",
+      "size_kb": 13.1
+    }
+  ]
+}

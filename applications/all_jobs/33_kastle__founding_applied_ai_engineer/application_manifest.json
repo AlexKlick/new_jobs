@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-03-26T04:53:03.407643+00:00",
+  "canonical_index": 33,
+  "identity_key": "url:https://www.workatastartup.com/jobs/73140",
+  "job": {
+    "index": 33,
+    "heading": "Kastle \u2014 Founding Applied AI Engineer",
+    "company": "Kastle",
+    "role": "Founding Applied AI Engineer",
+    "salary": "$140,000\u2013$180,000 [est.] + significant founding equity",
+    "remote": "Likely SF-based; very early stage",
+    "experience": "3+ years",
+    "key_skills": [
+      "Python",
+      "LLM fine-tuning",
+      "AI compliance workflows",
+      "agent architectures"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/73140",
+    "apply_url": "https://www.workatastartup.com/jobs/73140",
+    "why_fit": "Building AI agents in a regulated lending industry parallels your pharma regulatory experience. Founding role with maximum ownership at a YC-backed startup. Constraint: Likely SF-based; very early stage.",
+    "summary": "AI agents for consumer lending (mortgage). Working with America's largest mortgage lenders. ~1\u201310 employees, YC-backed, $2.3M seed.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T18:49:50.074132+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T18:49:50.074132+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_184233_33_kastle",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_184233_33_kastle/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T18:49:50.074132+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

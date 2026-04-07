@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-03-26T04:53:03.406603+00:00",
+  "canonical_index": 27,
+  "identity_key": "url:https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e",
+  "job": {
+    "index": 27,
+    "heading": "Perplexity AI \u2014 Software Engineer, AI Platform",
+    "company": "Perplexity AI",
+    "role": "Software Engineer, AI Platform",
+    "salary": "$160,000\u2013$220,000 [est.] + significant equity",
+    "remote": "Likely requires SF presence; highly competitive hiring bar",
+    "experience": "Not specified \u2014 verify during application",
+    "key_skills": [
+      "Spark",
+      "AWS",
+      "PyTorch",
+      "LLM APIs",
+      "data pipelines",
+      "personalization infrastructure"
+    ],
+    "apply": "https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e",
+    "apply_url": "https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e",
+    "why_fit": "Perplexity is building agentic products (Deep Research, Comet browser agent) on RAG architecture \u2014 your core specialization. Elite AI company with massive equity upside. Constraint: Likely requires SF presence; highly competitive hiring bar.",
+    "summary": "Top AI-powered answer engine. $1B+ raised from Jeff Bezos, Nvidia, IVP, NEA. ~60M+ queries/day.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-26T04:44:15.121981+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-26T04:44:15.121981+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-26T04:44:15.121981+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

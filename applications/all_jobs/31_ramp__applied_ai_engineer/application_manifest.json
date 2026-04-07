@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-26T04:53:03.407295+00:00",
+  "canonical_index": 31,
+  "identity_key": "url:https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+  "job": {
+    "index": 31,
+    "heading": "Ramp \u2014 Applied AI Engineer",
+    "company": "Ramp",
+    "role": "Applied AI Engineer",
+    "salary": "$175,000\u2013$225,000 [est.]",
+    "remote": "Likely requires NYC/SF presence; exceeds 500-employee preference",
+    "experience": "Not specified \u2014 verify during application",
+    "key_skills": [
+      "LLMs",
+      "production AI systems",
+      "financial workflows",
+      "Python"
+    ],
+    "apply": "https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+    "apply_url": "https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+    "why_fit": "Ramp is one of the most prominent fintechs actively investing in applied AI. Your production LLM and agentic AI expertise aligns with their automation-first approach. Constraint: Likely requires NYC/SF presence; exceeds 500-employee preference.",
+    "summary": "Corporate spend management fintech. ~1,000+ employees, valued at $13B+, raised $1.6B.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T23:51:01.748851+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T23:51:01.748851+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T23:51:01.748851+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_173805_31_ramp",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_173805_31_ramp/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:41:54.292450+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

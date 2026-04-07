@@ -1,0 +1,75 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 4,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4.5,
+    "company_specificity": 5,
+    "differentiation": 4,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Cover letter opening hook is excellent\u2014specific story about sub-section chunking immediately demonstrates relevant domain expertise",
+    "Honest acknowledgment of LangGraph gap while emphasizing transferable patterns (state management, tool orchestration, evaluation loops) shows self-awareness and credibility",
+    "Strong biopharma/regulated document experience directly relevant to Tempus's R&D focus\u2014Fortune-200 biopharma client work is compelling evidence",
+    "Company research is evident and specific: 8M+ de-identified records, 350+ petabytes, majority of top 20 pharma partnerships",
+    "Cover letter voice is authentic and opinionated ('precision matters enormously when the stakes are real')\u2014doesn't read AI-generated",
+    "Resume skills section is well-targeted: RAG, vector databases, rerankers, document ingestion, LLM evaluation all map to role requirements"
+  ],
+  "weaknesses": [
+    "LangGraph is explicitly listed as a key skill in job posting but not present in candidate's production experience\u2014gap is acknowledged but still a potential screening risk",
+    "Resume bullets could include more quantified business impact (e.g., retrieval accuracy improvements, time savings, error reduction)\u2014current metrics are mostly scale/volume",
+    "Education (BA Economics + bootcamp certificate) may raise questions for 'Senior Scientist II' title which often implies advanced degree or research background",
+    "Cover letter is three long paragraphs\u2014could benefit from slightly tighter editing for busy reviewers"
+  ],
+  "revision_suggestions": [
+    "Consider adding one quantified outcome metric to resume: e.g., 'Improved retrieval relevance by X%' or 'Reduced document processing time by Y%' to strengthen impact claims",
+    "If you have any exposure to LangGraph (even side projects, tutorials, prototypes), consider mentioning it to reduce the gap concern",
+    "The third cover letter paragraph could be trimmed slightly\u2014some redundancy in restating the pilot-to-300-user scale point"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Clean flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific story about wrestling with sub-section PDF chunking\u2014memorable and relevant"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Tempus mentioned in context, full role title integrated smoothly"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "LangGraph gap acknowledged honestly with explanation of transferable patterns"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Specific details throughout, no generic phrases like 'I am passionate about AI'"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all included in cover letter header"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Good scale metrics (300+ users, tens of thousands of documents) but missing impact metrics like accuracy improvements or time savings"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting throughout, no artifacts or orphaned headers"
+    }
+  ]
+}

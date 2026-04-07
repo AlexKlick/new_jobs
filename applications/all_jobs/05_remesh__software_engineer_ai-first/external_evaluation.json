@@ -1,0 +1,76 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4.5,
+    "company_specificity": 3.5,
+    "differentiation": 3.5,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Cover letter opening hook is excellent\u2014specific, personal story about watching consultants use the tool, not generic fluff",
+    "Gap handling is refreshingly honest and direct: explicitly names React, Docker, Kubernetes, and AI-assisted IDEs as areas to ramp up",
+    "Strong metrics throughout: ~100 users scaling to 300+, tens of thousands of documents, 3 junior engineers mentored",
+    "ATS-friendly keywords: RAG, agentic workflows, LangChain, vector databases, embeddings, Python, TypeScript",
+    "Resume is clean, scannable, with consistent formatting and no fluff",
+    "The regulated biopharma context adds credibility\u2014shows ability to work where correctness matters"
+  ],
+  "weaknesses": [
+    "Company research is thin: mentions $65M+ raised and 4-day work week, but doesn't reference Remesh's actual product (AI-moderated conversations/audience insights platform)",
+    "Missing core role requirements: React, Docker, Kubernetes, and cloud platforms are explicitly required\u2014honest acknowledgment helps but doesn't solve the gap",
+    "Could use more outcome metrics: mentions scale but not impact (time saved, accuracy improvements, business outcomes)",
+    "Differentiation is moderate\u2014other candidates may have similar RAG experience plus the full-stack/containerization skills this role needs"
+  ],
+  "revision_suggestions": [
+    "Research Remesh's product more deeply\u2014reference their AI-moderated conversation platform or specific use cases to show genuine interest beyond funding/team size",
+    "If there's ANY frontend experience (even personal projects), add it\u2014the React gap is significant for a Software Engineer role",
+    "Consider adding a brief outcome metric to the RAG system bullet: e.g., 'reduced document review time by X%' or 'improved retrieval accuracy'",
+    "The cover letter's third paragraph could reframe the gap acknowledgment more positively: position it as 'here's what I bring' first, then 'here's where I'd grow'"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific personal story about watching consultants use the tool\u2014not generic"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Remesh mentioned in context, role title referenced naturally"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges React, Docker, Kubernetes, and AI-assisted IDE gaps"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Specific stories, no 'I am writing to express my interest' or similar clich\u00e9s"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all included"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Multiple quantified achievements: ~100 users, tens of thousands of documents, 3 mentees"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting, no orphaned headers or broken lists"
+    }
+  ]
+}

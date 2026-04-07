@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-03-26T04:53:03.412986+00:00",
+  "canonical_index": 64,
+  "identity_key": "name:ethos::senior ai engineer",
+  "job": {
+    "index": 64,
+    "heading": "Ethos \u2014 Senior AI Engineer",
+    "company": "Ethos",
+    "role": "Senior AI Engineer",
+    "salary": "$133,000\u2013$235,000",
+    "remote": "\ud83d\udfe1 Not fully confirmed \u2014 check the specific listing for location requirements before applying",
+    "experience": "Senior level",
+    "key_skills": [
+      "AI/ML engineering",
+      "insurance domain"
+    ],
+    "apply": "Search \"Ethos\" on wellfound.com",
+    "apply_url": null,
+    "why_fit": "Insurance-tech at scale with a wide salary range. The candidate's analytical AI skills and knowledge graph expertise could apply to risk modeling. Remote policy and AI-native focus need verification.",
+    "summary": "Technology-driven life insurance company. 201\u2013500 employees, scale stage.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T04:01:42.560588+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:01:42.560588+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/25_ethos__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/25_ethos__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:01:42.560588+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220056_25_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220056_25_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:01:42.560588+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

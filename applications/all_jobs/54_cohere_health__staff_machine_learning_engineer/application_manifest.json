@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-03-26T04:53:03.411141+00:00",
+  "canonical_index": 54,
+  "identity_key": "name:cohere health::staff machine learning engineer",
+  "job": {
+    "index": 54,
+    "heading": "Cohere Health \u2014 Staff Machine Learning Engineer",
+    "company": "Cohere Health",
+    "role": "Staff Machine Learning Engineer",
+    "salary": "~$150K\u2013$190K [est.] for Staff level",
+    "remote": "\ud83d\udfe2 100% remote (US)",
+    "experience": "Staff-level for senior role; ML Engineer II for earlier career",
+    "key_skills": [
+      "ML model development/deployment",
+      "clinical data",
+      "healthcare compliance",
+      "NLP",
+      "Python"
+    ],
+    "apply": "TBD",
+    "apply_url": null,
+    "why_fit": "Cohere's core product validates clinical requests against medical guidelines \u2014 directly analogous to the pharma claim validation work at J&J/Janssen. The ML Engineer II role offers a better experience-level fit.",
+    "summary": "AI-powered prior authorization platform serving major health plans. 500\u20131,000 employees, Series C+.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:43:24.847484+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:43:24.847484+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/15_cohere_health__staff_machine_learning_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/15_cohere_health__staff_machine_learning_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:43:24.847484+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:43:24.847484+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

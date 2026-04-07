@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-10T03:16:55.947703+00:00",
+  "job_id": "d38ed557-cd09-4857-acf0-6d5b2a4815d7",
+  "artifact_id": "f5bc5382-8978-4a63-8fba-4a0807781f98",
+  "format": "ttl",
+  "output_path": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/resume.ttl",
+  "input_path": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/resume.export.md",
+  "input_hash": "863eacc1f763b12fc2d1ec2f34d438a85ed2b310faf8626110596df09c33f040",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 0,
+  "warnings": [],
+  "diagnostics": {},
+  "ontology": {
+    "triple_count": 22,
+    "ontology_version": "1.0",
+    "namespaces": [
+      "df",
+      "dcterms",
+      "doc"
+    ]
+  }
+}

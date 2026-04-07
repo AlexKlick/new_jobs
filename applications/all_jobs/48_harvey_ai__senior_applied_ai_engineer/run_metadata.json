@@ -1,0 +1,63 @@
+{
+  "run_id": "20260309_212354_09_live-optimized",
+  "created_at": "2026-03-10T03:26:02.442983+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 9,
+    "heading": "Harvey AI — Senior Applied AI Engineer 🟡",
+    "company": "Harvey AI",
+    "role": "Senior Applied AI Engineer",
+    "salary": "~$180K–$250K [est. for senior AI at top-tier VC-backed company]",
+    "remote": "🟡 Not fully confirmed; Harvey has distributed teams but SF is primary hub — verify remote policy before applying",
+    "experience": "Senior-level",
+    "key_skills": [
+      "Agentic AI",
+      "LLM applications",
+      "enterprise platform engineering"
+    ],
+    "apply": "https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+    "apply_url": "https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+    "why_fit": "Harvey is one of the most well-funded AI-native companies, backed by preferred VCs (Sequoia, a16z). The applied AI engineer roles involve hands-on building with LLMs and agents. Multiple role levels available (AI Engineer through Staff) to find the right experience fit.",
+    "summary": "Harvey AI is transforming legal and professional services with frontier agentic AI. Backed by Sequoia, a16z, and others. 500–1,000+ customers in 50+ countries."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 10.0,
+    "role_alignment": 9.0,
+    "metric_specificity": 9.0,
+    "clarity_conciseness": 9.0,
+    "ats_keyword_coverage": 9.0
+  },
+  "final_scores": {
+    "factual_grounding": 10.0,
+    "role_alignment": 9.5,
+    "metric_specificity": 9.5,
+    "clarity_conciseness": 9.5,
+    "ats_keyword_coverage": 9.5
+  },
+  "rejected_claims": [],
+  "notes": [],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/rubric_scores.json"
+  }
+}

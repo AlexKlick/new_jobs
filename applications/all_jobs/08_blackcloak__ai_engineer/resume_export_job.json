@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "f6b288de-5974-446c-b3b6-9c6c8f7f1a4a",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/resume.pdf",
+      "size_kb": 12.9,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2787,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "6da02797-1309-4558-87d1-4e6f505d4e39",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "8b19fe9b-0565-4b49-a19f-826750e762c0",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/resume.pdf.manifest.json",
+      "size_kb": 12.9
+    }
+  ]
+}

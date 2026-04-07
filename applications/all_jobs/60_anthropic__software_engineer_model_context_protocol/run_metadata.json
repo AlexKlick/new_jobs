@@ -1,0 +1,67 @@
+{
+  "run_id": "20260309_215734_21_live-optimized",
+  "created_at": "2026-03-10T03:58:19.425389+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 21,
+    "heading": "Anthropic — Software Engineer, Model Context Protocol 🔴",
+    "company": "Anthropic",
+    "role": "Software Engineer, Model Context Protocol",
+    "salary": "$320,000–$560,000",
+    "remote": "🔴 NYC-based hybrid — would require relocating to New York City. The $320K–$560K salary range may make relocation worth seriously considering as a career-defining move.",
+    "experience": "Bachelor's degree + relevant experience",
+    "key_skills": [
+      "Protocol development",
+      "open-source SDKs",
+      "MCP ecosystem",
+      "distributed systems",
+      "API design"
+    ],
+    "apply": "https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+    "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+    "why_fit": "MCP expertise directly applies to the company that created the protocol. This is a once-in-a-career opportunity to shape the industry standard. The trade-off is clear — NYC hybrid relocation required.",
+    "summary": "Anthropic is the creator of MCP and one of the leading AI companies globally. The most prestigious MCP-specific role available."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "quality_repair_applied: 4 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/rubric_scores.json"
+  }
+}

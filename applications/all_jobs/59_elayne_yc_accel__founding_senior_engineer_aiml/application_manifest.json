@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-03-26T04:53:03.412101+00:00",
+  "canonical_index": 59,
+  "identity_key": "url:https://www.workatastartup.com/jobs/79665",
+  "job": {
+    "index": 59,
+    "heading": "Elayne (YC + Accel) \u2014 Founding Senior Engineer (AI/ML)",
+    "company": "Elayne (YC + Accel)",
+    "role": "Founding Senior Engineer (AI/ML)",
+    "salary": "$160,000\u2013$250,000",
+    "remote": "\ud83d\udfe1 NYC-based team; remote status needs verification \u2014 reach out to confirm before investing time in the application",
+    "experience": "4+ years shipping production-grade AI features (exact match)",
+    "key_skills": [
+      "RAG",
+      "vector search",
+      "multi-step agent workflows",
+      "entity resolution",
+      "document classification",
+      "contextual memory management",
+      "prompt orchestration",
+      "embedding pipelines"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/79665",
+    "apply_url": "https://www.workatastartup.com/jobs/79665",
+    "why_fit": "The 4+ year requirement is an exact fit. Multi-step agent workflows, RAG, and contextual memory management are core strengths. Knowledge graph and entity resolution experience applies directly to legal/financial document processing.",
+    "summary": "Applied AI company reimagining estate planning, financial accounts, and legal documents. ~6-person team.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:57:28.274692+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:57:28.274692+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/20_elayne_yc_+_accel__founding_senior_engineer_ai_ml",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/20_elayne_yc_+_accel__founding_senior_engineer_ai_ml/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:57:28.274692+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:57:28.274692+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

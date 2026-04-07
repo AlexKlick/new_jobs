@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T21:19:37.604287+00:00",
+  "job_id": "ffe86ccf-030c-4cd4-8e9e-b83b920b3130",
+  "artifact_id": "46d9e303-4f05-4d0f-9c36-54959ce0b68c",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/resume.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/resume.export.md",
+  "input_hash": "6218dae95ee9c5ee5c323a985bef359d6e703eedd014271a9bb09a5dd0da6657",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2926,
+  "warnings": [],
+  "diagnostics": {}
+}

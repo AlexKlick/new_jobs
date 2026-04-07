@@ -1,0 +1,77 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 3,
+    "narrative_voice": 4,
+    "company_specificity": 3.5,
+    "differentiation": 4,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Excellent gap handling - explicitly acknowledges missing LangGraph, multi-provider LLM, and cloud experience with confidence in transferability",
+    "Strong narrative voice in cover letter - opens with a specific, memorable story about biopharma regulatory work that demonstrates domain understanding",
+    "Credible, specific claims throughout - 'tens of thousands of documents', '300+ user rollout', 'mentored 3 junior engineers'",
+    "Clear positioning around high-consequence domains - the biopharma/regulatory angle is distinctive and memorable",
+    "Clean, scannable resume format with relevant technical skills well-organized"
+  ],
+  "weaknesses": [
+    "Experience level mismatch: '3+ years' for a Sr Staff role is significantly light - Sr Staff typically expects 8-10+ years",
+    "Missing core technical stack: No demonstrated experience with LangGraph (explicitly required), AWS, GCP, Claude, Codex, or Gemini",
+    "Resume bullets lack impact metrics - claims user growth but no performance improvements, retrieval accuracy gains, or business outcomes",
+    "ATS keyword gap on required technologies - will likely score low on automated screening for this specific role",
+    "Company research may be speculative - Vantor's specific work in 'geospatial intelligence for defense' should be verified"
+  ],
+  "revision_suggestions": [
+    "Add impact metrics to resume bullets: What was the retrieval accuracy improvement from the reranker deployment? What was the user satisfaction or adoption rate for the agent components? Quantify business outcomes.",
+    "Address the experience gap head-on: Either reframe the 3 years as highly concentrated AI/LLM experience within a longer tech career, or acknowledge that this may be a stretch role while emphasizing rapid growth trajectory.",
+    "If you have any AWS/GCP, Claude, or multi-provider LLM experience (even experimental/personal projects), include it to improve ATS matching on required keywords.",
+    "Verify Vantor's actual business focus - the geospatial/defense intelligence framing needs to be accurate. If unsure, research more deeply or pivot to a more general but confident framing.",
+    "Consider whether 'Sr Staff' is the right level target - Staff Engineer roles typically require demonstrated technical leadership across teams and org-wide impact. This application may be stronger for a Senior Engineer role."
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose without headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific biopharma RAG story - distinctive and personal"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Vantor and role title integrated naturally throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Third paragraph explicitly acknowledges missing LangGraph, AWS/GCP, multi-provider LLM experience"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Language feels original and specific to this application"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, and LinkedIn all present"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has user counts (100, 300+) but missing impact metrics - what improved? By how much?"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting, no artifacts"
+    }
+  ]
+}

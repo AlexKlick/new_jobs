@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-03-26T04:53:03.403379+00:00",
+  "canonical_index": 9,
+  "identity_key": "url:https://job-boards.greenhouse.io/coherehealth",
+  "job": {
+    "index": 9,
+    "heading": "Cohere Health \u2014 Sr. Software Engineer",
+    "company": "Cohere Health",
+    "role": "Sr. Software Engineer",
+    "salary": "$130,000\u2013$180,000+ [est.]",
+    "remote": "100% remote (US team)",
+    "experience": "Full-stack web application experience, AI/LLM integration preferred",
+    "key_skills": [
+      "AI/LLM integration",
+      "agentic AI systems",
+      "deterministic rules engines",
+      "healthcare automation",
+      "HIPAA compliance",
+      "full-stack development"
+    ],
+    "apply": "https://job-boards.greenhouse.io/coherehealth",
+    "apply_url": "https://job-boards.greenhouse.io/coherehealth",
+    "why_fit": "Cohere Health's platform combines AI-driven automation with deterministic rules-based systems \u2014 an almost perfect mirror of your SPARQL-based deterministic scoring + LLM hybrid approach from the J&J/Janssen work. Your experience building compliance-checking pipelines in regulated pharma environments directly transfers to healthcare prior authorization automation. Fully remote.",
+    "summary": "Clinical intelligence platform automating prior authorization. AI auto-approves up to 90% of requests. Handles 12M+ prior auth annually. Inc. 5000 company, acquired ZignaAI.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T21:19:40.797016+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T21:19:40.797016+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T21:19:40.797016+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_074530_09_cohere-health",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_074530_09_cohere-health/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T08:07:50.759508+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

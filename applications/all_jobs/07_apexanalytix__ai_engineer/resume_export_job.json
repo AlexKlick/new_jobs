@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "0d075ab5-77c9-4a52-87ad-e261cb79c779",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/resume.pdf",
+      "size_kb": 15.6,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2945,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "87de4087-8a6e-4518-a29f-1922e0b6f7a4",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "b6fced3a-7845-4252-9517-7553603ff708",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/resume.pdf.manifest.json",
+      "size_kb": 15.6
+    }
+  ]
+}

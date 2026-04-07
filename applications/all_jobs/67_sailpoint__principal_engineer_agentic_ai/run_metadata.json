@@ -1,0 +1,92 @@
+{
+  "run_id": "20260309_220347_28_live-optimized",
+  "created_at": "2026-03-10T04:04:48.709286+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 28,
+    "heading": "SailPoint — Principal Engineer, Agentic AI 🟡",
+    "company": "SailPoint",
+    "role": "Principal Engineer, Agentic AI",
+    "salary": "$176,400–$327,600 + bonus + equity",
+    "remote": "🟡 Remote or Hybrid (US) — verify whether remote is fully optional or if there's a hybrid expectation tied to a specific office location",
+    "experience": "10+ years SWE, 3+ years agent systems (significant stretch)",
+    "key_skills": [
+      "LangChain/AutoGen",
+      "agent orchestration",
+      "agent lifecycle management",
+      "multi-agent collaboration",
+      "SDKs/APIs"
+    ],
+    "apply": "https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+    "apply_url": "https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+    "why_fit": "The role centers on building autonomous AI agent frameworks — directly leveraging agentic AI expertise. Apply as a long-shot, high-reward target given the $327K salary ceiling.",
+    "summary": "Same company as Role #19."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-e29a02f0d3ad"
+      ]
+    },
+    {
+      "statement": "Partnered with design/BA to iterate on UX... piloted with ~100 users, currently onboarding 300+",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    },
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    },
+    {
+      "statement": "Partnered with design/BA to iterate on UX... piloted with ~100 users, currently onboarding 300+",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    }
+  ],
+  "notes": [
+    "quality_repair_applied: 1 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/rubric_scores.json"
+  }
+}

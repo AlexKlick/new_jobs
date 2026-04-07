@@ -1,0 +1,31 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-2693a71d1da6",
+        "fact-e29a02f0f3ad"
+      ]
+    },
+    {
+      "statement": "Proficient in Python and FastAPI...",
+      "unknown_fact_ids": [
+        "fact-e29a02f0f3ad"
+      ]
+    }
+  ]
+}

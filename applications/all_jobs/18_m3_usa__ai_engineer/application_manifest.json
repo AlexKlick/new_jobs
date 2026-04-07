@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-26T04:53:03.405000+00:00",
+  "canonical_index": 18,
+  "identity_key": "url:https://www.remoterocketship.com/us/company/m3/jobs/ai-engineer-united-states-remote",
+  "job": {
+    "index": 18,
+    "heading": "M3 USA \u2014 AI Engineer",
+    "company": "M3 USA",
+    "role": "AI Engineer",
+    "salary": "$130,000\u2013$170,000 [est.]",
+    "remote": "Fully remote (United States)",
+    "experience": "Mid-level",
+    "key_skills": [
+      "Python",
+      "TypeScript",
+      "LLM APIs (Claude",
+      "OpenAI)",
+      "prompt engineering",
+      "context engineering",
+      "REST APIs",
+      "cloud infrastructure",
+      "agentic coding"
+    ],
+    "apply": "https://www.remoterocketship.com/us/company/m3/jobs/ai-engineer-united-states-remote/",
+    "apply_url": "https://www.remoterocketship.com/us/company/m3/jobs/ai-engineer-united-states-remote/",
+    "why_fit": "Healthcare AI role explicitly requiring context engineering, LLM APIs, and agentic coding \u2014 all core strengths. Your three-company pharma background gives you competitive advantage in healthcare data compliance. Trade-off: Part of a larger parent company ($30B+ market cap), and salary range starts at the minimum floor.",
+    "summary": "Healthcare technology/data company. Part of M3 Inc. (Tokyo-listed, $30B+ market cap).",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T21:50:59.097337+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T21:50:59.097337+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214259_18_m3-usa",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214259_18_m3-usa/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T21:50:59.097337+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

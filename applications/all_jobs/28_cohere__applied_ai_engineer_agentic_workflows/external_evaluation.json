@@ -1,0 +1,76 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 4,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4,
+    "company_specificity": 4,
+    "differentiation": 4,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Strong opening hook in cover letter with specific story about modular agent components scaling from ~100 to 300+ users",
+    "Honest acknowledgment of skill gap (OpenAI vs Cohere experience) framed positively as transferable expertise",
+    "Concrete metrics throughout: ~100 users, 300+ scaling, tens of thousands of documents, Fortune-200 biopharma, 3 mentees",
+    "Cover letter demonstrates genuine understanding of Cohere's positioning as infrastructure company vs API wrapper",
+    "Resume keywords align well with role requirements: RAG, vector databases, embeddings, LangChain, Agents SDK, Python",
+    "Authentic voice with phrases like 'I understand viscerally' and 'I've felt the gap' that read human, not AI-generated"
+  ],
+  "weaknesses": [
+    "Resume bullets lack outcome metrics - what was the accuracy improvement from the reranker selection? Latency gains? User satisfaction?",
+    "'Agentic Workflows' appears in resume title but not explicitly in skills section, could hurt ATS matching",
+    "No mention of open-source contributions, public projects, or thought leadership that would differentiate further",
+    "Cover letter slightly over-explains the OpenAI/Cohere gap - one confident sentence would land better than three paragraphs"
+  ],
+  "revision_suggestions": [
+    "Add 2-3 outcome metrics to resume: e.g., 'Improved retrieval accuracy by X%' or 'Reduced latency by Yms' or 'Achieved Z% user adoption rate'",
+    "Add 'Agentic Workflows' explicitly to Skills section for ATS optimization",
+    "Tighten the gap acknowledgment in cover letter to one confident sentence: 'While my production experience is with OpenAI's models, the engineering challenges\u2014embeddings drift, chunking strategies, reranker edge cases\u2014transfer directly.'",
+    "Consider adding a brief mention of any public writing, open-source contributions, or conference talks to strengthen differentiation"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter flows as prose with no ## headers or section breaks"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific story about shipping modular agent components that scaled from ~100 to 300+ users - not generic company fluff"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Cohere and 'Applied AI Engineer, Agentic Workflows' mentioned naturally in second paragraph"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges OpenAI experience vs Cohere models, frames as transferable skills"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "No 'I am writing to express my interest' or 'I believe my skills would be a great asset' - language is specific and genuine"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all present in both resume and cover letter"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Includes ~100 users, 300+, tens of thousands of documents, Fortune-200, 3 junior engineers - though could add more performance metrics"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean structure throughout, no orphaned headers or broken lists"
+    }
+  ]
+}

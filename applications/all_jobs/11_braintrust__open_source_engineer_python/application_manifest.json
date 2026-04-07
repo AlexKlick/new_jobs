@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-03-26T04:53:03.403765+00:00",
+  "canonical_index": 11,
+  "identity_key": "url:https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+  "job": {
+    "index": 11,
+    "heading": "Braintrust \u2014 Open Source Engineer, Python",
+    "company": "Braintrust",
+    "role": "Open Source Engineer, Python",
+    "salary": "$150,000\u2013$190,000 [est.]",
+    "remote": "Remote explicitly listed as location option",
+    "experience": "Mid-to-senior",
+    "key_skills": [
+      "Python",
+      "open-source SDK development",
+      "AI tooling",
+      "LLM integrations"
+    ],
+    "apply": "https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+    "apply_url": "https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+    "why_fit": "Building open-source SDKs for AI evaluation infrastructure leverages your deep Python expertise and LLM framework knowledge. Braintrust is an AI-core developer tools company with top-tier VC backing. Open source involvement is a nice-to-have from your criteria. Trade-off: Less agentic AI focus than your ideal role.",
+    "summary": "AI evaluation and observability platform. Backed by a16z and Tiger Global, Series B. Helps teams ship reliable AI products.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T20:38:01.138943+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T20:38:01.138943+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T20:38:01.138943+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203035_11_braintrust",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203035_11_braintrust/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T20:33:29.166189+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_202554_11_braintrust",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_202554_11_braintrust/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T20:28:13.511940+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

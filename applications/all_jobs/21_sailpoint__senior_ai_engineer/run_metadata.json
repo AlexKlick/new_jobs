@@ -1,0 +1,95 @@
+{
+  "run_id": "20260325_170237_21_sailpoint",
+  "created_at": "2026-03-25T17:08:10.820054+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "minimax",
+  "provider_used": "minimax",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 21,
+    "heading": "SailPoint — Senior AI Engineer",
+    "company": "SailPoint",
+    "role": "Senior AI Engineer",
+    "salary": "$119,000–$201,000",
+    "remote": "Remote or Hybrid (United States)",
+    "experience": "Senior level",
+    "key_skills": [
+      "Python",
+      "AWS",
+      "Bedrock",
+      "Sagemaker",
+      "Airflow",
+      "Kafka",
+      "Generative AI",
+      "autonomous systems"
+    ],
+    "apply": "https://builtin.com/job/senior-ai-engineer/8680298",
+    "apply_url": "https://builtin.com/job/senior-ai-engineer/8680298",
+    "why_fit": "SailPoint is building AI-powered autonomous identity security systems, aligning with your agentic AI expertise. Cybersecurity is one of your target industries. Trade-off: Larger company and the salary floor ($119k) suggests the range is broad — you'd need to negotiate toward the upper half.",
+    "summary": "Identity security platform. Publicly traded (NASDAQ: SAIL), ~2,000 employees.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "reason": "No fact evidence for AWS, Bedrock, Sagemaker, Airflow, or Kafka in fact set",
+      "statement": "Claims direct experience with AWS, Bedrock, Sagemaker, Airflow, or Kafka"
+    },
+    {
+      "reason": "Not in fact set - would be fabricating",
+      "statement": "Claims Kubernetes experience"
+    },
+    {
+      "reason": "Not in fact set",
+      "statement": "Claims Apache Spark experience"
+    },
+    {
+      "reason": "Not in fact set",
+      "statement": "Claims MLOps or ML pipeline automation experience"
+    }
+  ],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "quality_issues_detected: 1"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/resume.export.md",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/rubric_scores.json"
+  }
+}

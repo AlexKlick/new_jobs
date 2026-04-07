@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-03-26T04:53:03.406015+00:00",
+  "canonical_index": 23,
+  "identity_key": "url:https://www.workatastartup.com/jobs/64767",
+  "job": {
+    "index": 23,
+    "heading": "Glass Health \u2014 Founding AI/Data Engineer",
+    "company": "Glass Health",
+    "role": "Founding AI/Data Engineer",
+    "salary": "$150,000\u2013$200,000 [est.] + founding equity",
+    "remote": "Fully remote",
+    "experience": "5+ years engineering",
+    "key_skills": [
+      "Python",
+      "TypeScript/React",
+      "AI/LLM technology",
+      "production systems",
+      "generative AI features"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/64767",
+    "apply_url": "https://www.workatastartup.com/jobs/64767",
+    "why_fit": "Healthcare AI startup that's a perfect domain fit \u2014 building clinical decision support with LLMs for physicians. YC-backed with Kaiser Permanente as an investor signals healthcare credibility. Trade-off: Lists 5+ years experience (you have 4), and very early stage means compensation may lean toward equity.",
+    "summary": "AI-powered clinical decision support for physicians. ~10\u201320 employees, YC W23, backed by Initialized and Kaiser Permanente. Planning Series A.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T23:21:14.546502+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T23:21:14.546502+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T23:21:14.546502+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_171147_23_glass-health",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_171147_23_glass-health/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:16:39.168037+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

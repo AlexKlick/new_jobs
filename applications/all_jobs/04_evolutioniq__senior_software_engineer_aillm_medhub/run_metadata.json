@@ -1,0 +1,83 @@
+{
+  "run_id": "20260324_195910_04_evolutioniq",
+  "created_at": "2026-03-24T20:16:40.673657+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": "zai",
+  "fallback_used": false,
+  "job": {
+    "index": 4,
+    "heading": "EvolutionIQ — Senior Software Engineer, AI/LLM (Medhub)",
+    "company": "EvolutionIQ",
+    "role": "Senior Software Engineer, AI/LLM (Medhub)",
+    "salary": "$185,000–$235,000 base + annual bonus + RSUs",
+    "remote": "NYC or Remote",
+    "experience": "3+ years Python, 1+ year LLM product deployment",
+    "key_skills": [
+      "Python",
+      "LLMs",
+      "RAG",
+      "embeddings-based retrieval",
+      "prompt engineering",
+      "fine-tuning",
+      "API services/microservices",
+      "evaluating LLM outputs"
+    ],
+    "apply": "https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+    "apply_url": "https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+    "why_fit": "The Medhub product synthesizes complex medical documents — directly leveraging your experience building claim validation pipelines and compliance-checking systems for pharmaceutical companies. Your RAG systems expertise and production LLM deployment experience are core requirements. The $185k–$235k range puts this among the highest-paying roles in the search.",
+    "summary": "AI guidance platform for insurance claims, specializing in complex medical document processing. Named Inc. Best Workplaces three years running. Fast-growing enterprise AI.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 5.0,
+    "gap_handling": 4.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 4.5,
+    "company_specificity": 4.5,
+    "differentiation": 4.5,
+    "gap_handling": 4.5
+  },
+  "rejected_claims": [],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "quality_issues_detected: 1",
+    "External evaluation: NEEDS_REVISION. See /home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/external_evaluation.json.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/pdf_quality_audit.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/rubric_scores.json"
+  }
+}

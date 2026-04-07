@@ -1,0 +1,97 @@
+{
+  "run_id": "20260324_201320_06_zeta-global",
+  "created_at": "2026-03-24T20:29:34.636362+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": "zai",
+  "fallback_used": false,
+  "job": {
+    "index": 6,
+    "heading": "Zeta Global — Lead AI Engineer",
+    "company": "Zeta Global",
+    "role": "Lead AI Engineer",
+    "salary": "$200,000–$215,000",
+    "remote": "Remote or Hybrid (United States)",
+    "experience": "Senior level",
+    "key_skills": [
+      "Python",
+      "PyTorch",
+      "AWS Bedrock",
+      "OpenAI API",
+      "RAG",
+      "agentic LLM systems",
+      "tool use",
+      "multi-step reasoning",
+      "workflow orchestration"
+    ],
+    "apply": "https://builtin.com/job/lead-ai-engineer/8577284",
+    "apply_url": "https://builtin.com/job/lead-ai-engineer/8577284",
+    "why_fit": "This role involves deploying agentic LLM systems with RAG, tool-calling, and multi-step reasoning — all direct matches for your production experience. The confirmed $200k–$215k salary nearly doubles your current compensation. The \"Lead\" title and public company stability offer both career progression and compensation certainty.",
+    "summary": "AI-powered marketing platform. Publicly traded (NYSE: ZETA), ~2,000 employees.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with AWS Bedrock",
+      "reason": "No evidence in fact set; explicitly identified as skill gap—now proactively acknowledged in cover letter with transferable skills noted"
+    },
+    {
+      "statement": "Direct multi-step reasoning system design at enterprise marketing depth",
+      "reason": "No explicit evidence; proactively acknowledged as gap with genuine interest to extend experience"
+    },
+    {
+      "statement": "Previous marketing technology experience",
+      "reason": "No evidence in fact set; reframed transferable skills from regulated precision environments to marketing ROI contexts"
+    }
+  ],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "quality_issues_detected: 1",
+    "External evaluation: NEEDS_REVISION. See /home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/external_evaluation.json.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/pdf_quality_audit.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/rubric_scores.json"
+  }
+}

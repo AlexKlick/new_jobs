@@ -1,0 +1,78 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3.5,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 3.5,
+    "company_specificity": 2.5,
+    "differentiation": 3,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Strong technical specificity with named technologies (pgvector, sentence-transformers, FastMCP)",
+    "Clear progression from Consultant to Senior Consultant at Credera",
+    "Fortune-200 biopharma regulatory work is genuinely relevant to legal document workflows",
+    "Honest gap acknowledgment: explicitly notes lack of legal/contract experience",
+    "Resume has clean formatting with measurable outcomes (300+ users, tens of thousands of documents)",
+    "Cover letter opening tells a specific, credible story rather than generic fluff"
+  ],
+  "weaknesses": [
+    "Cover letter uses section headings (## Opening, ## Role Alignment, etc.) which breaks professional cover letter convention",
+    "No evidence of company-specific research about Eudia\u2014could swap in any legal AI company name",
+    "Some template phrases: 'maps directly to', 'resonates for exactly this reason', 'I'd value the opportunity to discuss'",
+    "Missing performance metrics: no accuracy rates, latency improvements, or business impact quantification",
+    "No mention of what Eudia actually does or any specific products/mission details"
+  ],
+  "revision_suggestions": [
+    "CRITICAL: Remove all section headings from cover letter. Convert to flowing prose paragraphs with natural transitions between ideas.",
+    "Research Eudia specifically: mention their actual products, recent news, or mission statement. Demonstrate you've done homework beyond knowing they're 'legal AI.'",
+    "Add 1-2 performance metrics to resume bullets: retrieval accuracy, latency reduction, user satisfaction scores, or time saved.",
+    "Replace formulaic phrases with specific observations: instead of 'maps directly to,' explain the actual technical parallel.",
+    "Consider adding a brief line about why legal AI specifically interests you\u2014not just that you're qualified for it."
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Cover letter has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing - these break flowing prose convention and look like markdown pasted directly"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "First paragraph tells specific story about biopharma RAG pipeline with concrete details - not generic"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Eudia and Applied AI Engineer mentioned naturally throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges: 'my production experience has centered on enterprise search and regulatory document processing rather than contract analysis or legal research workflows'"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Some formulaic phrases present: 'maps directly to', 'resonates for exactly this reason', 'I'd value the opportunity to discuss'"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all present"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Some bullets have numbers (300+ users, tens of thousands of documents) but others lack outcomes (reranker selection, RTF processing)"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Resume formatting is clean and consistent"
+    }
+  ]
+}

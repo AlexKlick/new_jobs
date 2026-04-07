@@ -1,0 +1,78 @@
+{
+  "run_id": "20260324_201640_32_eudia",
+  "created_at": "2026-03-24T20:28:27.362496+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": "zai",
+  "fallback_used": false,
+  "job": {
+    "index": 32,
+    "heading": "Eudia — Applied AI Engineer",
+    "company": "Eudia",
+    "role": "Applied AI Engineer",
+    "salary": "$210,000–$230,000",
+    "remote": "Likely NYC-based, not explicitly remote",
+    "experience": "Not specified — verify during application",
+    "key_skills": [
+      "Applied AI",
+      "LLMs",
+      "legal document workflows"
+    ],
+    "apply": "https://wellfound.com/role/l/artificial-intelligence-engineer/united-states (search for Eudia)",
+    "apply_url": "https://wellfound.com/role/l/artificial-intelligence-engineer/united-states",
+    "why_fit": "Excellent salary ($210k–$230k) for applied AI work in complex document workflows — paralleling your pharma compliance document work. Constraint: Likely NYC-based, not explicitly remote.",
+    "summary": "AI-powered legal intelligence platform. 51–200 employees.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "quality_issues_detected: 1",
+    "External evaluation: NEEDS_REVISION. See /home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/external_evaluation.json.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/pdf_quality_audit.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/rubric_scores.json"
+  }
+}

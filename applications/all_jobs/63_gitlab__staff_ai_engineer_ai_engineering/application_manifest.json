@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-03-26T04:53:03.412820+00:00",
+  "canonical_index": 63,
+  "identity_key": "url:https://builtin.com/job/staff-ai-engineer-ai-engineering/7775912",
+  "job": {
+    "index": 63,
+    "heading": "GitLab \u2014 Staff AI Engineer, AI Engineering",
+    "company": "GitLab",
+    "role": "Staff AI Engineer, AI Engineering",
+    "salary": "~$170K\u2013$250K [est. from GitLab's transparent compensation calculator]",
+    "remote": "\ud83d\udfe2 Fully remote (US) \u2014 GitLab literally wrote the book on remote-first culture; Colorado is 100% fine",
+    "experience": "Senior/Staff level",
+    "key_skills": [
+      "AI",
+      "ML",
+      "Python",
+      "APIs",
+      "LLMs"
+    ],
+    "apply": "https://builtin.com/job/staff-ai-engineer-ai-engineering/7775912",
+    "apply_url": "https://builtin.com/job/staff-ai-engineer-ai-engineering/7775912",
+    "why_fit": "GitLab's remote-first culture is among the strongest in tech, and AI investment is accelerating. Less agentic-AI-specific than other roles, but the developer tools domain, strong remote culture, and transparent compensation are appealing.",
+    "summary": "Publicly traded DevSecOps platform (NASDAQ: GTLB). Famous remote-first culture with 1,500+ remote employees globally.",
+    "company_context": null
+  },
+  "status": "PARTIAL_RESUME",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T04:00:56.409396+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:00:56.409396+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/24_gitlab__staff_ai_engineer_ai_engineering",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/24_gitlab__staff_ai_engineer_ai_engineering/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:00:56.409396+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215955_24_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215955_24_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:00:56.409396+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

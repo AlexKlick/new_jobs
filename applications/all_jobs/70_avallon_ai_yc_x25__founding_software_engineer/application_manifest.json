@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-03-26T04:53:03.414094+00:00",
+  "canonical_index": 70,
+  "identity_key": "url:https://www.ycombinator.com/companies/avallon-ai/jobs/CH8oqKV-founding-software-engineer",
+  "job": {
+    "index": 70,
+    "heading": "Avallon AI (YC X25) \u2014 Founding Software Engineer",
+    "company": "Avallon AI (YC X25)",
+    "role": "Founding Software Engineer",
+    "salary": "Competitive + significant equity",
+    "remote": "\ud83d\udd34 In-person preferred (NYC Williamsburg) \u2014 would require relocating to New York; worth applying only if remote can be negotiated or if relocation is on the table",
+    "experience": "Strong practical experience (no minimum years)",
+    "key_skills": [
+      "TypeScript",
+      "Python",
+      "LangGraph",
+      "RAG pipelines",
+      "vector databases",
+      "voice AI",
+      "Supabase",
+      "NextJS",
+      "Docker",
+      "AWS"
+    ],
+    "apply": "https://www.ycombinator.com/companies/avallon-ai/jobs/CH8oqKV-founding-software-engineer",
+    "apply_url": "https://www.ycombinator.com/companies/avallon-ai/jobs/CH8oqKV-founding-software-engineer",
+    "why_fit": "Near-perfect technical alignment \u2014 LangGraph, RAG, agents, TypeScript, Docker are all core strengths. The insurance claims domain benefits from healthcare compliance experience.",
+    "summary": "AI agents for insurance claims operations. Raised $4.6M seed. Revenue 10x in 3 months during YC.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-26T04:11:05.549872+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-26T04:11:05.549872+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-26T04:11:05.549872+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/31_avallon_ai_yc_x25__founding_software_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/31_avallon_ai_yc_x25__founding_software_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:07:22.369725+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220624_31_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220624_31_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:07:22.369725+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

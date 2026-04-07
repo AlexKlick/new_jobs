@@ -1,0 +1,78 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 4,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4.5,
+    "company_specificity": 3.5,
+    "differentiation": 4,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Strong domain alignment: RAG systems, LLM evaluation, and model quality analysis directly relate to Patronus AI's mission",
+    "Excellent gap handling \u2014 explicitly acknowledges lack of adversarial testing/hallucination detection experience while framing it as growth motivation",
+    "Authentic narrative voice with specific opening story about reranker benchmarking \u2014 feels genuine, not AI-generated",
+    "Regulated biopharma experience demonstrates understanding of high-stakes AI deployment where accuracy matters",
+    "Good technical specificity with named technologies: pgvector, sentence-transformers, FastAPI, Pydantic",
+    "Clean resume formatting with clear progression from Consultant to Senior Consultant"
+  ],
+  "weaknesses": [
+    "CRITICAL: Cover letter has section headings (## Opening, ## Role Alignment, etc.) \u2014 should be flowing prose without headers",
+    "Company specificity is moderate \u2014 mentions Patronus AI's focus areas but lacks specific product/mission details that show deeper research",
+    "Some resume bullets lack outcome metrics \u2014 'scaled from ~100-user pilot to 300+ users' is good but missing impact measures like accuracy improvements or time savings",
+    "RTF/clinical data extraction bullet doesn't include scale or outcome",
+    "Could strengthen connection between biopharma regulatory rigor and Patronus AI's enterprise safety testing"
+  ],
+  "revision_suggestions": [
+    "Remove all ## section headings from cover letter \u2014 convert to flowing paragraphs with natural transitions between ideas",
+    "Research Patronus AI products (like Lynx, their evaluation benchmarks) and reference 1-2 specifically to demonstrate genuine interest",
+    "Add outcome metrics to 2-3 resume bullets: e.g., 'improved retrieval accuracy by X%' or 'reduced false positives by Y%' or 'processing time dropped from X to Y'",
+    "Strengthen the connection between biopharma regulatory requirements and Patronus AI's enterprise safety testing \u2014 make the bridge more explicit",
+    "Consider adding a brief mention of any open-source contributions, side projects, or writing about AI evaluation to show passion beyond paid work"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Cover letter has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing \u2014 must be removed for flowing prose"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific reranker benchmarking story \u2014 grabs attention with real experience"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Patronus AI and Member of Technical Staff mentioned organically throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges lack of adversarial testing and hallucination detection experience"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Language feels specific and genuine \u2014 biopharma regulatory angle is distinctive"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all included in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has some metrics (300+ users, tens of thousands of documents) but missing outcome measures like accuracy improvements"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "No orphaned headers or broken formatting in resume"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "claim": "React experience",
+      "reason": "Job requires React but fact set contains only TypeScript/JavaScript without explicit React framework experience"
+    },
+    {
+      "claim": "Voice AI experience",
+      "reason": "Job lists Voice AI as key skill but no facts support voice/speech AI work"
+    },
+    {
+      "claim": "GCP (Google Cloud Platform) experience",
+      "reason": "Job lists GCP but facts do not specify cloud platform used"
+    },
+    {
+      "claim": "Supabase experience",
+      "reason": "Job lists Supabase but facts only mention pgvector, Chroma without Supabase-specific experience"
+    },
+    {
+      "claim": "Full-stack frontend development",
+      "reason": "Job title is Senior Fullstack Engineer but facts emphasize backend/AI work; only TypeScript/JavaScript listed without frontend framework specifics"
+    }
+  ]
+}

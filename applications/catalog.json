@@ -1,0 +1,2878 @@
+{
+  "generated_at": "2026-03-26T04:53:03.414915+00:00",
+  "primary_workspace": "/home/alexk/documents/new_job_denjobs",
+  "applications": [
+    {
+      "canonical_index": 1,
+      "identity_key": "url:https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T16:30:22.833634+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T16:30:22.833634+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_155726_01_pair-team",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_155726_01_pair-team/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T16:07:45.416874+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_154439_01_pair-team",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_154439_01_pair-team/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T15:53:43.904439+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_152619_01_pair-team",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_152619_01_pair-team/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T15:36:13.749441+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_044343_01_pair-team",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_044343_01_pair-team/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T04:53:58.999996+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 2,
+      "identity_key": "url:https://job-boards.greenhouse.io/komodohealth/jobs/8447511002",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/02_komodo_health__applied_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test",
+      "selected_metadata_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-26T01:52:24.120127+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260326_012534_01_mock-style-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_012534_01_mock-style-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-26T01:25:40.820222+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/02_komodo_health__applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/02_komodo_health__applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T20:06:36.528859+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_02_komodo-health",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_02_komodo-health/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T20:06:36.528859+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/01_komodo_health__applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/01_komodo_health__applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T02:37:08.114179+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_203348_01_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_203348_01_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T02:37:08.114179+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260319_231254_01_mock-style-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260319_231254_01_mock-style-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-19T23:12:58.843259+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_021918_01_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_021918_01_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T08:22:08.332698+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260326_015224_01_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_015224_01_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-26T01:52:24.304015+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260326_012540_01_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_012540_01_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-26T01:25:41.056425+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260319_231259_01_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260319_231259_01_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-19T23:12:59.874497+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223759_01_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223759_01_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-13T22:38:00.343063+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223759_01_mock-style-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223759_01_mock-style-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-13T22:37:59.690943+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223515_01_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223515_01_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-13T22:35:16.114874+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223514_01_mock-style-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223514_01_mock-style-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-13T22:35:15.463358+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 3,
+      "identity_key": "url:https://posthog.com/careers/ai-product-engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/03_posthog__ai_product_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T20:14:11.482083+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_03_posthog",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_03_posthog/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T20:14:11.482083+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 4,
+      "identity_key": "url:https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/04_evolutioniq__senior_software_engineer_aillm_medhub/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T20:16:40.673657+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_04_evolutioniq/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T20:16:40.673657+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 5,
+      "identity_key": "url:https://job-boards.greenhouse.io/remesh/jobs/8450776002",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T21:20:46.530922+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211418_05_remesh",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211418_05_remesh/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T21:20:46.530922+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_175205_05_remesh",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_175205_05_remesh/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:54:56.535967+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 6,
+      "identity_key": "url:https://builtin.com/job/lead-ai-engineer/8577284",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/06_zeta_global__lead_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T20:29:34.636362+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201320_06_zeta-global/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T20:29:34.636362+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 7,
+      "identity_key": "url:https://himalayas.app/companies/apexanalytix/jobs/ai-engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/07_apexanalytix__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/07_apexanalytix__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/07_apexanalytix__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/07_apexanalytix__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/07_apexanalytix__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T21:11:56.035980+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T21:11:56.035980+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_204011_07_apexanalytix",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_204011_07_apexanalytix/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T20:43:56.802388+00:00",
+          "status": "PARTIAL_CL",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_175456_07_apexanalytix",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_175456_07_apexanalytix/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:59:05.294682+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 8,
+      "identity_key": "url:https://jobs.lever.co/BlackCloak/f4c238c6-0de3-4483-911b-25b54bd7a3d4",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T22:55:08.625368+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T22:55:08.625368+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 9,
+      "identity_key": "url:https://job-boards.greenhouse.io/coherehealth",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/09_cohere_health__sr_software_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T21:19:40.797016+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T21:19:40.797016+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_074530_09_cohere-health",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_074530_09_cohere-health/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T08:07:50.759508+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 10,
+      "identity_key": "url:https://wellfound.com/role/r/ai-engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T03:48:33.360897+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_033659_10_pocket",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_033659_10_pocket/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T03:48:33.360897+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_200952_10_pocket",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_200952_10_pocket/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T20:14:21.003958+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 11,
+      "identity_key": "url:https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/11_braintrust__open_source_engineer_python/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T20:38:01.138943+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203430_11_braintrust/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T20:38:01.138943+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203035_11_braintrust",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_203035_11_braintrust/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T20:33:29.166189+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_202554_11_braintrust",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_202554_11_braintrust/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T20:28:13.511940+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 12,
+      "identity_key": "url:https://builtin.com/job/staff-software-engineer-applied-ai/7238249",
+      "status": "PARTIAL_RESUME",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/12_webflow__staff_software_engineer_applied_ai",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/12_webflow__staff_software_engineer_applied_ai",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/12_webflow__staff_software_engineer_applied_ai/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/12_webflow__staff_software_engineer_applied_ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/12_webflow__staff_software_engineer_applied_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T20:20:43.535713+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_201749_12_webflow",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_201749_12_webflow/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T20:20:43.535713+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 13,
+      "identity_key": "url:https://builtin.com/job/ai-engineer-gen-ai-swe-weights-biases/8643571",
+      "status": "MARKDOWN",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/13_coreweave_weights_biases__ai_engineer_gen_aiswe/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T16:39:14.883088+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_163252_13_coreweave-weights-biases",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_163252_13_coreweave-weights-biases/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T16:39:14.883088+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 14,
+      "identity_key": "url:https://job-boards.greenhouse.io/komodohealth/jobs/8223246002",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/14_komodo_health__senior_applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T23:09:48.534217+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T23:09:48.534217+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_163914_14_komodo-health",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_163914_14_komodo-health/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T16:43:41.341867+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 15,
+      "identity_key": "url:https://www.remoterocketship.com/us/company/fastino-labs-ai/jobs/ai-engineer-united-states-remote",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T19:46:50.490951+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_193955_15_fastino-labs",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_193955_15_fastino-labs/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T19:46:50.490951+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 16,
+      "identity_key": "url:https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/16_valence__applied_ai_engineer_founding/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T21:51:32.364687+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T21:51:32.364687+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_164341_16_valence",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_164341_16_valence/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T16:47:27.724947+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 17,
+      "identity_key": "url:https://jobs.lever.co/panopto/4c4fe959-597b-493f-bc08-a3a268153a32",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/17_panopto__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/17_panopto__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/17_panopto__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/17_panopto__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/17_panopto__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T21:45:49.237718+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T21:45:49.237718+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 18,
+      "identity_key": "url:https://www.remoterocketship.com/us/company/m3/jobs/ai-engineer-united-states-remote",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/18_m3_usa__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T21:50:59.097337+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214259_18_m3-usa",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214259_18_m3-usa/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T21:50:59.097337+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 19,
+      "identity_key": "url:https://jobs.lever.co/veeva/5de877f7-1b5e-4626-a3cf-366a2ff73600",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/19_veeva_systems__python_engineer_veeva_link",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/19_veeva_systems__python_engineer_veeva_link",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/19_veeva_systems__python_engineer_veeva_link/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/19_veeva_systems__python_engineer_veeva_link",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/19_veeva_systems__python_engineer_veeva_link/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T04:44:26.283908+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T04:44:26.283908+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 20,
+      "identity_key": "url:https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T04:22:05.301145+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T04:22:05.301145+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_165648_20_vantor",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_165648_20_vantor/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:02:37.231842+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 21,
+      "identity_key": "url:https://builtin.com/job/senior-ai-engineer/8680298",
+      "status": "MARKDOWN",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/21_sailpoint__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T17:08:10.820054+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170237_21_sailpoint/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:08:10.820054+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 22,
+      "identity_key": "url:https://builtin.com/job/senior-ai-engineer/8285831",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T23:23:30.842864+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231546_22_cdw",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231546_22_cdw/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T23:23:30.842864+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170810_22_cdw",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170810_22_cdw/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:11:47.347016+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 23,
+      "identity_key": "url:https://www.workatastartup.com/jobs/64767",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/23_glass_health__founding_aidata_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T23:21:14.546502+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T23:21:14.546502+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_171147_23_glass-health",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_171147_23_glass-health/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:16:39.168037+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 24,
+      "identity_key": "url:https://aijobs.ai/job/applied-ai-engineer-61",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T23:28:25.796959+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_232223_24_splitero",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_232223_24_splitero/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T23:28:25.796959+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_171639_24_splitero",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_171639_24_splitero/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:19:12.632954+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 25,
+      "identity_key": "url:https://www.workatastartup.com/jobs/72021",
+      "status": "MISSING",
+      "application_dir": null,
+      "selected_source_dir": null,
+      "selected_metadata_path": null,
+      "selected_workspace": null,
+      "candidates_considered": []
+    },
+    {
+      "canonical_index": 26,
+      "identity_key": "url:https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/26_tempus_ai__senior_scientist_ii_applied_ml_and_agentic_ai_pharma_rd/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T04:21:56.458058+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041106_26_tempus-ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041106_26_tempus-ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T04:21:56.458058+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_172142_26_tempus-ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_172142_26_tempus-ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:25:29.505377+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 27,
+      "identity_key": "url:https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/27_perplexity_ai__software_engineer_ai_platform/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T04:44:15.121981+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T04:44:15.121981+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 28,
+      "identity_key": "url:https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T04:53:03.126909+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_044535_28_cohere",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_044535_28_cohere/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T04:53:03.126909+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 29,
+      "identity_key": "url:https://jobs.ashbyhq.com/evenup/edb85996-2c40-4fe3-b7c4-ef20566bcd4f",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/29_evenup__machine_learning_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/29_evenup__machine_learning_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/29_evenup__machine_learning_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/29_evenup__machine_learning_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/29_evenup__machine_learning_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T04:33:11.455762+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T04:33:11.455762+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_172905_29_evenup",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_172905_29_evenup/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:32:28.010322+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 30,
+      "identity_key": "name:marker learning::lead full-stack engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/30_marker_learning__lead_full-stack_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T04:34:45.210716+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042508_30_marker-learning/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T04:34:45.210716+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_173228_30_marker-learning",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_173228_30_marker-learning/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:38:05.793056+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 31,
+      "identity_key": "url:https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/31_ramp__applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T23:51:01.748851+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T23:51:01.748851+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_173805_31_ramp",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_173805_31_ramp/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:41:54.292450+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 32,
+      "identity_key": "url:https://wellfound.com/role/l/artificial-intelligence-engineer/united-states",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/32_eudia__applied_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/32_eudia__applied_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/32_eudia__applied_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/32_eudia__applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/32_eudia__applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T20:28:27.362496+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_201640_32_eudia/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T20:28:27.362496+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 33,
+      "identity_key": "url:https://www.workatastartup.com/jobs/73140",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/33_kastle__founding_applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T18:49:50.074132+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_184233_33_kastle",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_184233_33_kastle/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T18:49:50.074132+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 34,
+      "identity_key": "url:https://www.workatastartup.com/jobs/77473",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T20:38:05.542287+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_202658_34_furtherai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_202658_34_furtherai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T20:38:05.542287+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 35,
+      "identity_key": "url:https://careers.lindy.ai/ai-implementation-engineer",
+      "status": "MARKDOWN",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-25T17:44:20.739835+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_174154_35_lindy-ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_174154_35_lindy-ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-25T17:44:20.739835+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 36,
+      "identity_key": "url:https://ats.rippling.com/patronus-ai-jobs/jobs/334f09fc-61c5-4d1f-86b3-ee30d7e895a7",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/36_patronus_ai__member_of_technical_staff/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T19:49:15.010532+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_193955_36_patronus-ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_193955_36_patronus-ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T19:49:15.010532+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 37,
+      "identity_key": "url:https://www.braintrust.dev/careers?ashby_jid=1a8c2f24-97fe-4504-a30c-1cfe7f03278b",
+      "status": "MISSING",
+      "application_dir": null,
+      "selected_source_dir": null,
+      "selected_metadata_path": null,
+      "selected_workspace": null,
+      "candidates_considered": []
+    },
+    {
+      "canonical_index": 38,
+      "identity_key": "url:https://job-boards.greenhouse.io/capitalrx/jobs/5142980008",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T20:53:38.304829+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_203658_38_judi-health-formerly-capital-rx",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_203658_38_judi-health-formerly-capital-rx/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T20:53:38.304829+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 39,
+      "identity_key": "url:https://job-boards.greenhouse.io/leagueinc/jobs/5812776004",
+      "status": "MISSING",
+      "application_dir": null,
+      "selected_source_dir": null,
+      "selected_metadata_path": null,
+      "selected_workspace": null,
+      "candidates_considered": []
+    },
+    {
+      "canonical_index": 40,
+      "identity_key": "url:https://jobs.ashbyhq.com/airwallex/1d4b22cd-33cd-44b8-83fe-108d11907f2f",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/40_airwallex__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-24T20:50:32.906388+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-24T20:50:32.906388+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 41,
+      "identity_key": "url:https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL/jobs/10789",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T02:40:40.388675+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/02_signant_health__ai_platform_engineer_llm_agents_rag",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/02_signant_health__ai_platform_engineer_llm_agents_rag/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T02:40:40.388675+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_203708_02_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_203708_02_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T02:40:40.388675+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_151250_02_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_151250_02_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T21:15:24.511211+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260326_015224_02_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_015224_02_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-26T01:52:24.427629+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260326_012541_02_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_012541_02_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-26T01:25:41.323550+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260319_231300_02_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260319_231300_02_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-19T23:13:00.711919+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223800_02_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223800_02_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-13T22:38:01.037256+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223516_02_mock-batch-test",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223516_02_mock-batch-test/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-13T22:35:16.783404+00:00",
+          "status": "MARKDOWN",
+          "completeness_rank": 2
+        }
+      ]
+    },
+    {
+      "canonical_index": 42,
+      "identity_key": "url:https://job-boards.greenhouse.io/webflow/jobs/6929034",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T02:43:57.115888+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/03_webflow__staff_software_engineer_ai_developer_productivity",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/03_webflow__staff_software_engineer_ai_developer_productivity/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T02:43:57.115888+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T02:43:57.115888+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_151524_03_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_151524_03_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T21:20:46.396909+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 43,
+      "identity_key": "url:https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T02:47:14.229965+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/04_apolloio__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/04_apolloio__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T02:47:14.229965+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T02:47:14.229965+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_152046_04_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_152046_04_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T21:23:45.813594+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_150933_04_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_150933_04_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T21:12:33.887709+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 44,
+      "identity_key": "url:https://jobs.ashbyhq.com/neon-health/892d93e5-20f9-4633-8e5e-a34e9af716f4",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:14:21.286823+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/05_neon_health_yc__founding_backend_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/05_neon_health_yc__founding_backend_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:14:21.286823+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_211111_05_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_211111_05_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:14:21.286823+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_205253_05_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_205253_05_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T02:56:41.542715+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_204714_05_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_204714_05_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T02:51:12.374041+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_152345_05_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_152345_05_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T21:27:14.053789+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 45,
+      "identity_key": "url:https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/45_fabric_health__senior_software_engineer_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:16:59.420258+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/06_fabric_health__senior_software_engineer_ai",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/06_fabric_health__senior_software_engineer_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:16:59.420258+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:16:59.420258+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_022208_06_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_022208_06_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T08:25:55.307500+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 46,
+      "identity_key": "url:https://www.workatastartup.com/jobs/61911",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/46_rejoy_health_yc_w21__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:19:29.541530+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/07_rejoy_health_yc_w21__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/07_rejoy_health_yc_w21__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:19:29.541530+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_211659_07_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_211659_07_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:19:29.541530+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_152714_07_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_152714_07_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T21:30:37.250419+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 47,
+      "identity_key": "url:https://wellfound.com/company/gentoro/jobs",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/47_gentoro__senior_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/47_gentoro__senior_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/47_gentoro__senior_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/47_gentoro__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/47_gentoro__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:23:54.239361+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/08_gentoro__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/08_gentoro__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:23:54.239361+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_211929_08_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_211929_08_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:23:54.239361+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_153037_08_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_153037_08_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T21:34:30.814848+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 48,
+      "identity_key": "url:https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:26:02.442983+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/09_harvey_ai__senior_applied_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/09_harvey_ai__senior_applied_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:26:02.442983+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:26:02.442983+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_022555_09_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_022555_09_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T08:29:21.329743+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 49,
+      "identity_key": "url:https://www.ycombinator.com/companies/careforce-prev-helpcare-ai/jobs/Hjx9nA3-senior-fullstack-engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/49_careforce_ai_yc_f24__senior_fullstack_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/49_careforce_ai_yc_f24__senior_fullstack_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/49_careforce_ai_yc_f24__senior_fullstack_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/49_careforce_ai_yc_f24__senior_fullstack_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/49_careforce_ai_yc_f24__senior_fullstack_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:29:15.128572+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/10_careforce_ai_yc_f24__senior_fullstack_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/10_careforce_ai_yc_f24__senior_fullstack_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:29:15.128572+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_212602_10_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:29:15.128572+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260312_021315_10_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_021315_10_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-12T08:17:18.138118+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 50,
+      "identity_key": "url:https://jobs.ashbyhq.com/rula/2a27a5c4-02e8-4d71-b8d2-0f239d91a257",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/50_rula__staff_ai_engineer_ai_foundation",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/50_rula__staff_ai_engineer_ai_foundation",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/50_rula__staff_ai_engineer_ai_foundation/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/50_rula__staff_ai_engineer_ai_foundation",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/50_rula__staff_ai_engineer_ai_foundation/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:32:36.440191+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/11_rula__staff_ai_engineer_ai_foundation",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/11_rula__staff_ai_engineer_ai_foundation/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:32:36.440191+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:32:36.440191+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 51,
+      "identity_key": "url:https://builtin.com/job/principal-ai-engineer/6910705",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:35:38.689469+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/12_apolloio__principal_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/12_apolloio__principal_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:35:38.689469+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_213236_12_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_213236_12_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:35:38.689469+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 52,
+      "identity_key": "url:https://www.remoterocketship.com/company/webflow/jobs/lead-ai-engineer-united-states-remote",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/52_webflow__lead_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:38:51.771577+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/13_webflow__lead_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/13_webflow__lead_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:38:51.771577+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_213538_13_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_213538_13_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:38:51.771577+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 53,
+      "identity_key": "url:https://recruiting.paylocity.com/recruiting/jobs/Details/3702179/YCHARTS-INC/Software-Engineer-II---Applied-AI",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/53_ycharts__software_engineer_ii_applied_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:41:12.586721+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/14_ycharts__software_engineer_ii_applied_ai",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/14_ycharts__software_engineer_ii_applied_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:41:12.586721+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_213851_14_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_213851_14_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:41:12.586721+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 54,
+      "identity_key": "name:cohere health::staff machine learning engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/54_cohere_health__staff_machine_learning_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:43:24.847484+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/15_cohere_health__staff_machine_learning_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/15_cohere_health__staff_machine_learning_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:43:24.847484+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_214112_15_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:43:24.847484+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 55,
+      "identity_key": "name:pocket::founding ai engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:45:40.665832+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/16_pocket__founding_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/16_pocket__founding_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:45:40.665832+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_214324_16_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_214324_16_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:45:40.665832+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 56,
+      "identity_key": "name:deepgram::software engineer, voice agents / ai",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/56_deepgram__software_engineer_voice_agents_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:48:52.329812+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/17_deepgram__software_engineer_voice_agents_ai",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/17_deepgram__software_engineer_voice_agents_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:48:52.329812+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_214540_17_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_214540_17_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:48:52.329812+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 57,
+      "identity_key": "name:zapier::senior engineer, backend \u2013 mcp",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/57_zapier__senior_engineer_backend_mcp/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:52:36.400218+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/18_zapier__senior_engineer_backend_\u2013_mcp",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/18_zapier__senior_engineer_backend_\u2013_mcp/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:52:36.400218+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:52:36.400218+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 58,
+      "identity_key": "url:https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/58_sailpoint__senior_data_engineer_aillm_applications/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:54:51.412240+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/19_sailpoint__senior_data_engineer_ai_llm_applications",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/19_sailpoint__senior_data_engineer_ai_llm_applications/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:54:51.412240+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215236_19_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:54:51.412240+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 59,
+      "identity_key": "url:https://www.workatastartup.com/jobs/79665",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/59_elayne_yc_accel__founding_senior_engineer_aiml/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:57:28.274692+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/20_elayne_yc_+_accel__founding_senior_engineer_ai_ml",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/20_elayne_yc_+_accel__founding_senior_engineer_ai_ml/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:57:28.274692+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215451_20_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:57:28.274692+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 60,
+      "identity_key": "url:https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/60_anthropic__software_engineer_model_context_protocol/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:58:19.425389+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/21_anthropic__software_engineer_model_context_protocol",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/21_anthropic__software_engineer_model_context_protocol/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:58:19.425389+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215734_21_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:58:19.425389+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 61,
+      "identity_key": "url:https://www.ycombinator.com/companies/aden/jobs/JknjXNi-ai-engineering-lead",
+      "status": "PARTIAL_RESUME",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:59:09.453130+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/22_aden_yc__ai_engineering_lead",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/22_aden_yc__ai_engineering_lead/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:59:09.453130+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215819_22_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215819_22_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:59:09.453130+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 62,
+      "identity_key": "url:https://coder.com/careers",
+      "status": "PARTIAL_RESUME",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/62_coder__software_engineer_agentic_ai",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/62_coder__software_engineer_agentic_ai",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/62_coder__software_engineer_agentic_ai/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/62_coder__software_engineer_agentic_ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/62_coder__software_engineer_agentic_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:59:55.584020+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/23_coder__software_engineer_agentic_ai",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/23_coder__software_engineer_agentic_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T03:59:55.584020+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215909_23_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215909_23_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T03:59:55.584020+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 63,
+      "identity_key": "url:https://builtin.com/job/staff-ai-engineer-ai-engineering/7775912",
+      "status": "PARTIAL_RESUME",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/63_gitlab__staff_ai_engineer_ai_engineering/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:00:56.409396+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/24_gitlab__staff_ai_engineer_ai_engineering",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/24_gitlab__staff_ai_engineer_ai_engineering/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:00:56.409396+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215955_24_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215955_24_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:00:56.409396+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 64,
+      "identity_key": "name:ethos::senior ai engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/64_ethos__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:01:42.560588+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/25_ethos__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/25_ethos__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:01:42.560588+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220056_25_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220056_25_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:01:42.560588+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 65,
+      "identity_key": "url:https://careers.acentra.com/jobs/4983?lang=en-us",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/65_acentra_health__ai_engineer_specialist",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/65_acentra_health__ai_engineer_specialist",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/65_acentra_health__ai_engineer_specialist/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/65_acentra_health__ai_engineer_specialist",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/65_acentra_health__ai_engineer_specialist/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:02:44.355403+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/26_acentra_health__ai_engineer_specialist",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/26_acentra_health__ai_engineer_specialist/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:02:44.355403+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220142_26_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220142_26_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:02:44.355403+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 66,
+      "identity_key": "url:https://builtin.com/job/ai-engineer/4133741",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/66_ensemble_health_partners__ai_engineer_lead/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:03:47.013569+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/27_ensemble_health_partners__ai_engineer_lead",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/27_ensemble_health_partners__ai_engineer_lead/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:03:47.013569+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220244_27_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220244_27_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:03:47.013569+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 67,
+      "identity_key": "url:https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/67_sailpoint__principal_engineer_agentic_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:04:48.709286+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/28_sailpoint__principal_engineer_agentic_ai",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/28_sailpoint__principal_engineer_agentic_ai/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:04:48.709286+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220347_28_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:04:48.709286+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 68,
+      "identity_key": "url:https://www.workatastartup.com/jobs/77202",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:05:40.357685+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/29_lighthouz_ai_yc_s24__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/29_lighthouz_ai_yc_s24__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:05:40.357685+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:05:40.357685+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 69,
+      "identity_key": "url:https://weaviate.io/company/careers",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/69_weaviate__engineering_roles/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T03:57:53.264549+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T03:57:53.264549+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/30_weaviate__engineering_roles",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/30_weaviate__engineering_roles/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:06:24.720161+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220540_30_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220540_30_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:06:24.720161+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 70,
+      "identity_key": "url:https://www.ycombinator.com/companies/avallon-ai/jobs/CH8oqKV-founding-software-engineer",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/70_avallon_ai_yc_x25__founding_software_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "application",
+          "created_at": "2026-03-26T04:11:05.549872+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job_denjobs",
+          "source_kind": "output",
+          "created_at": "2026-03-26T04:11:05.549872+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/31_avallon_ai_yc_x25__founding_software_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/31_avallon_ai_yc_x25__founding_software_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:07:22.369725+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220624_31_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220624_31_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:07:22.369725+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 71,
+      "identity_key": "url:https://careers.lindy.ai/",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/71_lindy_ai__software_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/71_lindy_ai__software_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/71_lindy_ai__software_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/71_lindy_ai__software_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/71_lindy_ai__software_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:07:59.691511+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/32_lindy_ai__software_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/32_lindy_ai__software_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:07:59.691511+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220722_32_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220722_32_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:07:59.691511+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    },
+    {
+      "canonical_index": 72,
+      "identity_key": "url:https://builtin.com/job/senior-ai-engineer/7125600",
+      "status": "PARTIAL_RESUME",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:08:46.894271+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/33_samsara__senior_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/33_samsara__senior_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:08:46.894271+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220759_33_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220759_33_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:08:46.894271+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 73,
+      "identity_key": "url:https://www.mindoula.com/careers",
+      "status": "PARTIAL_RESUME",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/73_mindoula_health__healthcare_ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/73_mindoula_health__healthcare_ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/73_mindoula_health__healthcare_ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/73_mindoula_health__healthcare_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/73_mindoula_health__healthcare_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:09:45.472964+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/34_mindoula_health__healthcare_ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/34_mindoula_health__healthcare_ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:09:45.472964+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:09:45.472964+00:00",
+          "status": "PARTIAL_RESUME",
+          "completeness_rank": 3
+        }
+      ]
+    },
+    {
+      "canonical_index": 74,
+      "identity_key": "url:https://builtin.com/company/cordial/jobs",
+      "status": "COMPLETE",
+      "application_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer",
+      "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer",
+      "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer/run_metadata.json",
+      "selected_workspace": "/home/alexk/documents/new_job",
+      "candidates_considered": [
+        {
+          "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:10:30.157645+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/35_cordial__ai_engineer",
+          "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/35_cordial__ai_engineer/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "application",
+          "created_at": "2026-03-10T04:10:30.157645+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        },
+        {
+          "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized",
+          "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/run_metadata.json",
+          "source_workspace": "/home/alexk/documents/new_job",
+          "source_kind": "output",
+          "created_at": "2026-03-10T04:10:30.157645+00:00",
+          "status": "COMPLETE",
+          "completeness_rank": 4
+        }
+      ]
+    }
+  ]
+}

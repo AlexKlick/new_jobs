@@ -1,0 +1,75 @@
+{
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose paragraphs, no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "'retrieval quality is a trust problem' is a compelling, original insight"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Braintrust appears twice organically, role mentioned at end"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "WARN",
+      "note": "Open-source SDK development experience not explicitly shown or acknowledged"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Sounds authentic, not generic - specific projects and insights"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email and phone in both resume and cover letter header"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Most have numbers but some vague ('Led quality analyses', 'Partnered with design')"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting throughout, no orphaned headers or broken lists"
+    }
+  ],
+  "revision_suggestions": [
+    "Add a line acknowledging the open-source SDK development aspect - could frame modular component work as 'internal SDK development' or mention any open-source contributions even if small",
+    "Strengthen a few resume bullets with more specific metrics where possible (e.g., exact % improvements in retrieval precision)",
+    "Consider adding 'open-source' or 'SDK' language somewhere in the cover letter to reinforce fit for this specific role"
+  ],
+  "scores": {
+    "ats_keyword_coverage": 5,
+    "clarity_conciseness": 4.5,
+    "company_specificity": 4.5,
+    "differentiation": 4,
+    "factual_grounding": 4,
+    "gap_handling": 3.5,
+    "metric_specificity": 3.5,
+    "narrative_voice": 4,
+    "role_alignment": 4
+  },
+  "strengths": [
+    "Excellent keyword coverage - Python, FastAPI, Pydantic, LangChain, Agents SDK, MCP, vector databases all present",
+    "Strong opening hook in cover letter - 'retrieval quality is a trust problem' is memorable and authentic",
+    "Good company specificity - demonstrates understanding of Braintrust's focus on evaluation and trust in AI outputs",
+    "Clean prose in cover letter with no section headings or markdown artifacts",
+    "Concrete technical accomplishments - PDF chunking for biopharma, reranker deployment at scale",
+    "Resume uses good formatting with consistent bullet structure"
+  ],
+  "verdict": "NEEDS_REVISION",
+  "weaknesses": [
+    "Open-source SDK development experience not explicitly demonstrated - mentions modular components but no open-source contributions",
+    "Some resume bullets lack specific metrics - 'Led quality analyses', 'Partnered with design' could be more concrete",
+    "Role alignment gap - position specifically asks for 'open-source SDK development' but no direct open-source experience shown",
+    "Minor improvement possible: exact dates for tenure (shows Feb 2022 - Jan 2025, should say '3 years' somewhere for clarity)"
+  ]
+}

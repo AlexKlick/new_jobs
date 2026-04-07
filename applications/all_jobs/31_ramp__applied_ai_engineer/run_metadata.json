@@ -1,0 +1,115 @@
+{
+  "run_id": "20260325_234448_31_ramp",
+  "created_at": "2026-03-25T23:51:01.748851+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 31,
+    "heading": "Ramp — Applied AI Engineer",
+    "company": "Ramp",
+    "role": "Applied AI Engineer",
+    "salary": "$175,000–$225,000 [est.]",
+    "remote": "Likely requires NYC/SF presence; exceeds 500-employee preference",
+    "experience": "Not specified — verify during application",
+    "key_skills": [
+      "LLMs",
+      "production AI systems",
+      "financial workflows",
+      "Python"
+    ],
+    "apply": "https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+    "apply_url": "https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+    "why_fit": "Ramp is one of the most prominent fintechs actively investing in applied AI. Your production LLM and agentic AI expertise aligns with their automation-first approach. Constraint: Likely requires NYC/SF presence; exceeds 500-employee preference.",
+    "summary": "Corporate spend management fintech. ~1,000+ employees, valued at $13B+, raised $1.6B.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 3.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with financial workflows, fintech domain, or spend management",
+      "reason": "No evidence in fact set; fact-40e74e248a84, fact-2a1e374fda5f, fact-4ad1afb6a6ac indicate industry preferences are healthcare technology, biopharma, and enterprise software platforms—not fintech"
+    },
+    {
+      "statement": "NYC/SF location or willingness to relocate",
+      "reason": "No location information in fact set; job notes suggest likely NYC/SF presence requirement but cannot claim candidate meets this"
+    },
+    {
+      "statement": "Direct LLM fine-tuning or model training experience",
+      "reason": "Fact set shows LLM API usage (OpenAI, LangChain, Agents SDK) but no evidence of model fine-tuning or training"
+    },
+    {
+      "statement": "Specific Ramp product knowledge or customer references",
+      "reason": "Web access unavailable; cannot claim specific knowledge of Ramp's product features, customer base, or recent initiatives beyond publicly available general information"
+    },
+    {
+      "statement": "Experience with financial compliance or regulatory frameworks (SOX, PCI, etc.)",
+      "reason": "No evidence in fact set; while candidate has biopharma regulatory experience, this does not translate to financial regulatory experience"
+    },
+    {
+      "statement": "Prompt engineering as a primary skill",
+      "reason": "While implied through LLM work, fact set does not explicitly mention prompt engineering as a distinct skill—removed from skills section to maintain factual grounding"
+    },
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-17fc11120e3d"
+      ]
+    },
+    {
+      "statement": "Skills: document ingestion, PDF chunking, LLM evaluation",
+      "unknown_fact_ids": [
+        "fact-17fc11120e3d"
+      ]
+    }
+  ],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "External evaluation: READY_TO_SEND.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/pdf_quality_audit.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260325_234448_31_ramp/rubric_scores.json"
+  }
+}

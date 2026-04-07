@@ -1,0 +1,75 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 3.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 4.5,
+    "company_specificity": 4.5,
+    "differentiation": 4,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Cover letter opening is compelling and specific\u2014leads with a concrete project story, not generic company praise",
+    "Honest gap acknowledgment ('I should be direct about where my experience is concentrated') builds credibility rather than overpromising",
+    "Company research is evident: references 12M+ prior authorizations, 90% auto-approval rate, hybrid AI/rules approach\u2014specific to Cohere Health",
+    "Biopharma regulatory document processing is a distinctive niche that maps well to healthcare clinical document handling",
+    "Resume bullets include specific metrics: 300+ users, tens of thousands of documents, 3 junior engineers mentored",
+    "Cover letter reads authentically human\u2014varied sentence structure, genuine voice, no AI-tell phrases like 'I am excited to apply'"
+  ],
+  "weaknesses": [
+    "Role requires full-stack experience but candidate's work has been primarily backend/AI layer\u2014gap is acknowledged but not addressed with a plan to ramp",
+    "No HIPAA experience mentioned, which is listed as a key requirement; could strengthen by noting transferable compliance mindset from regulated biopharma",
+    "Resume bullets focus more on technical scope than business outcomes\u2014could add impact metrics (time saved, error reduction, cost avoided)",
+    "'Senior AI/LLM Engineer' title in resume header may not match official job title at Credera, which could raise verification questions"
+  ],
+  "revision_suggestions": [
+    "Consider adding 1-2 sentences in cover letter about how you'd approach learning HIPAA compliance quickly, given your experience in other regulated domains",
+    "Add one business-outcome metric to resume (e.g., 'reduced document processing time by X%' or 'enabled Y faster regulatory submissions')",
+    "Clarify whether 'Senior AI/LLM Engineer' is your official title or a descriptive header\u2014consider matching LinkedIn exactly"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers or section breaks"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific project story about RAG pipeline for biopharma\u2014grabs attention immediately"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Cohere Health and Sr. Software Engineer role mentioned organically in context"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Directly acknowledges limited full-stack experience and no HIPAA background; frames transferable skills"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "No generic phrases like 'passionate about' or 'dream job'; content is specific to this application"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all included in cover letter header"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Includes 300+ users, tens of thousands of documents, 3 engineers mentored"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting throughout, no orphaned headers or broken lists"
+    }
+  ]
+}

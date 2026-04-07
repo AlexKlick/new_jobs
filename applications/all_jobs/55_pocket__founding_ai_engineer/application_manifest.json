@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-03-26T04:53:03.411304+00:00",
+  "canonical_index": 55,
+  "identity_key": "name:pocket::founding ai engineer",
+  "job": {
+    "index": 55,
+    "heading": "Pocket \u2014 Founding AI Engineer",
+    "company": "Pocket",
+    "role": "Founding AI Engineer",
+    "salary": "$150,000 + 0.75%\u20131.0% equity",
+    "remote": "\ud83d\udfe2 Remote only, United States",
+    "experience": "3 years",
+    "key_skills": [
+      "AI engineering",
+      "healthcare/rehab therapy domain"
+    ],
+    "apply": "Search \"Pocket\" on wellfound.com",
+    "apply_url": null,
+    "why_fit": "Healthcare AI startup with founding-level equity (0.75\u20131.0%) and a low experience bar. Remote US, meets salary minimum at $150K. Healthcare domain experience creates strong differentiation for a founding AI engineer role.",
+    "summary": "\"AI Front Office Platform for Rehab Therapy.\" 1\u201310 employees, early stage. Healthcare AI.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:45:40.665832+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/55_pocket__founding_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:45:40.665832+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/16_pocket__founding_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/16_pocket__founding_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:45:40.665832+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_214324_16_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_214324_16_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:45:40.665832+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

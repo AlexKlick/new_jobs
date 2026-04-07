@@ -1,0 +1,25 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 4.0,
+    "differentiation": 5.0,
+    "gap_handling": 4.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 4.5,
+    "company_specificity": 4.5,
+    "differentiation": 4.5,
+    "gap_handling": 4.5
+  },
+  "rejected_claims": []
+}

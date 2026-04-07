@@ -1,0 +1,42 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-e29a02f0d3ad"
+      ]
+    },
+    {
+      "statement": "Partnered with design/BA to iterate on UX... piloted with ~100 users, currently onboarding 300+",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    },
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    },
+    {
+      "statement": "Partnered with design/BA to iterate on UX... piloted with ~100 users, currently onboarding 300+",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    }
+  ]
+}

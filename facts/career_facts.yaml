@@ -1,0 +1,1066 @@
+version: 1
+created_at: '2026-03-04T09:56:56.918511+00:00'
+updated_at: '2026-03-26T04:45:35.288043+00:00'
+person:
+  id: alex-klick
+  uri: urn:career:person:alex-klick
+  name: Alex Klick
+  location: Denver, CO
+  phone: +1-734-262-4232
+  email: aklick12@gmail.com
+  linkedin: linkedin.com/in/alex-klick
+facts:
+- id: fact-d7fad2f864dc
+  subject: urn:career:person:alex-klick
+  predicate: career:hasName
+  object_value: Alex Klick
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Alex Klick
+    page: null
+  tags:
+  - identity
+- id: fact-8214ce176d78
+  subject: urn:career:person:alex-klick
+  predicate: career:hasEmail
+  object_value: aklick12@gmail.com
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: aklick12@gmail.com
+    page: null
+  tags:
+  - identity
+- id: fact-6476855c9693
+  subject: urn:career:person:alex-klick
+  predicate: career:hasLinkedIn
+  object_value: linkedin.com/in/alex-klick
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: linkedin.com/in/alex-klick
+    page: null
+  tags:
+  - identity
+- id: fact-3d2428517128
+  subject: urn:career:person:alex-klick
+  predicate: career:heldRoleAt
+  object_value: "Senior AI/ LLM Consultant @ Credera (Jan 2025 \u2013 Present)"
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: "Credera\u2014 Jan 2025 \u2013 Present"
+    page: null
+  tags:
+  - experience
+- id: fact-0ce9f6a6f873
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Prototyped the architecture and delivered and initial set of lego-block
+    components to
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Prototyped the architecture and delivered and initial set of lego-block
+      components to
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-2b6bc5399fe5
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Designed and modular component model so agents populate structured
+    JSON to create and edit
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Designed and modular component model so agents populate structured JSON
+      to create and edit
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-3e8f0705f9c4
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Partnered with design/BA to iterate on UX and translate user feedback
+    and findings into UI
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Partnered with design/BA to iterate on UX and translate user feedback
+      and findings into UI
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-463c9d5a5699
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Piloted with ~100 users; now onboarding 300+ with enterprise rollout
+    planned to several
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Piloted with ~100 users; now onboarding 300+ with enterprise rollout
+      planned to several
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-847e7e153df4
+  subject: urn:career:person:alex-klick
+  predicate: career:heldRoleAt
+  object_value: "AI/ LLM Consultant @ Credera (Feb 2022 \u2013 Jan 2025)"
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: "Credera\u2014 Feb 2022 \u2013 Jan 2025"
+    page: null
+  tags:
+  - experience
+- id: fact-7cf7fad7ec1a
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: "Built vector database and reranker system for serving searchable\
+    \ data from tens\u2019s of thousands"
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: "Built vector database and reranker system for serving searchable data\
+      \ from tens\u2019s of thousands"
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-067df40a9e04
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Led quality analyses to select/deploy the best sentence-transformers
+    reranker model at scale
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Led quality analyses to select/deploy the best sentence-transformers
+      reranker model at scale
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-42eb2e649ec9
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Mentored group of 3 junior engineers in techniques to improve performance
+    and reliability, such
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Mentored group of 3 junior engineers in techniques to improve performance
+      and reliability, such
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-edd88b715091
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Designed and implemented RAG ingestion pipeline with precise sub-section
+    level chunking of pdf
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Designed and implemented RAG ingestion pipeline with precise sub-section
+      level chunking of pdf
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-7292860793cb
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Developed system for processing rtf documents to extract complex tabular
+    clinical data with
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Developed system for processing rtf documents to extract complex tabular
+      clinical data with
+    page: null
+  tags:
+  - experience
+  - achievement
+- id: fact-bfc348f588b1
+  subject: urn:career:person:alex-klick
+  predicate: career:education
+  object_value: Eastern Michigan University, BA in Economics (with minor in mathematics)
+    2019
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Eastern Michigan University, BA in Economics (with minor in mathematics)
+      2019
+    page: null
+  tags:
+  - education
+- id: fact-e5dad74b9d7d
+  subject: urn:career:person:alex-klick
+  predicate: career:education
+  object_value: Turing School of Software and Design, backend engineering 2021
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: Turing School of Software and Design, backend engineering 2021
+    page: null
+  tags:
+  - education
+- id: fact-87717fb86394
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: Python (pandas
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript,
+      SQL;'
+    page: null
+  tags:
+  - skills
+- id: fact-e29a02f0c3ad
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: fastapi
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript,
+      SQL;'
+    page: null
+  tags:
+  - skills
+- id: fact-2693a71d9da6
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: pydantic)
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript,
+      SQL;'
+    page: null
+  tags:
+  - skills
+- id: fact-99057173729c
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: TypeScript/JavaScript
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript,
+      SQL;'
+    page: null
+  tags:
+  - skills
+- id: fact-8167e694fa32
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: SQL
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Languages: Python (pandas, fastapi, pydantic), TypeScript/JavaScript,
+      SQL;'
+    page: null
+  tags:
+  - skills
+- id: fact-8ccd233e8995
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: embeddings (OpenAI
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector,
+      Chroma), rerankers'
+    page: null
+  tags:
+  - skills
+- id: fact-2d2800e6eb5c
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: open-source models)
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector,
+      Chroma), rerankers'
+    page: null
+  tags:
+  - skills
+- id: fact-9f02c46c84b2
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: vector DBs (pgvector
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector,
+      Chroma), rerankers'
+    page: null
+  tags:
+  - skills
+- id: fact-d275a927f88c
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: Chroma)
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector,
+      Chroma), rerankers'
+    page: null
+  tags:
+  - skills
+- id: fact-c6e1665ca837
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: rerankers
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'AI/Data: embeddings (OpenAI, open-source models), vector DBs (pgvector,
+      Chroma), rerankers'
+    page: null
+  tags:
+  - skills
+- id: fact-953fe53f62eb
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: (sentence-transformers
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: (sentence-transformers, pytorch, HuggingFace)
+    page: null
+  tags:
+  - skills
+- id: fact-0708ee4596a3
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: pytorch
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: (sentence-transformers, pytorch, HuggingFace)
+    page: null
+  tags:
+  - skills
+- id: fact-2ef0946b001b
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: HuggingFace)
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: (sentence-transformers, pytorch, HuggingFace)
+    page: null
+  tags:
+  - skills
+- id: fact-0d1c216cdfe5
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: LangChain
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Agentic Frameworks: LangChain, OpenAI API, Agents SDK, MCP (FastMCP)'
+    page: null
+  tags:
+  - skills
+- id: fact-c6eb6f6fdde9
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: OpenAI API
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Agentic Frameworks: LangChain, OpenAI API, Agents SDK, MCP (FastMCP)'
+    page: null
+  tags:
+  - skills
+- id: fact-e566fe12dbeb
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: Agents SDK
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Agentic Frameworks: LangChain, OpenAI API, Agents SDK, MCP (FastMCP)'
+    page: null
+  tags:
+  - skills
+- id: fact-880b678a17e1
+  subject: urn:career:person:alex-klick
+  predicate: career:hasSkill
+  object_value: MCP (FastMCP)
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: Resume.pdf
+    excerpt: 'Agentic Frameworks: LangChain, OpenAI API, Agents SDK, MCP (FastMCP)'
+    page: null
+  tags:
+  - skills
+- id: fact-ef0fa9c61cdb
+  subject: urn:career:person:alex-klick
+  predicate: career:narrativePoint
+  object_value: 'I built
+
+    RAG ingestion pipelines for a Fortune-200 biopharma client, enabling regulatory
+
+    submissions at unprecedented speed by integrating precise and reliable document
+
+    parsing and agentic context engineering.'
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: cover_letter.pdf
+    excerpt: 'I built
+
+      RAG ingestion pipelines for a Fortune-200 biopharma client, enabling regulatory
+
+      submissions at unprecedented speed by integrating precise and reliable document
+
+      parsing and agentic context engineering.'
+    page: null
+  tags:
+  - cover_letter
+  - narrative
+- id: fact-07f3b2217674
+  subject: urn:career:person:alex-klick
+  predicate: career:narrativePoint
+  object_value: "I developed vector search and reranker\nsystems to power Credera\u2019\
+    s internal enterprise chat tools used daily by hundreds of\nconsultants, while\
+    \ mentoring junior engineers in developing agentic workflows."
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: cover_letter.pdf
+    excerpt: "I developed vector search and reranker\nsystems to power Credera\u2019\
+      s internal enterprise chat tools used daily by hundreds of\nconsultants, while\
+      \ mentoring junior engineers in developing agentic workflows."
+    page: null
+  tags:
+  - cover_letter
+  - narrative
+- id: fact-9a96f8eeb4bd
+  subject: urn:career:person:alex-klick
+  predicate: career:narrativePoint
+  object_value: 'What excites me most about Pax8 Labs is the opportunity to pioneer
+    agent
+
+    orchestration systems in real-world production at scale, and to contribute to
+    a culture of
+
+    collaboration, experimentation, and refinement.'
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: cover_letter.pdf
+    excerpt: 'What excites me most about Pax8 Labs is the opportunity to pioneer agent
+
+      orchestration systems in real-world production at scale, and to contribute to
+      a culture of
+
+      collaboration, experimentation, and refinement.'
+    page: null
+  tags:
+  - cover_letter
+  - narrative
+- id: fact-1a739912fd66
+  subject: urn:career:person:alex-klick
+  predicate: career:narrativePoint
+  object_value: 'My experience spans building scalable
+
+    backends in Python and TypeScript, deploying commercial AI models, experimenting
+
+    with agent frameworks and patterns, and tinkering with open-source models.'
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: cover_letter.pdf
+    excerpt: 'My experience spans building scalable
+
+      backends in Python and TypeScript, deploying commercial AI models, experimenting
+
+      with agent frameworks and patterns, and tinkering with open-source models.'
+    page: null
+  tags:
+  - cover_letter
+  - narrative
+- id: fact-f9da6faab479
+  subject: urn:career:person:alex-klick
+  predicate: career:elevatorPitch
+  object_value: AI/LLM engineer with 3+ years delivering production RAG and document
+    intelligence systems in enterprise and regulated biopharma environments.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: AI/LLM engineer with 3+ years delivering production RAG and document
+      intelligence systems in enterprise and regulated biopharma environments.
+    page: null
+  tags:
+  - backstory
+  - positioning
+- id: fact-635af779ae13
+  subject: urn:career:person:alex-klick
+  predicate: career:elevatorPitch
+  object_value: Combines strong Python backend execution with practical LLM architecture,
+    vector retrieval, and cross-functional product delivery.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Combines strong Python backend execution with practical LLM architecture,
+      vector retrieval, and cross-functional product delivery.
+    page: null
+  tags:
+  - backstory
+  - positioning
+- id: fact-e99455d7907c
+  subject: urn:career:person:alex-klick
+  predicate: career:originStory
+  object_value: Started in economics and mathematics, then transitioned to software
+    engineering to build systems that improve decision quality.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Started in economics and mathematics, then transitioned to software engineering
+      to build systems that improve decision quality.
+    page: null
+  tags:
+  - backstory
+  - origin
+- id: fact-4f9e072d8aa8
+  subject: urn:career:person:alex-klick
+  predicate: career:originStory
+  object_value: Completed backend engineering training at Turing School and moved
+    into consulting work focused on applied AI/LLM delivery.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Completed backend engineering training at Turing School and moved into
+      consulting work focused on applied AI/LLM delivery.
+    page: null
+  tags:
+  - backstory
+  - origin
+- id: fact-aaa7896b9739
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Built vector database and reranker systems serving tens of thousands
+    of documents for enterprise teams.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Built vector database and reranker systems serving tens of thousands
+      of documents for enterprise teams.
+    page: null
+  tags:
+  - backstory
+  - highlights
+- id: fact-86b94576d67d
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Designed sub-section PDF chunking pipelines for biopharma regulatory
+    workflows at Fortune-200 scale.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Designed sub-section PDF chunking pipelines for biopharma regulatory
+      workflows at Fortune-200 scale.
+    page: null
+  tags:
+  - backstory
+  - highlights
+- id: fact-a806f6a0d003
+  subject: urn:career:person:alex-klick
+  predicate: career:achievement
+  object_value: Shipped modular agent components adopted by ~100 users and expanded
+    toward 300+ enterprise users.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Shipped modular agent components adopted by ~100 users and expanded toward
+      300+ enterprise users.
+    page: null
+  tags:
+  - backstory
+  - highlights
+- id: fact-c144f48a6902
+  subject: urn:career:person:alex-klick
+  predicate: career:impactStory
+  object_value: Re-architected document ingestion and retrieval to improve precision
+    and speed for regulated document workflows.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Re-architected document ingestion and retrieval to improve precision
+      and speed for regulated document workflows.
+    page: null
+  tags:
+  - backstory
+  - impact
+- id: fact-fad768ce0cab
+  subject: urn:career:person:alex-klick
+  predicate: career:impactStory
+  object_value: Led model-quality evaluation for sentence-transformer rerankers and
+    deployed selected approach at production scale.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Led model-quality evaluation for sentence-transformer rerankers and deployed
+      selected approach at production scale.
+    page: null
+  tags:
+  - backstory
+  - impact
+- id: fact-b360e1331639
+  subject: urn:career:person:alex-klick
+  predicate: career:impactStory
+  object_value: Built RTF processing capabilities to extract complex clinical table
+    data for downstream submission workflows.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Built RTF processing capabilities to extract complex clinical table data
+      for downstream submission workflows.
+    page: null
+  tags:
+  - backstory
+  - impact
+- id: fact-a86b59f65fc6
+  subject: urn:career:person:alex-klick
+  predicate: career:motivation
+  object_value: Most motivated by building AI products that are genuinely useful in
+    high-consequence domains like healthcare.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Most motivated by building AI products that are genuinely useful in high-consequence
+      domains like healthcare.
+    page: null
+  tags:
+  - backstory
+  - motivation
+- id: fact-770b40162407
+  subject: urn:career:person:alex-klick
+  predicate: career:motivation
+  object_value: Prefers roles where technical depth and user impact both matter, especially
+    when retrieval quality and trust are critical.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Prefers roles where technical depth and user impact both matter, especially
+      when retrieval quality and trust are critical.
+    page: null
+  tags:
+  - backstory
+  - motivation
+- id: fact-5cb5788cfec8
+  subject: urn:career:person:alex-klick
+  predicate: career:differentiator
+  object_value: Comfortable moving from ambiguous business requirements to shipped,
+    observable production systems.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Comfortable moving from ambiguous business requirements to shipped, observable
+      production systems.
+    page: null
+  tags:
+  - backstory
+  - differentiator
+- id: fact-b8d620dcacef
+  subject: urn:career:person:alex-klick
+  predicate: career:differentiator
+  object_value: Strong at connecting retrieval architecture decisions (chunking, embeddings,
+    reranking) directly to user outcomes.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Strong at connecting retrieval architecture decisions (chunking, embeddings,
+      reranking) directly to user outcomes.
+    page: null
+  tags:
+  - backstory
+  - differentiator
+- id: fact-2e6100c60920
+  subject: urn:career:person:alex-klick
+  predicate: career:differentiator
+  object_value: Blends engineering execution with clear communication across design,
+    analysts, and product stakeholders.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Blends engineering execution with clear communication across design,
+      analysts, and product stakeholders.
+    page: null
+  tags:
+  - backstory
+  - differentiator
+- id: fact-04be5ff77223
+  subject: urn:career:person:alex-klick
+  predicate: career:leadershipSignal
+  object_value: Mentored three junior engineers on agentic workflow reliability and
+    performance practices.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Mentored three junior engineers on agentic workflow reliability and performance
+      practices.
+    page: null
+  tags:
+  - backstory
+  - leadership
+- id: fact-688503b53618
+  subject: urn:career:person:alex-klick
+  predicate: career:leadershipSignal
+  object_value: Regularly partners with design and business analysts to convert feedback
+    into deliverable roadmap changes.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Regularly partners with design and business analysts to convert feedback
+      into deliverable roadmap changes.
+    page: null
+  tags:
+  - backstory
+  - leadership
+- id: fact-bf3c062033c0
+  subject: urn:career:person:alex-klick
+  predicate: career:workStyle
+  object_value: 'Pragmatic and iterative: deliver quickly, measure quality, then harden
+    with better abstractions.'
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: 'Pragmatic and iterative: deliver quickly, measure quality, then harden
+      with better abstractions.'
+    page: null
+  tags:
+  - backstory
+  - workstyle
+- id: fact-76fe56c8ed92
+  subject: urn:career:person:alex-klick
+  predicate: career:workStyle
+  object_value: Prefers clear ownership boundaries, high documentation quality, and
+    evidence-driven decisions.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Prefers clear ownership boundaries, high documentation quality, and evidence-driven
+      decisions.
+    page: null
+  tags:
+  - backstory
+  - workstyle
+- id: fact-d7750d7798f4
+  subject: urn:career:person:alex-klick
+  predicate: career:valueStatement
+  object_value: Factual correctness over hype, especially in AI-generated outputs.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Factual correctness over hype, especially in AI-generated outputs.
+    page: null
+  tags:
+  - backstory
+  - values
+- id: fact-7a6dc7149099
+  subject: urn:career:person:alex-klick
+  predicate: career:valueStatement
+  object_value: Reusable systems over one-off scripts.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Reusable systems over one-off scripts.
+    page: null
+  tags:
+  - backstory
+  - values
+- id: fact-d5d7d57e6d7c
+  subject: urn:career:person:alex-klick
+  predicate: career:valueStatement
+  object_value: User trust, clarity, and measurable outcomes.
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: User trust, clarity, and measurable outcomes.
+    page: null
+  tags:
+  - backstory
+  - values
+- id: fact-a6208421d584
+  subject: urn:career:person:alex-klick
+  predicate: career:rolePreference
+  object_value: Generative AI Engineer
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Generative AI Engineer
+    page: null
+  tags:
+  - backstory
+  - preferences
+- id: fact-8f25f224ed7c
+  subject: urn:career:person:alex-klick
+  predicate: career:rolePreference
+  object_value: Senior AI/LLM Engineer
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Senior AI/LLM Engineer
+    page: null
+  tags:
+  - backstory
+  - preferences
+- id: fact-a64f56a22d5d
+  subject: urn:career:person:alex-klick
+  predicate: career:rolePreference
+  object_value: Applied AI Engineer (RAG, retrieval, document intelligence)
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Applied AI Engineer (RAG, retrieval, document intelligence)
+    page: null
+  tags:
+  - backstory
+  - preferences
+- id: fact-40e74e248a84
+  subject: urn:career:person:alex-klick
+  predicate: career:industryPreference
+  object_value: Healthcare technology
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Healthcare technology
+    page: null
+  tags:
+  - backstory
+  - preferences
+- id: fact-2a1e374fda5f
+  subject: urn:career:person:alex-klick
+  predicate: career:industryPreference
+  object_value: Biopharma and life sciences
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Biopharma and life sciences
+    page: null
+  tags:
+  - backstory
+  - preferences
+- id: fact-4ad1afb6a6ac
+  subject: urn:career:person:alex-klick
+  predicate: career:industryPreference
+  object_value: Enterprise software platforms
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Enterprise software platforms
+    page: null
+  tags:
+  - backstory
+  - preferences
+- id: fact-58889d9a4c01
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: OpenAI API
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: OpenAI API
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-6e374f0894a7
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: Embeddings
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Embeddings
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-73e2e6a0732f
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: Vector database
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Vector database
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-5531ba6f4497
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: pgvector
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: pgvector
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-27000be787ee
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: Sentence transformers
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Sentence transformers
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-17fc11120f3d
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: Document ingestion
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Document ingestion
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-a65f45b56fe1
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: PDF chunking
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: PDF chunking
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-a4b4f903d85f
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: Reranking
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Reranking
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-1e69e5de1dd0
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: Pydantic
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: Pydantic
+    page: null
+  tags:
+  - backstory
+  - keywords
+- id: fact-09f71c3d713d
+  subject: urn:career:person:alex-klick
+  predicate: career:atsKeyword
+  object_value: LLM evaluation
+  object_type: literal
+  confidence: 1.0
+  evidence:
+  - source_file: backstory_dump.md
+    excerpt: LLM evaluation
+    page: null
+  tags:
+  - backstory
+  - keywords

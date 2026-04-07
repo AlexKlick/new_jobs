@@ -1,0 +1,65 @@
+{
+  "policy": "advisory",
+  "status": "WARN",
+  "blocked": false,
+  "score": 70.0,
+  "summary": {
+    "critical": 0,
+    "major": 4,
+    "minor": 0
+  },
+  "documents": {
+    "resume": {
+      "document": "resume",
+      "status": "PASS",
+      "blocked": false,
+      "score": 100,
+      "issues": [],
+      "word_count": 320,
+      "pdf_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup/resume.pdf"
+    },
+    "cover_letter": {
+      "document": "cover_letter",
+      "status": "WARN",
+      "blocked": false,
+      "score": 40,
+      "issues": [
+        {
+          "severity": "major",
+          "code": "missing_section",
+          "message": "cover_letter is missing section heading: Opening"
+        },
+        {
+          "severity": "major",
+          "code": "missing_section",
+          "message": "cover_letter is missing section heading: Role Alignment"
+        },
+        {
+          "severity": "major",
+          "code": "missing_section",
+          "message": "cover_letter is missing section heading: Evidence Highlights"
+        },
+        {
+          "severity": "major",
+          "code": "missing_section",
+          "message": "cover_letter is missing section heading: Closing"
+        }
+      ],
+      "word_count": 450,
+      "pdf_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup/cover_letter.pdf"
+    }
+  },
+  "warnings": [
+    "cover_letter is missing section heading: Opening",
+    "cover_letter is missing section heading: Role Alignment",
+    "cover_letter is missing section heading: Evidence Highlights",
+    "cover_letter is missing section heading: Closing"
+  ],
+  "auto_fixes_applied": [
+    "strip_fact_references",
+    "inject_resume_contact_line",
+    "inject_cover_letter_letterhead",
+    "strip_table_of_contents",
+    "inject_pdf_frontmatter"
+  ]
+}

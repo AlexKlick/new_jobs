@@ -1,0 +1,91 @@
+{
+  "run_id": "20260309_213025_11_live-optimized",
+  "created_at": "2026-03-10T03:32:36.440191+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 11,
+    "heading": "Rula — Staff AI Engineer, AI Foundation 🟢",
+    "company": "Rula",
+    "role": "Staff AI Engineer, AI Foundation",
+    "salary": "~$300,000 total compensation",
+    "remote": "🟢 100% remote (US, excluding Hawaii) — Colorado fully eligible",
+    "experience": "8+ years SWE, 5+ years Python, 1+ years production AI (experience stretch)",
+    "key_skills": [
+      "RAG pipelines",
+      "multi-agent orchestration",
+      "LLM integrations",
+      "LangChain/LlamaIndex/DSPy/Haystack",
+      "vector databases (Pinecone",
+      "Weaviate",
+      "FAISS",
+      "Milvus)",
+      "Python",
+      "TypeScript"
+    ],
+    "apply": "https://jobs.ashbyhq.com/rula/2a27a5c4-02e8-4d71-b8d2-0f239d91a257",
+    "apply_url": "https://jobs.ashbyhq.com/rula/2a27a5c4-02e8-4d71-b8d2-0f239d91a257",
+    "why_fit": "Healthcare AI with RAG and multi-agent orchestration at a Sequoia-backed company. The DSPy mention is notable — few companies list this. Experience requirement (8+ years) is a significant stretch, but specialized GenAI + healthcare depth could compensate. $300K total comp is among the highest found.",
+    "summary": "AI-powered mental health care platform. ~$7.7B valuation, backed by Sequoia and Khosla Ventures. 1,000+ employees, 100% remote."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "claim": "8+ years of software engineering experience",
+      "reason": "Job requires 8+ years SWE but facts only support ~4 years (2021 Turing graduation to present). Cannot inflate experience beyond available facts."
+    },
+    {
+      "claim": "Experience with DSPy framework",
+      "reason": "Job lists DSPy as a key skill but no facts reference DSPy usage or familiarity."
+    },
+    {
+      "claim": "Experience with Pinecone, Weaviate, FAISS, or Milvus",
+      "reason": "Job lists these vector DBs but facts only confirm pgvector and Chroma experience."
+    },
+    {
+      "claim": "Production experience with LlamaIndex or Haystack",
+      "reason": "Job lists these frameworks but facts only confirm LangChain experience."
+    },
+    {
+      "claim": "1+ years production AI experience (per job requirement)",
+      "reason": "While facts support 3+ years AI/LLM work, explicit 'production AI' tenure was not specified in facts."
+    }
+  ],
+  "notes": [],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/rubric_scores.json"
+  }
+}

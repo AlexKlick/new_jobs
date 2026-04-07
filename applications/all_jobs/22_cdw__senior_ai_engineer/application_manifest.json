@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-03-26T04:53:03.405844+00:00",
+  "canonical_index": 22,
+  "identity_key": "url:https://builtin.com/job/senior-ai-engineer/8285831",
+  "job": {
+    "index": 22,
+    "heading": "CDW \u2014 Senior AI Engineer",
+    "company": "CDW",
+    "role": "Senior AI Engineer",
+    "salary": "$124,000\u2013$175,000",
+    "remote": "Remote or Hybrid (IL, USA)",
+    "experience": "Senior level",
+    "key_skills": [
+      "LangChain",
+      "LangGraph",
+      "LLMs",
+      "pgvector",
+      "Pinecone",
+      "Weaviate"
+    ],
+    "apply": "https://builtin.com/job/senior-ai-engineer/8285831",
+    "apply_url": "https://builtin.com/job/senior-ai-engineer/8285831",
+    "why_fit": "Focuses specifically on LangChain, LangGraph, and vector databases for agent workflows \u2014 an extremely close skills match. Trade-off: Very large enterprise company, and the salary ceiling ($175k) is moderate relative to your target.",
+    "summary": "Fortune 200 IT solutions company. $21B+ revenue, 15,000+ employees.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T23:23:30.842864+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/22_cdw__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T23:23:30.842864+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231546_22_cdw",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231546_22_cdw/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T23:23:30.842864+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170810_22_cdw",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_170810_22_cdw/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:11:47.347016+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

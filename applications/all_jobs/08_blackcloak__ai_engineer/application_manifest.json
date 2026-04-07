@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-26T04:53:03.403208+00:00",
+  "canonical_index": 8,
+  "identity_key": "url:https://jobs.lever.co/BlackCloak/f4c238c6-0de3-4483-911b-25b54bd7a3d4",
+  "job": {
+    "index": 8,
+    "heading": "BlackCloak \u2014 AI Engineer",
+    "company": "BlackCloak",
+    "role": "AI Engineer",
+    "salary": "$140,000\u2013$180,000 [est.]",
+    "remote": "100% remote, US-based",
+    "experience": "Mid-senior level with production AI/ML experience",
+    "key_skills": [
+      "Python",
+      "TypeScript/Node.js",
+      "LLMs (Gemini",
+      "LLaMA",
+      "Claude)",
+      "PyTorch/TensorFlow",
+      "AI agents",
+      "cloud platforms",
+      "MLOps"
+    ],
+    "apply": "https://jobs.lever.co/BlackCloak/f4c238c6-0de3-4483-911b-25b54bd7a3d4",
+    "apply_url": "https://jobs.lever.co/BlackCloak/f4c238c6-0de3-4483-911b-25b54bd7a3d4",
+    "why_fit": "BlackCloak needs someone to lead AI agent development for their cybersecurity product \u2014 directly leveraging your agentic AI and tool-calling expertise. The company is under 200 employees with a mission-driven cybersecurity focus. Fully remote, Python + TypeScript stack matches your skillset, and the mid-senior level won't require 8+ years of experience.",
+    "summary": "Digital executive protection/cybersecurity. ~50\u2013200 employees, Series B+, award-winning workplace.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T22:55:08.625368+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/08_blackcloak__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T22:55:08.625368+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T22:55:08.625368+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

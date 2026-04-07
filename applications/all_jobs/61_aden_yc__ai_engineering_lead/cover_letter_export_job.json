@@ -1,0 +1,24 @@
+{
+  "success": false,
+  "error": "Document failed schema validation",
+  "error_message": "Document failed schema validation",
+  "error_code": "validation_failed",
+  "job_id": "0746111f-f526-4943-b971-b84d288eb14b",
+  "state": "REJECTED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 1,
+      "warn": 0,
+      "total": 1
+    }
+  }
+}

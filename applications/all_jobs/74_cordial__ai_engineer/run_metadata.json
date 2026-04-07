@@ -1,0 +1,80 @@
+{
+  "run_id": "20260309_220945_35_live-optimized",
+  "created_at": "2026-03-10T04:10:30.157645+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 35,
+    "heading": "Cordial — AI Engineer 🟡",
+    "company": "Cordial",
+    "role": "AI Engineer",
+    "salary": "~$130K–$170K [est.]",
+    "remote": "🟡 Remote (verify specifics — listing language is remote-friendly but confirm no hybrid expectation before applying)",
+    "experience": "Mid-level",
+    "key_skills": [
+      "Python",
+      "ML models",
+      "LLMs",
+      "prototyping AI solutions"
+    ],
+    "apply": "https://builtin.com/company/cordial/jobs",
+    "apply_url": "https://builtin.com/company/cordial/jobs",
+    "why_fit": "The candidate would shape AI strategy by prototyping solutions and optimizing ML models. LLM application experience applies directly. Trade-off: marketing tech is outside core domain preferences and salary may be modest.",
+    "summary": "AI-powered cross-channel marketing platform."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-2693a71d1da6",
+        "fact-e29a02f0f3ad"
+      ]
+    },
+    {
+      "statement": "Proficient in Python and FastAPI...",
+      "unknown_fact_ids": [
+        "fact-e29a02f0f3ad"
+      ]
+    }
+  ],
+  "notes": [
+    "quality_repair_applied: 1 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/rubric_scores.json"
+  }
+}

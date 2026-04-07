@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-03-26T04:53:03.405466+00:00",
+  "canonical_index": 20,
+  "identity_key": "url:https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+  "job": {
+    "index": 20,
+    "heading": "Vantor \u2014 Sr Staff AI Engineer, Insights",
+    "company": "Vantor",
+    "role": "Sr Staff AI Engineer, Insights",
+    "salary": "$124,000\u2013$228,000",
+    "remote": "In-Office or Remote (Herndon, VA)",
+    "experience": "Senior level",
+    "key_skills": [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "JavaScript",
+      "AWS",
+      "GCP",
+      "Claude",
+      "Codex",
+      "Gemini"
+    ],
+    "apply": "https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+    "apply_url": "https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+    "why_fit": "Explicitly requires LangChain, LangGraph, Python, and experience with multiple LLM providers \u2014 a direct skills match. The salary ceiling ($228k) is strong. Trade-off: Defense sector may not align with your industry preferences, and the \"Sr Staff\" title typically implies more experience than 4 years.",
+    "summary": "Defense/AI analytics company (formerly Maxar Intelligence). Geospatial AI.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-26T04:22:05.301145+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/20_vantor__sr_staff_ai_engineer_insights/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-26T04:22:05.301145+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-26T04:22:05.301145+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_165648_20_vantor",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_165648_20_vantor/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:02:37.231842+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

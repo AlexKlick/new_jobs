@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-10T04:10:26.874696+00:00",
+  "job_id": "467c3d24-4a5d-4684-8514-cfb2aba80b07",
+  "artifact_id": "06ef1212-10c5-478b-a7fa-f7654df52cb5",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/resume.pdf",
+  "input_path": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/resume.export.md",
+  "input_hash": "4ff99b835ab9e56d7bef84750dc6ec3d1657de698be13b51d07b6ae1042c27de",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 3233,
+  "warnings": [],
+  "diagnostics": {}
+}

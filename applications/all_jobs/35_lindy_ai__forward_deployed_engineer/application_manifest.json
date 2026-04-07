@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-03-26T04:53:03.407959+00:00",
+  "canonical_index": 35,
+  "identity_key": "url:https://careers.lindy.ai/ai-implementation-engineer",
+  "job": {
+    "index": 35,
+    "heading": "Lindy AI \u2014 Forward Deployed Engineer",
+    "company": "Lindy AI",
+    "role": "Forward Deployed Engineer",
+    "salary": "$140,000\u2013$180,000 [est.]",
+    "remote": "Primarily SF-based",
+    "experience": "Not specified \u2014 verify during application",
+    "key_skills": [
+      "AI agent implementation",
+      "LLM integration",
+      "multi-agent systems"
+    ],
+    "apply": "https://careers.lindy.ai/ai-implementation-engineer",
+    "apply_url": "https://careers.lindy.ai/ai-implementation-engineer",
+    "why_fit": "Lindy is an agentic AI platform company \u2014 the exact category you're targeting. Your multi-agent orchestration expertise is core to this role. Constraint: Primarily SF-based.",
+    "summary": "Autonomous AI agents for professionals. ~50+ employees, backed by a16z, ~$50M+ raised.",
+    "company_context": null
+  },
+  "status": "MARKDOWN",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T17:44:20.739835+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/35_lindy_ai__forward_deployed_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T17:44:20.739835+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_174154_35_lindy-ai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_174154_35_lindy-ai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:44:20.739835+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

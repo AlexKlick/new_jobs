@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-03-26T04:53:03.410075+00:00",
+  "canonical_index": 48,
+  "identity_key": "url:https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+  "job": {
+    "index": 48,
+    "heading": "Harvey AI \u2014 Senior Applied AI Engineer",
+    "company": "Harvey AI",
+    "role": "Senior Applied AI Engineer",
+    "salary": "~$180K\u2013$250K [est. for senior AI at top-tier VC-backed company]",
+    "remote": "\ud83d\udfe1 Not fully confirmed; Harvey has distributed teams but SF is primary hub \u2014 verify remote policy before applying",
+    "experience": "Senior-level",
+    "key_skills": [
+      "Agentic AI",
+      "LLM applications",
+      "enterprise platform engineering"
+    ],
+    "apply": "https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+    "apply_url": "https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+    "why_fit": "Harvey is one of the most well-funded AI-native companies, backed by preferred VCs (Sequoia, a16z). The applied AI engineer roles involve hands-on building with LLMs and agents. Multiple role levels available (AI Engineer through Staff) to find the right experience fit.",
+    "summary": "Harvey AI is transforming legal and professional services with frontier agentic AI. Backed by Sequoia, a16z, and others. 500\u20131,000+ customers in 50+ countries.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:26:02.442983+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/48_harvey_ai__senior_applied_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:26:02.442983+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/09_harvey_ai__senior_applied_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/09_harvey_ai__senior_applied_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:26:02.442983+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_212354_09_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:26:02.442983+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_022555_09_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_022555_09_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T08:29:21.329743+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

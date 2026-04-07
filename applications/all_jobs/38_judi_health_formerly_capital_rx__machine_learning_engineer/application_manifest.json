@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-03-26T04:53:03.408333+00:00",
+  "canonical_index": 38,
+  "identity_key": "url:https://job-boards.greenhouse.io/capitalrx/jobs/5142980008",
+  "job": {
+    "index": 38,
+    "heading": "Judi Health (formerly Capital Rx) \u2014 Machine Learning Engineer",
+    "company": "Judi Health (formerly Capital Rx)",
+    "role": "Machine Learning Engineer",
+    "salary": "$130,000\u2013$160,000 [est.]",
+    "remote": "Denver or Remote",
+    "experience": "2+ years",
+    "key_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "RAG",
+      "NLP/NLG",
+      "GenAI services",
+      "HIPAA compliance",
+      "document understanding"
+    ],
+    "apply": "https://job-boards.greenhouse.io/capitalrx/jobs/5142980008",
+    "apply_url": "https://job-boards.greenhouse.io/capitalrx/jobs/5142980008",
+    "why_fit": "Pharmacy-focused AI company where your pharma domain expertise (TREMFYA scoring, compliance checking) is directly relevant. HIPAA compliance work mirrors your regulated-industry background. Constraint: Salary range is at the lower end of your target.",
+    "summary": "Enterprise health tech / pharmacy benefit management. Public benefit corporation.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T20:53:38.304829+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/38_judi_health_formerly_capital_rx__machine_learning_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T20:53:38.304829+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_203658_38_judi-health-formerly-capital-rx",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_203658_38_judi-health-formerly-capital-rx/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T20:53:38.304829+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 4,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 3.5,
+    "company_specificity": 3,
+    "differentiation": 3.5,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Strong domain alignment: 3+ years of RAG and document intelligence in regulated biopharma directly maps to healthcare document understanding",
+    "Specific, verifiable claims: Fortune-200 client, tens of thousands of documents, 100\u2192300+ user scale, mentored 3 engineers",
+    "Gap handling is honest and strategic: acknowledges HIPAA gap while positioning regulated biopharma experience as transferable",
+    "Resume format is clean, scannable, and ATS-friendly with strong keyword coverage (RAG, embeddings, vector databases, PyTorch, FastAPI)",
+    "Opening hook with specific anecdote ('Two years ago, I stood in a conference room...') creates memorable first impression"
+  ],
+  "weaknesses": [
+    "CRITICAL: Cover letter has markdown section headers (## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing) - this breaks professional letter format and signals AI generation",
+    "Company research feels surface-level: mentions 'public benefit corporation' and 'pharmacy benefits transparency' but no specific products, recent news, or unique challenges Judi Health faces",
+    "The opening story, while specific, uses somewhat generic phrasing ('crystallized why I work in AI', 'natural next chapter') that could appear in any application",
+    "PyTorch appears only in passing (rerankers context) - job requires more direct PyTorch experience which could be emphasized",
+    "No quantified performance metrics: retrieval accuracy percentages, latency improvements, or error reduction numbers would strengthen claims"
+  ],
+  "revision_suggestions": [
+    "Remove all ## section headers from cover letter - convert to flowing paragraph prose with natural transitions between ideas",
+    "Deepen company specificity: research Judi Health's actual products (Judibana, Clearinghouse?), recent announcements, or specific document types they process in pharmacy benefits",
+    "Add 1-2 quantified performance outcomes: 'achieved X% retrieval accuracy' or 'reduced document processing time by Y%'",
+    "Strengthen PyTorch visibility: explicitly mention model training, fine-tuning, or custom architecture work if applicable",
+    "Sharpen the opening hook: replace 'crystallized why I work in AI' with more concrete language about what the client specifically valued",
+    "Consider adding a sentence about why the biopharma\u2192healthcare transition specifically appeals, beyond just 'regulated environments'"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Cover letter has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing - these must be removed and converted to flowing prose"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "WARN",
+      "note": "Opening story exists but uses template-like phrases ('crystallized why I work in AI', 'natural next chapter')"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Both mentioned naturally in opening and throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "HIPAA gap acknowledged honestly with transferable experience framing"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Phrases like 'natural next chapter' and 'deep respect for accuracy' feel somewhat generic"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all included"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Good metrics: tens of thousands of documents, 100\u2192300+ users, Fortune-200, 3 mentees"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Resume formatting is clean and professional"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "claim": "8+ years of software engineering experience",
+      "reason": "Job requires 8+ years SWE but facts only support ~4 years (2021 Turing graduation to present). Cannot inflate experience beyond available facts."
+    },
+    {
+      "claim": "Experience with DSPy framework",
+      "reason": "Job lists DSPy as a key skill but no facts reference DSPy usage or familiarity."
+    },
+    {
+      "claim": "Experience with Pinecone, Weaviate, FAISS, or Milvus",
+      "reason": "Job lists these vector DBs but facts only confirm pgvector and Chroma experience."
+    },
+    {
+      "claim": "Production experience with LlamaIndex or Haystack",
+      "reason": "Job lists these frameworks but facts only confirm LangChain experience."
+    },
+    {
+      "claim": "1+ years production AI experience (per job requirement)",
+      "reason": "While facts support 3+ years AI/LLM work, explicit 'production AI' tenure was not specified in facts."
+    }
+  ]
+}

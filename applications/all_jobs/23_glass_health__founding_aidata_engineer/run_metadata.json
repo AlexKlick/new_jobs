@@ -1,0 +1,88 @@
+{
+  "run_id": "20260325_231620_23_glass-health",
+  "created_at": "2026-03-25T23:21:14.546502+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 23,
+    "heading": "Glass Health — Founding AI/Data Engineer",
+    "company": "Glass Health",
+    "role": "Founding AI/Data Engineer",
+    "salary": "$150,000–$200,000 [est.] + founding equity",
+    "remote": "Fully remote",
+    "experience": "5+ years engineering",
+    "key_skills": [
+      "Python",
+      "TypeScript/React",
+      "AI/LLM technology",
+      "production systems",
+      "generative AI features"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/64767",
+    "apply_url": "https://www.workatastartup.com/jobs/64767",
+    "why_fit": "Healthcare AI startup that's a perfect domain fit — building clinical decision support with LLMs for physicians. YC-backed with Kaiser Permanente as an investor signals healthcare credibility. Trade-off: Lists 5+ years experience (you have 4), and very early stage means compensation may lean toward equity.",
+    "summary": "AI-powered clinical decision support for physicians. ~10–20 employees, YC W23, backed by Initialized and Kaiser Permanente. Planning Series A.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 4.0,
+    "gap_handling": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with React frontend development",
+      "reason": "Job requires TypeScript/React but facts only show TypeScript experience without React-specific evidence. Acknowledged as gap in cover letter."
+    },
+    {
+      "statement": "5+ years of engineering experience",
+      "reason": "Job lists 5+ years but facts indicate ~4 years (Feb 2022 start). Better to demonstrate depth of relevant experience than claim false seniority."
+    }
+  ],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "External evaluation: READY_TO_SEND.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/pdf_quality_audit.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/rubric_scores.json"
+  }
+}

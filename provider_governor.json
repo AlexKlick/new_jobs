@@ -1,0 +1,28 @@
+{
+  "providers": {
+    "zai": {
+      "max_concurrent": 2,
+      "rpm": null,
+      "window_seconds": 60,
+      "cooldown_seconds": 30,
+      "models": [
+        "glm-5"
+      ]
+    },
+    "minimax": {
+      "max_concurrent": 8,
+      "rpm": 500,
+      "window_seconds": 60,
+      "cooldown_seconds": 15,
+      "models": [
+        "MiniMax-m2.7"
+      ]
+    }
+  },
+  "scheduler": {
+    "policy": "throughput_first",
+    "stale_heartbeat_seconds": 90,
+    "reconcile_interval_seconds": 10,
+    "history_retention_seconds": 3600
+  }
+}

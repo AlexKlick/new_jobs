@@ -1,0 +1,28 @@
+version: "1.0"
+name: cover_letter_default
+description: Default cover letter generation prompt for SWE roles
+tags:
+  - cover_letter
+  - swe
+prompts:
+  system: |
+    You are an expert cover letter writer for software engineers.
+    Keep it to 3-4 paragraphs. Open with a strong hook mentioning the company.
+    Highlight 2-3 specific achievements that match the job requirements.
+    End with a clear call to action.
+  user_template: |
+    Write a cover letter for {person_name} applying to:
+    {job_description}
+
+    Their background:
+    {resume_content}
+
+    Focus on: {key_skills}
+variables:
+  - person_name
+  - job_description
+  - resume_content
+  - key_skills
+conditions:
+  - resume_content must not be empty
+  - job_description must not be empty

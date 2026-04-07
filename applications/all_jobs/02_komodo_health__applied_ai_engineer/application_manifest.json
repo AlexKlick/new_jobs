@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-03-26T04:53:03.401740+00:00",
+  "canonical_index": 2,
+  "identity_key": "url:https://job-boards.greenhouse.io/komodohealth/jobs/8447511002",
+  "job": {
+    "index": 2,
+    "heading": "Komodo Health \u2014 Applied AI Engineer",
+    "company": "Komodo Health",
+    "role": "Applied AI Engineer",
+    "salary": "$166,000\u2013$195,000 (non-Bay Area); $191,000\u2013$224,000 (SF/NYC)",
+    "remote": "Remote eligible",
+    "experience": "Production-grade AI system development",
+    "key_skills": [
+      "Python",
+      "LLMs",
+      "prompt engineering",
+      "agent-based architectures",
+      "GenAI tooling (vLLM",
+      "CrewAI",
+      "Strands",
+      "OpenAI APIs)",
+      "evaluation frameworks",
+      "orchestration patterns"
+    ],
+    "apply": "https://job-boards.greenhouse.io/komodohealth/jobs/8447511002",
+    "apply_url": "https://job-boards.greenhouse.io/komodohealth/jobs/8447511002",
+    "why_fit": "Komodo's primary clients are pharmaceutical companies analyzing treatment patterns \u2014 your consulting experience with three pharma companies is a direct competitive advantage. The role requires building agent pipelines and orchestration frameworks for LLM-driven healthcare workflows, mapping precisely to your multi-agent orchestration and LangGraph expertise. Healthcare data experience is listed as a \"nice to have,\" putting you ahead of generalist AI engineers.",
+    "summary": "Healthcare analytics platform with the industry's largest de-identified healthcare data map. Backed by a16z. Serves pharma companies, payers, and health systems. ~500 employees.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test",
+  "selected_metadata_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "output",
+  "selected_created_at": "2026-03-26T01:52:24.120127+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-26T01:52:24.120127+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260326_012534_01_mock-style-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_012534_01_mock-style-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-26T01:25:40.820222+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/02_komodo_health__applied_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/02_komodo_health__applied_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T20:06:36.528859+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_02_komodo-health",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_195910_02_komodo-health/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T20:06:36.528859+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/01_komodo_health__applied_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/01_komodo_health__applied_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T02:37:08.114179+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_203348_01_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_203348_01_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T02:37:08.114179+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260319_231254_01_mock-style-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260319_231254_01_mock-style-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-19T23:12:58.843259+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_021918_01_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_021918_01_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T08:22:08.332698+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260326_015224_01_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_015224_01_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-26T01:52:24.304015+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260326_012540_01_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_012540_01_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-26T01:25:41.056425+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260319_231259_01_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260319_231259_01_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-19T23:12:59.874497+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223759_01_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223759_01_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-13T22:38:00.343063+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223759_01_mock-style-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223759_01_mock-style-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-13T22:37:59.690943+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223515_01_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223515_01_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-13T22:35:16.114874+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223514_01_mock-style-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223514_01_mock-style-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-13T22:35:15.463358+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

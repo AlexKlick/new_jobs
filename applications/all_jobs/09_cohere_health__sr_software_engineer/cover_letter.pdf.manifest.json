@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T21:19:40.743597+00:00",
+  "job_id": "fc0620f0-17c2-4e2a-a1b7-3215d9109b4b",
+  "artifact_id": "5ddda10e-2650-4d35-8b93-85fba4710d9a",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/cover_letter.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211156_09_cohere-health/cover_letter.export.md",
+  "input_hash": "9d1b9432ff83db4483e81646665cbfee3e3cda8f17a7cfb741fe28917a333fb1",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 3117,
+  "warnings": [],
+  "diagnostics": {}
+}

@@ -1,0 +1,78 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 4,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 3.5,
+    "company_specificity": 3.5,
+    "differentiation": 3.5,
+    "gap_handling": 5
+  },
+  "strengths": [
+    "Excellent gap handling - directly acknowledges LangGraph and Langfuse/LangSmith gaps while providing credible bridge experience with LangChain, Agents SDK, and custom evaluation frameworks",
+    "Unique biopharma regulatory experience in Fortune-200 environment demonstrates ability to work in high-stakes, regulated domains relevant to healthcare",
+    "Strong production evidence: scaled system from ~100 to 300+ users, processed tens of thousands of documents, built enterprise RAG systems",
+    "Genuine opening hook in cover letter with specific anecdote about watching pilot users interact with the agent system",
+    "Mentorship of 3 junior engineers shows leadership capability appropriate for senior role"
+  ],
+  "weaknesses": [
+    "Cover letter uses section headings (## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing) - cover letters should be flowing prose without headers",
+    "Some outcome claims lack specificity: 'improving retrieval precision' - by what percentage or metric?",
+    "Company research is surface-level: mentions Medicaid/Medicare mission but no specific products, recent announcements, or team structure",
+    "Narrative voice occasionally slips into slightly rehearsed phrases: 'crystallized why I build AI systems', 'where I do my best work'",
+    "Experience level stated as 3+ years in summary but role requires 4+ years - this discrepancy could trigger ATS or recruiter filtering"
+  ],
+  "revision_suggestions": [
+    "Remove all section headings from cover letter - convert to flowing prose with natural paragraph transitions instead of ## headers",
+    "Add specific metrics to resume: 'improving retrieval precision by X%' or 'reduced document processing time by Y%'",
+    "Update summary to say '4+ years' since Feb 2022 to present is actually 4 years - this better aligns with job requirements",
+    "Deepen Pair Team research: reference a specific product (like their care coordination platform), recent funding announcement, or team blog post",
+    "Tighten cover letter second paragraph - 'crystallized why I build AI systems' reads slightly overwrought; simpler language would feel more authentic",
+    "Consider adding one more concrete technical achievement with a before/after metric to strengthen the Evidence section"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Cover letter has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing - these must be removed for flowing prose"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "First paragraph tells a specific story about watching pilot users - genuine and engaging"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Pair Team and Senior AI Engineer mentioned organically throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "LangGraph and Langfuse/LangSmith gaps acknowledged directly with credible bridge experience"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Mostly authentic but phrases like 'crystallized why I build AI systems' feel slightly rehearsed"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all included"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has user counts and document volumes but missing percentage improvements for key achievements"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting, no artifacts or orphaned headers in resume"
+    }
+  ]
+}

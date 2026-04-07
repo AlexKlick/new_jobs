@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-10T03:32:36.407852+00:00",
+  "job_id": "b41de301-c121-4923-bbe3-042bdc663b86",
+  "artifact_id": "22df8cfe-463a-44a5-a725-dd5a50fc18a1",
+  "format": "ttl",
+  "output_path": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/cover_letter.ttl",
+  "input_path": "/home/alexk/documents/new_job/outputs/20260309_213025_11_live-optimized/cover_letter.export.md",
+  "input_hash": "21c3d397916b3dc403ccdc5c52a1f17da49898d32ea496d4f464fb03a2f17f2d",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 0,
+  "warnings": [],
+  "diagnostics": {},
+  "ontology": {
+    "triple_count": 22,
+    "ontology_version": "1.0",
+    "namespaces": [
+      "df",
+      "dcterms",
+      "doc"
+    ]
+  }
+}

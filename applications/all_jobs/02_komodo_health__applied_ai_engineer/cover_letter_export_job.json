@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "job_id": "634a6146-bf04-4293-b728-27379722b897",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Role Alignment",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Evidence Highlights",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Closing",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 4,
+      "warn": 0,
+      "total": 4
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/cover_letter.pdf",
+      "size_kb": 9.8,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2765,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "82efd224-fc00-491c-b803-5a23de1d77fc",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/cover_letter.ttl",
+      "manifest_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/cover_letter.ttl.manifest.json",
+      "size_kb": 2.16796875
+    },
+    {
+      "artifact_id": "32b0f63f-ac0a-4817-8cdb-1cb8e40e5931",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/cover_letter.pdf",
+      "manifest_path": "/home/alexk/documents/new_job/outputs/20260326_015218_01_mock-style-test/cover_letter.pdf.manifest.json",
+      "size_kb": 9.8
+    }
+  ]
+}

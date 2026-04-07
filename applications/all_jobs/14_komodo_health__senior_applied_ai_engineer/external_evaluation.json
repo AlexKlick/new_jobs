@@ -1,0 +1,77 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 4.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4.5,
+    "company_specificity": 4,
+    "differentiation": 4,
+    "gap_handling": 3.5
+  },
+  "strengths": [
+    "Strong opening hook in cover letter\u2014specific story about regulatory submissions immediately establishes domain credibility",
+    "Healthcare/biopharma domain experience is directly relevant to Komodo's mission and differentiates from generic AI applicants",
+    "Concrete scale metrics throughout: tens of thousands of documents, 100\u2192300+ user scaling, 3 engineers mentored",
+    "Technical stack aligns well with role requirements: RAG, agents, orchestration, prompt design, vector databases",
+    "Cover letter demonstrates genuine company research (data map, de-identified dataset, client segments)",
+    "Narrative voice feels authentic\u2014avoids AI-generated template phrasing",
+    "Mentorship experience explicitly quantified, addressing the senior-level expectation"
+  ],
+  "weaknesses": [
+    "Cover letter could include one specific insight about Komodo's current AI challenges or product direction to deepen company research signal",
+    "Resume bullets focus on scope/scale but could include more outcome metrics (e.g., time saved, accuracy improvements, business impact)",
+    "No explicit acknowledgment of growth areas\u2014senior roles benefit from showing self-awareness about what you're still learning",
+    "Technical skills section could explicitly mention 'GenAI' or 'generative AI' for ATS keyword matching with job posting"
+  ],
+  "revision_suggestions": [
+    "Consider adding 1-2 outcome-based metrics to resume bullets (e.g., 'reduced document retrieval time by X%' or 'improved answer accuracy from X% to Y%')",
+    "In cover letter, reference a specific Komodo product, blog post, or recent news item to deepen company-specific signal",
+    "Add 'Generative AI' or 'GenAI' to skills section for ATS optimization",
+    "Optional: Briefly mention a skill or area you're actively developing to show growth mindset for senior role"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific RAG pipeline story that establishes domain expertise immediately"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Komodo Health and Senior Applied AI Engineer mentioned organically throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "WARN",
+      "note": "No explicit gap acknowledgment, but no false claims either. Could strengthen with growth mindset signal."
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Phrasing is specific and personal\u2014no generic 'I am passionate about' or 'I would be honored' clich\u00e9s"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all clearly listed"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Strong metrics throughout: 100\u2192300+ users, tens of thousands of documents, 3 engineers mentored"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean structure with no orphaned headers or broken lists"
+    }
+  ]
+}

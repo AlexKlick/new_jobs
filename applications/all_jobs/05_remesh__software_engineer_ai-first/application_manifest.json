@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-03-26T04:53:03.402635+00:00",
+  "canonical_index": 5,
+  "identity_key": "url:https://job-boards.greenhouse.io/remesh/jobs/8450776002",
+  "job": {
+    "index": 5,
+    "heading": "Remesh \u2014 Software Engineer (AI-First)",
+    "company": "Remesh",
+    "role": "Software Engineer (AI-First)",
+    "salary": "$150,000\u2013$170,000",
+    "remote": "100% remote (must be in the United States)",
+    "experience": "3\u20135 years professional software development",
+    "key_skills": [
+      "JavaScript/TypeScript",
+      "Python",
+      "AI-assisted development (Claude Code",
+      "Cursor)",
+      "AI agents/agentic workflows",
+      "React",
+      "Docker",
+      "Kubernetes",
+      "RAG patterns",
+      "cloud platforms"
+    ],
+    "apply": "https://job-boards.greenhouse.io/remesh/jobs/8450776002",
+    "apply_url": "https://job-boards.greenhouse.io/remesh/jobs/8450776002",
+    "why_fit": "Remesh is transitioning to AI-first development and explicitly calls out building AI agents and agentic workflows \u2014 your exact specialty. The 3\u20135 year experience requirement matches perfectly. They specifically value AI-assisted development speed (mentioning Claude Code and Cursor), which aligns with your 5\u201310x productivity using agentic coding tools. Small team, 4-day week, 100% US remote.",
+    "summary": "AI-powered enterprise insights platform. 10\u201350 employees, raised $65M+. 4-day work week.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T21:20:46.530922+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/05_remesh__software_engineer_ai-first/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T21:20:46.530922+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211418_05_remesh",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_211418_05_remesh/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T21:20:46.530922+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_175205_05_remesh",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_175205_05_remesh/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:54:56.535967+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

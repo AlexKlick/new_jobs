@@ -1,0 +1,42 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.5,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 4.5,
+    "company_specificity": 5.0,
+    "differentiation": 4.5,
+    "gap_handling": 4.5
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with deterministic rules engines",
+      "reason": "No factual evidence in provided fact set; listed as skill gap. Reframed through structured JSON outputs and validated data structures work instead of claiming direct experience."
+    },
+    {
+      "statement": "HIPAA compliance experience",
+      "reason": "No factual evidence in provided fact set; listed as skill gap. Acknowledged directly in cover letter with learning orientation and transfer from biopharma regulatory discipline."
+    },
+    {
+      "statement": "Full-stack web development experience",
+      "reason": "Evidence only supports backend/API work; listed as skill gap. Acknowledged directly in cover letter with stated willingness to expand."
+    },
+    {
+      "statement": "Direct healthcare industry experience",
+      "reason": "Fact set indicates biopharma experience, which is healthcare-adjacent but not direct healthcare. Described as 'healthcare-adjacent' and 'regulated biopharma' throughout."
+    }
+  ]
+}

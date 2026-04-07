@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-03-26T04:53:03.404510+00:00",
+  "canonical_index": 15,
+  "identity_key": "url:https://www.remoterocketship.com/us/company/fastino-labs-ai/jobs/ai-engineer-united-states-remote",
+  "job": {
+    "index": 15,
+    "heading": "Fastino Labs \u2014 AI Engineer",
+    "company": "Fastino Labs",
+    "role": "AI Engineer",
+    "salary": "$150,000\u2013$200,000 [est.]",
+    "remote": "Fully remote (United States)",
+    "experience": "2+ years",
+    "key_skills": [
+      "LLMs",
+      "agentic systems",
+      "Kubernetes",
+      "Docker",
+      "API design",
+      "vector DB tuning",
+      "prompt engineering",
+      "knowledge-graph extraction"
+    ],
+    "apply": "https://www.remoterocketship.com/us/company/fastino-labs-ai/jobs/ai-engineer-united-states-remote/",
+    "apply_url": "https://www.remoterocketship.com/us/company/fastino-labs-ai/jobs/ai-engineer-united-states-remote/",
+    "why_fit": "Fastino is building core AI infrastructure for agentic AI \u2014 exactly the startup type you prefer. The role involves agentic system design and knowledge-graph extraction, making your ontology/knowledge graph expertise a strong differentiator. Well-funded seed stage with top-tier investors. Trade-off: Very early stage; compensation may lean more toward equity than base.",
+    "summary": "AI startup building production-ready small language models and fine-tuning platform for agentic AI. $25M seed backed by Microsoft, Khosla Ventures, Insight Partners. Team from Google Research, Apple, Stanford.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T19:46:50.490951+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/15_fastino_labs__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T19:46:50.490951+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_193955_15_fastino-labs",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_193955_15_fastino-labs/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T19:46:50.490951+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

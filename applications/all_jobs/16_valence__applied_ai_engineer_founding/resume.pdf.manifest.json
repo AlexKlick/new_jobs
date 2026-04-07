@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T21:51:29.247556+00:00",
+  "job_id": "901774d7-aca8-4406-af6d-0260711db545",
+  "artifact_id": "5dc7bed2-e6ef-4568-8971-9a2c0580eaaf",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/resume.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_214643_16_valence/resume.export.md",
+  "input_hash": "b92208fae9a704d64c73b3ea09a9edc2f51b44e52d42f8b0ae333892c41774e6",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 3075,
+  "warnings": [],
+  "diagnostics": {}
+}

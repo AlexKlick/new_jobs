@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "e379a084-4cff-4f7a-96b4-b8fbca8e880c",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate/resume.pdf",
+      "size_kb": 13.3,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2776,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "e5709962-62ff-4e4a-ace4-a42a8aeeb2ef",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "aecd6873-2013-4261-bff6-9e746b769168",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_034834_69_weaviate/resume.pdf.manifest.json",
+      "size_kb": 13.3
+    }
+  ]
+}

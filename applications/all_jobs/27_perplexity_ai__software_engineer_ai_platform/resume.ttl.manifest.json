@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-26T04:44:11.888717+00:00",
+  "job_id": "79ceaf80-9db0-496c-baf4-c2e1832857db",
+  "artifact_id": "970080d1-4c43-432f-a1f9-10d7adcf2160",
+  "format": "ttl",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/resume.ttl",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043445_27_perplexity-ai/resume.export.md",
+  "input_hash": "a4849202dfd551007d31c9ce7a7c25d19fdf98564a2735da74dcc62ba97ceb36",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 0,
+  "warnings": [],
+  "diagnostics": {},
+  "ontology": {
+    "triple_count": 22,
+    "ontology_version": "1.0",
+    "namespaces": [
+      "df",
+      "dcterms",
+      "doc"
+    ]
+  }
+}

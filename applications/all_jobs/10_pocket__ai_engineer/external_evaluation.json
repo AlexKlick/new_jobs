@@ -1,0 +1,77 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 3.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 3.5,
+    "company_specificity": 4,
+    "differentiation": 3.5,
+    "gap_handling": 3.5
+  },
+  "strengths": [
+    "Strong specific metrics throughout: ~100 users scaling to 300+, tens of thousands of documents, Fortune-200 biopharma client",
+    "Cover letter opens with a compelling, specific story about RTF document processing that demonstrates hands-on experience",
+    "Clear research into Pocket's business model (AI Front Office for rehab therapy, scheduling/intake/documentation)",
+    "Resume is well-structured with relevant technical skills (RAG, vector DBs, embeddings, agent architecture)",
+    "Domain transition from biopharma to rehab therapy is acknowledged thoughtfully"
+  ],
+  "weaknesses": [
+    "Cover letter has some over-structured, slightly AI-influenced phrasing (e.g., 'what drew me to Pocket's AI Engineer role', 'maps closely to what Pocket is tackling')",
+    "Resume bullets describe activities but lack outcome metrics (e.g., efficiency gains, error reduction, time saved)",
+    "The biopharma-to-rehab-therapy transition is acknowledged but the gap in clinical operations experience isn't fully addressed",
+    "Some cover letter sentences are quite long and structured in ways that could suggest AI assistance",
+    "Differentiation is moderate\u2014nothing particularly memorable or unique in the narrative"
+  ],
+  "revision_suggestions": [
+    "Add 2-3 outcome metrics to resume bullets: quantify impact (e.g., 'reduced document retrieval time by X%', 'improved accuracy by Y%', 'processed Z documents per day with N% error rate')",
+    "Tighten cover letter sentences to sound more conversational and less structured\u2014break up the 40+ word sentences",
+    "Consider a brief acknowledgment that while biopharma is different from rehab therapy, the transferable skills include X, Y, Z specifically",
+    "Replace generic transition phrases like 'what drew me to' and 'maps closely to' with more direct, authentic language",
+    "Add one memorable detail or insight that would make this application stand out in a pile of 200"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Cover letter is flowing prose with no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific RTF processing story that demonstrates real experience"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Pocket and AI Engineer role mentioned naturally throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "WARN",
+      "note": "Biopharma-to-rehab-therapy transition acknowledged but clinical operations gap not fully addressed"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Some phrases feel slightly polished/templated: 'what drew me to', 'maps closely to what'"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all present"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has activity metrics (users, documents) but lacks impact metrics (efficiency, accuracy, cost savings)"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "No orphaned headers or broken lists detected"
+    }
+  ]
+}

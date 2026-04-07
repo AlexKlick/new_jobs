@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T22:55:08.568180+00:00",
+  "job_id": "6a7c6e58-0a8a-4be3-b168-7af390e079e8",
+  "artifact_id": "ea837b53-444e-42b6-aba0-595928854817",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/cover_letter.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_224707_08_blackcloak/cover_letter.export.md",
+  "input_hash": "691aa96f29d4beb665084411553c3e64b9d39dac34608440c0a0123e20d15a0d",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2536,
+  "warnings": [],
+  "diagnostics": {}
+}

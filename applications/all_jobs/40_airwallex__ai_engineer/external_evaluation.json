@@ -1,0 +1,75 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 4,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 3.5,
+    "company_specificity": 4,
+    "differentiation": 3.5,
+    "gap_handling": 5
+  },
+  "strengths": [
+    "Exceptional gap handling - honestly acknowledges LlamaIndex and AutoGen as learning areas rather than claiming false expertise",
+    "Strong company research - cites Airwallex's $6.2B valuation, investors (Visa, Sequoia, DST Global), and connects role to payments/compliance/cross-border context",
+    "Solid metrics throughout: 100\u2192300+ user scale, tens of thousands of documents, 3 junior engineers mentored, Fortune-200 client",
+    "Authentic opening hook about learning that 'production AI success hinges less on model sophistication and more on building systems that users trust' - feels like real insight from experience",
+    "Good ATS keyword coverage: Python, LangChain, RAG, vector database, embeddings, agent architectures, FastAPI, Pydantic, MCP"
+  ],
+  "weaknesses": [
+    "CRITICAL: Cover letter uses section headings (## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing) - this makes it read like a structured document rather than flowing prose that sounds like a real person wrote it",
+    "Some metric gaps: claims 'improved retrieval precision' but doesn't quantify the improvement; 'comparative analyses' without naming the models compared",
+    "Narrative voice occasionally leans too polished - phrases like 'The work I'm proudest of involved...' and 'The common thread:' have a slight AI-refinement feel, though not egregious",
+    "Differentiation is solid but not standout - in 200 applications, the biopharma RAG work is interesting but not unforgettable"
+  ],
+  "revision_suggestions": [
+    "Remove all section headings from the cover letter - convert to flowing prose with paragraph breaks only. A real cover letter doesn't have '## Evidence Highlights' as a header",
+    "Add 1-2 specific retrieval precision metrics: e.g., 'improved retrieval precision by X%' or 'model comparison showed Y% improvement over baseline'",
+    "Consider making one of the resume bullets more results-forward: instead of 'Led quality analyses to evaluate and deploy...' lead with the outcome: 'Improved retrieval precision by X% through systematic reranker model evaluation...'",
+    "Minor voice adjustment: replace 'The work I'm proudest of involved...' with something more direct like 'The project that taught me the most...' to sound less polished/template-like"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Cover letter has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing - these must be removed. Cover letter should be flowing prose."
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "First sentence about scaling from 100 to 300+ users and learning about trust is specific and genuine, not generic company flattery"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Airwallex mentioned naturally throughout with specific context (fintech, $6.2B, investors, financial infrastructure)"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges LlamaIndex and AutoGen gaps, states 'actively learning' - excellent honest handling"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Mostly authentic but phrases like 'The work I'm proudest of involved...' and 'The common thread:' have slight template feel"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn all present in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Good metrics: 100\u2192300+ users, tens of thousands of documents, 3 mentees, Fortune-200 client"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean, professional formatting with no artifacts or broken elements"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-03-26T04:53:03.408768+00:00",
+  "canonical_index": 41,
+  "identity_key": "url:https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL/jobs/10789",
+  "job": {
+    "index": 41,
+    "heading": "Signant Health \u2014 AI Platform Engineer, LLM Agents & RAG",
+    "company": "Signant Health",
+    "role": "AI Platform Engineer, LLM Agents & RAG",
+    "salary": "~$140K\u2013$180K [est.]",
+    "remote": "\ud83d\udfe2 Fully remote, USA only",
+    "experience": "5+ years software engineering; 2+ years LLM/AI production systems",
+    "key_skills": [
+      "Python",
+      "LLM apps",
+      "RAG systems",
+      "vector databases",
+      "agentic workflows (tool use",
+      "planning",
+      "state management)",
+      "AI safety/guardrails",
+      "HIPAA/GDPR compliance"
+    ],
+    "apply": "https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL/jobs/10789",
+    "apply_url": "https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL/jobs/10789",
+    "why_fit": "This role title could have been written from this resume \u2014 it explicitly demands agentic AI systems, RAG pipelines, and AI guardrails in a clinical/pharma environment. Experience building pharma compliance checking and claim validation pipelines translates directly.",
+    "summary": "Signant Health is a global clinical trial technology company powering research for top-20 pharma companies. ~1,500 employees.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T02:40:40.388675+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/41_signant_health__ai_platform_engineer_llm_agents_rag/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T02:40:40.388675+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/02_signant_health__ai_platform_engineer_llm_agents_rag",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/02_signant_health__ai_platform_engineer_llm_agents_rag/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T02:40:40.388675+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_203708_02_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_203708_02_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T02:40:40.388675+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_151250_02_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_151250_02_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T21:15:24.511211+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260326_015224_02_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_015224_02_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-26T01:52:24.427629+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260326_012541_02_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260326_012541_02_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-26T01:25:41.323550+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260319_231300_02_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260319_231300_02_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-19T23:13:00.711919+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223800_02_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223800_02_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-13T22:38:01.037256+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260313_223516_02_mock-batch-test",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260313_223516_02_mock-batch-test/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-13T22:35:16.783404+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

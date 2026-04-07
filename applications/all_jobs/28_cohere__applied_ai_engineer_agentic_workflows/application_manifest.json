@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-03-26T04:53:03.406783+00:00",
+  "canonical_index": 28,
+  "identity_key": "url:https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9",
+  "job": {
+    "index": 28,
+    "heading": "Cohere \u2014 Applied AI Engineer, Agentic Workflows",
+    "company": "Cohere",
+    "role": "Applied AI Engineer, Agentic Workflows",
+    "salary": "$170,000\u2013$230,000 [est.]",
+    "remote": "May require office presence (SF/Toronto/London). Verify remote eligibility.",
+    "experience": "Not specified \u2014 verify during application",
+    "key_skills": [
+      "LLMs",
+      "agentic workflows",
+      "production-grade AI agents",
+      "RAG",
+      "Python"
+    ],
+    "apply": "https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9",
+    "apply_url": "https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9",
+    "why_fit": "Building and deploying agentic workflows powered by LLMs is literally what you do. Cohere is a tier-1 AI infrastructure company. Constraint: May require office presence (SF/Toronto/London). Verify remote eligibility.",
+    "summary": "Leading AI infrastructure / foundation model company. ~500 employees, raised $970M+.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-26T04:53:03.126909+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/28_cohere__applied_ai_engineer_agentic_workflows/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-26T04:53:03.126909+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_044535_28_cohere",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_044535_28_cohere/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-26T04:53:03.126909+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

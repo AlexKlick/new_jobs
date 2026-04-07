@@ -1,0 +1,82 @@
+{
+  "run_id": "20260325_213822_17_panopto",
+  "created_at": "2026-03-25T21:45:49.237718+00:00",
+  "workspace": "/home/alexk/documents/new_job_denjobs",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 17,
+    "heading": "Panopto — AI Engineer",
+    "company": "Panopto",
+    "role": "AI Engineer",
+    "salary": "$140,000–$185,000 [est.]",
+    "remote": "Remote-first (US or international)",
+    "experience": "Mid-to-senior",
+    "key_skills": [
+      "LLMs",
+      "AI agents",
+      "RAG",
+      "Python",
+      "evaluation frameworks",
+      "production AI systems",
+      "security/privacy compliance"
+    ],
+    "apply": "https://jobs.lever.co/panopto/4c4fe959-597b-493f-bc08-a3a268153a32",
+    "apply_url": "https://jobs.lever.co/panopto/4c4fe959-597b-493f-bc08-a3a268153a32",
+    "why_fit": "Panopto wants someone to design AI-powered search and tutoring features using agents and RAG — your wheelhouse. Remote-first, under 500 employees, and the compliance-awareness requirement maps to your regulated industry experience. Trade-off: Education/video tech is not a preferred industry, and salary ceiling ($185k) is moderate.",
+    "summary": "Video knowledge management platform. ~200–400 employees, remote-first.",
+    "company_context": null
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "backstory_person_updates: email, linkedin, location, name, phone",
+    "quality_issues_detected: 1",
+    "External evaluation: READY_TO_SEND.",
+    "PDF quality audit produced warnings. See /home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/pdf_quality_audit.json."
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job_denjobs/facts/career_facts.yaml",
+    "backstory_dump": "/home/alexk/documents/new_job_denjobs/facts/backstory_dump.md",
+    "facts_ttl": "/home/alexk/documents/new_job_denjobs/facts/career_facts.ttl",
+    "external_evaluation": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/external_evaluation.json",
+    "resume_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter.pdf",
+    "resume_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/cover_letter_export_job.json",
+    "pdf_quality_audit": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/pdf_quality_audit.json",
+    "rubric_scores": "/home/alexk/documents/new_job_denjobs/outputs/20260325_213822_17_panopto/rubric_scores.json"
+  }
+}

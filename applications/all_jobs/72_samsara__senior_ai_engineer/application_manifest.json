@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-26T04:53:03.414435+00:00",
+  "canonical_index": 72,
+  "identity_key": "url:https://builtin.com/job/senior-ai-engineer/7125600",
+  "job": {
+    "index": 72,
+    "heading": "Samsara \u2014 Senior AI Engineer",
+    "company": "Samsara",
+    "role": "Senior AI Engineer",
+    "salary": "$126,000\u2013$190,000",
+    "remote": "\ud83d\udfe1 Remote or Hybrid (US) \u2014 verify whether the hybrid portion requires proximity to a specific office; Samsara has hubs in SF and Atlanta",
+    "experience": "Senior level",
+    "key_skills": [
+      "Python",
+      "LangChain",
+      "OpenAI SDK",
+      "GenAI frameworks"
+    ],
+    "apply": "https://builtin.com/job/senior-ai-engineer/7125600",
+    "apply_url": "https://builtin.com/job/senior-ai-engineer/7125600",
+    "why_fit": "Production-grade generative AI application development using LangChain and Python at an a16z-backed public company. Note: lower end of salary range ($126K) is below the $130K floor.",
+    "summary": "AI-powered IoT platform for physical operations. Public company (NYSE: IOT), $20B+ market cap. Backed by a16z, General Catalyst.",
+    "company_context": null
+  },
+  "status": "PARTIAL_RESUME",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T04:08:46.894271+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/72_samsara__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:08:46.894271+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/33_samsara__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/33_samsara__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:08:46.894271+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220759_33_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220759_33_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:08:46.894271+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "note": "Cover letter is flowing prose with no ## headers",
+      "status": "PASS"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "note": "Opens with a project story which is good, but 'What draws me to the AI Engineer, Gen AI/SWE role' is somewhat formulaic",
+      "status": "WARN"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "note": "CoreWeave and role mentioned naturally in body",
+      "status": "PASS"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "note": "TypeScript mentioned in skills but barely in cover letter; CI/CD mentioned only as 'preference' - gaps not acknowledged",
+      "status": "FAIL"
+    },
+    {
+      "item": "No recycled/template language",
+      "note": "Phrases like 'production systems', 'enterprise', 'measurable user outcomes' appear generic",
+      "status": "WARN"
+    },
+    {
+      "item": "Contact info present",
+      "note": "Email and phone clearly visible in both documents",
+      "status": "PASS"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "note": "Uses numbers: 100 users, 300+, tens of thousands of documents, 3 junior engineers",
+      "status": "PASS"
+    },
+    {
+      "item": "Consistent formatting",
+      "note": "Formatting is clean throughout",
+      "status": "PASS"
+    }
+  ],
+  "revision_suggestions": [
+    "Add more specific metrics to cover letter (e.g., 'improved precision by X%', 'reduced latency by Yms')",
+    "Acknowledge TypeScript and CI/CD gaps explicitly - mention willingness to grow in these areas",
+    "Remove template-sounding phrases like 'What draws me to' - try 'I'm excited about' or lead with impact",
+    "Add more CoreWeave-specific reasoning - why THIS company vs other AI infra providers",
+    "Weave in TypeScript experience more naturally into cover letter narrative",
+    "Specify CI/CD experience with actual tools (GitHub Actions, etc.) if applicable"
+  ],
+  "scores": {
+    "ats_keyword_coverage": 3.5,
+    "clarity_conciseness": 4,
+    "company_specificity": 3.5,
+    "differentiation": 3.5,
+    "factual_grounding": 4,
+    "gap_handling": 2.5,
+    "metric_specificity": 3.5,
+    "narrative_voice": 3,
+    "role_alignment": 4
+  },
+  "strengths": [
+    "Strong technical foundation clearly documented - Python, LLMs, RAG, vector DBs all covered",
+    "Quantifiable achievements in resume: 100 users piloted, 300+ onboarding, tens of thousands of documents",
+    "Project story opening in cover letter is engaging and shows real work",
+    "Mentions specific tech stack: FastAPI, Pydantic, LangChain, Agents SDK, MCP, pgvector, Chroma",
+    "Good balance of technical depth and business impact in resume bullets",
+    "Education background shows continuous learning (Turing School after Economics degree)",
+    "No section headings or broken formatting in cover letter"
+  ],
+  "verdict": "NEEDS_REVISION",
+  "weaknesses": [
+    "Gap handling FAIL: TypeScript and CI/CD skills not addressed despite being in job requirements",
+    "Narrative voice partially AI-sounding: phrases like 'measurable user outcomes' feel generic",
+    "Company specificity weak: CoreWeave connection to W&B mentioned but not deeply explored",
+    "ATS coverage incomplete: CI/CD only mentioned once vaguely, TypeScript barely in cover letter",
+    "Some resume bullets lack specificity (e.g., 'high accuracy' instead of actual %)",
+    "Some cover letter sentences overly long and convoluted"
+  ]
+}

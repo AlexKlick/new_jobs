@@ -1,0 +1,42 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 4.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 4.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "reason": "No fact evidence for AWS, Bedrock, Sagemaker, Airflow, or Kafka in fact set",
+      "statement": "Claims direct experience with AWS, Bedrock, Sagemaker, Airflow, or Kafka"
+    },
+    {
+      "reason": "Not in fact set - would be fabricating",
+      "statement": "Claims Kubernetes experience"
+    },
+    {
+      "reason": "Not in fact set",
+      "statement": "Claims Apache Spark experience"
+    },
+    {
+      "reason": "Not in fact set",
+      "statement": "Claims MLOps or ML pipeline automation experience"
+    }
+  ]
+}

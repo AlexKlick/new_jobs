@@ -1,0 +1,73 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 4,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4.5,
+    "company_specificity": 3.5,
+    "differentiation": 4,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Cover letter opening with specific regulatory team story is memorable and authentic\u2014not generic company flattery",
+    "Gap acknowledgment is honest and confident: directly addresses document vs video and compliance exposure without being defensive",
+    "Resume shows clear progression from AI/LLM Consultant to Senior in 3 years with quantified scale (~100 to 300+ users, tens of thousands of documents)",
+    "Technical depth matches role requirements: RAG, vector databases, rerankers, agent architectures, evaluation frameworks all present",
+    "Narrative voice sounds human\u2014phrases like 'I now believe deeply' and 'I should be direct about where my experience diverges' read as authentic"
+  ],
+  "weaknesses": [
+    "Company specificity could be stronger\u2014mentions Panopto's mission but doesn't reference specific products, recent announcements, or unique challenges beyond generic 'video knowledge'",
+    "Resume bullets describe what was built but could include more business outcomes (time saved, accuracy improvements, adoption metrics beyond user counts)",
+    "Cover letter mentions 'tutoring interactions' as a Panopto challenge but doesn't demonstrate any relevant experience with interactive/educational AI systems"
+  ],
+  "revision_suggestions": [
+    "Consider adding one specific Panopto detail\u2014e.g., reference to their search capabilities, a known customer use case, or recent product feature to deepen company research signal",
+    "Add 1-2 outcome metrics to resume bullets: efficiency gains (e.g., 'reduced document retrieval time by X%'), accuracy improvements, or business impact statements",
+    "The tutoring/interactive AI gap is worth a brief acknowledgment if the role heavily involves that\u2014currently unaddressed"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Flowing prose format, no ## headers"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Specific story about Fortune-200 biopharma regulatory team\u2014grabs attention immediately"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Panopto mentioned organically throughout; AI Engineer role referenced"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Document vs video and compliance exposure both acknowledged with transferability argument"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "Phrases are specific to this application; no generic 'I am a highly motivated professional' language"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all included"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has user counts and document scale but limited business outcome metrics (efficiency, accuracy, cost savings)"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting, no orphaned headers or broken lists"
+    }
+  ]
+}

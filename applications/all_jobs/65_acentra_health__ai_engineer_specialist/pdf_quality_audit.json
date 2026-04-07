@@ -1,0 +1,47 @@
+{
+  "policy": "tiered",
+  "status": "WARN",
+  "blocked": false,
+  "score": 92.5,
+  "summary": {
+    "critical": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "documents": {
+    "resume": {
+      "document": "resume",
+      "status": "WARN",
+      "blocked": false,
+      "score": 85,
+      "issues": [
+        {
+          "severity": "major",
+          "code": "missing_section",
+          "message": "resume is missing section heading: Professional Experience"
+        }
+      ],
+      "word_count": 282,
+      "pdf_path": "/home/alexk/documents/new_job/outputs/20260309_220142_26_live-optimized/resume.pdf"
+    },
+    "cover_letter": {
+      "document": "cover_letter",
+      "status": "PASS",
+      "blocked": false,
+      "score": 100,
+      "issues": [],
+      "word_count": 366,
+      "pdf_path": "/home/alexk/documents/new_job/outputs/20260309_220142_26_live-optimized/cover_letter.pdf"
+    }
+  },
+  "warnings": [
+    "resume is missing section heading: Professional Experience"
+  ],
+  "auto_fixes_applied": [
+    "strip_fact_references",
+    "inject_resume_contact_line",
+    "inject_cover_letter_letterhead",
+    "strip_table_of_contents",
+    "inject_pdf_frontmatter"
+  ]
+}

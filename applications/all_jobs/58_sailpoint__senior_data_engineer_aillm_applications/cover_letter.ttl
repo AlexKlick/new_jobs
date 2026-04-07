@@ -1,0 +1,32 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix df: <https://docforge.org/ontology/1.0#> .
+@prefix doc: <https://docforge.org/doc/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+doc:0b5509fe2c83ff79_section_1 a df:Section ;
+    dcterms:title "Opening"^^xsd:string ;
+    df:belongsToDocument doc:0b5509fe2c83ff79 ;
+    df:order 1 .
+
+doc:0b5509fe2c83ff79_section_2 a df:Section ;
+    dcterms:title "Role Alignment"^^xsd:string ;
+    df:belongsToDocument doc:0b5509fe2c83ff79 ;
+    df:order 2 .
+
+doc:0b5509fe2c83ff79_section_3 a df:Section ;
+    dcterms:title "Evidence Highlights"^^xsd:string ;
+    df:belongsToDocument doc:0b5509fe2c83ff79 ;
+    df:order 3 .
+
+doc:0b5509fe2c83ff79_section_4 a df:Section ;
+    dcterms:title "Closing"^^xsd:string ;
+    df:belongsToDocument doc:0b5509fe2c83ff79 ;
+    df:order 4 .
+
+doc:0b5509fe2c83ff79 a df:Document ;
+    dcterms:date "2026-03-09"^^xsd:date ;
+    dcterms:title "Alex Klick"^^xsd:string ;
+    df:contentHash "0b5509fe2c83ff793f2c18856b3c90a7a4a28bcb0ff0ecedcbbf8cb79798c2eb"^^xsd:string ;
+    df:schemaId "cover_letter_doc.v1"^^xsd:string ;
+    df:validationStatus "PASS"^^xsd:string .
+

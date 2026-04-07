@@ -1,0 +1,66 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 0.0,
+    "company_specificity": 0.0,
+    "differentiation": 0.0,
+    "gap_handling": 0.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 4.5,
+    "narrative_voice": 0.0,
+    "company_specificity": 0.0,
+    "differentiation": 0.0,
+    "gap_handling": 0.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-a1b2c3d4",
+        "fact-e5f6a7b8",
+        "fact-c9d0e1f2",
+        "fact-a3b4c5d6",
+        "fact-e7f8a9b0"
+      ]
+    },
+    {
+      "statement": "Built vector DB serving 30k+ docs",
+      "unknown_fact_ids": [
+        "fact-a1b2c3d4"
+      ]
+    },
+    {
+      "statement": "PDF chunking for biopharma",
+      "unknown_fact_ids": [
+        "fact-e5f6a7b8"
+      ]
+    },
+    {
+      "statement": "100+ users on agent components",
+      "unknown_fact_ids": [
+        "fact-c9d0e1f2"
+      ]
+    },
+    {
+      "statement": "Sentence-transformer reranker eval",
+      "unknown_fact_ids": [
+        "fact-a3b4c5d6"
+      ]
+    },
+    {
+      "statement": "RTF clinical table extraction",
+      "unknown_fact_ids": [
+        "fact-e7f8a9b0"
+      ]
+    }
+  ]
+}

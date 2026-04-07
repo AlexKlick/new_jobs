@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T21:11:55.983308+00:00",
+  "job_id": "2a98bec9-c852-48cf-95dd-7b2e72350301",
+  "artifact_id": "fb38060c-0924-4249-bd9b-fde095add1c4",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/cover_letter.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_210608_07_apexanalytix/cover_letter.export.md",
+  "input_hash": "c910665e334bb2293865476856eeff5e4e424e0956a5ccd6db2348b39ffe10bb",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 3086,
+  "warnings": [],
+  "diagnostics": {}
+}

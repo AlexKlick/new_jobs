@@ -1,0 +1,314 @@
+/* Voice Clone Panel Styles */
+
+/* CSS custom properties for voice clone components */
+:root {
+  --state-loading: #f59e0b;
+  --state-success: #16a34a;
+  --state-error: #dc2626;
+}
+
+/* Voice Clone Panel */
+.voice-clone-panel {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.voice-clone-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.voice-clone-name {
+  margin-bottom: 12px;
+}
+
+.voice-clone-name label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.voice-clone-name input {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 14px;
+  outline: none;
+}
+
+.voice-clone-name input:focus {
+  border-color: var(--accent);
+}
+
+.voice-clone-name input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Record Button */
+.voice-clone-record-btn {
+  width: 100%;
+  padding: 12px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  min-height: 44px;
+}
+
+.voice-clone-record-btn:hover {
+  background: var(--accent-hover);
+}
+
+/* Recording State */
+.voice-clone-recording {
+  text-align: center;
+}
+
+.recording-timer {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--state-loading);
+  margin-bottom: 8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.recording-progress {
+  width: 100%;
+  height: 6px;
+  background: var(--bg-tertiary);
+  border-radius: 3px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.recording-progress-fill {
+  height: 100%;
+  background: var(--state-loading);
+  border-radius: 3px;
+  transition: width 0.1s linear;
+}
+
+.voice-clone-stop-btn {
+  padding: 10px 24px;
+  background: var(--state-error);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+/* Preview State */
+.voice-clone-preview {
+  text-align: center;
+}
+
+.voice-clone-preview audio {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.preview-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.preview-discard-btn {
+  flex: 1;
+  padding: 10px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.voice-clone-submit-btn {
+  flex: 2;
+  padding: 10px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.voice-clone-submit-btn:hover {
+  background: var(--accent-hover);
+}
+
+/* Uploading State */
+.voice-clone-uploading {
+  text-align: center;
+  padding: 16px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+/* Success State */
+.voice-clone-success {
+  text-align: center;
+  padding: 12px;
+  background: rgba(22, 163, 74, 0.1);
+  color: var(--state-success);
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Error State */
+.voice-clone-error {
+  text-align: center;
+  padding: 12px;
+  background: rgba(220, 38, 38, 0.1);
+  color: var(--state-error);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.voice-clone-rerecord-btn {
+  margin-top: 8px;
+  padding: 8px 16px;
+  background: transparent;
+  color: var(--state-error);
+  border: 1px solid var(--state-error);
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.voice-clone-rerecord-btn:hover {
+  background: var(--state-error);
+  color: white;
+}
+
+/* Voice Selector */
+.voice-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.voice-selector label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.voice-selector select {
+  flex: 1;
+  padding: 6px 10px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 14px;
+  outline: none;
+  min-width: 0;
+}
+
+.voice-selector select:focus {
+  border-color: var(--accent);
+}
+
+/* Engine Loading Indicator */
+.engine-loading-indicator {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.engine-loading {
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--state-loading);
+}
+
+.engine-ready {
+  background: rgba(22, 163, 74, 0.1);
+  color: var(--state-success);
+}
+
+.engine-loading-text {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.engine-progress-bar {
+  width: 100%;
+  height: 4px;
+  background: var(--bg-tertiary);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.engine-progress-fill {
+  height: 100%;
+  background: var(--state-loading);
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+/* Cache Status Badge */
+.cache-status-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--state-success);
+  color: white;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 8px;
+  animation: cache-badge-fade 5s forwards;
+}
+
+@keyframes cache-badge-fade {
+  0%, 80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Spinner */
+.spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--text-muted);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

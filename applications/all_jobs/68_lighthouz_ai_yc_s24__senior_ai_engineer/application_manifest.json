@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-03-26T04:53:03.413691+00:00",
+  "canonical_index": 68,
+  "identity_key": "url:https://www.workatastartup.com/jobs/77202",
+  "job": {
+    "index": 68,
+    "heading": "Lighthouz AI (YC S24) \u2014 Senior AI Engineer",
+    "company": "Lighthouz AI (YC S24)",
+    "role": "Senior AI Engineer",
+    "salary": "Competitive",
+    "remote": "\ud83d\udfe2 Fully remote",
+    "experience": "3\u20136 years (good fit)",
+    "key_skills": [
+      "LLM fine-tuning",
+      "document classification",
+      "entity extraction",
+      "AI agents for email/phone",
+      "Python"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/77202",
+    "apply_url": "https://www.workatastartup.com/jobs/77202",
+    "why_fit": "Fully remote YC-backed startup building AI agents with a 3\u20136 year experience window that fits well. The document AI focus is slightly different from primary strengths, but agent building and LLM work align.",
+    "summary": "Automating freight finance with AI agents. YC S24, team from Google, Georgia Tech, Progressive.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T04:05:40.357685+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/68_lighthouz_ai_yc_s24__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:05:40.357685+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/29_lighthouz_ai_yc_s24__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/29_lighthouz_ai_yc_s24__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:05:40.357685+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220448_29_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:05:40.357685+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

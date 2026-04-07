@@ -1,0 +1,50 @@
+{
+  "draft": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 4.0,
+    "company_specificity": 4.0,
+    "differentiation": 4.0,
+    "gap_handling": 4.0
+  },
+  "final": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0,
+    "narrative_voice": 5.0,
+    "company_specificity": 5.0,
+    "differentiation": 5.0,
+    "gap_handling": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "Experience with Claude API",
+      "reason": "Job mentions Claude but no fact in the fact set supports Claude API experience; only OpenAI API is documented"
+    },
+    {
+      "statement": "Experience with REST APIs",
+      "reason": "No evidence in fact set; listed as skill gap"
+    },
+    {
+      "statement": "Experience with cloud infrastructure (AWS, GCP, Azure)",
+      "reason": "No evidence in fact set; listed as skill gap"
+    },
+    {
+      "statement": "Passionate about healthcare",
+      "reason": "Generic language; replaced with specific motivation fact about high-consequence domains"
+    },
+    {
+      "statement": "Proven track record of success",
+      "reason": "Generic filler language; avoided in favor of concrete achievements"
+    },
+    {
+      "statement": "Results-driven professional",
+      "reason": "Generic filler; avoided"
+    }
+  ]
+}

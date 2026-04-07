@@ -1,0 +1,76 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 4,
+    "metric_specificity": 4,
+    "clarity_conciseness": 3.5,
+    "ats_keyword_coverage": 4,
+    "narrative_voice": 4,
+    "company_specificity": 4.5,
+    "differentiation": 4,
+    "gap_handling": 4.5
+  },
+  "strengths": [
+    "Opening hook is specific and personal - leads with a real scaling story, not generic company flattery",
+    "Excellent gap handling: explicitly acknowledges infrastructure experience is in managed environments, frames it as growth area not weakness",
+    "Strong company research: correctly identifies FurtherAI as YC W24-backed, ~20-person, AI Teammates for insurance",
+    "Fortune-200 biopharma regulatory work is a compelling differentiator that maps well to insurance's regulated environment",
+    "Metrics throughout: ~100 users to 300+, tens of thousands of documents, hundreds of daily users",
+    "Modular 'lego-block' agent components with structured JSON outputs is memorable and specific"
+  ],
+  "weaknesses": [
+    "Cover letter uses ## section headings (Opening, Role Alignment, Evidence Highlights, Closing) - this is a critical formatting error. Cover letters should be flowing prose with paragraph breaks, not structured documents",
+    "Some resume bullets lack quantified outcomes: 'Partnered with design and business analysts to iterate on UX' - what improved? What was the impact?",
+    "A few phrases edge toward formulaic: 'That's exactly the kind of problem where I've done my best work' could appear in many applications",
+    "The 'Summary' section in resume could be tightened - currently repeats information that appears elsewhere"
+  ],
+  "revision_suggestions": [
+    "Remove all ## section headings from the cover letter. Replace with natural paragraph transitions. The letter should read as continuous prose from salutation to sign-off",
+    "Add outcomes to the UX collaboration bullet: what changed? What was the user feedback impact? Even a qualitative outcome ('reduced support tickets by X%' or 'improved task completion rate') strengthens it",
+    "Consider condensing the resume summary to 2 lines - the current version repeats claims that appear in experience bullets",
+    "The phrase 'domains where trust is earned through consistent, verifiable outputs\u2014not flashy demos' is strong and specific. Lean into more of this voice"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Cover letter has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing. These must be removed - cover letters should be flowing prose with paragraph transitions"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific personal story about scaling from ~100 to 300+ users and the insight about trust vs. impressive demos"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "FurtherAI and Forward Deployed Engineer are woven in naturally, with specific company details (YC W24, ~20 people, insurance AI Teammates)"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly acknowledges: 'my infrastructure experience has been within managed enterprise environments rather than hands-on platform engineering from the ground up'"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "A few phrases feel slightly formulaic ('exactly the kind of problem where I've done my best work') but overall voice is authentic"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, and location all present in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Most bullets have metrics, but the UX collaboration bullet lacks quantified impact"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Resume formatting is clean and consistent"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-03-26T04:53:03.407803+00:00",
+  "canonical_index": 34,
+  "identity_key": "url:https://www.workatastartup.com/jobs/77473",
+  "job": {
+    "index": 34,
+    "heading": "FurtherAI \u2014 Forward Deployed Engineer",
+    "company": "FurtherAI",
+    "role": "Forward Deployed Engineer",
+    "salary": "$140,000\u2013$180,000 [est.] + meaningful equity",
+    "remote": "SF-based with \"remote options for exceptional candidates\" \u2014 not guaranteed remote",
+    "experience": "Not specified \u2014 verify during application",
+    "key_skills": [
+      "Python",
+      "cloud infrastructure",
+      "LLMs",
+      "agent architectures",
+      "agentic AI systems"
+    ],
+    "apply": "https://www.workatastartup.com/jobs/77473",
+    "apply_url": "https://www.workatastartup.com/jobs/77473",
+    "why_fit": "Enterprise-grade AI agents in insurance directly parallels your regulated-industry experience in pharma. Multi-agent orchestration skills apply directly. Constraint: SF-based with \"remote options for exceptional candidates\" \u2014 not guaranteed remote.",
+    "summary": "Building AI Teammates for insurance workflows. ~10\u201320 employees, YC W24, backed by South Park Commons, Nexus VP, Converge VC. $5M seed.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T20:38:05.542287+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/34_furtherai__forward_deployed_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T20:38:05.542287+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_202658_34_furtherai",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_202658_34_furtherai/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T20:38:05.542287+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

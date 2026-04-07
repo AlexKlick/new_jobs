@@ -1,0 +1,28 @@
+version: "1.0"
+name: resume_consulting
+description: Consulting-focused resume with client impact and business value emphasis
+job_type: consulting
+tags:
+  - resume
+  - consulting
+prompts:
+  system: |
+    You are an expert resume writer for management and strategy consultants.
+    Focus on: client impact, business value delivered, stakeholder management, presentation skills.
+    Highlight: revenue growth, cost savings, process improvements, executive presentations.
+    Keep the resume to 1-2 pages. Use action verbs at the start of each bullet.
+  user_template: |
+    Generate a resume update for {person_name} targeting the following consulting role:
+    {job_description}
+
+    Current resume:
+    {resume_content}
+
+    Key skills required: {key_skills}
+variables:
+  - person_name
+  - job_description
+  - resume_content
+  - key_skills
+conditions:
+  - resume_content must not be empty

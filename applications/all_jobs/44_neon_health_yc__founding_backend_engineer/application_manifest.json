@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-03-26T04:53:03.409358+00:00",
+  "canonical_index": 44,
+  "identity_key": "url:https://jobs.ashbyhq.com/neon-health/892d93e5-20f9-4633-8e5e-a34e9af716f4",
+  "job": {
+    "index": 44,
+    "heading": "Neon Health (YC) \u2014 Founding Backend Engineer",
+    "company": "Neon Health (YC)",
+    "role": "Founding Backend Engineer",
+    "salary": "$170,000\u2013$225,000 + equity [est. from HN listing]",
+    "remote": "\ud83d\udfe1 SF or Remote (North America) \u2014 remote is accepted but SF is primary; confirm remote is truly flexible before investing heavily",
+    "experience": "Senior-level backend engineering",
+    "key_skills": [
+      "Backend engineering",
+      "AI agents",
+      "healthcare automation",
+      "agentic AI"
+    ],
+    "apply": "https://jobs.ashbyhq.com/neon-health/892d93e5-20f9-4633-8e5e-a34e9af716f4",
+    "apply_url": "https://jobs.ashbyhq.com/neon-health/892d93e5-20f9-4633-8e5e-a34e9af716f4",
+    "why_fit": "Sits at the exact intersection of agentic AI and pharma \u2014 automating patient access workflows for pharmaceutical companies. J&J/Janssen pharma background combined with agentic AI expertise is a standout differentiator. YC backing, profitability, and founding-level equity make this high-upside.",
+    "summary": "Neon Health builds AI agents that accelerate patient access to life-saving drugs. YC-backed, profitable with 7-figure contracts, founded by ex-Google/Tesla/MIT engineers.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:14:21.286823+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/44_neon_health_yc__founding_backend_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:14:21.286823+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/05_neon_health_yc__founding_backend_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/05_neon_health_yc__founding_backend_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:14:21.286823+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_211111_05_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_211111_05_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:14:21.286823+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_205253_05_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_205253_05_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T02:56:41.542715+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_204714_05_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_204714_05_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T02:51:12.374041+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_152345_05_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_152345_05_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T21:27:14.053789+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

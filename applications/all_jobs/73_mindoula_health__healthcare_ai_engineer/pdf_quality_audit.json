@@ -1,0 +1,59 @@
+{
+  "policy": "tiered",
+  "status": "FAIL",
+  "blocked": true,
+  "score": 67.5,
+  "summary": {
+    "critical": 1,
+    "major": 2,
+    "minor": 0
+  },
+  "documents": {
+    "resume": {
+      "document": "resume",
+      "status": "WARN",
+      "blocked": false,
+      "score": 70,
+      "issues": [
+        {
+          "severity": "major",
+          "code": "missing_section",
+          "message": "resume is missing section heading: Summary"
+        },
+        {
+          "severity": "major",
+          "code": "missing_section",
+          "message": "resume is missing section heading: Skills"
+        }
+      ],
+      "word_count": 312,
+      "pdf_path": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/resume.pdf"
+    },
+    "cover_letter": {
+      "document": "cover_letter",
+      "status": "FAIL",
+      "blocked": true,
+      "score": 65,
+      "issues": [
+        {
+          "severity": "critical",
+          "code": "missing_pdf",
+          "message": "Missing PDF output for cover_letter."
+        }
+      ],
+      "word_count": 0,
+      "pdf_path": null
+    }
+  },
+  "warnings": [
+    "resume is missing section heading: Summary",
+    "resume is missing section heading: Skills"
+  ],
+  "auto_fixes_applied": [
+    "strip_fact_references",
+    "inject_resume_contact_line",
+    "inject_cover_letter_letterhead",
+    "strip_table_of_contents",
+    "inject_pdf_frontmatter"
+  ]
+}

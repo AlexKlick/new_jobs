@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-03-26T04:53:03.412461+00:00",
+  "canonical_index": 61,
+  "identity_key": "url:https://www.ycombinator.com/companies/aden/jobs/JknjXNi-ai-engineering-lead",
+  "job": {
+    "index": 61,
+    "heading": "Aden (YC) \u2014 AI Engineering Lead",
+    "company": "Aden (YC)",
+    "role": "AI Engineering Lead",
+    "salary": "Competitive + 0.25%\u20131.00% equity (base salary unclear \u2014 verify directly)",
+    "remote": "\ud83d\udfe1 SF / Remote listed \u2014 but at 5 employees, proximity to SF founders is often expected; confirm remote is genuinely viable from Colorado",
+    "experience": "4+ years software engineering, 2+ years deploying ML models/LLMs in production (exact fit)",
+    "key_skills": [
+      "Python",
+      "ML frameworks",
+      "LLM orchestration (LangChain",
+      "LlamaIndex)",
+      "vector databases",
+      "distributed systems"
+    ],
+    "apply": "https://www.ycombinator.com/companies/aden/jobs/JknjXNi-ai-engineering-lead",
+    "apply_url": "https://www.ycombinator.com/companies/aden/jobs/JknjXNi-ai-engineering-lead",
+    "why_fit": "Building an agentic AI ERP with a \"financial safety layer\" \u2014 directly in the multi-agent orchestration space. Experience requirement (4+ years) is an exact fit. Key risk is whether \"remote\" truly means location-independent for a 5-person YC startup.",
+    "summary": "AI-native, multi-agent ERP platform for operations leaders. YC-backed, 5 employees, San Francisco.",
+    "company_context": null
+  },
+  "status": "PARTIAL_RESUME",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:59:09.453130+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/61_aden_yc__ai_engineering_lead/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:59:09.453130+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/22_aden_yc__ai_engineering_lead",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/22_aden_yc__ai_engineering_lead/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:59:09.453130+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_215819_22_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_215819_22_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:59:09.453130+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "65bbd2cd-278c-47de-b542-cb8d80ec0d19",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup/resume.pdf",
+      "size_kb": 15.0,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2976,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "203000bc-7487-42a0-92a2-165865212026",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "8097b4e6-5335-4eff-9fb8-368207f5fe32",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_042419_29_evenup/resume.pdf.manifest.json",
+      "size_kb": 15.0
+    }
+  ]
+}

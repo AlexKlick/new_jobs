@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "job_id": "3a18be64-f9e3-426d-8fe7-b788bf238026",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Opening",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Role Alignment",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Evidence Highlights",
+        "detail": {}
+      },
+      {
+        "category": "schema_sections",
+        "severity": "FAIL",
+        "message": "Missing required section heading: Closing",
+        "detail": {}
+      }
+    ],
+    "summary": {
+      "fail": 4,
+      "warn": 0,
+      "total": 4
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/cover_letter.pdf",
+      "size_kb": 11.3,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 3016,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "e10277e7-62ef-4d4a-8f26-9d661c603d4c",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/cover_letter.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/cover_letter.ttl.manifest.json",
+      "size_kb": 2.1533203125
+    },
+    {
+      "artifact_id": "64bb2611-e84d-4e5b-8bcc-981b4e3bf425",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/cover_letter.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_035922_70_avallon-ai-yc-x25/cover_letter.pdf.manifest.json",
+      "size_kb": 11.3
+    }
+  ]
+}

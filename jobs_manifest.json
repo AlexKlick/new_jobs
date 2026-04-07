@@ -1,0 +1,2683 @@
+{
+  "generated_at": "2026-03-26T00:26:15.113875+00:00",
+  "primary_workspace": "/home/alexk/documents/new_job_denjobs",
+  "total_jobs": 74,
+  "jobs": [
+    {
+      "canonical_index": 1,
+      "identity_key": "url:https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 1,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 1
+        }
+      ],
+      "job": {
+        "index": 1,
+        "heading": "Pair Team \u2014 Senior AI Engineer",
+        "company": "Pair Team",
+        "role": "Senior AI Engineer",
+        "salary": "$170,000\u2013$200,000 + equity",
+        "remote": "Fully remote (United States)",
+        "experience": "4+ years building and shipping production software",
+        "key_skills": [
+          "Multi-agent/agentic systems in production",
+          "LangGraph",
+          "Claude Agents SDK",
+          "Langfuse/LangSmith",
+          "MCP implementations",
+          "systems architecture",
+          "evaluation frameworks"
+        ],
+        "apply": "https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+        "apply_url": "https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+        "why_fit": "This is the single best-fit role in the entire search. Pair Team explicitly requires 4+ years experience, production multi-agent systems, and lists LangGraph proficiency as \"strongly preferred\" \u2014 all direct strengths. Your healthcare compliance-checking work at J&J/Janssen and experience across three pharma companies gives you a differentiation edge that few applicants can match. The salary floor of $170k represents a 67% raise from your current compensation.",
+        "summary": "AI-enabled medical group serving Medicaid/Medicare populations. Public benefit corporation, 500+ employees, VC-backed, featured in Forbes and TechCrunch.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 2,
+      "identity_key": "url:https://job-boards.greenhouse.io/komodohealth/jobs/8447511002",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 2,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 2
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 1
+        }
+      ],
+      "job": {
+        "index": 2,
+        "heading": "Komodo Health \u2014 Applied AI Engineer",
+        "company": "Komodo Health",
+        "role": "Applied AI Engineer",
+        "salary": "$166,000\u2013$195,000 (non-Bay Area); $191,000\u2013$224,000 (SF/NYC)",
+        "remote": "Remote eligible",
+        "experience": "Production-grade AI system development",
+        "key_skills": [
+          "Python",
+          "LLMs",
+          "prompt engineering",
+          "agent-based architectures",
+          "GenAI tooling (vLLM",
+          "CrewAI",
+          "Strands",
+          "OpenAI APIs)",
+          "evaluation frameworks",
+          "orchestration patterns"
+        ],
+        "apply": "https://job-boards.greenhouse.io/komodohealth/jobs/8447511002",
+        "apply_url": "https://job-boards.greenhouse.io/komodohealth/jobs/8447511002",
+        "why_fit": "Komodo's primary clients are pharmaceutical companies analyzing treatment patterns \u2014 your consulting experience with three pharma companies is a direct competitive advantage. The role requires building agent pipelines and orchestration frameworks for LLM-driven healthcare workflows, mapping precisely to your multi-agent orchestration and LangGraph expertise. Healthcare data experience is listed as a \"nice to have,\" putting you ahead of generalist AI engineers.",
+        "summary": "Healthcare analytics platform with the industry's largest de-identified healthcare data map. Backed by a16z. Serves pharma companies, payers, and health systems. ~500 employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 3,
+      "identity_key": "url:https://posthog.com/careers/ai-product-engineer",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 3,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 3
+        }
+      ],
+      "job": {
+        "index": 3,
+        "heading": "PostHog \u2014 AI Product Engineer",
+        "company": "PostHog",
+        "role": "AI Product Engineer",
+        "salary": "$199,000\u2013$272,000+ (SF benchmark; adjusted by location via transparent calculator \u2014 ~$199k\u2013$218k for lower-cost US regions) + significant equity",
+        "remote": "Fully remote (GMT+2 to GMT-8)",
+        "experience": "Mid-to-senior full-stack engineer with AI/agentic product experience",
+        "key_skills": [
+          "Python",
+          "React",
+          "TypeScript",
+          "Django",
+          "LLMs",
+          "autonomous agents",
+          "workflow automation",
+          "AI copilots",
+          "full-stack product development"
+        ],
+        "apply": "https://posthog.com/careers/ai-product-engineer",
+        "apply_url": "https://posthog.com/careers/ai-product-engineer",
+        "why_fit": "PostHog's engineering culture prizes speed, iteration, and output \u2014 exactly the environment you're seeking. The role requires shipping agentic AI applications end-to-end using Python, React, and TypeScript, which maps to your full-stack AI capabilities. At $199k+ base with equity at a company under 200 employees, this represents both excellent compensation and the small-team, high-impact environment you prefer.",
+        "summary": "Open-source product analytics platform. ~180 employees, raised $100M+, YC W20 alum. Transparent compensation, strong engineering culture.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 4,
+      "identity_key": "url:https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 4,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 4
+        }
+      ],
+      "job": {
+        "index": 4,
+        "heading": "EvolutionIQ \u2014 Senior Software Engineer, AI/LLM (Medhub)",
+        "company": "EvolutionIQ",
+        "role": "Senior Software Engineer, AI/LLM (Medhub)",
+        "salary": "$185,000\u2013$235,000 base + annual bonus + RSUs",
+        "remote": "NYC or Remote",
+        "experience": "3+ years Python, 1+ year LLM product deployment",
+        "key_skills": [
+          "Python",
+          "LLMs",
+          "RAG",
+          "embeddings-based retrieval",
+          "prompt engineering",
+          "fine-tuning",
+          "API services/microservices",
+          "evaluating LLM outputs"
+        ],
+        "apply": "https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+        "apply_url": "https://job-boards.greenhouse.io/evolutioniq/jobs/5741722004",
+        "why_fit": "The Medhub product synthesizes complex medical documents \u2014 directly leveraging your experience building claim validation pipelines and compliance-checking systems for pharmaceutical companies. Your RAG systems expertise and production LLM deployment experience are core requirements. The $185k\u2013$235k range puts this among the highest-paying roles in the search.",
+        "summary": "AI guidance platform for insurance claims, specializing in complex medical document processing. Named Inc. Best Workplaces three years running. Fast-growing enterprise AI.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 5,
+      "identity_key": "url:https://job-boards.greenhouse.io/remesh/jobs/8450776002",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 5,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 5
+        }
+      ],
+      "job": {
+        "index": 5,
+        "heading": "Remesh \u2014 Software Engineer (AI-First)",
+        "company": "Remesh",
+        "role": "Software Engineer (AI-First)",
+        "salary": "$150,000\u2013$170,000",
+        "remote": "100% remote (must be in the United States)",
+        "experience": "3\u20135 years professional software development",
+        "key_skills": [
+          "JavaScript/TypeScript",
+          "Python",
+          "AI-assisted development (Claude Code",
+          "Cursor)",
+          "AI agents/agentic workflows",
+          "React",
+          "Docker",
+          "Kubernetes",
+          "RAG patterns",
+          "cloud platforms"
+        ],
+        "apply": "https://job-boards.greenhouse.io/remesh/jobs/8450776002",
+        "apply_url": "https://job-boards.greenhouse.io/remesh/jobs/8450776002",
+        "why_fit": "Remesh is transitioning to AI-first development and explicitly calls out building AI agents and agentic workflows \u2014 your exact specialty. The 3\u20135 year experience requirement matches perfectly. They specifically value AI-assisted development speed (mentioning Claude Code and Cursor), which aligns with your 5\u201310x productivity using agentic coding tools. Small team, 4-day week, 100% US remote.",
+        "summary": "AI-powered enterprise insights platform. 10\u201350 employees, raised $65M+. 4-day work week.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 6,
+      "identity_key": "url:https://builtin.com/job/lead-ai-engineer/8577284",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 6,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 6
+        }
+      ],
+      "job": {
+        "index": 6,
+        "heading": "Zeta Global \u2014 Lead AI Engineer",
+        "company": "Zeta Global",
+        "role": "Lead AI Engineer",
+        "salary": "$200,000\u2013$215,000",
+        "remote": "Remote or Hybrid (United States)",
+        "experience": "Senior level",
+        "key_skills": [
+          "Python",
+          "PyTorch",
+          "AWS Bedrock",
+          "OpenAI API",
+          "RAG",
+          "agentic LLM systems",
+          "tool use",
+          "multi-step reasoning",
+          "workflow orchestration"
+        ],
+        "apply": "https://builtin.com/job/lead-ai-engineer/8577284",
+        "apply_url": "https://builtin.com/job/lead-ai-engineer/8577284",
+        "why_fit": "This role involves deploying agentic LLM systems with RAG, tool-calling, and multi-step reasoning \u2014 all direct matches for your production experience. The confirmed $200k\u2013$215k salary nearly doubles your current compensation. The \"Lead\" title and public company stability offer both career progression and compensation certainty.",
+        "summary": "AI-powered marketing platform. Publicly traded (NYSE: ZETA), ~2,000 employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 7,
+      "identity_key": "url:https://himalayas.app/companies/apexanalytix/jobs/ai-engineer",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 7,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 7
+        }
+      ],
+      "job": {
+        "index": 7,
+        "heading": "apexanalytix \u2014 AI Engineer",
+        "company": "apexanalytix",
+        "role": "AI Engineer",
+        "salary": "$140,000\u2013$175,000 [est.]",
+        "remote": "Fully remote (US only; preference for EST/CST)",
+        "experience": "3\u20135 years",
+        "key_skills": [
+          "Python",
+          "LangChain",
+          "LangGraph",
+          "agentic RAG pipelines",
+          "function calling",
+          "multi-agent orchestration",
+          "Docker/Kubernetes",
+          "CI/CD",
+          "MLOps"
+        ],
+        "apply": "https://himalayas.app/companies/apexanalytix/jobs/ai-engineer",
+        "apply_url": "https://himalayas.app/companies/apexanalytix/jobs/ai-engineer",
+        "why_fit": "Near-perfect skills overlap \u2014 the posting explicitly requires LangChain, LangGraph, agentic RAG pipelines, function calling, and multi-agent orchestration. The 3\u20135 year experience band matches exactly. Fully remote US with a profitable, established company building production-grade GenAI applications.",
+        "summary": "Leading procure-to-pay solutions company, 201\u2013500 employees, profitable, serving Global 2000 clients.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 8,
+      "identity_key": "url:https://jobs.lever.co/BlackCloak/f4c238c6-0de3-4483-911b-25b54bd7a3d4",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 8,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 8
+        }
+      ],
+      "job": {
+        "index": 8,
+        "heading": "BlackCloak \u2014 AI Engineer",
+        "company": "BlackCloak",
+        "role": "AI Engineer",
+        "salary": "$140,000\u2013$180,000 [est.]",
+        "remote": "100% remote, US-based",
+        "experience": "Mid-senior level with production AI/ML experience",
+        "key_skills": [
+          "Python",
+          "TypeScript/Node.js",
+          "LLMs (Gemini",
+          "LLaMA",
+          "Claude)",
+          "PyTorch/TensorFlow",
+          "AI agents",
+          "cloud platforms",
+          "MLOps"
+        ],
+        "apply": "https://jobs.lever.co/BlackCloak/f4c238c6-0de3-4483-911b-25b54bd7a3d4",
+        "apply_url": "https://jobs.lever.co/BlackCloak/f4c238c6-0de3-4483-911b-25b54bd7a3d4",
+        "why_fit": "BlackCloak needs someone to lead AI agent development for their cybersecurity product \u2014 directly leveraging your agentic AI and tool-calling expertise. The company is under 200 employees with a mission-driven cybersecurity focus. Fully remote, Python + TypeScript stack matches your skillset, and the mid-senior level won't require 8+ years of experience.",
+        "summary": "Digital executive protection/cybersecurity. ~50\u2013200 employees, Series B+, award-winning workplace.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 9,
+      "identity_key": "url:https://job-boards.greenhouse.io/coherehealth",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 9,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 9
+        }
+      ],
+      "job": {
+        "index": 9,
+        "heading": "Cohere Health \u2014 Sr. Software Engineer",
+        "company": "Cohere Health",
+        "role": "Sr. Software Engineer",
+        "salary": "$130,000\u2013$180,000+ [est.]",
+        "remote": "100% remote (US team)",
+        "experience": "Full-stack web application experience, AI/LLM integration preferred",
+        "key_skills": [
+          "AI/LLM integration",
+          "agentic AI systems",
+          "deterministic rules engines",
+          "healthcare automation",
+          "HIPAA compliance",
+          "full-stack development"
+        ],
+        "apply": "https://job-boards.greenhouse.io/coherehealth",
+        "apply_url": "https://job-boards.greenhouse.io/coherehealth",
+        "why_fit": "Cohere Health's platform combines AI-driven automation with deterministic rules-based systems \u2014 an almost perfect mirror of your SPARQL-based deterministic scoring + LLM hybrid approach from the J&J/Janssen work. Your experience building compliance-checking pipelines in regulated pharma environments directly transfers to healthcare prior authorization automation. Fully remote.",
+        "summary": "Clinical intelligence platform automating prior authorization. AI auto-approves up to 90% of requests. Handles 12M+ prior auth annually. Inc. 5000 company, acquired ZignaAI.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 10,
+      "identity_key": "url:https://wellfound.com/role/r/ai-engineer",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 10,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 10
+        }
+      ],
+      "job": {
+        "index": 10,
+        "heading": "Pocket \u2014 AI Engineer",
+        "company": "Pocket",
+        "role": "AI Engineer",
+        "salary": "$200,000 + 0.1%\u20130.2% equity",
+        "remote": "Fully remote (worldwide)",
+        "experience": "3+ years",
+        "key_skills": [
+          "AI engineering",
+          "healthcare workflows"
+        ],
+        "apply": "https://wellfound.com/role/r/ai-engineer",
+        "apply_url": "https://wellfound.com/role/r/ai-engineer",
+        "why_fit": "A healthcare AI startup building agent-based systems for therapy operations \u2014 this combines your healthcare domain experience with agentic AI skills at an early-stage company where you'd have outsized impact. The $200k salary with equity is exceptional for a seed-stage company. The 3-year experience minimum means your 4 years qualifies you clearly.",
+        "summary": "AI Front Office Platform for Rehab Therapy. 1\u201310 employees, early stage, top 1% Wellfound responder.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 11,
+      "identity_key": "url:https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 11,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 11
+        }
+      ],
+      "job": {
+        "index": 11,
+        "heading": "Braintrust \u2014 Open Source Engineer, Python",
+        "company": "Braintrust",
+        "role": "Open Source Engineer, Python",
+        "salary": "$150,000\u2013$190,000 [est.]",
+        "remote": "Remote explicitly listed as location option",
+        "experience": "Mid-to-senior",
+        "key_skills": [
+          "Python",
+          "open-source SDK development",
+          "AI tooling",
+          "LLM integrations"
+        ],
+        "apply": "https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+        "apply_url": "https://www.braintrust.dev/careers?ashby_jid=ba4d6676-f65c-42c9-84ee-285f2da15e0d",
+        "why_fit": "Building open-source SDKs for AI evaluation infrastructure leverages your deep Python expertise and LLM framework knowledge. Braintrust is an AI-core developer tools company with top-tier VC backing. Open source involvement is a nice-to-have from your criteria. Trade-off: Less agentic AI focus than your ideal role.",
+        "summary": "AI evaluation and observability platform. Backed by a16z and Tiger Global, Series B. Helps teams ship reliable AI products.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 12,
+      "identity_key": "url:https://builtin.com/job/staff-software-engineer-applied-ai/7238249",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 12,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 12
+        }
+      ],
+      "job": {
+        "index": 12,
+        "heading": "Webflow \u2014 Staff Software Engineer, Applied AI",
+        "company": "Webflow",
+        "role": "Staff Software Engineer, Applied AI",
+        "salary": "$154,000\u2013$248,000",
+        "remote": "Fully remote (US)",
+        "experience": "Senior level",
+        "key_skills": [
+          "AI/ML",
+          "LLMs",
+          "Prompt Engineering",
+          "React",
+          "TypeScript",
+          "Node.js",
+          "Vector Databases"
+        ],
+        "apply": "https://builtin.com/job/staff-software-engineer-applied-ai/7238249",
+        "apply_url": "https://builtin.com/job/staff-software-engineer-applied-ai/7238249",
+        "why_fit": "Webflow is building AI features using LLMs, vector databases, and React/TypeScript \u2014 hitting both your AI backend and frontend skills. Fully remote with generous compensation. Trade-off: \"Staff\" title typically implies 7+ years experience; your 4 years may be a stretch, though your specialized AI skills could compensate.",
+        "summary": "Enterprise web design/no-code platform. ~800 employees, Series C, valued at $4B. Fully remote.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 13,
+      "identity_key": "url:https://builtin.com/job/ai-engineer-gen-ai-swe-weights-biases/8643571",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 13,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 13
+        }
+      ],
+      "job": {
+        "index": 13,
+        "heading": "CoreWeave (Weights & Biases) \u2014 AI Engineer, Gen AI/SWE",
+        "company": "CoreWeave (Weights & Biases)",
+        "role": "AI Engineer, Gen AI/SWE",
+        "salary": "$188,000\u2013$275,000",
+        "remote": "In-Office or Remote (6 locations)",
+        "experience": "Senior level",
+        "key_skills": [
+          "Python",
+          "LLMs",
+          "Agent Frameworks",
+          "RAG",
+          "Embeddings",
+          "Vector DBs",
+          "TypeScript",
+          "CI/CD",
+          "GenAI"
+        ],
+        "apply": "https://builtin.com/job/ai-engineer-gen-ai-swe-weights-biases/8643571",
+        "apply_url": "https://builtin.com/job/ai-engineer-gen-ai-swe-weights-biases/8643571",
+        "why_fit": "Focuses on LLM applications, agent frameworks, RAG, and embeddings \u2014 all core strengths. W&B/CoreWeave is a top-tier AI infrastructure company where your production AI experience is highly valued. The salary range ($188k\u2013$275k) is among the highest in this search. Trade-off: Larger company (~1,500+ combined), and remote policy should be verified.",
+        "summary": "CoreWeave is a major AI cloud infrastructure provider (IPO-track). W&B is the leading ML experiment tracking platform, now part of CoreWeave ($12B+ valuation).",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 14,
+      "identity_key": "url:https://job-boards.greenhouse.io/komodohealth/jobs/8223246002",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 14,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 14
+        }
+      ],
+      "job": {
+        "index": 14,
+        "heading": "Komodo Health \u2014 Senior Applied AI Engineer",
+        "company": "Komodo Health",
+        "role": "Senior Applied AI Engineer",
+        "salary": "$190,000\u2013$240,000+ [est.]",
+        "remote": "Remote eligible",
+        "experience": "Full-stack AI delivery with mentoring experience",
+        "key_skills": [
+          "LLMs",
+          "agent-based systems",
+          "GenAI models",
+          "orchestration frameworks",
+          "prompt design",
+          "agent orchestration"
+        ],
+        "apply": "https://job-boards.greenhouse.io/komodohealth/jobs/8223246002",
+        "apply_url": "https://job-boards.greenhouse.io/komodohealth/jobs/8223246002",
+        "why_fit": "A more senior version of the Applied AI role that involves mentoring others in agent orchestration and prompt design. Your production pharma AI background positions you well. Trade-off: May expect more years of experience for the \"Senior\" title, but your specialized expertise could compensate.",
+        "summary": "a16z-backed healthcare analytics platform with the industry's largest de-identified healthcare data map. Serves pharma companies, payers, and health systems. ~500 employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 15,
+      "identity_key": "url:https://www.remoterocketship.com/us/company/fastino-labs-ai/jobs/ai-engineer-united-states-remote",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 15,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 15
+        }
+      ],
+      "job": {
+        "index": 15,
+        "heading": "Fastino Labs \u2014 AI Engineer",
+        "company": "Fastino Labs",
+        "role": "AI Engineer",
+        "salary": "$150,000\u2013$200,000 [est.]",
+        "remote": "Fully remote (United States)",
+        "experience": "2+ years",
+        "key_skills": [
+          "LLMs",
+          "agentic systems",
+          "Kubernetes",
+          "Docker",
+          "API design",
+          "vector DB tuning",
+          "prompt engineering",
+          "knowledge-graph extraction"
+        ],
+        "apply": "https://www.remoterocketship.com/us/company/fastino-labs-ai/jobs/ai-engineer-united-states-remote/",
+        "apply_url": "https://www.remoterocketship.com/us/company/fastino-labs-ai/jobs/ai-engineer-united-states-remote/",
+        "why_fit": "Fastino is building core AI infrastructure for agentic AI \u2014 exactly the startup type you prefer. The role involves agentic system design and knowledge-graph extraction, making your ontology/knowledge graph expertise a strong differentiator. Well-funded seed stage with top-tier investors. Trade-off: Very early stage; compensation may lean more toward equity than base.",
+        "summary": "AI startup building production-ready small language models and fine-tuning platform for agentic AI. $25M seed backed by Microsoft, Khosla Ventures, Insight Partners. Team from Google Research, Apple, Stanford.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 16,
+      "identity_key": "url:https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 16,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 16
+        }
+      ],
+      "job": {
+        "index": 16,
+        "heading": "Valence \u2014 Applied AI Engineer (Founding)",
+        "company": "Valence",
+        "role": "Applied AI Engineer (Founding)",
+        "salary": "$140,000\u2013$180,000 + equity [est.]",
+        "remote": "Remote (US)",
+        "experience": "3+ years",
+        "key_skills": [
+          "Generative AI",
+          "LLMs",
+          "NLP",
+          "conversational systems",
+          "information retrieval",
+          "Python",
+          "full-stack development"
+        ],
+        "apply": "https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+        "apply_url": "https://jobs.lever.co/valence/3ad60b97-853c-4e2c-8c13-1cc430306d77",
+        "why_fit": "A founding AI engineering role with direct reporting to Head of AI at a well-positioned enterprise company. Your LLM application and agentic systems expertise maps directly to building AI-powered coaching products. Small team with high ownership. Trade-off: Enterprise SaaS coaching is outside your preferred industries, though it checks most other boxes.",
+        "summary": "AI-powered enterprise coaching platform. ~50\u2013100 employees, Series A, Fortune 500 clients.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 17,
+      "identity_key": "url:https://jobs.lever.co/panopto/4c4fe959-597b-493f-bc08-a3a268153a32",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 17,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 17
+        }
+      ],
+      "job": {
+        "index": 17,
+        "heading": "Panopto \u2014 AI Engineer",
+        "company": "Panopto",
+        "role": "AI Engineer",
+        "salary": "$140,000\u2013$185,000 [est.]",
+        "remote": "Remote-first (US or international)",
+        "experience": "Mid-to-senior",
+        "key_skills": [
+          "LLMs",
+          "AI agents",
+          "RAG",
+          "Python",
+          "evaluation frameworks",
+          "production AI systems",
+          "security/privacy compliance"
+        ],
+        "apply": "https://jobs.lever.co/panopto/4c4fe959-597b-493f-bc08-a3a268153a32",
+        "apply_url": "https://jobs.lever.co/panopto/4c4fe959-597b-493f-bc08-a3a268153a32",
+        "why_fit": "Panopto wants someone to design AI-powered search and tutoring features using agents and RAG \u2014 your wheelhouse. Remote-first, under 500 employees, and the compliance-awareness requirement maps to your regulated industry experience. Trade-off: Education/video tech is not a preferred industry, and salary ceiling ($185k) is moderate.",
+        "summary": "Video knowledge management platform. ~200\u2013400 employees, remote-first.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 18,
+      "identity_key": "url:https://www.remoterocketship.com/us/company/m3/jobs/ai-engineer-united-states-remote",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 18,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 18
+        }
+      ],
+      "job": {
+        "index": 18,
+        "heading": "M3 USA \u2014 AI Engineer",
+        "company": "M3 USA",
+        "role": "AI Engineer",
+        "salary": "$130,000\u2013$170,000 [est.]",
+        "remote": "Fully remote (United States)",
+        "experience": "Mid-level",
+        "key_skills": [
+          "Python",
+          "TypeScript",
+          "LLM APIs (Claude",
+          "OpenAI)",
+          "prompt engineering",
+          "context engineering",
+          "REST APIs",
+          "cloud infrastructure",
+          "agentic coding"
+        ],
+        "apply": "https://www.remoterocketship.com/us/company/m3/jobs/ai-engineer-united-states-remote/",
+        "apply_url": "https://www.remoterocketship.com/us/company/m3/jobs/ai-engineer-united-states-remote/",
+        "why_fit": "Healthcare AI role explicitly requiring context engineering, LLM APIs, and agentic coding \u2014 all core strengths. Your three-company pharma background gives you competitive advantage in healthcare data compliance. Trade-off: Part of a larger parent company ($30B+ market cap), and salary range starts at the minimum floor.",
+        "summary": "Healthcare technology/data company. Part of M3 Inc. (Tokyo-listed, $30B+ market cap).",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 19,
+      "identity_key": "url:https://jobs.lever.co/veeva/5de877f7-1b5e-4626-a3cf-366a2ff73600",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 19,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 19
+        }
+      ],
+      "job": {
+        "index": 19,
+        "heading": "Veeva Systems \u2014 Python Engineer (Veeva Link)",
+        "company": "Veeva Systems",
+        "role": "Python Engineer (Veeva Link)",
+        "salary": "$150,000\u2013$180,000 [est. mid-range]",
+        "remote": "Work Anywhere (remote within US/Canada)",
+        "experience": "Bachelor's in CS/Engineering; Python experience",
+        "key_skills": [
+          "Python",
+          "data modeling",
+          "entity resolution",
+          "machine learning",
+          "AI-generated intelligence",
+          "life sciences domain"
+        ],
+        "apply": "https://jobs.lever.co/veeva/5de877f7-1b5e-4626-a3cf-366a2ff73600",
+        "apply_url": "https://jobs.lever.co/veeva/5de877f7-1b5e-4626-a3cf-366a2ff73600",
+        "why_fit": "Veeva Link builds data-driven intelligence products for life sciences, involving complex data modeling and entity resolution \u2014 aligned with your knowledge graph and ontology expertise. Your pharma consulting background is a competitive edge at a company whose entire customer base is life sciences. Trade-off: Large company (6,000+) and the role may be more data engineering than agentic AI.",
+        "summary": "$2B+ revenue public benefit corporation (NYSE: VEEV) providing industry cloud for life sciences. 6,000+ employees. Work Anywhere policy.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 20,
+      "identity_key": "url:https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 20,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 20
+        }
+      ],
+      "job": {
+        "index": 20,
+        "heading": "Vantor \u2014 Sr Staff AI Engineer, Insights",
+        "company": "Vantor",
+        "role": "Sr Staff AI Engineer, Insights",
+        "salary": "$124,000\u2013$228,000",
+        "remote": "In-Office or Remote (Herndon, VA)",
+        "experience": "Senior level",
+        "key_skills": [
+          "Python",
+          "LangChain",
+          "LangGraph",
+          "JavaScript",
+          "AWS",
+          "GCP",
+          "Claude",
+          "Codex",
+          "Gemini"
+        ],
+        "apply": "https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+        "apply_url": "https://builtin.com/job/sr-staff-ai-engineer-insights/8654156",
+        "why_fit": "Explicitly requires LangChain, LangGraph, Python, and experience with multiple LLM providers \u2014 a direct skills match. The salary ceiling ($228k) is strong. Trade-off: Defense sector may not align with your industry preferences, and the \"Sr Staff\" title typically implies more experience than 4 years.",
+        "summary": "Defense/AI analytics company (formerly Maxar Intelligence). Geospatial AI.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 21,
+      "identity_key": "url:https://builtin.com/job/senior-ai-engineer/8680298",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 21,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 21
+        }
+      ],
+      "job": {
+        "index": 21,
+        "heading": "SailPoint \u2014 Senior AI Engineer",
+        "company": "SailPoint",
+        "role": "Senior AI Engineer",
+        "salary": "$119,000\u2013$201,000",
+        "remote": "Remote or Hybrid (United States)",
+        "experience": "Senior level",
+        "key_skills": [
+          "Python",
+          "AWS",
+          "Bedrock",
+          "Sagemaker",
+          "Airflow",
+          "Kafka",
+          "Generative AI",
+          "autonomous systems"
+        ],
+        "apply": "https://builtin.com/job/senior-ai-engineer/8680298",
+        "apply_url": "https://builtin.com/job/senior-ai-engineer/8680298",
+        "why_fit": "SailPoint is building AI-powered autonomous identity security systems, aligning with your agentic AI expertise. Cybersecurity is one of your target industries. Trade-off: Larger company and the salary floor ($119k) suggests the range is broad \u2014 you'd need to negotiate toward the upper half.",
+        "summary": "Identity security platform. Publicly traded (NASDAQ: SAIL), ~2,000 employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 22,
+      "identity_key": "url:https://builtin.com/job/senior-ai-engineer/8285831",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 22,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 22
+        }
+      ],
+      "job": {
+        "index": 22,
+        "heading": "CDW \u2014 Senior AI Engineer",
+        "company": "CDW",
+        "role": "Senior AI Engineer",
+        "salary": "$124,000\u2013$175,000",
+        "remote": "Remote or Hybrid (IL, USA)",
+        "experience": "Senior level",
+        "key_skills": [
+          "LangChain",
+          "LangGraph",
+          "LLMs",
+          "pgvector",
+          "Pinecone",
+          "Weaviate"
+        ],
+        "apply": "https://builtin.com/job/senior-ai-engineer/8285831",
+        "apply_url": "https://builtin.com/job/senior-ai-engineer/8285831",
+        "why_fit": "Focuses specifically on LangChain, LangGraph, and vector databases for agent workflows \u2014 an extremely close skills match. Trade-off: Very large enterprise company, and the salary ceiling ($175k) is moderate relative to your target.",
+        "summary": "Fortune 200 IT solutions company. $21B+ revenue, 15,000+ employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 23,
+      "identity_key": "url:https://www.workatastartup.com/jobs/64767",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 23,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 23
+        }
+      ],
+      "job": {
+        "index": 23,
+        "heading": "Glass Health \u2014 Founding AI/Data Engineer",
+        "company": "Glass Health",
+        "role": "Founding AI/Data Engineer",
+        "salary": "$150,000\u2013$200,000 [est.] + founding equity",
+        "remote": "Fully remote",
+        "experience": "5+ years engineering",
+        "key_skills": [
+          "Python",
+          "TypeScript/React",
+          "AI/LLM technology",
+          "production systems",
+          "generative AI features"
+        ],
+        "apply": "https://www.workatastartup.com/jobs/64767",
+        "apply_url": "https://www.workatastartup.com/jobs/64767",
+        "why_fit": "Healthcare AI startup that's a perfect domain fit \u2014 building clinical decision support with LLMs for physicians. YC-backed with Kaiser Permanente as an investor signals healthcare credibility. Trade-off: Lists 5+ years experience (you have 4), and very early stage means compensation may lean toward equity.",
+        "summary": "AI-powered clinical decision support for physicians. ~10\u201320 employees, YC W23, backed by Initialized and Kaiser Permanente. Planning Series A.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 24,
+      "identity_key": "url:https://aijobs.ai/job/applied-ai-engineer-61",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 24,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 24
+        }
+      ],
+      "job": {
+        "index": 24,
+        "heading": "Splitero \u2014 Applied AI Engineer",
+        "company": "Splitero",
+        "role": "Applied AI Engineer",
+        "salary": "$135,000\u2013$175,000",
+        "remote": "Fully remote (US)",
+        "experience": "Mid-level",
+        "key_skills": [
+          "AI/ML engineering",
+          "production systems"
+        ],
+        "apply": "https://aijobs.ai/job/applied-ai-engineer-61",
+        "apply_url": "https://aijobs.ai/job/applied-ai-engineer-61",
+        "why_fit": "Confirmed salary range within target at a fintech company. Applied AI roles typically involve building and deploying LLM-based systems. Trade-off: Limited detail available on AI-specific requirements; fintech is a secondary industry preference.",
+        "summary": "Real estate/fintech company offering home equity solutions.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 25,
+      "identity_key": "url:https://www.workatastartup.com/jobs/72021",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 25,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 25
+        }
+      ],
+      "job": {
+        "index": 25,
+        "heading": "Artisan \u2014 AI/ML Engineer",
+        "company": "Artisan",
+        "role": "AI/ML Engineer",
+        "salary": "$150,000\u2013$200,000 [est.]",
+        "remote": "Remote policy unclear \u2014 likely SF-based. Verify during application.",
+        "experience": "2+ years in ML/AI engineering",
+        "key_skills": [
+          "LangSmith",
+          "LangChain",
+          "LLM fine-tuning",
+          "Python",
+          "MLOps (MLflow)",
+          "AWS/Azure",
+          "Docker",
+          "agentic product development"
+        ],
+        "apply": "https://www.workatastartup.com/jobs/72021",
+        "apply_url": "https://www.workatastartup.com/jobs/72021",
+        "why_fit": "Directly building agentic AI products and explicitly requires LangChain experience. Your multi-agent orchestration and tool-calling skills are core requirements. Trade-off: Remote policy unclear \u2014 likely SF-based. Verify during application.",
+        "summary": "Building AI Employees (\"Artisans\") \u2014 autonomous agent software for sales. ~50\u2013100 employees, YC-backed.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 26,
+      "identity_key": "url:https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 26,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 26
+        }
+      ],
+      "job": {
+        "index": 26,
+        "heading": "Tempus AI \u2014 Senior Scientist II, Applied ML and Agentic AI, Pharma R&D",
+        "company": "Tempus AI",
+        "role": "Senior Scientist II, Applied ML and Agentic AI, Pharma R&D",
+        "salary": "$140,000\u2013$190,000 [est.]",
+        "remote": "May prefer in-office (Chicago/NYC). Verify remote options.",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "Python",
+          "LangGraph",
+          "agentic AI architecture",
+          "RAG",
+          "function calling",
+          "LLM evaluation",
+          "real-world evidence"
+        ],
+        "apply": "https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+        "apply_url": "https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+        "why_fit": "This role is purpose-built for your profile \u2014 building \"deep agents\" for pharma R&D using LangGraph, working directly with pharmaceutical companies. Your J&J/Janssen experience is a direct competitive advantage. Constraint: May prefer in-office (Chicago/NYC). Verify remote options.",
+        "summary": "Precision medicine leader (NASDAQ: TEM). 8M+ de-identified records, 350+ PB of clinical/molecular data. Partners with majority of top 20 pharma companies.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 27,
+      "identity_key": "url:https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 27,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 27
+        }
+      ],
+      "job": {
+        "index": 27,
+        "heading": "Perplexity AI \u2014 Software Engineer, AI Platform",
+        "company": "Perplexity AI",
+        "role": "Software Engineer, AI Platform",
+        "salary": "$160,000\u2013$220,000 [est.] + significant equity",
+        "remote": "Likely requires SF presence; highly competitive hiring bar",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "Spark",
+          "AWS",
+          "PyTorch",
+          "LLM APIs",
+          "data pipelines",
+          "personalization infrastructure"
+        ],
+        "apply": "https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e",
+        "apply_url": "https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e",
+        "why_fit": "Perplexity is building agentic products (Deep Research, Comet browser agent) on RAG architecture \u2014 your core specialization. Elite AI company with massive equity upside. Constraint: Likely requires SF presence; highly competitive hiring bar.",
+        "summary": "Top AI-powered answer engine. $1B+ raised from Jeff Bezos, Nvidia, IVP, NEA. ~60M+ queries/day.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 28,
+      "identity_key": "url:https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 28,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 28
+        }
+      ],
+      "job": {
+        "index": 28,
+        "heading": "Cohere \u2014 Applied AI Engineer, Agentic Workflows",
+        "company": "Cohere",
+        "role": "Applied AI Engineer, Agentic Workflows",
+        "salary": "$170,000\u2013$230,000 [est.]",
+        "remote": "May require office presence (SF/Toronto/London). Verify remote eligibility.",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "LLMs",
+          "agentic workflows",
+          "production-grade AI agents",
+          "RAG",
+          "Python"
+        ],
+        "apply": "https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9",
+        "apply_url": "https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9",
+        "why_fit": "Building and deploying agentic workflows powered by LLMs is literally what you do. Cohere is a tier-1 AI infrastructure company. Constraint: May require office presence (SF/Toronto/London). Verify remote eligibility.",
+        "summary": "Leading AI infrastructure / foundation model company. ~500 employees, raised $970M+.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 29,
+      "identity_key": "url:https://jobs.ashbyhq.com/evenup/edb85996-2c40-4fe3-b7c4-ef20566bcd4f",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 29,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 29
+        }
+      ],
+      "job": {
+        "index": 29,
+        "heading": "EvenUp \u2014 Machine Learning Engineer",
+        "company": "EvenUp",
+        "role": "Machine Learning Engineer",
+        "salary": "$150,000\u2013$200,000 [est.]",
+        "remote": "Hybrid-flexible (SF/Toronto hubs), ~500+ employees",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "ML",
+          "LLMs",
+          "NLP",
+          "production ML systems",
+          "Python"
+        ],
+        "apply": "https://jobs.ashbyhq.com/evenup/edb85996-2c40-4fe3-b7c4-ef20566bcd4f",
+        "apply_url": "https://jobs.ashbyhq.com/evenup/edb85996-2c40-4fe3-b7c4-ef20566bcd4f",
+        "why_fit": "EvenUp uses ML/LLMs for legal document generation and analysis \u2014 your RAG and knowledge graph expertise transfers directly. One of the fastest-growing vertical AI companies. Constraint: Hybrid-flexible (SF/Toronto hubs), ~500+ employees.",
+        "summary": "AI for personal injury law. ~500+ employees, $385M raised, $2B valuation. Backed by Bessemer, Bain Capital, SignalFire.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 30,
+      "identity_key": "name:marker learning::lead full-stack engineer",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 30,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 30
+        }
+      ],
+      "job": {
+        "index": 30,
+        "heading": "Marker Learning \u2014 Lead Full-Stack Engineer",
+        "company": "Marker Learning",
+        "role": "Lead Full-Stack Engineer",
+        "salary": "$185,000\u2013$250,000",
+        "remote": "Fully remote (US only)",
+        "experience": "Lists 8\u201310+ years experience \u2014 a significant stretch, but your specialized AI skills could compensate. Worth a shot given the upside.",
+        "key_skills": [
+          "React",
+          "Node.js",
+          "TypeScript",
+          "AI-powered scoring",
+          "data pipelines"
+        ],
+        "apply": "Email lucie@markerlearning.com with subject \"Lead Engineer Application (I am not a bot)\"",
+        "apply_url": null,
+        "why_fit": "a16z-backed company in health/education building AI-powered assessment tools. Your healthcare experience differentiates you. Exceptional salary range. Constraint: Lists 8\u201310+ years experience \u2014 a significant stretch, but your specialized AI skills could compensate. Worth a shot given the upside.",
+        "summary": "AI-enhanced assessment platform for learning disabilities. Series B, backed by a16z, Reach Capital, Primary.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 31,
+      "identity_key": "url:https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 31,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 31
+        }
+      ],
+      "job": {
+        "index": 31,
+        "heading": "Ramp \u2014 Applied AI Engineer",
+        "company": "Ramp",
+        "role": "Applied AI Engineer",
+        "salary": "$175,000\u2013$225,000 [est.]",
+        "remote": "Likely requires NYC/SF presence; exceeds 500-employee preference",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "LLMs",
+          "production AI systems",
+          "financial workflows",
+          "Python"
+        ],
+        "apply": "https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+        "apply_url": "https://jobs.ashbyhq.com/ramp/d204e136-2749-42de-82b4-88a0dd352090",
+        "why_fit": "Ramp is one of the most prominent fintechs actively investing in applied AI. Your production LLM and agentic AI expertise aligns with their automation-first approach. Constraint: Likely requires NYC/SF presence; exceeds 500-employee preference.",
+        "summary": "Corporate spend management fintech. ~1,000+ employees, valued at $13B+, raised $1.6B.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 32,
+      "identity_key": "url:https://wellfound.com/role/l/artificial-intelligence-engineer/united-states",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 32,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 32
+        }
+      ],
+      "job": {
+        "index": 32,
+        "heading": "Eudia \u2014 Applied AI Engineer",
+        "company": "Eudia",
+        "role": "Applied AI Engineer",
+        "salary": "$210,000\u2013$230,000",
+        "remote": "Likely NYC-based, not explicitly remote",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "Applied AI",
+          "LLMs",
+          "legal document workflows"
+        ],
+        "apply": "https://wellfound.com/role/l/artificial-intelligence-engineer/united-states",
+        "apply_url": "https://wellfound.com/role/l/artificial-intelligence-engineer/united-states",
+        "why_fit": "Excellent salary ($210k\u2013$230k) for applied AI work in complex document workflows \u2014 paralleling your pharma compliance document work. Constraint: Likely NYC-based, not explicitly remote.",
+        "summary": "AI-powered legal intelligence platform. 51\u2013200 employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 33,
+      "identity_key": "url:https://www.workatastartup.com/jobs/73140",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 33,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 33
+        }
+      ],
+      "job": {
+        "index": 33,
+        "heading": "Kastle \u2014 Founding Applied AI Engineer",
+        "company": "Kastle",
+        "role": "Founding Applied AI Engineer",
+        "salary": "$140,000\u2013$180,000 [est.] + significant founding equity",
+        "remote": "Likely SF-based; very early stage",
+        "experience": "3+ years",
+        "key_skills": [
+          "Python",
+          "LLM fine-tuning",
+          "AI compliance workflows",
+          "agent architectures"
+        ],
+        "apply": "https://www.workatastartup.com/jobs/73140",
+        "apply_url": "https://www.workatastartup.com/jobs/73140",
+        "why_fit": "Building AI agents in a regulated lending industry parallels your pharma regulatory experience. Founding role with maximum ownership at a YC-backed startup. Constraint: Likely SF-based; very early stage.",
+        "summary": "AI agents for consumer lending (mortgage). Working with America's largest mortgage lenders. ~1\u201310 employees, YC-backed, $2.3M seed.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 34,
+      "identity_key": "url:https://www.workatastartup.com/jobs/77473",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 34,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 34
+        }
+      ],
+      "job": {
+        "index": 34,
+        "heading": "FurtherAI \u2014 Forward Deployed Engineer",
+        "company": "FurtherAI",
+        "role": "Forward Deployed Engineer",
+        "salary": "$140,000\u2013$180,000 [est.] + meaningful equity",
+        "remote": "SF-based with \"remote options for exceptional candidates\" \u2014 not guaranteed remote",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "Python",
+          "cloud infrastructure",
+          "LLMs",
+          "agent architectures",
+          "agentic AI systems"
+        ],
+        "apply": "https://www.workatastartup.com/jobs/77473",
+        "apply_url": "https://www.workatastartup.com/jobs/77473",
+        "why_fit": "Enterprise-grade AI agents in insurance directly parallels your regulated-industry experience in pharma. Multi-agent orchestration skills apply directly. Constraint: SF-based with \"remote options for exceptional candidates\" \u2014 not guaranteed remote.",
+        "summary": "Building AI Teammates for insurance workflows. ~10\u201320 employees, YC W24, backed by South Park Commons, Nexus VP, Converge VC. $5M seed.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 35,
+      "identity_key": "url:https://careers.lindy.ai/ai-implementation-engineer",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 35,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 35
+        }
+      ],
+      "job": {
+        "index": 35,
+        "heading": "Lindy AI \u2014 Forward Deployed Engineer",
+        "company": "Lindy AI",
+        "role": "Forward Deployed Engineer",
+        "salary": "$140,000\u2013$180,000 [est.]",
+        "remote": "Primarily SF-based",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "AI agent implementation",
+          "LLM integration",
+          "multi-agent systems"
+        ],
+        "apply": "https://careers.lindy.ai/ai-implementation-engineer",
+        "apply_url": "https://careers.lindy.ai/ai-implementation-engineer",
+        "why_fit": "Lindy is an agentic AI platform company \u2014 the exact category you're targeting. Your multi-agent orchestration expertise is core to this role. Constraint: Primarily SF-based.",
+        "summary": "Autonomous AI agents for professionals. ~50+ employees, backed by a16z, ~$50M+ raised.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 36,
+      "identity_key": "url:https://ats.rippling.com/patronus-ai-jobs/jobs/334f09fc-61c5-4d1f-86b3-ee30d7e895a7",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 36,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 36
+        }
+      ],
+      "job": {
+        "index": 36,
+        "heading": "Patronus AI \u2014 Member of Technical Staff",
+        "company": "Patronus AI",
+        "role": "Member of Technical Staff",
+        "salary": "$150,000\u2013$200,000 [est.]",
+        "remote": "Listed as SF; remote policy unclear",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "Software engineering",
+          "AI evaluation systems",
+          "LLM testing infrastructure",
+          "Python"
+        ],
+        "apply": "https://ats.rippling.com/patronus-ai-jobs/jobs/334f09fc-61c5-4d1f-86b3-ee30d7e895a7",
+        "apply_url": "https://ats.rippling.com/patronus-ai-jobs/jobs/334f09fc-61c5-4d1f-86b3-ee30d7e895a7",
+        "why_fit": "Building AI evaluation infrastructure leverages your production LLM experience. AI safety/eval is a high-growth infrastructure category. Constraint: Listed as SF; remote policy unclear.",
+        "summary": "AI security and risk management \u2014 adversarial testing, hallucination detection, safety evaluation. Backed by Lightspeed Venture Partners, ~$50M+ raised.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 37,
+      "identity_key": "url:https://www.braintrust.dev/careers?ashby_jid=1a8c2f24-97fe-4504-a30c-1cfe7f03278b",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 37,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 37
+        }
+      ],
+      "job": {
+        "index": 37,
+        "heading": "Braintrust \u2014 AI Engineer (Forward Deployed)",
+        "company": "Braintrust",
+        "role": "AI Engineer (Forward Deployed)",
+        "salary": "$150,000\u2013$200,000 [est.]",
+        "remote": "Full remote may require negotiation (SF/NYC preferred)",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "AI evaluation systems",
+          "LLM orchestration",
+          "Python",
+          "customer-facing engineering"
+        ],
+        "apply": "https://www.braintrust.dev/careers?ashby_jid=1a8c2f24-97fe-4504-a30c-1cfe7f03278b",
+        "apply_url": "https://www.braintrust.dev/careers?ashby_jid=1a8c2f24-97fe-4504-a30c-1cfe7f03278b",
+        "why_fit": "FDE roles involve deep work with LLMs, agents, and RAG systems across multiple customer environments \u2014 similar to consulting but at an AI-core company. Constraint: Full remote may require negotiation (SF/NYC preferred).",
+        "summary": "a16z-backed AI evaluation and observability platform. Series B, backed by Tiger Global. Helps teams ship reliable AI products.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 38,
+      "identity_key": "url:https://job-boards.greenhouse.io/capitalrx/jobs/5142980008",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 38,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 38
+        }
+      ],
+      "job": {
+        "index": 38,
+        "heading": "Judi Health (formerly Capital Rx) \u2014 Machine Learning Engineer",
+        "company": "Judi Health (formerly Capital Rx)",
+        "role": "Machine Learning Engineer",
+        "salary": "$130,000\u2013$160,000 [est.]",
+        "remote": "Denver or Remote",
+        "experience": "2+ years",
+        "key_skills": [
+          "Python",
+          "PyTorch",
+          "LLMs",
+          "RAG",
+          "NLP/NLG",
+          "GenAI services",
+          "HIPAA compliance",
+          "document understanding"
+        ],
+        "apply": "https://job-boards.greenhouse.io/capitalrx/jobs/5142980008",
+        "apply_url": "https://job-boards.greenhouse.io/capitalrx/jobs/5142980008",
+        "why_fit": "Pharmacy-focused AI company where your pharma domain expertise (TREMFYA scoring, compliance checking) is directly relevant. HIPAA compliance work mirrors your regulated-industry background. Constraint: Salary range is at the lower end of your target.",
+        "summary": "Enterprise health tech / pharmacy benefit management. Public benefit corporation.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 39,
+      "identity_key": "url:https://job-boards.greenhouse.io/leagueinc/jobs/5812776004",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 39,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 39
+        }
+      ],
+      "job": {
+        "index": 39,
+        "heading": "League Inc. \u2014 Senior AI Engineer",
+        "company": "League Inc.",
+        "role": "Senior AI Engineer",
+        "salary": "$160,000\u2013$200,000 [est.]",
+        "remote": "Mix of Toronto office-centric and remote-eligible \u2014 verify US remote availability",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "Python",
+          "RAG pipelines",
+          "multi-step agents",
+          "LangChain/LlamaIndex",
+          "MLflow",
+          "Docker",
+          "Kubernetes",
+          "healthcare compliance"
+        ],
+        "apply": "https://job-boards.greenhouse.io/leagueinc/jobs/5812776004",
+        "apply_url": "https://job-boards.greenhouse.io/leagueinc/jobs/5812776004",
+        "why_fit": "League's AI systems power healthcare experiences in a regulated environment. Your RAG and multi-agent orchestration experience applies directly. Constraint: Mix of Toronto office-centric and remote-eligible \u2014 verify US remote availability.",
+        "summary": "Healthcare customer experience platform. $95M+ Series C. Powers digital health experiences for health systems.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 40,
+      "identity_key": "url:https://jobs.ashbyhq.com/airwallex/1d4b22cd-33cd-44b8-83fe-108d11907f2f",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 40,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 40
+        }
+      ],
+      "job": {
+        "index": 40,
+        "heading": "Airwallex \u2014 AI Engineer",
+        "company": "Airwallex",
+        "role": "AI Engineer",
+        "salary": "$150,000\u2013$190,000 [est.]",
+        "remote": "Remote or hybrid (SF); larger company (1,800+)",
+        "experience": "Not specified \u2014 verify during application",
+        "key_skills": [
+          "Python",
+          "LangChain",
+          "LlamaIndex",
+          "AutoGen",
+          "agentic frameworks",
+          "advanced orchestration"
+        ],
+        "apply": "https://jobs.ashbyhq.com/airwallex/1d4b22cd-33cd-44b8-83fe-108d11907f2f",
+        "apply_url": "https://jobs.ashbyhq.com/airwallex/1d4b22cd-33cd-44b8-83fe-108d11907f2f",
+        "why_fit": "Explicitly requires agentic frameworks, LangChain, and multi-agent orchestration. High-growth fintech unicorn. Constraint: Remote or hybrid (SF); larger company (1,800+).",
+        "summary": "Global fintech/payments platform. Valued at $6.2B, backed by Visa, Sequoia, DST Global. 1,800+ employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 41,
+      "identity_key": "url:https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL/jobs/10789",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 2,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 2
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 41
+        }
+      ],
+      "job": {
+        "index": 41,
+        "heading": "Signant Health \u2014 AI Platform Engineer, LLM Agents & RAG",
+        "company": "Signant Health",
+        "role": "AI Platform Engineer, LLM Agents & RAG",
+        "salary": "~$140K\u2013$180K [est.]",
+        "remote": "\ud83d\udfe2 Fully remote, USA only",
+        "experience": "5+ years software engineering; 2+ years LLM/AI production systems",
+        "key_skills": [
+          "Python",
+          "LLM apps",
+          "RAG systems",
+          "vector databases",
+          "agentic workflows (tool use",
+          "planning",
+          "state management)",
+          "AI safety/guardrails",
+          "HIPAA/GDPR compliance"
+        ],
+        "apply": "https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL/jobs/10789",
+        "apply_url": "https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL/jobs/10789",
+        "why_fit": "This role title could have been written from this resume \u2014 it explicitly demands agentic AI systems, RAG pipelines, and AI guardrails in a clinical/pharma environment. Experience building pharma compliance checking and claim validation pipelines translates directly.",
+        "summary": "Signant Health is a global clinical trial technology company powering research for top-20 pharma companies. ~1,500 employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 42,
+      "identity_key": "url:https://job-boards.greenhouse.io/webflow/jobs/6929034",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 3,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 3
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 42
+        }
+      ],
+      "job": {
+        "index": 42,
+        "heading": "Webflow \u2014 Staff Software Engineer, AI Developer Productivity",
+        "company": "Webflow",
+        "role": "Staff Software Engineer, AI Developer Productivity",
+        "salary": "$154,000\u2013$281,000 (zone-based pay bands)",
+        "remote": "\ud83d\udfe2 Remote-first (US; BC & ON, Canada)",
+        "experience": "7+ years developer tooling, 2+ years AI/AI Platform",
+        "key_skills": [
+          "LLMs",
+          "vector databases",
+          "RAG",
+          "**MCP (Model Context Protocol)**",
+          "prompt engineering",
+          "TypeScript",
+          "Node.js",
+          "MongoDB",
+          "AWS"
+        ],
+        "apply": "https://job-boards.greenhouse.io/webflow/jobs/6929034",
+        "apply_url": "https://job-boards.greenhouse.io/webflow/jobs/6929034",
+        "why_fit": "One of the rare listings **explicitly requiring MCP experience** \u2014 a direct match to this candidate's specialized expertise. Also requires RAG, LLMs, and TypeScript, all core strengths. Experience requirement is a stretch at 7+ years, but MCP specialization is rare enough to create flexibility.",
+        "summary": "Webflow is a no-code website experience platform going AI-native. Remote-first, ~800 employees, backed by YC and Accel.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 43,
+      "identity_key": "url:https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 4,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 4
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 43
+        }
+      ],
+      "job": {
+        "index": 43,
+        "heading": "Apollo.io \u2014 Senior AI Engineer",
+        "company": "Apollo.io",
+        "role": "Senior AI Engineer",
+        "salary": "$160,000\u2013$220,000 [est.] + equity",
+        "remote": "\ud83d\udfe2 Fully remote (US)",
+        "experience": "5+ years software engineering",
+        "key_skills": [
+          "Python",
+          "LangChain",
+          "multi-agent systems",
+          "LLM chaining",
+          "prompt engineering",
+          "agentic workflows",
+          "RAG",
+          "semantic search",
+          "API integration",
+          "cloud deployment"
+        ],
+        "apply": "https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+        "apply_url": "https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+        "why_fit": "The role focuses on building autonomous AI agents, deep research agents, and multi-agent orchestration \u2014 a direct overlay with expert-level agentic AI skills. LangChain/LangGraph experience and Python proficiency align precisely.",
+        "summary": "Apollo.io is a Sequoia-backed, AI-powered go-to-market platform ($1.6B valuation, $100M Series D). 500K+ customer companies.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 44,
+      "identity_key": "url:https://jobs.ashbyhq.com/neon-health/892d93e5-20f9-4633-8e5e-a34e9af716f4",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 5,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 5
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 44
+        }
+      ],
+      "job": {
+        "index": 44,
+        "heading": "Neon Health (YC) \u2014 Founding Backend Engineer",
+        "company": "Neon Health (YC)",
+        "role": "Founding Backend Engineer",
+        "salary": "$170,000\u2013$225,000 + equity [est. from HN listing]",
+        "remote": "\ud83d\udfe1 SF or Remote (North America) \u2014 remote is accepted but SF is primary; confirm remote is truly flexible before investing heavily",
+        "experience": "Senior-level backend engineering",
+        "key_skills": [
+          "Backend engineering",
+          "AI agents",
+          "healthcare automation",
+          "agentic AI"
+        ],
+        "apply": "https://jobs.ashbyhq.com/neon-health/892d93e5-20f9-4633-8e5e-a34e9af716f4",
+        "apply_url": "https://jobs.ashbyhq.com/neon-health/892d93e5-20f9-4633-8e5e-a34e9af716f4",
+        "why_fit": "Sits at the exact intersection of agentic AI and pharma \u2014 automating patient access workflows for pharmaceutical companies. J&J/Janssen pharma background combined with agentic AI expertise is a standout differentiator. YC backing, profitability, and founding-level equity make this high-upside.",
+        "summary": "Neon Health builds AI agents that accelerate patient access to life-saving drugs. YC-backed, profitable with 7-figure contracts, founded by ex-Google/Tesla/MIT engineers.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 45,
+      "identity_key": "url:https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 6,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 6
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 45
+        }
+      ],
+      "job": {
+        "index": 45,
+        "heading": "Fabric Health \u2014 Senior Software Engineer, AI",
+        "company": "Fabric Health",
+        "role": "Senior Software Engineer, AI",
+        "salary": "~$170K\u2013$210K [est.]",
+        "remote": "\ud83d\udfe2 Remote-first (distributed team)",
+        "experience": "5+ years software engineering or applied ML; 3+ years hands-on with LLMs and LLM agents",
+        "key_skills": [
+          "Python (Flask/FastAPI)",
+          "LLMs",
+          "LLM agents",
+          "RAG",
+          "classification",
+          "NLP",
+          "embeddings/vector databases",
+          "LangChain",
+          "LangGraph",
+          "AWS",
+          "Kubernetes"
+        ],
+        "apply": "https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+        "apply_url": "https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+        "why_fit": "The skill requirements read like a description of this candidate's toolkit \u2014 FastAPI, LangChain, LangGraph, RAG, and LLM agents in a healthcare context. Clinical NLP components map well to the pharma compliance system experience. Top-tier VC backing signals strong trajectory.",
+        "summary": "Fabric Health transforms patient-provider interactions through AI. Backed by Thrive Capital, Google Ventures, General Catalyst, and Salesforce Ventures.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 46,
+      "identity_key": "url:https://www.workatastartup.com/jobs/61911",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 7,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 7
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 46
+        }
+      ],
+      "job": {
+        "index": 46,
+        "heading": "Rejoy Health (YC W21) \u2014 AI Engineer",
+        "company": "Rejoy Health (YC W21)",
+        "role": "AI Engineer",
+        "salary": "$180,000\u2013$250,000 + 0.50%\u20131.00% equity",
+        "remote": "\ud83d\udfe2 Remote (US)",
+        "experience": "1+ years (low bar)",
+        "key_skills": [
+          "Machine learning",
+          "AI algorithms",
+          "NLP",
+          "data pipelines",
+          "mobile/web integration"
+        ],
+        "apply": "https://www.workatastartup.com/jobs/61911",
+        "apply_url": "https://www.workatastartup.com/jobs/61911",
+        "why_fit": "Healthcare AI with excellent compensation ($180K+ base) and meaningful equity. Remote US, low experience threshold, and YC backing. Healthcare domain experience and AI engineering skills position this candidate as an overqualified but highly valued hire. The equity stake (0.5\u20131.0%) represents significant upside.",
+        "summary": "YC-backed healthcare tech company building an AI-powered at-home physical therapy platform.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 47,
+      "identity_key": "url:https://wellfound.com/company/gentoro/jobs",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 8,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 8
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 47
+        }
+      ],
+      "job": {
+        "index": 47,
+        "heading": "Gentoro \u2014 Senior AI Engineer",
+        "company": "Gentoro",
+        "role": "Senior AI Engineer",
+        "salary": "$130,000\u2013$180,000",
+        "remote": "\ud83d\udfe2 Remote (United States), Redwood City HQ",
+        "experience": "7 years listed (stretch, but skills alignment is exceptional)",
+        "key_skills": [
+          "Multi-agent systems",
+          "orchestration layers",
+          "MCP (Model Context Protocol)",
+          "enterprise integrations",
+          "AI agent governance",
+          "observability"
+        ],
+        "apply": "https://wellfound.com/company/gentoro/jobs",
+        "apply_url": "https://wellfound.com/company/gentoro/jobs",
+        "why_fit": "Gentoro is literally building an MCP platform for connecting AI agents to enterprise systems \u2014 perhaps the single most domain-aligned opportunity in this entire list. MCP expertise and multi-agent orchestration skills are the company's core product requirements.",
+        "summary": "Gentoro builds a platform bridging AI agents with enterprise applications, purpose-built around **Model Context Protocol (MCP)**. 1\u201310 employees, early stage.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 48,
+      "identity_key": "url:https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 9,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 9
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 48
+        }
+      ],
+      "job": {
+        "index": 48,
+        "heading": "Harvey AI \u2014 Senior Applied AI Engineer",
+        "company": "Harvey AI",
+        "role": "Senior Applied AI Engineer",
+        "salary": "~$180K\u2013$250K [est. for senior AI at top-tier VC-backed company]",
+        "remote": "\ud83d\udfe1 Not fully confirmed; Harvey has distributed teams but SF is primary hub \u2014 verify remote policy before applying",
+        "experience": "Senior-level",
+        "key_skills": [
+          "Agentic AI",
+          "LLM applications",
+          "enterprise platform engineering"
+        ],
+        "apply": "https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+        "apply_url": "https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0",
+        "why_fit": "Harvey is one of the most well-funded AI-native companies, backed by preferred VCs (Sequoia, a16z). The applied AI engineer roles involve hands-on building with LLMs and agents. Multiple role levels available (AI Engineer through Staff) to find the right experience fit.",
+        "summary": "Harvey AI is transforming legal and professional services with frontier agentic AI. Backed by Sequoia, a16z, and others. 500\u20131,000+ customers in 50+ countries.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 49,
+      "identity_key": "url:https://www.ycombinator.com/companies/careforce-prev-helpcare-ai/jobs/Hjx9nA3-senior-fullstack-engineer",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 10,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 10
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 49
+        }
+      ],
+      "job": {
+        "index": 49,
+        "heading": "Careforce AI (YC F24) \u2014 Senior Fullstack Engineer",
+        "company": "Careforce AI (YC F24)",
+        "role": "Senior Fullstack Engineer",
+        "salary": "$120,000\u2013$180,000 + 0.20%\u20131.00% equity + 2x/year bonus",
+        "remote": "\ud83d\udfe2 Fully remote (US)",
+        "experience": "5\u20137+ years (may flex for strong AI skills)",
+        "key_skills": [
+          "Python",
+          "React",
+          "FastAPI",
+          "Supabase",
+          "GCP",
+          "LLMs",
+          "Voice AI",
+          "agentic applications"
+        ],
+        "apply": "https://www.ycombinator.com/companies/careforce-prev-helpcare-ai/jobs/Hjx9nA3-senior-fullstack-engineer",
+        "apply_url": "https://www.ycombinator.com/companies/careforce-prev-helpcare-ai/jobs/Hjx9nA3-senior-fullstack-engineer",
+        "why_fit": "The stack is a near-perfect overlay \u2014 Python, FastAPI, React deployed for healthcare AI agents. Entire company is organized around agent teams (Agent Experience, Agent Interfaces, Agent Alignment, Agent Deployment). Base salary starts borderline but bonuses and early-stage equity (0.2\u20131.0%) push total comp well above threshold.",
+        "summary": "YC-backed healthcare AI startup building autonomous AI agents for healthcare administrative tasks. ~10 employees, rapid growth.",
+        "company_context": "Careforce AI (previously HelpCare AI) is a YC F24 company with ~10 employees building autonomous AI agents that handle healthcare administrative tasks like prior authorizations, claims processing, and patient scheduling. The company is organized into four agent-focused teams: Agent Experience, Agent Interfaces, Agent Alignment, and Agent Deployment. As an early-stage YC company, they value builders who can own entire features end-to-end. Their tech stack centers on Python/FastAPI backends with React frontends, Supabase for data, and GCP for infrastructure. The healthcare admin automation space is massive \u2014 prior authorizations alone cost the US healthcare system $35B+ annually in administrative waste."
+      }
+    },
+    {
+      "canonical_index": 50,
+      "identity_key": "url:https://jobs.ashbyhq.com/rula/2a27a5c4-02e8-4d71-b8d2-0f239d91a257",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 11,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 11
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 50
+        }
+      ],
+      "job": {
+        "index": 50,
+        "heading": "Rula \u2014 Staff AI Engineer, AI Foundation",
+        "company": "Rula",
+        "role": "Staff AI Engineer, AI Foundation",
+        "salary": "~$300,000 total compensation",
+        "remote": "\ud83d\udfe2 100% remote (US, excluding Hawaii) \u2014 Colorado fully eligible",
+        "experience": "8+ years SWE, 5+ years Python, 1+ years production AI (experience stretch)",
+        "key_skills": [
+          "RAG pipelines",
+          "multi-agent orchestration",
+          "LLM integrations",
+          "LangChain/LlamaIndex/DSPy/Haystack",
+          "vector databases (Pinecone",
+          "Weaviate",
+          "FAISS",
+          "Milvus)",
+          "Python",
+          "TypeScript"
+        ],
+        "apply": "https://jobs.ashbyhq.com/rula/2a27a5c4-02e8-4d71-b8d2-0f239d91a257",
+        "apply_url": "https://jobs.ashbyhq.com/rula/2a27a5c4-02e8-4d71-b8d2-0f239d91a257",
+        "why_fit": "Healthcare AI with RAG and multi-agent orchestration at a Sequoia-backed company. The DSPy mention is notable \u2014 few companies list this. Experience requirement (8+ years) is a significant stretch, but specialized GenAI + healthcare depth could compensate. $300K total comp is among the highest found.",
+        "summary": "AI-powered mental health care platform. ~$7.7B valuation, backed by Sequoia and Khosla Ventures. 1,000+ employees, 100% remote.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 51,
+      "identity_key": "url:https://builtin.com/job/principal-ai-engineer/6910705",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 12,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 12
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 51
+        }
+      ],
+      "job": {
+        "index": 51,
+        "heading": "Apollo.io \u2014 Principal AI Engineer",
+        "company": "Apollo.io",
+        "role": "Principal AI Engineer",
+        "salary": "$200,000\u2013$300,000 + equity",
+        "remote": "\ud83d\udfe2 Fully remote (US)",
+        "experience": "Senior/Staff level (stretch)",
+        "key_skills": [
+          "Python",
+          "Anthropic",
+          "AWS Bedrock",
+          "LangChain",
+          "LlamaIndex",
+          "OpenAI",
+          "agentic AI systems"
+        ],
+        "apply": "https://builtin.com/job/principal-ai-engineer/6910705",
+        "apply_url": "https://builtin.com/job/principal-ai-engineer/6910705",
+        "why_fit": "Excellent skills alignment with higher compensation ceiling than the Senior role. The principal title is a stretch, but rearchitecting a 10-week project in 2 weeks suggests staff-level output capacity. Worth applying as a high-comp target.",
+        "summary": "Same company as Role #4 \u2014 Sequoia-backed AI sales platform.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 52,
+      "identity_key": "url:https://www.remoterocketship.com/company/webflow/jobs/lead-ai-engineer-united-states-remote",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 13,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 13
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 52
+        }
+      ],
+      "job": {
+        "index": 52,
+        "heading": "Webflow \u2014 Lead AI Engineer",
+        "company": "Webflow",
+        "role": "Lead AI Engineer",
+        "salary": "~$200K\u2013$300K total comp [est.]",
+        "remote": "\ud83d\udfe2 Fully remote (US)",
+        "experience": "Senior level",
+        "key_skills": [
+          "AI agents",
+          "agentic workflows",
+          "production AI systems",
+          "system architecture"
+        ],
+        "apply": "https://www.remoterocketship.com/company/webflow/jobs/lead-ai-engineer-united-states-remote/",
+        "apply_url": "https://www.remoterocketship.com/company/webflow/jobs/lead-ai-engineer-united-states-remote/",
+        "why_fit": "This role serves as the primary AI engineering partner to the CEO/exec team, translating ideas into production-ready AI agents with minimal oversight. The emphasis on agentic systems and concept-to-production ownership aligns with demonstrated ability to independently rearchitect complex applications.",
+        "summary": "Same company as Role #3.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 53,
+      "identity_key": "url:https://recruiting.paylocity.com/recruiting/jobs/Details/3702179/YCHARTS-INC/Software-Engineer-II---Applied-AI",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 14,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 14
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 53
+        }
+      ],
+      "job": {
+        "index": 53,
+        "heading": "YCharts \u2014 Software Engineer II, Applied AI",
+        "company": "YCharts",
+        "role": "Software Engineer II, Applied AI",
+        "salary": "$140,000\u2013$180,000",
+        "remote": "\ud83d\udfe2 Fully remote (US)",
+        "experience": "Mid-level (4+ years \u2014 exact fit)",
+        "key_skills": [
+          "FastAPI",
+          "Django",
+          "Pinecone",
+          "MySQL",
+          "OpenAI",
+          "Anthropic",
+          "Angular"
+        ],
+        "apply": "https://recruiting.paylocity.com/recruiting/jobs/Details/3702179/YCHARTS-INC/Software-Engineer-II---Applied-AI",
+        "apply_url": "https://recruiting.paylocity.com/recruiting/jobs/Details/3702179/YCHARTS-INC/Software-Engineer-II---Applied-AI",
+        "why_fit": "One of the best experience-level fits in this list \u2014 the mid-level role matches ~4 years precisely. Uses FastAPI (a core strength) and multiple LLM providers for building AI agents. Active listing confirmed via HN March 2026 thread.",
+        "summary": "Investment research platform building AI agents for financial data. Posted in the March 2026 Hacker News \"Who is Hiring\" thread.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 54,
+      "identity_key": "name:cohere health::staff machine learning engineer",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 15,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 15
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 54
+        }
+      ],
+      "job": {
+        "index": 54,
+        "heading": "Cohere Health \u2014 Staff Machine Learning Engineer",
+        "company": "Cohere Health",
+        "role": "Staff Machine Learning Engineer",
+        "salary": "~$150K\u2013$190K [est.] for Staff level",
+        "remote": "\ud83d\udfe2 100% remote (US)",
+        "experience": "Staff-level for senior role; ML Engineer II for earlier career",
+        "key_skills": [
+          "ML model development/deployment",
+          "clinical data",
+          "healthcare compliance",
+          "NLP",
+          "Python"
+        ],
+        "apply": "TBD",
+        "apply_url": null,
+        "why_fit": "Cohere's core product validates clinical requests against medical guidelines \u2014 directly analogous to the pharma claim validation work at J&J/Janssen. The ML Engineer II role offers a better experience-level fit.",
+        "summary": "AI-powered prior authorization platform serving major health plans. 500\u20131,000 employees, Series C+.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 55,
+      "identity_key": "name:pocket::founding ai engineer",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 55,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 55
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 16
+        }
+      ],
+      "job": {
+        "index": 55,
+        "heading": "Pocket \u2014 Founding AI Engineer",
+        "company": "Pocket",
+        "role": "Founding AI Engineer",
+        "salary": "$150,000 + 0.75%\u20131.0% equity",
+        "remote": "\ud83d\udfe2 Remote only, United States",
+        "experience": "3 years",
+        "key_skills": [
+          "AI engineering",
+          "healthcare/rehab therapy domain"
+        ],
+        "apply": "Search \"Pocket\" on wellfound.com",
+        "apply_url": null,
+        "why_fit": "Healthcare AI startup with founding-level equity (0.75\u20131.0%) and a low experience bar. Remote US, meets salary minimum at $150K. Healthcare domain experience creates strong differentiation for a founding AI engineer role.",
+        "summary": "\"AI Front Office Platform for Rehab Therapy.\" 1\u201310 employees, early stage. Healthcare AI.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 56,
+      "identity_key": "name:deepgram::software engineer, voice agents / ai",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 56,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 56
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 17
+        }
+      ],
+      "job": {
+        "index": 56,
+        "heading": "Deepgram \u2014 Software Engineer, Voice Agents / AI",
+        "company": "Deepgram",
+        "role": "Software Engineer, Voice Agents / AI",
+        "salary": "$160,000\u2013$250,000",
+        "remote": "\ud83d\udfe1 Remote + San Francisco \u2014 confirm that \"Remote\" is truly location-agnostic vs. SF-area preferred",
+        "experience": "Mid-senior level",
+        "key_skills": [
+          "Voice AI",
+          "AI agents",
+          "speech processing",
+          "Python"
+        ],
+        "apply": "Search on wellfound.com for Deepgram",
+        "apply_url": null,
+        "why_fit": "Deepgram is building voice-powered AI agents \u2014 agentic AI applied to speech. Agent architecture expertise translates well to designing voice agent workflows. Strong salary range and likely remote option.",
+        "summary": "AI speech API platform for transcription and voice AI. 51\u2013200 employees, well-funded.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 57,
+      "identity_key": "name:zapier::senior engineer, backend \u2013 mcp",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 57,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 57
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 18
+        }
+      ],
+      "job": {
+        "index": 57,
+        "heading": "Zapier \u2014 Senior Engineer, Backend \u2013 MCP",
+        "company": "Zapier",
+        "role": "Senior Engineer, Backend \u2013 MCP",
+        "salary": "~$160K\u2013$210K [est.]",
+        "remote": "\ud83d\udfe2 Remote (United States) \u2014 Zapier is a famous remote-first company, no office requirements",
+        "experience": "6+ years designing and maintaining complex production systems",
+        "key_skills": [
+          "Python/Node.js",
+          "API design",
+          "database modeling",
+          "CI/CD",
+          "MCP/agent frameworks",
+          "AI tools"
+        ],
+        "apply": "Search Zapier careers page for MCP role",
+        "apply_url": null,
+        "why_fit": "One of the few roles explicitly titled around MCP \u2014 directly leveraging MCP expertise. Zapier's integration ecosystem is a natural platform for MCP server development. The 6+ year experience requirement is a stretch but MCP expertise is rare enough to create leverage.",
+        "summary": "Zapier is the dominant workflow automation platform, now building MCP integrations for AI agent ecosystems. Well-funded, remote-first.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 58,
+      "identity_key": "url:https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 19,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 19
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 58
+        }
+      ],
+      "job": {
+        "index": 58,
+        "heading": "SailPoint \u2014 Senior Data Engineer, AI/LLM Applications",
+        "company": "SailPoint",
+        "role": "Senior Data Engineer, AI/LLM Applications",
+        "salary": "$141,000\u2013$262,000",
+        "remote": "\ud83d\udfe2 Remote (US)",
+        "experience": "Senior level",
+        "key_skills": [
+          "LLM application development",
+          "RAG architectures",
+          "Python",
+          "LangChain",
+          "Hugging Face",
+          "GCP",
+          "CI/CD",
+          "data pipelines"
+        ],
+        "apply": "https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+        "apply_url": "https://himalayas.app/companies/sailpoint/jobs/senior-data-engineer-ai-llm-applications",
+        "why_fit": "Building LLM-powered production solutions with RAG and LangChain at a major enterprise. Python and cloud expertise match well. The wide salary range ($141K\u2013$262K) offers significant upside.",
+        "summary": "Identity security cloud platform. Public company (acquired by Thoma Bravo for $6.9B). 2,000+ employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 59,
+      "identity_key": "url:https://www.workatastartup.com/jobs/79665",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 20,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 20
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 59
+        }
+      ],
+      "job": {
+        "index": 59,
+        "heading": "Elayne (YC + Accel) \u2014 Founding Senior Engineer (AI/ML)",
+        "company": "Elayne (YC + Accel)",
+        "role": "Founding Senior Engineer (AI/ML)",
+        "salary": "$160,000\u2013$250,000",
+        "remote": "\ud83d\udfe1 NYC-based team; remote status needs verification \u2014 reach out to confirm before investing time in the application",
+        "experience": "4+ years shipping production-grade AI features (exact match)",
+        "key_skills": [
+          "RAG",
+          "vector search",
+          "multi-step agent workflows",
+          "entity resolution",
+          "document classification",
+          "contextual memory management",
+          "prompt orchestration",
+          "embedding pipelines"
+        ],
+        "apply": "https://www.workatastartup.com/jobs/79665",
+        "apply_url": "https://www.workatastartup.com/jobs/79665",
+        "why_fit": "The 4+ year requirement is an exact fit. Multi-step agent workflows, RAG, and contextual memory management are core strengths. Knowledge graph and entity resolution experience applies directly to legal/financial document processing.",
+        "summary": "Applied AI company reimagining estate planning, financial accounts, and legal documents. ~6-person team.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 60,
+      "identity_key": "url:https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 21,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 21
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 60
+        }
+      ],
+      "job": {
+        "index": 60,
+        "heading": "Anthropic \u2014 Software Engineer, Model Context Protocol",
+        "company": "Anthropic",
+        "role": "Software Engineer, Model Context Protocol",
+        "salary": "$320,000\u2013$560,000",
+        "remote": "\ud83d\udd34 NYC-based hybrid \u2014 would require relocating to New York City. The $320K\u2013$560K salary range may make relocation worth seriously considering as a career-defining move.",
+        "experience": "Bachelor's degree + relevant experience",
+        "key_skills": [
+          "Protocol development",
+          "open-source SDKs",
+          "MCP ecosystem",
+          "distributed systems",
+          "API design"
+        ],
+        "apply": "https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+        "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4829365008",
+        "why_fit": "MCP expertise directly applies to the company that created the protocol. This is a once-in-a-career opportunity to shape the industry standard. The trade-off is clear \u2014 NYC hybrid relocation required.",
+        "summary": "Anthropic is the creator of MCP and one of the leading AI companies globally. The most prestigious MCP-specific role available.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 61,
+      "identity_key": "url:https://www.ycombinator.com/companies/aden/jobs/JknjXNi-ai-engineering-lead",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 22,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 22
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 61
+        }
+      ],
+      "job": {
+        "index": 61,
+        "heading": "Aden (YC) \u2014 AI Engineering Lead",
+        "company": "Aden (YC)",
+        "role": "AI Engineering Lead",
+        "salary": "Competitive + 0.25%\u20131.00% equity (base salary unclear \u2014 verify directly)",
+        "remote": "\ud83d\udfe1 SF / Remote listed \u2014 but at 5 employees, proximity to SF founders is often expected; confirm remote is genuinely viable from Colorado",
+        "experience": "4+ years software engineering, 2+ years deploying ML models/LLMs in production (exact fit)",
+        "key_skills": [
+          "Python",
+          "ML frameworks",
+          "LLM orchestration (LangChain",
+          "LlamaIndex)",
+          "vector databases",
+          "distributed systems"
+        ],
+        "apply": "https://www.ycombinator.com/companies/aden/jobs/JknjXNi-ai-engineering-lead",
+        "apply_url": "https://www.ycombinator.com/companies/aden/jobs/JknjXNi-ai-engineering-lead",
+        "why_fit": "Building an agentic AI ERP with a \"financial safety layer\" \u2014 directly in the multi-agent orchestration space. Experience requirement (4+ years) is an exact fit. Key risk is whether \"remote\" truly means location-independent for a 5-person YC startup.",
+        "summary": "AI-native, multi-agent ERP platform for operations leaders. YC-backed, 5 employees, San Francisco.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 62,
+      "identity_key": "url:https://coder.com/careers",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 23,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 23
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 62
+        }
+      ],
+      "job": {
+        "index": 62,
+        "heading": "Coder \u2014 Software Engineer (Agentic AI)",
+        "company": "Coder",
+        "role": "Software Engineer (Agentic AI)",
+        "salary": "Competitive [est.]",
+        "remote": "\ud83d\udfe2 Remote (explicitly confirmed in HN March 2026 listing)",
+        "experience": "Varies by role",
+        "key_skills": [
+          "Agentic AI",
+          "coding agents",
+          "developer tools",
+          "security",
+          "platform engineering"
+        ],
+        "apply": "https://coder.com/careers",
+        "apply_url": "https://coder.com/careers",
+        "why_fit": "Coder is building the platform for deploying AI coding agents in enterprise. Daily experience using agentic coding tools (Claude, Codex) gives practical insight into the product domain. Specific open roles should be verified on the careers page.",
+        "summary": "Coder builds the Agentic Development Environment (ADE) for deploying AI coding agents alongside developers.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 63,
+      "identity_key": "url:https://builtin.com/job/staff-ai-engineer-ai-engineering/7775912",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 24,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 24
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 63
+        }
+      ],
+      "job": {
+        "index": 63,
+        "heading": "GitLab \u2014 Staff AI Engineer, AI Engineering",
+        "company": "GitLab",
+        "role": "Staff AI Engineer, AI Engineering",
+        "salary": "~$170K\u2013$250K [est. from GitLab's transparent compensation calculator]",
+        "remote": "\ud83d\udfe2 Fully remote (US) \u2014 GitLab literally wrote the book on remote-first culture; Colorado is 100% fine",
+        "experience": "Senior/Staff level",
+        "key_skills": [
+          "AI",
+          "ML",
+          "Python",
+          "APIs",
+          "LLMs"
+        ],
+        "apply": "https://builtin.com/job/staff-ai-engineer-ai-engineering/7775912",
+        "apply_url": "https://builtin.com/job/staff-ai-engineer-ai-engineering/7775912",
+        "why_fit": "GitLab's remote-first culture is among the strongest in tech, and AI investment is accelerating. Less agentic-AI-specific than other roles, but the developer tools domain, strong remote culture, and transparent compensation are appealing.",
+        "summary": "Publicly traded DevSecOps platform (NASDAQ: GTLB). Famous remote-first culture with 1,500+ remote employees globally.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 64,
+      "identity_key": "name:ethos::senior ai engineer",
+      "origin_workspace": "/home/alexk/documents/new_job_denjobs",
+      "origin_job_index": 64,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 64
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 25
+        }
+      ],
+      "job": {
+        "index": 64,
+        "heading": "Ethos \u2014 Senior AI Engineer",
+        "company": "Ethos",
+        "role": "Senior AI Engineer",
+        "salary": "$133,000\u2013$235,000",
+        "remote": "\ud83d\udfe1 Not fully confirmed \u2014 check the specific listing for location requirements before applying",
+        "experience": "Senior level",
+        "key_skills": [
+          "AI/ML engineering",
+          "insurance domain"
+        ],
+        "apply": "Search \"Ethos\" on wellfound.com",
+        "apply_url": null,
+        "why_fit": "Insurance-tech at scale with a wide salary range. The candidate's analytical AI skills and knowledge graph expertise could apply to risk modeling. Remote policy and AI-native focus need verification.",
+        "summary": "Technology-driven life insurance company. 201\u2013500 employees, scale stage.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 65,
+      "identity_key": "url:https://careers.acentra.com/jobs/4983?lang=en-us",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 26,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 26
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 65
+        }
+      ],
+      "job": {
+        "index": 65,
+        "heading": "Acentra Health \u2014 AI Engineer, Specialist",
+        "company": "Acentra Health",
+        "role": "AI Engineer, Specialist",
+        "salary": "~$130K\u2013$170K [est.]",
+        "remote": "\ud83d\udfe2 Remote (Raleigh/Durham or DC preferred but explicitly not required \u2014 Colorado is fine)",
+        "experience": "Senior/Specialist level",
+        "key_skills": [
+          "LLMs",
+          "RAG",
+          "agentic workflows",
+          "healthcare-grade security",
+          "HIPAA compliance",
+          "Python"
+        ],
+        "apply": "https://careers.acentra.com/jobs/4983?lang=en-us",
+        "apply_url": "https://careers.acentra.com/jobs/4983?lang=en-us",
+        "why_fit": "Explicitly mentions hands-on work with LLMs, RAG, agentic workflows, and healthcare-grade security. Compliant healthcare AI systems experience at J&J/Janssen applies directly to government healthcare work.",
+        "summary": "Healthcare technology for federal/state government (Medicaid, claims management). Backed by Carlyle. 1,000+ employees.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 66,
+      "identity_key": "url:https://builtin.com/job/ai-engineer/4133741",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 27,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 27
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 66
+        }
+      ],
+      "job": {
+        "index": 66,
+        "heading": "Ensemble Health Partners \u2014 AI Engineer (Lead)",
+        "company": "Ensemble Health Partners",
+        "role": "AI Engineer (Lead)",
+        "salary": "~$150K\u2013$200K [est.]",
+        "remote": "\ud83d\udfe2 Fully remote (US)",
+        "experience": "Senior level",
+        "key_skills": [
+          "LangChain",
+          "LlamaIndex",
+          "Haystack",
+          "Azure AI Studio",
+          "AWS",
+          "GCP",
+          "deep learning",
+          "ML",
+          "PyTorch"
+        ],
+        "apply": "https://builtin.com/job/ai-engineer/4133741",
+        "apply_url": "https://builtin.com/job/ai-engineer/4133741",
+        "why_fit": "Healthcare domain with LangChain, LlamaIndex, and Azure \u2014 all candidate strengths. The revenue cycle management focus is less cutting-edge than other healthcare AI companies but offers stable healthcare AI work.",
+        "summary": "Healthcare revenue cycle management company.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 67,
+      "identity_key": "url:https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 28,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 28
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 67
+        }
+      ],
+      "job": {
+        "index": 67,
+        "heading": "SailPoint \u2014 Principal Engineer, Agentic AI",
+        "company": "SailPoint",
+        "role": "Principal Engineer, Agentic AI",
+        "salary": "$176,400\u2013$327,600 + bonus + equity",
+        "remote": "\ud83d\udfe1 Remote or Hybrid (US) \u2014 verify whether remote is fully optional or if there's a hybrid expectation tied to a specific office location",
+        "experience": "10+ years SWE, 3+ years agent systems (significant stretch)",
+        "key_skills": [
+          "LangChain/AutoGen",
+          "agent orchestration",
+          "agent lifecycle management",
+          "multi-agent collaboration",
+          "SDKs/APIs"
+        ],
+        "apply": "https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+        "apply_url": "https://www.builtinnyc.com/job/principal-engineer-platform-architecture/6349230",
+        "why_fit": "The role centers on building autonomous AI agent frameworks \u2014 directly leveraging agentic AI expertise. Apply as a long-shot, high-reward target given the $327K salary ceiling.",
+        "summary": "Same company as Role #19.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 68,
+      "identity_key": "url:https://www.workatastartup.com/jobs/77202",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 29,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 29
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 68
+        }
+      ],
+      "job": {
+        "index": 68,
+        "heading": "Lighthouz AI (YC S24) \u2014 Senior AI Engineer",
+        "company": "Lighthouz AI (YC S24)",
+        "role": "Senior AI Engineer",
+        "salary": "Competitive",
+        "remote": "\ud83d\udfe2 Fully remote",
+        "experience": "3\u20136 years (good fit)",
+        "key_skills": [
+          "LLM fine-tuning",
+          "document classification",
+          "entity extraction",
+          "AI agents for email/phone",
+          "Python"
+        ],
+        "apply": "https://www.workatastartup.com/jobs/77202",
+        "apply_url": "https://www.workatastartup.com/jobs/77202",
+        "why_fit": "Fully remote YC-backed startup building AI agents with a 3\u20136 year experience window that fits well. The document AI focus is slightly different from primary strengths, but agent building and LLM work align.",
+        "summary": "Automating freight finance with AI agents. YC S24, team from Google, Georgia Tech, Progressive.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 69,
+      "identity_key": "url:https://weaviate.io/company/careers",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 30,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 30
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 69
+        }
+      ],
+      "job": {
+        "index": 69,
+        "heading": "Weaviate \u2014 Engineering Roles",
+        "company": "Weaviate",
+        "role": "Engineering Roles",
+        "salary": "Competitive AI infrastructure comp [est.]",
+        "remote": "\ud83d\udfe2 Fully remote, global (remote-first company \u2014 no office, Colorado is fine)",
+        "experience": "Varies by role",
+        "key_skills": [
+          "Vector databases",
+          "AI/ML",
+          "distributed systems",
+          "TypeScript",
+          "Kubernetes"
+        ],
+        "apply": "https://weaviate.io/company/careers",
+        "apply_url": "https://weaviate.io/company/careers",
+        "why_fit": "Weaviate is core infrastructure for RAG systems \u2014 deep RAG and vector database expertise applies directly. Weaviate is also building \"Agent Skills,\" aligning with agentic AI experience. Specific engineering roles need to be confirmed on the careers page.",
+        "summary": "Open-source vector database for AI applications. Series B, backed by NEA, IVP, Sapphire Ventures. Remote-first.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 70,
+      "identity_key": "url:https://www.ycombinator.com/companies/avallon-ai/jobs/CH8oqKV-founding-software-engineer",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 31,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 31
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 70
+        }
+      ],
+      "job": {
+        "index": 70,
+        "heading": "Avallon AI (YC X25) \u2014 Founding Software Engineer",
+        "company": "Avallon AI (YC X25)",
+        "role": "Founding Software Engineer",
+        "salary": "Competitive + significant equity",
+        "remote": "\ud83d\udd34 In-person preferred (NYC Williamsburg) \u2014 would require relocating to New York; worth applying only if remote can be negotiated or if relocation is on the table",
+        "experience": "Strong practical experience (no minimum years)",
+        "key_skills": [
+          "TypeScript",
+          "Python",
+          "LangGraph",
+          "RAG pipelines",
+          "vector databases",
+          "voice AI",
+          "Supabase",
+          "NextJS",
+          "Docker",
+          "AWS"
+        ],
+        "apply": "https://www.ycombinator.com/companies/avallon-ai/jobs/CH8oqKV-founding-software-engineer",
+        "apply_url": "https://www.ycombinator.com/companies/avallon-ai/jobs/CH8oqKV-founding-software-engineer",
+        "why_fit": "Near-perfect technical alignment \u2014 LangGraph, RAG, agents, TypeScript, Docker are all core strengths. The insurance claims domain benefits from healthcare compliance experience.",
+        "summary": "AI agents for insurance claims operations. Raised $4.6M seed. Revenue 10x in 3 months during YC.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 71,
+      "identity_key": "url:https://careers.lindy.ai/",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 32,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 32
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 71
+        }
+      ],
+      "job": {
+        "index": 71,
+        "heading": "Lindy AI \u2014 Software Engineer",
+        "company": "Lindy AI",
+        "role": "Software Engineer",
+        "salary": "Well-funded startup [est.]",
+        "remote": "\ud83d\udfe1 Remote-friendly \u2014 verify whether truly remote or SF-area assumed; early-stage companies often expect presence",
+        "experience": "Mid to senior",
+        "key_skills": [
+          "TypeScript",
+          "React",
+          "AI agent systems"
+        ],
+        "apply": "https://careers.lindy.ai/",
+        "apply_url": "https://careers.lindy.ai/",
+        "why_fit": "Lindy builds an AI agent platform directly in the agentic AI domain. React/TypeScript skills are a good fit for the product engineering side.",
+        "summary": "AI agent platform for creating autonomous AI employees (no-code agent creation for businesses).",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 72,
+      "identity_key": "url:https://builtin.com/job/senior-ai-engineer/7125600",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 33,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 33
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 72
+        }
+      ],
+      "job": {
+        "index": 72,
+        "heading": "Samsara \u2014 Senior AI Engineer",
+        "company": "Samsara",
+        "role": "Senior AI Engineer",
+        "salary": "$126,000\u2013$190,000",
+        "remote": "\ud83d\udfe1 Remote or Hybrid (US) \u2014 verify whether the hybrid portion requires proximity to a specific office; Samsara has hubs in SF and Atlanta",
+        "experience": "Senior level",
+        "key_skills": [
+          "Python",
+          "LangChain",
+          "OpenAI SDK",
+          "GenAI frameworks"
+        ],
+        "apply": "https://builtin.com/job/senior-ai-engineer/7125600",
+        "apply_url": "https://builtin.com/job/senior-ai-engineer/7125600",
+        "why_fit": "Production-grade generative AI application development using LangChain and Python at an a16z-backed public company. Note: lower end of salary range ($126K) is below the $130K floor.",
+        "summary": "AI-powered IoT platform for physical operations. Public company (NYSE: IOT), $20B+ market cap. Backed by a16z, General Catalyst.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 73,
+      "identity_key": "url:https://www.mindoula.com/careers",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 34,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 34
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 73
+        }
+      ],
+      "job": {
+        "index": 73,
+        "heading": "Mindoula Health \u2014 Healthcare AI Engineer",
+        "company": "Mindoula Health",
+        "role": "Healthcare AI Engineer",
+        "salary": "~$130K\u2013$160K [est.]",
+        "remote": "\ud83d\udfe2 100% remote, US-based",
+        "experience": "Mid-senior",
+        "key_skills": [
+          "LLM agents",
+          "LangChain",
+          "LlamaIndex",
+          "agentic frameworks",
+          "NLP",
+          "Python",
+          "cloud-native apps"
+        ],
+        "apply": "https://www.mindoula.com/careers",
+        "apply_url": "https://www.mindoula.com/careers",
+        "why_fit": "Healthcare domain with explicit agentic AI requirements. Healthcare background and agentic AI skills are directly relevant. Note: role also requires Ruby on Rails (a gap) and salary is on the lower end.",
+        "summary": "Behavioral health management company using AI for population health. 500+ employees, Inc. 5000 listed.",
+        "company_context": null
+      }
+    },
+    {
+      "canonical_index": 74,
+      "identity_key": "url:https://builtin.com/company/cordial/jobs",
+      "origin_workspace": "/home/alexk/documents/new_job",
+      "origin_job_index": 35,
+      "source_refs": [
+        {
+          "workspace": "/home/alexk/documents/new_job",
+          "job_index": 35
+        },
+        {
+          "workspace": "/home/alexk/documents/new_job_denjobs",
+          "job_index": 74
+        }
+      ],
+      "job": {
+        "index": 74,
+        "heading": "Cordial \u2014 AI Engineer",
+        "company": "Cordial",
+        "role": "AI Engineer",
+        "salary": "~$130K\u2013$170K [est.]",
+        "remote": "\ud83d\udfe1 Remote (verify specifics \u2014 listing language is remote-friendly but confirm no hybrid expectation before applying)",
+        "experience": "Mid-level",
+        "key_skills": [
+          "Python",
+          "ML models",
+          "LLMs",
+          "prototyping AI solutions"
+        ],
+        "apply": "https://builtin.com/company/cordial/jobs",
+        "apply_url": "https://builtin.com/company/cordial/jobs",
+        "why_fit": "The candidate would shape AI strategy by prototyping solutions and optimizing ML models. LLM application experience applies directly. Trade-off: marketing tech is outside core domain preferences and salary may be modest.",
+        "summary": "AI-powered cross-channel marketing platform.",
+        "company_context": null
+      }
+    }
+  ]
+}

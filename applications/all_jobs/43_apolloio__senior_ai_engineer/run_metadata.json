@@ -1,0 +1,72 @@
+{
+  "run_id": "20260309_204357_04_live-optimized",
+  "created_at": "2026-03-10T02:47:14.229965+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 4,
+    "heading": "Apollo.io — Senior AI Engineer 🟢",
+    "company": "Apollo.io",
+    "role": "Senior AI Engineer",
+    "salary": "$160,000–$220,000 [est.] + equity",
+    "remote": "🟢 Fully remote (US)",
+    "experience": "5+ years software engineering",
+    "key_skills": [
+      "Python",
+      "LangChain",
+      "multi-agent systems",
+      "LLM chaining",
+      "prompt engineering",
+      "agentic workflows",
+      "RAG",
+      "semantic search",
+      "API integration",
+      "cloud deployment"
+    ],
+    "apply": "https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+    "apply_url": "https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+    "why_fit": "The role focuses on building autonomous AI agents, deep research agents, and multi-agent orchestration — a direct overlay with expert-level agentic AI skills. LangChain/LangGraph experience and Python proficiency align precisely.",
+    "summary": "Apollo.io is a Sequoia-backed, AI-powered go-to-market platform ($1.6B valuation, $100M Series D). 500K+ customer companies."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 10.0,
+    "role_alignment": 9.0,
+    "metric_specificity": 9.0,
+    "clarity_conciseness": 9.0,
+    "ats_keyword_coverage": 9.0
+  },
+  "final_scores": {
+    "factual_grounding": 10.0,
+    "role_alignment": 9.5,
+    "metric_specificity": 9.5,
+    "clarity_conciseness": 9.5,
+    "ats_keyword_coverage": 10.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "quality_repair_applied: 1 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/rubric_scores.json"
+  }
+}

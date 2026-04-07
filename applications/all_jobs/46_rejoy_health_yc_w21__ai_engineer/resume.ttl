@@ -1,0 +1,32 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix df: <https://docforge.org/ontology/1.0#> .
+@prefix doc: <https://docforge.org/doc/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+doc:056cde9cf555b469_section_1 a df:Section ;
+    dcterms:title "Summary"^^xsd:string ;
+    df:belongsToDocument doc:056cde9cf555b469 ;
+    df:order 1 .
+
+doc:056cde9cf555b469_section_2 a df:Section ;
+    dcterms:title "Skills"^^xsd:string ;
+    df:belongsToDocument doc:056cde9cf555b469 ;
+    df:order 2 .
+
+doc:056cde9cf555b469_section_3 a df:Section ;
+    dcterms:title "Professional Experience"^^xsd:string ;
+    df:belongsToDocument doc:056cde9cf555b469 ;
+    df:order 3 .
+
+doc:056cde9cf555b469_section_4 a df:Section ;
+    dcterms:title "Education"^^xsd:string ;
+    df:belongsToDocument doc:056cde9cf555b469 ;
+    df:order 4 .
+
+doc:056cde9cf555b469 a df:Document ;
+    dcterms:date "2026-03-09"^^xsd:date ;
+    dcterms:title "Alex Klick"^^xsd:string ;
+    df:contentHash "056cde9cf555b46970bd0aaa447c86ac364f61b12394340c1e01e5238b796e20"^^xsd:string ;
+    df:schemaId "resume_doc.v1"^^xsd:string ;
+    df:validationStatus "PASS"^^xsd:string .
+

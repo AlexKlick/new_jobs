@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "error": "Schema file not found: /home/alexk/documents/agents_sdk/DIAGRAMS/docs/schemas/style_profiles/resume.v1.json",
+  "error_message": "Schema file not found: /home/alexk/documents/agents_sdk/DIAGRAMS/docs/schemas/style_profiles/resume.v1.json",
+  "error_code": "validation_failed"
+}

@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "5311da56-f354-45f4-9a05-02c53d4d7dc3",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/resume.pdf",
+      "size_kb": 13.3,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2787,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "b5c98a97-3b24-4d0c-97b9-927f8acbc92b",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "0def9d6f-ded1-48b4-8712-93a9a1dff223",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/resume.pdf.manifest.json",
+      "size_kb": 13.3
+    }
+  ]
+}

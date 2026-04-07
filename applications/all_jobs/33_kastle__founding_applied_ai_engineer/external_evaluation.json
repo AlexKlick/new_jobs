@@ -1,0 +1,77 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 4,
+    "metric_specificity": 3.5,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 5,
+    "narrative_voice": 3.5,
+    "company_specificity": 3,
+    "differentiation": 3.5,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Strong opening hook with the RAG hallucination story - feels authentic and immediately establishes domain credibility",
+    "Excellent technical alignment: Python, agent architectures, compliance-aware document processing all demonstrated in production",
+    "Good specificity on user scale (~100 to 300+), document volume (tens of thousands), and team impact (mentored 3 engineers)",
+    "Fintech gap acknowledged honestly without being defensive - frames transferable skills well",
+    "Resume is clean, scannable, and ATS-friendly with strong keyword coverage"
+  ],
+  "weaknesses": [
+    "Cover letter has section headings (## Opening, ## Role Alignment, etc.) - cover letters should be flowing prose without visible headers",
+    "Company research feels surface-level: mentions mortgage lending broadly but no evidence of deep dive into Kastle's actual product, recent news, or competitive landscape",
+    "'Measurable retrieval improvements' is vague - what specific metric improved and by how much?",
+    "Some template-adjacent phrasing: 'represents exactly the kind of ownership opportunity' could appear in many cover letters",
+    "LLM fine-tuning is listed as required skill but only addressed as 'genuinely interested' - no concrete plan for ramping up"
+  ],
+  "revision_suggestions": [
+    "Remove all section headings from cover letter - restructure as continuous flowing prose with natural paragraph transitions",
+    "Add 1-2 specific details about Kastle: recent funding news, specific lender partnerships, product features, or something from their website that shows genuine research",
+    "Quantify the retrieval improvements: even a rough percentage like 'improved retrieval relevance scores by 15-20%' is better than 'measurable improvements'",
+    "Strengthen fine-tuning gap response: mention any self-study, courses, or side projects, or give a concrete 30-60 day ramp-up plan",
+    "Replace 'represents exactly the kind of ownership opportunity' with something more specific to Kastle's mission or stage"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing - these must be removed and converted to flowing prose"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "RAG hallucination story is specific, personal, and immediately establishes credibility in regulated AI"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Kastle and Founding Applied AI Engineer title integrated smoothly throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Both fintech and fine-tuning gaps acknowledged with reasonable framing about transferability"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Some phrases feel generic: 'represents exactly the kind of ownership opportunity', 'genuinely interested in... as a next frontier'"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn all present at top of both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Good numbers: ~100\u2192300+ users, tens of thousands of documents, 3 junior engineers mentored"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean formatting throughout, no orphaned headers or broken lists"
+    }
+  ]
+}

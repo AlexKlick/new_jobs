@@ -1,0 +1,51 @@
+{
+  "policy": "strict",
+  "status": "FAIL",
+  "blocked": true,
+  "score": 65.0,
+  "summary": {
+    "critical": 2,
+    "major": 0,
+    "minor": 0
+  },
+  "documents": {
+    "resume": {
+      "document": "resume",
+      "status": "FAIL",
+      "blocked": true,
+      "score": 65,
+      "issues": [
+        {
+          "severity": "critical",
+          "code": "missing_pdf",
+          "message": "Missing PDF output for resume."
+        }
+      ],
+      "word_count": 0,
+      "pdf_path": null
+    },
+    "cover_letter": {
+      "document": "cover_letter",
+      "status": "FAIL",
+      "blocked": true,
+      "score": 65,
+      "issues": [
+        {
+          "severity": "critical",
+          "code": "missing_pdf",
+          "message": "Missing PDF output for cover_letter."
+        }
+      ],
+      "word_count": 0,
+      "pdf_path": null
+    }
+  },
+  "warnings": [],
+  "auto_fixes_applied": [
+    "strip_fact_references",
+    "inject_resume_contact_line",
+    "inject_cover_letter_letterhead",
+    "strip_table_of_contents",
+    "inject_pdf_frontmatter"
+  ]
+}

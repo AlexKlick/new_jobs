@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-03-26T04:53:03.408973+00:00",
+  "canonical_index": 42,
+  "identity_key": "url:https://job-boards.greenhouse.io/webflow/jobs/6929034",
+  "job": {
+    "index": 42,
+    "heading": "Webflow \u2014 Staff Software Engineer, AI Developer Productivity",
+    "company": "Webflow",
+    "role": "Staff Software Engineer, AI Developer Productivity",
+    "salary": "$154,000\u2013$281,000 (zone-based pay bands)",
+    "remote": "\ud83d\udfe2 Remote-first (US; BC & ON, Canada)",
+    "experience": "7+ years developer tooling, 2+ years AI/AI Platform",
+    "key_skills": [
+      "LLMs",
+      "vector databases",
+      "RAG",
+      "**MCP (Model Context Protocol)**",
+      "prompt engineering",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "AWS"
+    ],
+    "apply": "https://job-boards.greenhouse.io/webflow/jobs/6929034",
+    "apply_url": "https://job-boards.greenhouse.io/webflow/jobs/6929034",
+    "why_fit": "One of the rare listings **explicitly requiring MCP experience** \u2014 a direct match to this candidate's specialized expertise. Also requires RAG, LLMs, and TypeScript, all core strengths. Experience requirement is a stretch at 7+ years, but MCP specialization is rare enough to create flexibility.",
+    "summary": "Webflow is a no-code website experience platform going AI-native. Remote-first, ~800 employees, backed by YC and Accel.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T02:43:57.115888+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/42_webflow__staff_software_engineer_ai_developer_productivity/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T02:43:57.115888+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/03_webflow__staff_software_engineer_ai_developer_productivity",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/03_webflow__staff_software_engineer_ai_developer_productivity/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T02:43:57.115888+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_204040_03_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T02:43:57.115888+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_151524_03_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_151524_03_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T21:20:46.396909+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

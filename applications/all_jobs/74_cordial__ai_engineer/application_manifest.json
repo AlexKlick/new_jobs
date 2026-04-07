@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-26T04:53:03.414807+00:00",
+  "canonical_index": 74,
+  "identity_key": "url:https://builtin.com/company/cordial/jobs",
+  "job": {
+    "index": 74,
+    "heading": "Cordial \u2014 AI Engineer",
+    "company": "Cordial",
+    "role": "AI Engineer",
+    "salary": "~$130K\u2013$170K [est.]",
+    "remote": "\ud83d\udfe1 Remote (verify specifics \u2014 listing language is remote-friendly but confirm no hybrid expectation before applying)",
+    "experience": "Mid-level",
+    "key_skills": [
+      "Python",
+      "ML models",
+      "LLMs",
+      "prototyping AI solutions"
+    ],
+    "apply": "https://builtin.com/company/cordial/jobs",
+    "apply_url": "https://builtin.com/company/cordial/jobs",
+    "why_fit": "The candidate would shape AI strategy by prototyping solutions and optimizing ML models. LLM application experience applies directly. Trade-off: marketing tech is outside core domain preferences and salary may be modest.",
+    "summary": "AI-powered cross-channel marketing platform.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T04:10:30.157645+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/74_cordial__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:10:30.157645+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier3_worth_applying/35_cordial__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier3_worth_applying/35_cordial__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T04:10:30.157645+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_220945_35_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T04:10:30.157645+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

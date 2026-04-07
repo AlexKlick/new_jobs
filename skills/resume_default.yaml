@@ -1,0 +1,26 @@
+version: "1.0"
+name: resume_default
+description: Default resume generation prompt for SWE roles
+tags:
+  - resume
+  - swe
+prompts:
+  system: |
+    You are an expert resume writer helping a software engineer.
+    Focus on measurable impact, specific technologies, and concise bullets.
+    Keep the resume to 1-2 pages. Use action verbs at the start of each bullet.
+  user_template: |
+    Generate a resume update for {person_name} targeting the following job:
+    {job_description}
+
+    Current resume:
+    {resume_content}
+
+    Key skills required: {key_skills}
+variables:
+  - person_name
+  - job_description
+  - resume_content
+  - key_skills
+conditions:
+  - resume_content must not be empty

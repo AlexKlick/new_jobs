@@ -1,0 +1,68 @@
+{
+  "run_id": "20260309_214852_18_live-optimized",
+  "created_at": "2026-03-10T03:52:36.400218+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 18,
+    "heading": "Zapier — Senior Engineer, Backend – MCP 🟢",
+    "company": "Zapier",
+    "role": "Senior Engineer, Backend – MCP",
+    "salary": "~$160K–$210K [est.]",
+    "remote": "🟢 Remote (United States) — Zapier is a famous remote-first company, no office requirements",
+    "experience": "6+ years designing and maintaining complex production systems",
+    "key_skills": [
+      "Python/Node.js",
+      "API design",
+      "database modeling",
+      "CI/CD",
+      "MCP/agent frameworks",
+      "AI tools"
+    ],
+    "apply": "Search Zapier careers page for MCP role",
+    "apply_url": null,
+    "why_fit": "One of the few roles explicitly titled around MCP — directly leveraging MCP expertise. Zapier's integration ecosystem is a natural platform for MCP server development. The 6+ year experience requirement is a stretch but MCP expertise is rare enough to create leverage.",
+    "summary": "Zapier is the dominant workflow automation platform, now building MCP integrations for AI agent ecosystems. Well-funded, remote-first."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "quality_repair_applied: 2 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_214852_18_live-optimized/rubric_scores.json"
+  }
+}

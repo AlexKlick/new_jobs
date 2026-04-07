@@ -1,0 +1,73 @@
+{
+  "run_id": "20260309_211421_06_live-optimized",
+  "created_at": "2026-03-10T03:16:59.420258+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 6,
+    "heading": "Fabric Health — Senior Software Engineer, AI 🟢",
+    "company": "Fabric Health",
+    "role": "Senior Software Engineer, AI",
+    "salary": "~$170K–$210K [est.]",
+    "remote": "🟢 Remote-first (distributed team)",
+    "experience": "5+ years software engineering or applied ML; 3+ years hands-on with LLMs and LLM agents",
+    "key_skills": [
+      "Python (Flask/FastAPI)",
+      "LLMs",
+      "LLM agents",
+      "RAG",
+      "classification",
+      "NLP",
+      "embeddings/vector databases",
+      "LangChain",
+      "LangGraph",
+      "AWS",
+      "Kubernetes"
+    ],
+    "apply": "https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+    "apply_url": "https://jobs.generalcatalyst.com/companies/fabric-2/jobs/58784049-senior-software-engineer-artificial-intelligence",
+    "why_fit": "The skill requirements read like a description of this candidate's toolkit — FastAPI, LangChain, LangGraph, RAG, and LLM agents in a healthcare context. Clinical NLP components map well to the pharma compliance system experience. Top-tier VC backing signals strong trajectory.",
+    "summary": "Fabric Health transforms patient-provider interactions through AI. Backed by Thrive Capital, Google Ventures, General Catalyst, and Salesforce Ventures."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 10.0,
+    "role_alignment": 9.0,
+    "metric_specificity": 9.0,
+    "clarity_conciseness": 9.0,
+    "ats_keyword_coverage": 10.0
+  },
+  "final_scores": {
+    "factual_grounding": 10.0,
+    "role_alignment": 10.0,
+    "metric_specificity": 10.0,
+    "clarity_conciseness": 9.5,
+    "ats_keyword_coverage": 10.0
+  },
+  "rejected_claims": [],
+  "notes": [
+    "quality_repair_applied: 1 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/resume.pdf",
+    "cover_letter_pdf": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/cover_letter.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_211421_06_live-optimized/rubric_scores.json"
+  }
+}

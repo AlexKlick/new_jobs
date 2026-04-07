@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-26T04:53:03.410592+00:00",
+  "canonical_index": 51,
+  "identity_key": "url:https://builtin.com/job/principal-ai-engineer/6910705",
+  "job": {
+    "index": 51,
+    "heading": "Apollo.io \u2014 Principal AI Engineer",
+    "company": "Apollo.io",
+    "role": "Principal AI Engineer",
+    "salary": "$200,000\u2013$300,000 + equity",
+    "remote": "\ud83d\udfe2 Fully remote (US)",
+    "experience": "Senior/Staff level (stretch)",
+    "key_skills": [
+      "Python",
+      "Anthropic",
+      "AWS Bedrock",
+      "LangChain",
+      "LlamaIndex",
+      "OpenAI",
+      "agentic AI systems"
+    ],
+    "apply": "https://builtin.com/job/principal-ai-engineer/6910705",
+    "apply_url": "https://builtin.com/job/principal-ai-engineer/6910705",
+    "why_fit": "Excellent skills alignment with higher compensation ceiling than the Senior role. The principal title is a stretch, but rearchitecting a 10-week project in 2 weeks suggests staff-level output capacity. Worth applying as a high-comp target.",
+    "summary": "Same company as Role #4 \u2014 Sequoia-backed AI sales platform.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T03:35:38.689469+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/51_apolloio__principal_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:35:38.689469+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier2_strong_matches/12_apolloio__principal_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier2_strong_matches/12_apolloio__principal_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T03:35:38.689469+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_213236_12_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_213236_12_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T03:35:38.689469+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    }
+  ]
+}

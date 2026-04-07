@@ -1,0 +1,87 @@
+{
+  "run_id": "20260309_220846_34_live-optimized",
+  "created_at": "2026-03-10T04:09:45.472964+00:00",
+  "workspace": "/home/alexk/documents/new_job",
+  "provider_primary": "zai",
+  "provider_used": "zai",
+  "fallback_provider": null,
+  "fallback_used": false,
+  "job": {
+    "index": 34,
+    "heading": "Mindoula Health — Healthcare AI Engineer 🟢",
+    "company": "Mindoula Health",
+    "role": "Healthcare AI Engineer",
+    "salary": "~$130K–$160K [est.]",
+    "remote": "🟢 100% remote, US-based",
+    "experience": "Mid-senior",
+    "key_skills": [
+      "LLM agents",
+      "LangChain",
+      "LlamaIndex",
+      "agentic frameworks",
+      "NLP",
+      "Python",
+      "cloud-native apps"
+    ],
+    "apply": "https://www.mindoula.com/careers",
+    "apply_url": "https://www.mindoula.com/careers",
+    "why_fit": "Healthcare domain with explicit agentic AI requirements. Healthcare background and agentic AI skills are directly relevant. Note: role also requires Ruby on Rails (a gap) and salary is on the lower end.",
+    "summary": "Behavioral health management company using AI for population health. 500+ employees, Inc. 5000 listed."
+  },
+  "fact_graph_path": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+  "fact_yaml_path": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+  "fact_count": 75,
+  "draft_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "final_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 5.0,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 5.0
+  },
+  "rejected_claims": [
+    {
+      "statement": "used_fact_ids contains unknown ids",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    },
+    {
+      "statement": "Partnered with design and business analysts to translate user feedback into UX improvements; piloted with ~100 users and scaling to 300+.",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    },
+    {
+      "statement": "Onboarding 300+ users with enterprise rollout planned to several lines of business, ensuring reliability of agentic workflows.",
+      "unknown_fact_ids": [
+        "fact-463c9d9a5699"
+      ]
+    }
+  ],
+  "notes": [
+    "quality_repair_applied: 3 issues"
+  ],
+  "files": {
+    "resume_markdown": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/resume.md",
+    "cover_letter_markdown": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/cover_letter.md",
+    "resume_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/resume.draft.md",
+    "cover_letter_draft_markdown": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/cover_letter.draft.md",
+    "facts_yaml": "/home/alexk/documents/new_job/facts/career_facts.yaml",
+    "facts_ttl": "/home/alexk/documents/new_job/facts/career_facts.ttl",
+    "backstory_dump": "/home/alexk/documents/new_job/facts/backstory_dump.md",
+    "resume_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/resume.export.md",
+    "cover_letter_export_markdown": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/cover_letter.export.md",
+    "resume_pdf": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/resume.pdf",
+    "pdf_quality_audit": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/pdf_quality_audit.json",
+    "resume_export_job": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/resume_export_job.json",
+    "cover_letter_export_job": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/cover_letter_export_job.json",
+    "rubric_scores": "/home/alexk/documents/new_job/outputs/20260309_220846_34_live-optimized/rubric_scores.json"
+  }
+}

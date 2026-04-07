@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-03-26T04:53:03.406180+00:00",
+  "canonical_index": 24,
+  "identity_key": "url:https://aijobs.ai/job/applied-ai-engineer-61",
+  "job": {
+    "index": 24,
+    "heading": "Splitero \u2014 Applied AI Engineer",
+    "company": "Splitero",
+    "role": "Applied AI Engineer",
+    "salary": "$135,000\u2013$175,000",
+    "remote": "Fully remote (US)",
+    "experience": "Mid-level",
+    "key_skills": [
+      "AI/ML engineering",
+      "production systems"
+    ],
+    "apply": "https://aijobs.ai/job/applied-ai-engineer-61",
+    "apply_url": "https://aijobs.ai/job/applied-ai-engineer-61",
+    "why_fit": "Confirmed salary range within target at a fintech company. Applied AI roles typically involve building and deploying LLM-based systems. Trade-off: Limited detail available on AI-specific requirements; fintech is a secondary industry preference.",
+    "summary": "Real estate/fintech company offering home equity solutions.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-25T23:28:25.796959+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/24_splitero__applied_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-25T23:28:25.796959+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_232223_24_splitero",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_232223_24_splitero/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T23:28:25.796959+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_171639_24_splitero",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_171639_24_splitero/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T17:19:12.632954+00:00",
+      "status": "MARKDOWN",
+      "completeness_rank": 2
+    }
+  ]
+}

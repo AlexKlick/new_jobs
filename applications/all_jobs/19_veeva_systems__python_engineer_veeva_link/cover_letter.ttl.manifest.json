@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-26T04:44:26.214018+00:00",
+  "job_id": "cbd4db0a-e4ce-423e-b7bd-51e44f13e5e7",
+  "artifact_id": "61c99889-988e-4d13-9574-d491073d76f7",
+  "format": "ttl",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems/cover_letter.ttl",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_043439_19_veeva-systems/cover_letter.export.md",
+  "input_hash": "134c154dee394405075188a2555f54f825c4309b8a1539a6b335584582586d08",
+  "schema_id": "cover_letter_doc.v1",
+  "style_profile_id": "modern.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 0,
+  "warnings": [],
+  "diagnostics": {},
+  "ontology": {
+    "triple_count": 42,
+    "ontology_version": "1.0",
+    "namespaces": [
+      "df",
+      "dcterms",
+      "doc"
+    ]
+  }
+}

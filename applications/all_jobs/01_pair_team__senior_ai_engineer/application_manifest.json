@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-03-26T04:53:03.399207+00:00",
+  "canonical_index": 1,
+  "identity_key": "url:https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+  "job": {
+    "index": 1,
+    "heading": "Pair Team \u2014 Senior AI Engineer",
+    "company": "Pair Team",
+    "role": "Senior AI Engineer",
+    "salary": "$170,000\u2013$200,000 + equity",
+    "remote": "Fully remote (United States)",
+    "experience": "4+ years building and shipping production software",
+    "key_skills": [
+      "Multi-agent/agentic systems in production",
+      "LangGraph",
+      "Claude Agents SDK",
+      "Langfuse/LangSmith",
+      "MCP implementations",
+      "systems architecture",
+      "evaluation frameworks"
+    ],
+    "apply": "https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+    "apply_url": "https://job-boards.greenhouse.io/pairteam/jobs/8470905002",
+    "why_fit": "This is the single best-fit role in the entire search. Pair Team explicitly requires 4+ years experience, production multi-agent systems, and lists LangGraph proficiency as \"strongly preferred\" \u2014 all direct strengths. Your healthcare compliance-checking work at J&J/Janssen and experience across three pharma companies gives you a differentiation edge that few applicants can match. The salary floor of $170k represents a 67% raise from your current compensation.",
+    "summary": "AI-enabled medical group serving Medicaid/Medicare populations. Public benefit corporation, 500+ employees, VC-backed, featured in Forbes and TechCrunch.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-24T16:30:22.833634+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/01_pair_team__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-24T16:30:22.833634+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_162434_01_pair-team/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T16:30:22.833634+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_155726_01_pair-team",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_155726_01_pair-team/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T16:07:45.416874+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_154439_01_pair-team",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_154439_01_pair-team/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T15:53:43.904439+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_152619_01_pair-team",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_152619_01_pair-team/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T15:36:13.749441+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260324_044343_01_pair-team",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_044343_01_pair-team/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-24T04:53:58.999996+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

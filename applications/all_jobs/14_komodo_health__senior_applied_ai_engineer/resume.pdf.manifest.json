@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-25T23:09:45.435638+00:00",
+  "job_id": "5311da56-f354-45f4-9a05-02c53d4d7dc3",
+  "artifact_id": "0def9d6f-ded1-48b4-8712-93a9a1dff223",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/resume.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_230323_14_komodo-health/resume.export.md",
+  "input_hash": "e865126ab6572c893cfcd13506c85c19dac01809dfb52952bc4babadbda53c0b",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2787,
+  "warnings": [],
+  "diagnostics": {}
+}

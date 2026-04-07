@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "cf5a7883-efb5-4508-b770-e7720d204f0a",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.pdf",
+      "size_kb": 12.8,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2772,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "c4896096-abfd-4026-8491-45ae19689c15",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "e93ebf96-d5a1-4d28-b7b3-c51db07c85d3",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_231620_23_glass-health/resume.pdf.manifest.json",
+      "size_kb": 12.8
+    }
+  ]
+}

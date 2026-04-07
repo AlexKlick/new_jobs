@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-03-26T04:53:03.409164+00:00",
+  "canonical_index": 43,
+  "identity_key": "url:https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+  "job": {
+    "index": 43,
+    "heading": "Apollo.io \u2014 Senior AI Engineer",
+    "company": "Apollo.io",
+    "role": "Senior AI Engineer",
+    "salary": "$160,000\u2013$220,000 [est.] + equity",
+    "remote": "\ud83d\udfe2 Fully remote (US)",
+    "experience": "5+ years software engineering",
+    "key_skills": [
+      "Python",
+      "LangChain",
+      "multi-agent systems",
+      "LLM chaining",
+      "prompt engineering",
+      "agentic workflows",
+      "RAG",
+      "semantic search",
+      "API integration",
+      "cloud deployment"
+    ],
+    "apply": "https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+    "apply_url": "https://job-boards.greenhouse.io/apolloio/jobs/5787007004",
+    "why_fit": "The role focuses on building autonomous AI agents, deep research agents, and multi-agent orchestration \u2014 a direct overlay with expert-level agentic AI skills. LangChain/LangGraph experience and Python proficiency align precisely.",
+    "summary": "Apollo.io is a Sequoia-backed, AI-powered go-to-market platform ($1.6B valuation, $100M Series D). 500K+ customer companies.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-10T02:47:14.229965+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/43_apolloio__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T02:47:14.229965+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/04_apolloio__senior_ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job/applications/tier1_strongest_matches/04_apolloio__senior_ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "application",
+      "created_at": "2026-03-10T02:47:14.229965+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260309_204357_04_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-10T02:47:14.229965+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_152046_04_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_152046_04_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T21:23:45.813594+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job/outputs/20260312_150933_04_live-optimized",
+      "metadata_path": "/home/alexk/documents/new_job/outputs/20260312_150933_04_live-optimized/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job",
+      "source_kind": "output",
+      "created_at": "2026-03-12T21:12:33.887709+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

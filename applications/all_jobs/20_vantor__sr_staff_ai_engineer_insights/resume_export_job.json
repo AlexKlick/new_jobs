@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "562d50c8-6e03-40c9-b7d1-1f7a043d3ec2",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.pdf",
+      "size_kb": 13.0,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2946,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "0ab41f17-5959-4d7d-821e-c58e78a8e2bd",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "b4dec3ce-0ed7-49f3-a67b-f06e39ca4cd5",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_041122_20_vantor/resume.pdf.manifest.json",
+      "size_kb": 13.0
+    }
+  ]
+}

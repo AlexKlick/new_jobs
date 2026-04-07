@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-03-26T04:53:03.403562+00:00",
+  "canonical_index": 10,
+  "identity_key": "url:https://wellfound.com/role/r/ai-engineer",
+  "job": {
+    "index": 10,
+    "heading": "Pocket \u2014 AI Engineer",
+    "company": "Pocket",
+    "role": "AI Engineer",
+    "salary": "$200,000 + 0.1%\u20130.2% equity",
+    "remote": "Fully remote (worldwide)",
+    "experience": "3+ years",
+    "key_skills": [
+      "AI engineering",
+      "healthcare workflows"
+    ],
+    "apply": "https://wellfound.com/role/r/ai-engineer",
+    "apply_url": "https://wellfound.com/role/r/ai-engineer",
+    "why_fit": "A healthcare AI startup building agent-based systems for therapy operations \u2014 this combines your healthcare domain experience with agentic AI skills at an early-stage company where you'd have outsized impact. The $200k salary with equity is exceptional for a seed-stage company. The 3-year experience minimum means your 4 years qualifies you clearly.",
+    "summary": "AI Front Office Platform for Rehab Therapy. 1\u201310 employees, early stage, top 1% Wellfound responder.",
+    "company_context": null
+  },
+  "status": "COMPLETE",
+  "selected_source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer",
+  "selected_metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer/run_metadata.json",
+  "selected_workspace": "/home/alexk/documents/new_job_denjobs",
+  "selected_source_kind": "application",
+  "selected_created_at": "2026-03-26T03:48:33.360897+00:00",
+  "candidates_considered": [
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/applications/all_jobs/10_pocket__ai_engineer/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "application",
+      "created_at": "2026-03-26T03:48:33.360897+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260326_033659_10_pocket",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260326_033659_10_pocket/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-26T03:48:33.360897+00:00",
+      "status": "COMPLETE",
+      "completeness_rank": 4
+    },
+    {
+      "source_dir": "/home/alexk/documents/new_job_denjobs/outputs/20260325_200952_10_pocket",
+      "metadata_path": "/home/alexk/documents/new_job_denjobs/outputs/20260325_200952_10_pocket/run_metadata.json",
+      "source_workspace": "/home/alexk/documents/new_job_denjobs",
+      "source_kind": "output",
+      "created_at": "2026-03-25T20:14:21.003958+00:00",
+      "status": "PARTIAL_RESUME",
+      "completeness_rank": 3
+    }
+  ]
+}

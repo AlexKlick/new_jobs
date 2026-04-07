@@ -1,0 +1,76 @@
+{
+  "verdict": "READY_TO_SEND",
+  "scores": {
+    "factual_grounding": 4.5,
+    "role_alignment": 3.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4.5,
+    "ats_keyword_coverage": 3.5,
+    "narrative_voice": 4.5,
+    "company_specificity": 4.5,
+    "differentiation": 4,
+    "gap_handling": 5
+  },
+  "strengths": [
+    "Cover letter opens with a compelling, specific story about Fortune-200 biopharma client \u2014 grabs attention immediately",
+    "Gap acknowledgment is refreshingly honest and confident: 'I'll be direct about where my experience is lighter' \u2014 builds trust",
+    "Strong company research evident: mentions Deep Research product, RAG architecture, and Perplexity's core value proposition around cited answers",
+    "Metric specificity is solid: tens of thousands of documents, 300+ users, Fortune-200 client, 3 mentored engineers",
+    "Narrative voice feels authentic and human \u2014 not AI-generated corporate speak",
+    "The alignment between 'factual correctness over hype' conviction and Perplexity's mission is genuinely compelling"
+  ],
+  "weaknesses": [
+    "Missing 3 of 6 required skills (Spark, AWS, personalization infrastructure) \u2014 may not pass initial keyword screens at some companies",
+    "No performance metrics for systems built (latency, throughput, accuracy improvements, query response times) \u2014 leaves impact somewhat abstract",
+    "Resume bullets could quantify business outcomes: how much did regulatory submissions accelerate? Time saved?",
+    "ATS keyword coverage is marginal for this specific role \u2014 Spark and AWS are explicitly required"
+  ],
+  "revision_suggestions": [
+    "Consider adding one performance metric to resume: even an estimate like 'sub-second retrieval latency' or '99.9% uptime' would strengthen impact claims",
+    "If possible, quantify the business outcome for the biopharma client: 'reduced submission preparation time by X%' would be powerful",
+    "Consider whether any AWS exposure (even personal projects or S3/EC2 basics) could be honestly added to strengthen ATS match",
+    "The cover letter is strong \u2014 no changes needed there"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "PASS",
+      "note": "Flows as prose with standard letter formatting only"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "Opens with specific biopharma client story, not generic company praise"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "Perplexity AI and role title woven in organically throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "Explicitly names Spark, AWS, and personalization as lighter areas with confident pivot to transferables"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "PASS",
+      "note": "No 'writing to express interest' or 'great asset' clich\u00e9s \u2014 specific throughout"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn, location all included"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "WARN",
+      "note": "Has user counts and document scale, but missing performance/latency/accuracy metrics"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "Clean structure, no artifacts"
+    }
+  ]
+}

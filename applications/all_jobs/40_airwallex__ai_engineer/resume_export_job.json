@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "job_id": "aa0afffa-1bb1-414e-b076-b477db7bb863",
+  "state": "SUCCEEDED",
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "total": 0
+    }
+  },
+  "results": {
+    "pdf": {
+      "success": true,
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/resume.pdf",
+      "size_kb": 13.6,
+      "error_code": null,
+      "error_message": null,
+      "diagnostics": {},
+      "duration_ms": 2775,
+      "warnings": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "54bb06f8-fe2b-450e-8e4d-db58026802b7",
+      "format": "ttl",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/resume.ttl",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/resume.ttl.manifest.json",
+      "size_kb": 1.115234375
+    },
+    {
+      "artifact_id": "31e2366c-3825-4b26-abeb-57a47847a48f",
+      "format": "pdf",
+      "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/resume.pdf",
+      "manifest_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/resume.pdf.manifest.json",
+      "size_kb": 13.6
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "verdict": "NEEDS_REVISION",
+  "scores": {
+    "factual_grounding": 4,
+    "role_alignment": 3.5,
+    "metric_specificity": 4,
+    "clarity_conciseness": 4,
+    "ats_keyword_coverage": 3,
+    "narrative_voice": 4,
+    "company_specificity": 3.5,
+    "differentiation": 3.5,
+    "gap_handling": 4
+  },
+  "strengths": [
+    "Strong opening hook in cover letter - the consultant struggle story feels authentic and specific",
+    "Honest acknowledgment of React/Django skill gaps rather than hiding them",
+    "Quantified outcomes throughout: 100\u2192300+ users, tens of thousands of documents, hundreds of daily users",
+    "Clear technical specificity: pgvector, sentence-transformers, sub-section PDF chunking",
+    "Progression shown from AI/LLM Consultant to Senior role",
+    "Mentoring experience demonstrates leadership capability"
+  ],
+  "weaknesses": [
+    "CRITICAL: Cover letter uses section headings (## Opening, ## Role Alignment, etc.) which violates standard cover letter format - must be flowing prose",
+    "ATS keyword gap: React and Django are missing from resume entirely, despite being required skills",
+    "Cover letter mentions PostHog specifics but lacks depth on their actual products (Max AI, Hog, session replay AI features)",
+    "Some template-adjacent phrasing: 'matches how I've always worked' could appear in any application",
+    "RAG/document retrieval focus may undersell autonomous agent and AI copilot experience the role emphasizes",
+    "Only 3 years experience for a 'mid-to-senior' role - needs stronger differentiation to overcome"
+  ],
+  "revision_suggestions": [
+    "Remove all ## section headings from cover letter and rewrite as flowing prose with natural paragraph transitions",
+    "Add React and Django to resume skills section with honest proficiency level (e.g., 'Django (familiar)', 'React (learning)') to improve ATS matching",
+    "Deepen PostHog specificity: reference specific products like Max AI, their open-source analytics stack, or recent AI feature announcements",
+    "Expand on 'Agents SDK' and 'modular agent components' work to better highlight autonomous agent experience the role prioritizes",
+    "Add outcome metrics where possible: accuracy improvements, time saved, retrieval precision gains",
+    "Consider adding a brief portfolio/GitHub link showing any React or Django experimentation to demonstrate proactive learning"
+  ],
+  "human_review_checklist": [
+    {
+      "item": "No section headings in cover letter",
+      "status": "FAIL",
+      "note": "Has ## Opening, ## Role Alignment, ## Evidence Highlights, ## Closing - must be removed and converted to flowing prose"
+    },
+    {
+      "item": "Cover letter has authentic opening hook",
+      "status": "PASS",
+      "note": "The consultant struggle story is specific and feels genuine, not AI-generated"
+    },
+    {
+      "item": "Company name and role appear naturally",
+      "status": "PASS",
+      "note": "PostHog and AI Product Engineer role woven in naturally throughout"
+    },
+    {
+      "item": "Skill gaps addressed",
+      "status": "PASS",
+      "note": "React and Django gaps acknowledged honestly with learning commitment"
+    },
+    {
+      "item": "No recycled/template language",
+      "status": "WARN",
+      "note": "Phrases like 'matches how I've always worked' and 'individual contributors shape products' feel slightly generic"
+    },
+    {
+      "item": "Contact info present",
+      "status": "PASS",
+      "note": "Email, phone, LinkedIn all present in both documents"
+    },
+    {
+      "item": "Resume bullets have measurable outcomes",
+      "status": "PASS",
+      "note": "Good quantification: ~100 users, 300+, tens of thousands of documents"
+    },
+    {
+      "item": "Consistent formatting",
+      "status": "PASS",
+      "note": "No orphaned headers or broken lists detected"
+    }
+  ]
+}

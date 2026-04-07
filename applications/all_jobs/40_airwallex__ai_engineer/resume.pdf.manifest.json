@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-24T20:50:30.119987+00:00",
+  "job_id": "aa0afffa-1bb1-414e-b076-b477db7bb863",
+  "artifact_id": "31e2366c-3825-4b26-abeb-57a47847a48f",
+  "format": "pdf",
+  "output_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/resume.pdf",
+  "input_path": "/home/alexk/documents/new_job_denjobs/outputs/20260324_204007_40_airwallex/resume.export.md",
+  "input_hash": "15992967ae678ecd9b398f9f607bbd2bf4a9dcb5963a447c22dcfebcc6f8893f",
+  "schema_id": "resume_doc.v1",
+  "style_profile_id": "resume.v1",
+  "quality_policy_id": "default.v1",
+  "export_profile": "pdf_only",
+  "duration_ms": 2775,
+  "warnings": [],
+  "diagnostics": {}
+}

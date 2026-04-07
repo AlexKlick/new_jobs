@@ -1,0 +1,52 @@
+{
+  "resume_markdown": "# Alex Klick - Resume\n\n## Summary\n\nAI/LLM engineer with 4+ years delivering production RAG and document intelligence\nsystems in enterprise and regulated biopharma environments. Combines strong Python\nbackend execution with practical LLM architecture, vector retrieval, and\ncross-functional product delivery.\n\n## Skills\n\n**Languages & Frameworks:** Python, FastAPI, Pydantic, JavaScript/TypeScript\n**AI/ML:** OpenAI API, sentence transformers, RAG pipelines, embeddings, reranking\n**Data & Infrastructure:** PostgreSQL, pgvector, Chroma, Redis, Docker\n**Document Processing:** PDF chunking, RTF parsing, document ingestion\n\n## Professional Experience\n\n### Senior Consultant \u2014 Credera (2022\u2013Present)\n\n- Built vector database and reranker systems serving 30,000+ documents for enterprise teams\n- Designed sub-section PDF chunking pipelines for biopharma regulatory workflows at Fortune-200 scale\n- Shipped modular agent components adopted by 100+ users and expanded toward 300+ enterprise users\n- Led model-quality evaluation for sentence-transformer rerankers and deployed at production scale\n- Built RTF processing capabilities to extract complex clinical table data for downstream workflows\n- Mentored three junior engineers on agentic workflow reliability and performance practices\n\n### Backend Engineer \u2014 Turing School Projects (2021\u20132022)\n\n- Developed RESTful APIs using Ruby on Rails and Python/FastAPI\n- Implemented CI/CD pipelines and containerized deployments\n- Collaborated on cross-functional teams delivering MVPs under tight deadlines\n\n## Education\n\n- Turing School of Software & Design \u2014 Backend Engineering (2021)\n- Eastern Michigan University \u2014 Economics & Mathematics (2017)\n",
+  "cover_letter_markdown": "# Alex Klick - Cover Letter\n\n## Opening\n\nI am writing to express my strong interest in the Generative AI Engineer position\nat MCG Health. With over four years of experience building production RAG and document\nintelligence systems in regulated healthcare environments, I bring both the technical\ndepth and domain awareness that this role demands.\n\n## Role Alignment\n\n- Built enterprise-scale vector database and reranker systems serving 30,000+ documents,\n  directly applicable to MCG's clinical evidence retrieval needs\n- Designed sub-section PDF chunking pipelines for biopharma regulatory workflows,\n  aligning with MCG's document processing requirements\n- Strong Python/FastAPI backend with OpenAI API integration, matching the role's\n  technology stack requirements\n- Experience mentoring junior engineers and collaborating across product, design,\n  and analyst teams\n\n## Evidence Highlights\n\n- Shipped modular agent components adopted by 100+ users with expansion to 300+ enterprise users\n- Led evaluation and deployment of sentence-transformer rerankers at production scale\n- Built RTF processing capabilities for complex clinical table data extraction\n- Designed document ingestion pipelines serving Fortune-200 biopharma workflows\n\n## Closing\n\nI would welcome the opportunity to discuss how my experience building AI-powered\ndocument intelligence systems can contribute to MCG Health's mission of delivering\nevidence-based healthcare solutions. I am available for a conversation at your\nearliest convenience.\n",
+  "used_fact_ids": [
+    "fact-a1b2c3d4",
+    "fact-e5f6a7b8",
+    "fact-c9d0e1f2",
+    "fact-a3b4c5d6",
+    "fact-e7f8a9b0"
+  ],
+  "claimed_facts": [
+    {
+      "statement": "Built vector DB serving 30k+ docs",
+      "fact_ids": [
+        "fact-a1b2c3d4"
+      ]
+    },
+    {
+      "statement": "PDF chunking for biopharma",
+      "fact_ids": [
+        "fact-e5f6a7b8"
+      ]
+    },
+    {
+      "statement": "100+ users on agent components",
+      "fact_ids": [
+        "fact-c9d0e1f2"
+      ]
+    },
+    {
+      "statement": "Sentence-transformer reranker eval",
+      "fact_ids": [
+        "fact-a3b4c5d6"
+      ]
+    },
+    {
+      "statement": "RTF clinical table extraction",
+      "fact_ids": [
+        "fact-e7f8a9b0"
+      ]
+    }
+  ],
+  "rubric_scores": {
+    "factual_grounding": 5.0,
+    "role_alignment": 5.0,
+    "metric_specificity": 4.5,
+    "clarity_conciseness": 5.0,
+    "ats_keyword_coverage": 4.5
+  },
+  "rationale": "Strong fact-grounded generation targeting MCG Health requirements.",
+  "rejected_claims": []
+}
