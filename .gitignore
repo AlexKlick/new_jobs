@@ -9,6 +9,7 @@ __pycache__/
 # Environments and local tooling
 .venv/
 /.codex
+/.git-canonical/
 /.codex/
 /.claude/
 /.cursor/
