@@ -10,6 +10,7 @@ __pycache__/
 .venv/
 /.codex
 /.git-canonical/
+/_git/
 /.codex/
 /.claude/
 /.cursor/
