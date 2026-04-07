@@ -156,7 +156,7 @@ async def migrate_source_store(conn: asyncpg.Connection) -> dict[str, int]:
             """
             INSERT INTO source_revisions (
                 revision_id, record_id, created_at, provenance, summary, field_count, snapshot
-            ) VALUES ($1, $2, $3, $4, $5, $6, $7)
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7::jsonb)
             ON CONFLICT (revision_id) DO UPDATE SET
                 record_id = EXCLUDED.record_id,
                 created_at = EXCLUDED.created_at,
@@ -198,9 +198,9 @@ async def migrate_search_store(conn: asyncpg.Connection) -> dict[str, int]:
                 experience_level, remote_policy, salary_min, discovery_strategy,
                 companies, max_results_per_source, created_at, updated_at, last_run_at
             ) VALUES (
-                $1, $2, $3, $4, $5, $6,
+                $1, $2, $3, $4::jsonb, $5::jsonb, $6::jsonb,
                 $7, $8, $9, $10,
-                $11, $12, $13, $14, $15
+                $11::jsonb, $12, $13, $14, $15
             )
             ON CONFLICT (preference_id) DO UPDATE SET
                 label = EXCLUDED.label,
@@ -245,7 +245,7 @@ async def migrate_search_store(conn: asyncpg.Connection) -> dict[str, int]:
             INSERT INTO search_runs (
                 run_id, preference_id, preference_label, status, started_at, completed_at,
                 total_candidates, new_candidates, duplicate_count, warnings, error_message
-            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10::jsonb, $11)
             ON CONFLICT (run_id) DO UPDATE SET
                 preference_id = EXCLUDED.preference_id,
                 preference_label = EXCLUDED.preference_label,
@@ -422,7 +422,7 @@ async def migrate_research_store(conn: asyncpg.Connection) -> dict[str, int]:
             INSERT INTO research_snapshots (
                 snapshot_id, company_key, collected_at, source_count, claim_count,
                 question_count, status, error_message, artifact_paths, created_at
-            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9::jsonb, $10)
             ON CONFLICT (snapshot_id) DO UPDATE SET
                 company_key = EXCLUDED.company_key,
                 collected_at = EXCLUDED.collected_at,
@@ -457,7 +457,7 @@ async def migrate_research_store(conn: asyncpg.Connection) -> dict[str, int]:
                 claim_id, snapshot_id, company_key, claim_text, source_url,
                 collected_at, confidence, themes, sentiment_score,
                 role_applicability, created_at
-            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8::jsonb, $9, $10::jsonb, $11)
             ON CONFLICT (claim_id) DO UPDATE SET
                 snapshot_id = EXCLUDED.snapshot_id,
                 company_key = EXCLUDED.company_key,
@@ -493,7 +493,7 @@ async def migrate_research_store(conn: asyncpg.Connection) -> dict[str, int]:
             INSERT INTO research_interview_questions (
                 question_id, snapshot_id, company_key, question_text, source_url,
                 collected_at, role_applicability, themes, created_at
-            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7::jsonb, $8::jsonb, $9)
             ON CONFLICT (question_id) DO UPDATE SET
                 snapshot_id = EXCLUDED.snapshot_id,
                 company_key = EXCLUDED.company_key,
@@ -831,7 +831,7 @@ async def migrate_generation_state(conn: asyncpg.Connection) -> dict[str, int]:
                 job_index, target, status, provider, started_at, completed_at,
                 progress_pct, current_step, estimated_remaining_s, error,
                 output_dir, rubric_scores, updated_at
-            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12::jsonb, $13)
             ON CONFLICT (job_index) DO UPDATE SET
                 target = EXCLUDED.target,
                 status = EXCLUDED.status,
