@@ -6,6 +6,7 @@ import type {
   SearchRunStatus,
 } from '../types';
 import { API_BASE } from '../config';
+import { EmptyState, LoadingState } from './PageState';
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
 
@@ -421,13 +422,11 @@ export function SearchPage() {
       {/* Main: run summary + candidates */}
       <div className="search-main">
         {!selectedRun ? (
-          <div className="search-empty">
-            <div className="search-empty-icon">🔍</div>
-            <div className="search-empty-text">
-              Select a saved preference and run a search,<br />
-              or pick a run from history to review results.
-            </div>
-          </div>
+          <EmptyState
+            icon="?"
+            title="No search selected"
+            description="Select a saved preference and run a search, or pick a run from history to review results."
+          />
         ) : (
           <>
             <div className="search-run-header">
@@ -511,14 +510,13 @@ export function SearchPage() {
                 </div>
               ))}
               {candidates.length === 0 && selectedRun.status === 'running' && (
-                <div style={{ color: 'var(--text-muted)', textAlign: 'center', padding: 'var(--space-8)' }}>
-                  Gathering candidates...
-                </div>
+                <LoadingState message="Gathering candidates..." />
               )}
               {candidates.length === 0 && selectedRun.status === 'completed' && (
-                <div style={{ color: 'var(--text-muted)', textAlign: 'center', padding: 'var(--space-8)' }}>
-                  No candidates found.
-                </div>
+                <EmptyState
+                  title="No candidates found"
+                  description="This search did not return any results. Try adjusting your keywords or sources."
+                />
               )}
             </div>
           </>
