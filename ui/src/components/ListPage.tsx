@@ -135,15 +135,16 @@ function PromoteDialog({ item, onClose, onPromote }: PromoteDialogProps) {
   };
 
   return (
-    <div className="promote-overlay" onClick={onClose}>
+    <div className="promote-overlay" onClick={onClose} role="dialog" aria-modal="true" aria-labelledby="promote-title">
       <div className="promote-dialog" onClick={e => e.stopPropagation()}>
-        <h3>Promote to Application?</h3>
+        <h3 id="promote-title">Promote to Application?</h3>
         <p>
-          This will mark <strong>{item.company}</strong> — <strong>{item.role}</strong> as
-          ingested into your canonical application inventory.
+          This will promote <strong>{item.company}</strong> — <strong>{item.role}</strong> into
+          your canonical application workflow.
         </p>
         <p className="promote-note">
-          The raw search candidate history will remain unchanged.
+          The job will enter the standard application pipeline (Tracker, Documents, Generation).
+          This action cannot be undone. The raw search candidate will remain in the search history.
         </p>
         <div className="dialog-actions">
           <button className="btn-dialog-cancel" onClick={onClose}>Cancel</button>
@@ -246,15 +247,17 @@ export function ListPage() {
   }, [selectedListId, loadListDetail]);
 
   // Remove item
+  const [removeTarget, setRemoveTarget] = useState<string | null>(null);
+
   const handleRemove = useCallback(async (itemId: string) => {
-    if (!confirm('Remove this job from the list?')) return;
     try {
       await fetch(`${API_BASE}/api/search/lists/items/${itemId}`, {
         method: 'DELETE',
       });
+      setRemoveTarget(null);
       if (selectedListId) loadListDetail(selectedListId);
     } catch {
-      // silent fail
+      setRemoveTarget(null);
     }
   }, [selectedListId, loadListDetail]);
 
@@ -366,14 +369,18 @@ export function ListPage() {
                         <button
                           className="btn-rank"
                           onClick={() => handleMoveUp(idx)}
+                          onKeyDown={e => { if (e.altKey && e.key === 'ArrowUp') { e.preventDefault(); handleMoveUp(idx); } }}
                           disabled={idx === 0}
                           title="Move up"
+                          aria-label={`Move rank ${idx + 1} up`}
                         >↑</button>
                         <button
                           className="btn-rank"
                           onClick={() => handleMoveDown(idx)}
+                          onKeyDown={e => { if (e.altKey && e.key === 'ArrowDown') { e.preventDefault(); handleMoveDown(idx); } }}
                           disabled={idx === detail.items.length - 1}
                           title="Move down"
+                          aria-label={`Move rank ${idx + 1} down`}
                         >↓</button>
                       </span>
                     </span>
@@ -423,16 +430,19 @@ export function ListPage() {
                         <button
                           className="btn-list-action btn-promote"
                           onClick={() => setPromoteItem(item)}
+                          aria-label={`Promote ${item.company} - ${item.role} to application`}
+                          title="Promote to application pipeline"
                         >
                           Promote
                         </button>
                       )}
                       <button
                         className="btn-list-action btn-remove"
-                        onClick={() => handleRemove(item.item_id)}
+                        onClick={() => setRemoveTarget(item.item_id)}
                         title="Remove from list"
+                        aria-label={`Remove ${item.company} - ${item.role} from list`}
                       >
-                        ×
+                        Remove
                       </button>
                     </span>
                   </div>
@@ -454,6 +464,27 @@ export function ListPage() {
           onClose={() => setPromoteItem(null)}
           onPromote={handlePromote}
         />
+      )}
+
+      {removeTarget && (
+        <div className="promote-overlay" onClick={() => setRemoveTarget(null)} role="dialog" aria-modal="true" aria-labelledby="remove-title">
+          <div className="promote-dialog" onClick={e => e.stopPropagation()}>
+            <h3 id="remove-title">Remove from List?</h3>
+            <p>
+              This will remove this job from the current list. The search candidate
+              will still exist in the search history.
+            </p>
+            <div className="dialog-actions">
+              <button className="btn-dialog-cancel" onClick={() => setRemoveTarget(null)}>Cancel</button>
+              <button
+                className="btn-remove-confirm"
+                onClick={() => handleRemove(removeTarget)}
+              >
+                Remove
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

@@ -4725,6 +4725,22 @@ body {
   cursor: default;
 }
 
+.btn-remove-confirm {
+  padding: var(--space-2) var(--space-5);
+  border: none;
+  border-radius: 0.375rem;
+  background: var(--danger);
+  color: white;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.btn-remove-confirm:hover {
+  background: #dc2626;
+}
+
 /* ── Research Page ──────────────────────────────────────────────────────────── */
 
 .research-page {
