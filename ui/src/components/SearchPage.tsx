@@ -450,15 +450,8 @@ export function SearchPage() {
             </div>
 
             {selectedRun.error_message && (
-              <div style={{
-                padding: 'var(--space-3)',
-                background: 'rgba(239, 68, 68, 0.1)',
-                border: '1px solid var(--danger)',
-                borderRadius: '0.375rem',
-                marginBottom: 'var(--space-4)',
-                color: 'var(--danger)',
-                fontSize: '0.875rem',
-              }}>
+              <div className="search-run-error" role="alert">
+                <span aria-hidden="true">!</span>
                 Error: {selectedRun.error_message}
               </div>
             )}
@@ -502,7 +495,7 @@ export function SearchPage() {
                       </button>
                     )}
                     {candidate.ingested && (
-                      <span style={{ fontSize: '0.75rem', color: 'var(--success)' }}>
+                      <span className="candidate-badge ingested-badge" aria-label="Status: ingested">
                         Ingested
                       </span>
                     )}
