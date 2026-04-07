@@ -1,6 +1,7 @@
 """Tests for search/list API endpoints and canonical-ingest bridge behavior."""
 
 from pathlib import Path
+from unittest.mock import patch
 
 import pytest
 from fastapi.testclient import TestClient
@@ -105,6 +106,35 @@ class TestListDetailEndpoint:
         assert returned["ingested"] is False
         assert returned["fit_score"] >= 0
         assert returned["research_summary"]["has_research"] is False
+
+
+class TestRunEndpoints:
+    def test_start_run_returns_pending_run(self, client):
+        from search.search_store import get_search_store
+
+        store = get_search_store()
+        pref = store.create_preference(
+            label="API Start Run",
+            archetype="experienced",
+            keywords=["python"],
+            locations=["Remote"],
+            sources=["greenhouse"],
+        )
+
+        with patch("search.search_service.asyncio.create_task") as mock_create_task:
+            resp = client.post("/api/search/runs", json={"preference_id": pref.preference_id})
+
+        assert resp.status_code == 200
+        body = resp.json()
+        assert body["run_id"].startswith("run-")
+        assert body["preference_id"] == pref.preference_id
+        assert body["preference_label"] == pref.label
+        assert body["status"] == "pending"
+        assert mock_create_task.called
+
+        updated_pref = store.get_preference(pref.preference_id)
+        assert updated_pref is not None
+        assert updated_pref.last_run_at is not None
 
 
 class TestPromotionEndpoints:

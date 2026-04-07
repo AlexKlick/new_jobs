@@ -10,6 +10,7 @@ Handles:
 from __future__ import annotations
 
 import asyncio
+import inspect
 import json
 import logging
 import re
@@ -38,6 +39,41 @@ def _schedule_background(coro: Coroutine[Any, Any, Any]) -> None:
         raise
     if not isinstance(task, asyncio.Task):
         coro.close()
+
+
+async def _call_store(
+    store: SearchStore,
+    async_name: str,
+    sync_name: str,
+    *args: Any,
+    **kwargs: Any,
+) -> Any:
+    """Use async store methods when the implementation provides them."""
+    async_descriptor = getattr(type(store), async_name, None)
+    if callable(async_descriptor):
+        result = getattr(store, async_name)(*args, **kwargs)
+        if inspect.isawaitable(result):
+            return await result
+        return result
+    return getattr(store, sync_name)(*args, **kwargs)
+
+
+def _emit_search_run_started(run_id: str, preference: SearchPreferenceModel) -> None:
+    """Emit the standard search-run-started graph event."""
+    try:
+        emit_career_event(
+            category="search",
+            action="search_run_started",
+            entity_id=run_id,
+            entity_type="search_run",
+            payload={
+                "preference_id": preference.preference_id,
+                "keywords": preference.keywords,
+                "locations": preference.locations,
+            },
+        )
+    except Exception:
+        logger.warning("Failed to emit graph event for search run_started", exc_info=True)
 
 
 # ── URL Builders ────────────────────────────────────────────────────────────────
@@ -338,7 +374,7 @@ async def execute_search_run(run_id: str, preference: SearchPreferenceModel) -> 
     store = get_search_store()
 
     try:
-        store.update_run_status(run_id, "running")
+        await _call_store(store, "update_run_status_async", "update_run_status", run_id, "running")
 
         all_candidates: list[dict[str, Any]] = []
         warnings: list[str] = []
@@ -361,7 +397,10 @@ async def execute_search_run(run_id: str, preference: SearchPreferenceModel) -> 
 
         # Add to store
         for cand in matched:
-            store.add_candidate(
+            await _call_store(
+                store,
+                "add_candidate_async",
+                "add_candidate",
                 run_id=run_id,
                 source=cand.get("source", ""),
                 source_url=cand.get("source_url", ""),
@@ -379,12 +418,27 @@ async def execute_search_run(run_id: str, preference: SearchPreferenceModel) -> 
             )
 
         # Compute counts - handle mock stores that return nothing
-        counts = store.compute_run_counts(run_id)
+        counts = await _call_store(store, "compute_run_counts_async", "compute_run_counts", run_id)
         total, new, dupes = 0, 0, 0
         if counts and len(counts) == 3:
             total, new, dupes = counts
-            store.update_run_counts(run_id, total, new, dupes)
-        store.update_run_status(run_id, "completed", warnings=warnings if warnings else None)
+            await _call_store(
+                store,
+                "update_run_counts_async",
+                "update_run_counts",
+                run_id,
+                total,
+                new,
+                dupes,
+            )
+        await _call_store(
+            store,
+            "update_run_status_async",
+            "update_run_status",
+            run_id,
+            "completed",
+            warnings=warnings if warnings else None,
+        )
 
         # Emit graph event for run completed
         try:
@@ -404,7 +458,14 @@ async def execute_search_run(run_id: str, preference: SearchPreferenceModel) -> 
 
     except Exception as exc:
         logger.exception("Search run %s failed: %s", run_id, exc)
-        store.update_run_status(run_id, "failed", error_message=str(exc)[:500])
+        await _call_store(
+            store,
+            "update_run_status_async",
+            "update_run_status",
+            run_id,
+            "failed",
+            error_message=str(exc)[:500],
+        )
 
         # Emit graph event for run failed
         try:
@@ -472,24 +533,30 @@ def start_search_run(preference: SearchPreferenceModel) -> str:
 
     # Update preference last_run_at
     store.update_preference_last_run(preference.preference_id)
-
-    # Emit graph event for run started
-    try:
-        emit_career_event(
-            category="search",
-            action="search_run_started",
-            entity_id=run.run_id,
-            entity_type="search_run",
-            payload={
-                "preference_id": preference.preference_id,
-                "keywords": preference.keywords,
-                "locations": preference.locations,
-            },
-        )
-    except Exception:
-        logger.warning("Failed to emit graph event for search run_started", exc_info=True)
+    _emit_search_run_started(run.run_id, preference)
 
     # Schedule background execution.
     _schedule_background(execute_search_run(run.run_id, preference))
 
+    return run.run_id
+
+
+async def start_search_run_async(preference: SearchPreferenceModel) -> str:
+    """Create a search run asynchronously and schedule background execution."""
+    store = get_search_store()
+    run = await _call_store(
+        store,
+        "create_run_async",
+        "create_run",
+        preference_id=preference.preference_id,
+        preference_label=preference.label,
+    )
+    await _call_store(
+        store,
+        "update_preference_last_run_async",
+        "update_preference_last_run",
+        preference.preference_id,
+    )
+    _emit_search_run_started(run.run_id, preference)
+    _schedule_background(execute_search_run(run.run_id, preference))
     return run.run_id

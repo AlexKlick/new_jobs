@@ -259,6 +259,40 @@ class TestStartSearchRun:
             mock_store.create_run.assert_called_once()
             mock_create_task.assert_called_once()
 
+    @pytest.mark.asyncio
+    async def test_start_search_run_async_uses_async_store_methods(self):
+        from datetime import datetime, timezone
+
+        from search_service import start_search_run_async
+        from search_store import SearchPreferenceModel
+
+        pref = SearchPreferenceModel(
+            preference_id="pref-start-async-test",
+            label="Start Async Test",
+            archetype="experienced",
+            keywords=["python"],
+            locations=["Remote"],
+            sources=["greenhouse"],
+            created_at=datetime.now(timezone.utc).isoformat(),
+            updated_at=datetime.now(timezone.utc).isoformat(),
+        )
+
+        mock_run = MagicMock()
+        mock_run.run_id = "run-async123"
+
+        class FakeStore:
+            create_run_async = AsyncMock(return_value=mock_run)
+            update_preference_last_run_async = AsyncMock()
+
+        with patch("search_service.get_search_store", return_value=FakeStore()), \
+             patch("asyncio.create_task") as mock_create_task:
+            run_id = await start_search_run_async(pref)
+
+        assert run_id == "run-async123"
+        FakeStore.create_run_async.assert_awaited_once()
+        FakeStore.update_preference_last_run_async.assert_awaited_once_with(pref.preference_id)
+        mock_create_task.assert_called_once()
+
 
 class TestExecuteSearchRunEmptySources:
     @pytest.mark.asyncio

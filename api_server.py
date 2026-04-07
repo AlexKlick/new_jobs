@@ -1070,7 +1070,7 @@ async def batch_normalize(body: BatchNormalizeRequest, background_tasks: Backgro
 # ── Search Endpoints ───────────────────────────────────────────────────────────
 
 from search import get_search_store, SearchPreferenceModel, JobListModel, JobListDetailModel
-from search.search_service import start_search_run
+from search.search_service import start_search_run_async
 
 
 class CreatePreferenceRequest(BaseModel):
@@ -1092,7 +1092,7 @@ class StartRunRequest(BaseModel):
 async def list_preferences():
     """Return all saved search preferences."""
     store = get_search_store()
-    prefs = store.list_preferences()
+    prefs = await store.list_preferences_async()
     return [p.model_dump() for p in prefs]
 
 
@@ -1100,7 +1100,7 @@ async def list_preferences():
 async def create_preference(body: CreatePreferenceRequest):
     """Create a new search preference."""
     store = get_search_store()
-    pref = store.create_preference(
+    pref = await store.create_preference_async(
         label=body.label,
         archetype=body.archetype,
         keywords=body.keywords,
@@ -1117,7 +1117,7 @@ async def create_preference(body: CreatePreferenceRequest):
 async def delete_preference(preference_id: str):
     """Delete a search preference and its associated runs."""
     store = get_search_store()
-    if not store.delete_preference(preference_id):
+    if not await store.delete_preference_async(preference_id):
         raise HTTPException(status_code=404, detail=f"Preference '{preference_id}' not found")
     return {"deleted": True, "preference_id": preference_id}
 
@@ -1126,7 +1126,7 @@ async def delete_preference(preference_id: str):
 async def list_runs():
     """Return all search runs (newest first), without candidate lists."""
     store = get_search_store()
-    runs = store.list_runs()
+    runs = await store.list_runs_async()
     return [r.model_dump() for r in runs]
 
 
@@ -1134,12 +1134,12 @@ async def list_runs():
 async def start_run(body: StartRunRequest):
     """Start a new search run for a given preference. Returns immediately."""
     store = get_search_store()
-    pref = store.get_preference(body.preference_id)
+    pref = await store.get_preference_async(body.preference_id)
     if not pref:
         raise HTTPException(status_code=404, detail=f"Preference '{body.preference_id}' not found")
 
-    run_id = start_search_run(pref)
-    run = store.get_run(run_id)
+    run_id = await start_search_run_async(pref)
+    run = await store.get_run_async(run_id)
     return run.model_dump() if run else {"run_id": run_id, "status": "pending"}
 
 
@@ -1147,7 +1147,7 @@ async def start_run(body: StartRunRequest):
 async def get_run_detail(run_id: str):
     """Return a single run with its full candidate list."""
     store = get_search_store()
-    detail = store.get_run_detail(run_id)
+    detail = await store.get_run_detail_async(run_id)
     if not detail:
         raise HTTPException(status_code=404, detail=f"Run '{run_id}' not found")
     return detail.model_dump()
@@ -1157,7 +1157,7 @@ async def get_run_detail(run_id: str):
 async def ingest_candidate(candidate_id: str):
     """Ingest a candidate into the canonical inventory and mark local search state."""
     store = get_search_store()
-    candidate = store.get_candidate(candidate_id)
+    candidate = await store.get_candidate_async(candidate_id)
     if not candidate:
         raise HTTPException(status_code=404, detail=f"Candidate '{candidate_id}' not found")
 
@@ -1175,7 +1175,7 @@ async def ingest_candidate(candidate_id: str):
         logger.exception("Canonical candidate ingest failed for %s: %s", candidate_id, exc)
         raise HTTPException(status_code=500, detail="Canonical ingest failed")
 
-    store.mark_candidate_ingested(candidate_id)
+    await store.mark_candidate_ingested_async(candidate_id)
     return {
         "candidate_id": candidate_id,
         "ingested": True,
@@ -1205,7 +1205,7 @@ class UpdateItemStatusRequest(BaseModel):
 async def list_lists():
     """Return all curated job lists."""
     store = get_search_store()
-    lists = store.list_lists()
+    lists = await store.list_lists_async()
     return [lst.model_dump() for lst in lists]
 
 
@@ -1213,7 +1213,7 @@ async def list_lists():
 async def get_list(list_id: str):
     """Return a list with its full ordered items and denormalized candidate data."""
     store = get_search_store()
-    detail = store.get_list_detail(list_id)
+    detail = await store.get_list_detail_async(list_id)
     if not detail:
         raise HTTPException(status_code=404, detail=f"List '{list_id}' not found")
 
@@ -1242,7 +1242,7 @@ async def get_list(list_id: str):
 async def get_list_for_run(run_id: str):
     """Return the curated list associated with a search run."""
     store = get_search_store()
-    lst = store.get_list_for_run(run_id)
+    lst = await store.get_list_for_run_async(run_id)
     if not lst:
         raise HTTPException(status_code=404, detail=f"No list found for run '{run_id}'")
     return lst.model_dump()
@@ -1252,7 +1252,7 @@ async def get_list_for_run(run_id: str):
 async def remove_list_item(item_id: str):
     """Remove an item from its list (does not delete the candidate)."""
     store = get_search_store()
-    if not store.remove_item(item_id):
+    if not await store.remove_item_async(item_id):
         raise HTTPException(status_code=404, detail=f"Item '{item_id}' not found")
     return {"item_id": item_id, "removed": True}
 
@@ -1268,10 +1268,10 @@ async def reorder_list_items(body: ReorderItemsRequest):
 
     store = get_search_store()
     # Get the list_id from the first item
-    first_item = store.get_item(body.item_ids[0])
+    first_item = await store.get_item_async(body.item_ids[0])
     if not first_item:
         raise HTTPException(status_code=404, detail="Item not found")
-    store.reorder_items(first_item.list_id, body.item_ids)
+    await store.reorder_items_async(first_item.list_id, body.item_ids)
     return {"list_id": first_item.list_id, "reordered": True}
 
 
@@ -1279,7 +1279,7 @@ async def reorder_list_items(body: ReorderItemsRequest):
 async def update_item_notes(item_id: str, body: UpdateItemNotesRequest):
     """Update notes on a list item."""
     store = get_search_store()
-    if not store.update_item_notes(item_id, body.notes):
+    if not await store.update_item_notes_async(item_id, body.notes):
         raise HTTPException(status_code=404, detail=f"Item '{item_id}' not found")
     return {"item_id": item_id, "notes": body.notes}
 
@@ -1290,7 +1290,7 @@ async def update_item_priority(item_id: str, body: UpdateItemPriorityRequest):
     if body.priority not in ("low", "medium", "high"):
         raise HTTPException(status_code=400, detail="priority must be low, medium, or high")
     store = get_search_store()
-    if not store.update_item_priority(item_id, body.priority):
+    if not await store.update_item_priority_async(item_id, body.priority):
         raise HTTPException(status_code=404, detail=f"Item '{item_id}' not found")
     return {"item_id": item_id, "priority": body.priority}
 
@@ -1301,7 +1301,7 @@ async def update_item_status(item_id: str, body: UpdateItemStatusRequest):
     if body.status not in ("wishlist", "applied", "rejected"):
         raise HTTPException(status_code=400, detail="status must be wishlist, applied, or rejected")
     store = get_search_store()
-    if not store.update_item_status(item_id, body.status):
+    if not await store.update_item_status_async(item_id, body.status):
         raise HTTPException(status_code=404, detail=f"Item '{item_id}' not found")
     return {"item_id": item_id, "status": body.status}
 
@@ -1313,11 +1313,11 @@ async def promote_list_item(item_id: str):
     Performs canonical ingest before marking the item as promoted.
     """
     store = get_search_store()
-    item = store.get_item(item_id)
+    item = await store.get_item_async(item_id)
     if not item:
         raise HTTPException(status_code=404, detail=f"Item '{item_id}' not found")
 
-    candidate = store.get_candidate(item.candidate_id)
+    candidate = await store.get_candidate_async(item.candidate_id)
     if not candidate:
         raise HTTPException(status_code=404, detail=f"Candidate '{item.candidate_id}' not found")
 
@@ -1335,8 +1335,8 @@ async def promote_list_item(item_id: str):
         logger.exception("Canonical list promotion failed for %s: %s", item_id, exc)
         raise HTTPException(status_code=500, detail="Canonical promotion failed")
 
-    store.mark_candidate_ingested(item.candidate_id)
-    store.mark_item_promoted(item_id)
+    await store.mark_candidate_ingested_async(item.candidate_id)
+    await store.mark_item_promoted_async(item_id)
     return {
         "item_id": item_id,
         "candidate_id": item.candidate_id,
