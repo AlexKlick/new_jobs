@@ -22,8 +22,10 @@ from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse
 
+import asyncpg
 from pydantic import BaseModel, Field
 
+from db.runtime import get_runtime_pool, runtime_pool_enabled
 from graph.career_event_bus import emit_career_event
 
 logger = logging.getLogger(__name__)
@@ -302,6 +304,12 @@ class SearchStore:
         self._db_path = SEARCH_DB
         with _get_db():
             pass
+
+    @staticmethod
+    def _runtime_pool() -> Optional[asyncpg.Pool]:
+        if not runtime_pool_enabled():
+            return None
+        return get_runtime_pool()
 
     def list_preferences(self) -> list[SearchPreferenceModel]:
         with _get_db() as conn:
@@ -901,6 +909,730 @@ class SearchStore:
                 created_at=row["created_at"],
             )
 
+    async def list_preferences_async(self) -> list[SearchPreferenceModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.list_preferences()
+        async with pool.acquire() as conn:
+            rows = await conn.fetch(
+                "SELECT preference_id, label, archetype, keywords, locations, sources, "
+                "experience_level, remote_policy, salary_min, discovery_strategy, "
+                "companies, max_results_per_source, created_at, updated_at, last_run_at "
+                "FROM search_preferences ORDER BY updated_at DESC"
+            )
+        return [self._row_to_preference(row) for row in rows]
+
+    async def get_preference_async(self, preference_id: str) -> Optional[SearchPreferenceModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.get_preference(preference_id)
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT preference_id, label, archetype, keywords, locations, sources, "
+                "experience_level, remote_policy, salary_min, discovery_strategy, "
+                "companies, max_results_per_source, created_at, updated_at, last_run_at "
+                "FROM search_preferences WHERE preference_id = $1",
+                preference_id,
+            )
+        return self._row_to_preference(row) if row else None
+
+    async def create_preference_async(
+        self,
+        label: str,
+        archetype: str,
+        keywords: list[str],
+        locations: list[str],
+        sources: list[str],
+        experience_level: Optional[str] = None,
+        remote_policy: Optional[str] = None,
+        salary_min: Optional[int] = None,
+        discovery_strategy: str = "search_and_career_pages",
+        companies: Optional[list[str]] = None,
+        max_results_per_source: int = 50,
+    ) -> SearchPreferenceModel:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.create_preference(
+                label=label,
+                archetype=archetype,
+                keywords=keywords,
+                locations=locations,
+                sources=sources,
+                experience_level=experience_level,
+                remote_policy=remote_policy,
+                salary_min=salary_min,
+                discovery_strategy=discovery_strategy,
+                companies=companies,
+                max_results_per_source=max_results_per_source,
+            )
+
+        now = datetime.now(timezone.utc).isoformat()
+        preference_id = f"pref-{uuid.uuid4().hex[:12]}"
+        companies = companies or []
+
+        async with pool.acquire() as conn:
+            await conn.execute(
+                "INSERT INTO search_preferences "
+                "(preference_id, label, archetype, keywords, locations, sources, "
+                "experience_level, remote_policy, salary_min, discovery_strategy, companies, "
+                "max_results_per_source, created_at, updated_at) "
+                "VALUES ($1, $2, $3, $4::jsonb, $5::jsonb, $6::jsonb, $7, $8, $9, $10, $11::jsonb, $12, $13, $14)",
+                preference_id,
+                label,
+                archetype,
+                json.dumps(keywords),
+                json.dumps(locations),
+                json.dumps(sources),
+                experience_level,
+                remote_policy,
+                salary_min,
+                discovery_strategy,
+                json.dumps(companies),
+                max_results_per_source,
+                now,
+                now,
+            )
+
+        return SearchPreferenceModel(
+            preference_id=preference_id,
+            label=label,
+            archetype=archetype,
+            keywords=keywords,
+            locations=locations,
+            sources=sources,
+            experience_level=experience_level,
+            remote_policy=remote_policy,
+            salary_min=salary_min,
+            discovery_strategy=discovery_strategy,
+            companies=companies,
+            max_results_per_source=max_results_per_source,
+            created_at=now,
+            updated_at=now,
+            last_run_at=None,
+        )
+
+    async def update_preference_last_run_async(self, preference_id: str) -> None:
+        pool = self._runtime_pool()
+        if pool is None:
+            self.update_preference_last_run(preference_id)
+            return
+        now = datetime.now(timezone.utc).isoformat()
+        async with pool.acquire() as conn:
+            await conn.execute(
+                "UPDATE search_preferences SET last_run_at = $1, updated_at = $2 WHERE preference_id = $3",
+                now,
+                now,
+                preference_id,
+            )
+
+    async def delete_preference_async(self, preference_id: str) -> bool:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.delete_preference(preference_id)
+
+        async with pool.acquire() as conn:
+            async with conn.transaction():
+                row = await conn.fetchrow(
+                    "SELECT preference_id FROM search_preferences WHERE preference_id = $1",
+                    preference_id,
+                )
+                if row is None:
+                    return False
+
+                run_rows = await conn.fetch(
+                    "SELECT run_id FROM search_runs WHERE preference_id = $1",
+                    preference_id,
+                )
+                run_ids = [row["run_id"] for row in run_rows]
+                if run_ids:
+                    list_rows = await conn.fetch(
+                        "SELECT list_id FROM job_lists WHERE run_id = ANY($1::text[])",
+                        run_ids,
+                    )
+                    list_ids = [row["list_id"] for row in list_rows]
+                    if list_ids:
+                        await conn.execute(
+                            "DELETE FROM job_list_items WHERE list_id = ANY($1::text[])",
+                            list_ids,
+                        )
+                        await conn.execute(
+                            "DELETE FROM job_lists WHERE list_id = ANY($1::text[])",
+                            list_ids,
+                        )
+                    await conn.execute(
+                        "DELETE FROM job_candidates WHERE run_id = ANY($1::text[])",
+                        run_ids,
+                    )
+                    await conn.execute(
+                        "DELETE FROM search_runs WHERE run_id = ANY($1::text[])",
+                        run_ids,
+                    )
+                await conn.execute(
+                    "DELETE FROM search_preferences WHERE preference_id = $1",
+                    preference_id,
+                )
+        return True
+
+    async def list_runs_async(self) -> list[SearchRunModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.list_runs()
+        async with pool.acquire() as conn:
+            rows = await conn.fetch(
+                "SELECT run_id, preference_id, preference_label, status, started_at, "
+                "completed_at, total_candidates, new_candidates, duplicate_count, warnings, "
+                "error_message FROM search_runs ORDER BY started_at DESC"
+            )
+        return [self._row_to_run(row) for row in rows]
+
+    async def get_run_async(self, run_id: str) -> Optional[SearchRunModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.get_run(run_id)
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT run_id, preference_id, preference_label, status, started_at, "
+                "completed_at, total_candidates, new_candidates, duplicate_count, warnings, "
+                "error_message FROM search_runs WHERE run_id = $1",
+                run_id,
+            )
+        return self._row_to_run(row) if row else None
+
+    async def get_run_detail_async(self, run_id: str) -> Optional[SearchRunDetailModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.get_run_detail(run_id)
+        run = await self.get_run_async(run_id)
+        if not run:
+            return None
+        candidates = await self.list_candidates_for_run_async(run_id)
+        return SearchRunDetailModel(**run.model_dump(), candidates=candidates)
+
+    async def create_run_async(
+        self,
+        preference_id: Optional[str],
+        preference_label: Optional[str],
+    ) -> SearchRunModel:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.create_run(preference_id=preference_id, preference_label=preference_label)
+        now = datetime.now(timezone.utc).isoformat()
+        run_id = f"run-{uuid.uuid4().hex[:12]}"
+        async with pool.acquire() as conn:
+            await conn.execute(
+                "INSERT INTO search_runs "
+                "(run_id, preference_id, preference_label, status, started_at, warnings) "
+                "VALUES ($1, $2, $3, 'pending', $4, '[]'::jsonb)",
+                run_id,
+                preference_id,
+                preference_label,
+                now,
+            )
+        return SearchRunModel(
+            run_id=run_id,
+            preference_id=preference_id,
+            preference_label=preference_label,
+            status="pending",
+            started_at=now,
+            completed_at=None,
+            total_candidates=0,
+            new_candidates=0,
+            duplicate_count=0,
+            warnings=[],
+            error_message=None,
+        )
+
+    async def update_run_status_async(
+        self,
+        run_id: str,
+        status: str,
+        error_message: Optional[str] = None,
+        warnings: Optional[list[str]] = None,
+    ) -> None:
+        pool = self._runtime_pool()
+        if pool is None:
+            self.update_run_status(run_id, status, error_message=error_message, warnings=warnings)
+            return
+        now = datetime.now(timezone.utc).isoformat()
+        completed_at = now if status in ("completed", "failed") else None
+        async with pool.acquire() as conn:
+            await conn.execute(
+                "UPDATE search_runs SET status = $1, completed_at = $2, error_message = $3, warnings = $4::jsonb "
+                "WHERE run_id = $5",
+                status,
+                completed_at,
+                error_message,
+                json.dumps(warnings if warnings is not None else []),
+                run_id,
+            )
+
+    async def update_run_counts_async(
+        self,
+        run_id: str,
+        total_candidates: int,
+        new_candidates: int,
+        duplicate_count: int,
+    ) -> None:
+        pool = self._runtime_pool()
+        if pool is None:
+            self.update_run_counts(run_id, total_candidates, new_candidates, duplicate_count)
+            return
+        async with pool.acquire() as conn:
+            await conn.execute(
+                "UPDATE search_runs SET total_candidates = $1, new_candidates = $2, duplicate_count = $3 WHERE run_id = $4",
+                total_candidates,
+                new_candidates,
+                duplicate_count,
+                run_id,
+            )
+
+    async def list_candidates_for_run_async(self, run_id: str) -> list[JobCandidateModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.list_candidates_for_run(run_id)
+        async with pool.acquire() as conn:
+            rows = await conn.fetch(
+                "SELECT candidate_id, run_id, source, source_url, company, role, location, "
+                "salary, remote, posted_date, apply_url, discovery_url, extraction_method, "
+                "source_confidence, search_rank, identity_key, is_duplicate, "
+                "duplicate_of_candidate_id, ingested, created_at "
+                "FROM job_candidates WHERE run_id = $1 ORDER BY search_rank ASC, created_at ASC",
+                run_id,
+            )
+        return [self._row_to_candidate(row) for row in rows]
+
+    async def find_existing_candidate_async(self, identity_key: str) -> Optional[JobCandidateModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.find_existing_candidate(identity_key)
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT candidate_id, run_id, source, source_url, company, role, location, "
+                "salary, remote, posted_date, apply_url, discovery_url, extraction_method, "
+                "source_confidence, search_rank, identity_key, is_duplicate, "
+                "duplicate_of_candidate_id, ingested, created_at "
+                "FROM job_candidates WHERE identity_key = $1 LIMIT 1",
+                identity_key,
+            )
+        return self._row_to_candidate(row) if row else None
+
+    async def get_candidate_async(self, candidate_id: str) -> Optional[JobCandidateModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.get_candidate(candidate_id)
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT candidate_id, run_id, source, source_url, company, role, location, "
+                "salary, remote, posted_date, apply_url, discovery_url, extraction_method, "
+                "source_confidence, search_rank, identity_key, is_duplicate, "
+                "duplicate_of_candidate_id, ingested, created_at "
+                "FROM job_candidates WHERE candidate_id = $1",
+                candidate_id,
+            )
+        return self._row_to_candidate(row) if row else None
+
+    async def add_candidate_async(
+        self,
+        run_id: str,
+        source: str,
+        source_url: str,
+        company: str,
+        role: str,
+        location: Optional[str],
+        salary: Optional[str],
+        remote: Optional[str],
+        posted_date: Optional[str],
+        apply_url: Optional[str],
+        discovery_url: Optional[str] = None,
+        extraction_method: str = "ats_api",
+        source_confidence: str = "high",
+        search_rank: int = 0,
+    ) -> JobCandidateModel:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.add_candidate(
+                run_id=run_id,
+                source=source,
+                source_url=source_url,
+                company=company,
+                role=role,
+                location=location,
+                salary=salary,
+                remote=remote,
+                posted_date=posted_date,
+                apply_url=apply_url,
+                discovery_url=discovery_url,
+                extraction_method=extraction_method,
+                source_confidence=source_confidence,
+                search_rank=search_rank,
+            )
+
+        now = datetime.now(timezone.utc).isoformat()
+        candidate_id = f"cand-{uuid.uuid4().hex[:12]}"
+        primary_identity_key = self._compute_identity_key(company, role, location=location, apply_url=apply_url)
+        fallback_identity_key = self._compute_identity_key(company, role, location=location, apply_url=None)
+        identity_key = primary_identity_key or fallback_identity_key
+
+        existing = await self.find_existing_candidate_async(primary_identity_key)
+        if existing is None and fallback_identity_key != primary_identity_key:
+            existing = await self._find_existing_candidate_by_fallback_async(company, role, location)
+        is_duplicate = existing is not None
+        duplicate_of = existing.candidate_id if existing else None
+
+        async with pool.acquire() as conn:
+            await conn.execute(
+                "INSERT INTO job_candidates "
+                "(candidate_id, run_id, source, source_url, company, role, location, salary, "
+                "remote, posted_date, apply_url, discovery_url, extraction_method, "
+                "source_confidence, search_rank, identity_key, is_duplicate, "
+                "duplicate_of_candidate_id, ingested, created_at) "
+                "VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, FALSE, $19)",
+                candidate_id,
+                run_id,
+                source,
+                source_url,
+                company,
+                role,
+                location,
+                salary,
+                remote,
+                posted_date,
+                apply_url,
+                discovery_url,
+                extraction_method,
+                source_confidence,
+                search_rank,
+                identity_key,
+                is_duplicate,
+                duplicate_of,
+                now,
+            )
+
+        return JobCandidateModel(
+            candidate_id=candidate_id,
+            run_id=run_id,
+            source=source,
+            source_url=source_url,
+            company=company,
+            role=role,
+            location=location,
+            salary=salary,
+            remote=remote,
+            posted_date=posted_date,
+            apply_url=apply_url,
+            discovery_url=discovery_url,
+            extraction_method=extraction_method,
+            source_confidence=source_confidence,
+            search_rank=search_rank,
+            identity_key=identity_key,
+            is_duplicate=is_duplicate,
+            duplicate_of_candidate_id=duplicate_of,
+            ingested=False,
+            created_at=now,
+        )
+
+    async def mark_candidate_ingested_async(self, candidate_id: str) -> bool:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.mark_candidate_ingested(candidate_id)
+        async with pool.acquire() as conn:
+            result = await conn.execute(
+                "UPDATE job_candidates SET ingested = TRUE WHERE candidate_id = $1",
+                candidate_id,
+            )
+        return result.endswith("1")
+
+    async def compute_run_counts_async(self, run_id: str) -> tuple[int, int, int]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.compute_run_counts(run_id)
+        async with pool.acquire() as conn:
+            total = await conn.fetchval(
+                "SELECT COUNT(*) FROM job_candidates WHERE run_id = $1",
+                run_id,
+            )
+            dup = await conn.fetchval(
+                "SELECT COUNT(*) FROM job_candidates WHERE run_id = $1 AND is_duplicate = TRUE",
+                run_id,
+            )
+        total = int(total or 0)
+        dup = int(dup or 0)
+        return total, total - dup, dup
+
+    async def create_list_for_run_async(self, run_id: str, label: str) -> JobListModel:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.create_list_for_run(run_id, label)
+        now = datetime.now(timezone.utc).isoformat()
+        list_id = f"list-{uuid.uuid4().hex[:12]}"
+        async with pool.acquire() as conn:
+            await conn.execute(
+                "INSERT INTO job_lists (list_id, run_id, label, created_at, updated_at) VALUES ($1, $2, $3, $4, $5)",
+                list_id,
+                run_id,
+                label,
+                now,
+                now,
+            )
+        return JobListModel(
+            list_id=list_id,
+            run_id=run_id,
+            label=label,
+            created_at=now,
+            updated_at=now,
+        )
+
+    async def get_list_for_run_async(self, run_id: str) -> Optional[JobListModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.get_list_for_run(run_id)
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT list_id, run_id, label, created_at, updated_at FROM job_lists WHERE run_id = $1",
+                run_id,
+            )
+        return self._row_to_list(row) if row else None
+
+    async def get_list_detail_async(self, list_id: str) -> Optional[JobListDetailModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.get_list_detail(list_id)
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT list_id, run_id, label, created_at, updated_at FROM job_lists WHERE list_id = $1",
+                list_id,
+            )
+            if row is None:
+                return None
+            item_rows = await conn.fetch(
+                "SELECT jli.item_id, jli.list_id, jli.candidate_id, jli.position, "
+                "jli.notes, jli.priority, jli.status, jli.promoted, jli.created_at, "
+                "jc.source, jc.source_url, jc.company, jc.role, jc.location, jc.salary, "
+                "jc.remote, jc.posted_date, jc.apply_url, jc.discovery_url, "
+                "jc.extraction_method, jc.source_confidence, jc.search_rank, "
+                "jc.identity_key, jc.is_duplicate, jc.ingested "
+                "FROM job_list_items jli "
+                "JOIN job_candidates jc ON jli.candidate_id = jc.candidate_id "
+                "WHERE jli.list_id = $1 "
+                "ORDER BY jli.position",
+                list_id,
+            )
+        items = [self._row_to_list_item_with_candidate(row) for row in item_rows]
+        return JobListDetailModel(**self._row_to_list(row).model_dump(), items=items)
+
+    async def list_lists_async(self) -> list[JobListModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.list_lists()
+        async with pool.acquire() as conn:
+            rows = await conn.fetch(
+                "SELECT list_id, run_id, label, created_at, updated_at FROM job_lists ORDER BY updated_at DESC"
+            )
+        return [self._row_to_list(row) for row in rows]
+
+    async def add_candidates_to_list_from_run_async(self, run_id: str) -> int:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.add_candidates_to_list_from_run(run_id)
+        lst = await self.get_list_for_run_async(run_id)
+        if not lst:
+            return 0
+        now = datetime.now(timezone.utc).isoformat()
+        async with pool.acquire() as conn:
+            rows = await conn.fetch(
+                "SELECT candidate_id FROM job_candidates WHERE run_id = $1 AND is_duplicate = FALSE "
+                "ORDER BY search_rank ASC, created_at ASC",
+                run_id,
+            )
+            for pos, row in enumerate(rows):
+                await self._upsert_list_item_pg(
+                    conn,
+                    list_id=lst.list_id,
+                    candidate_id=row["candidate_id"],
+                    position=pos,
+                    now=now,
+                )
+        return len(rows)
+
+    async def remove_item_async(self, item_id: str) -> bool:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.remove_item(item_id)
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT list_id, candidate_id FROM job_list_items WHERE item_id = $1",
+                item_id,
+            )
+            if row is None:
+                return False
+            list_id = row["list_id"]
+            result = await conn.execute(
+                "DELETE FROM job_list_items WHERE item_id = $1",
+                item_id,
+            )
+        success = result.endswith("1")
+        if success:
+            try:
+                emit_career_event(
+                    category="list",
+                    action="list_item_removed",
+                    entity_id=item_id,
+                    entity_type="list_item",
+                    payload={"list_id": list_id},
+                )
+            except Exception:
+                logger.warning("Failed to emit graph event for list item_removed", exc_info=True)
+        return success
+
+    async def reorder_items_async(self, list_id: str, item_ids: list[str]) -> None:
+        pool = self._runtime_pool()
+        if pool is None:
+            self.reorder_items(list_id, item_ids)
+            return
+        now = datetime.now(timezone.utc).isoformat()
+        async with pool.acquire() as conn:
+            for pos, item_id in enumerate(item_ids):
+                await conn.execute(
+                    "UPDATE job_list_items SET position = $1 WHERE item_id = $2 AND list_id = $3",
+                    pos,
+                    item_id,
+                    list_id,
+                )
+            await conn.execute(
+                "UPDATE job_lists SET updated_at = $1 WHERE list_id = $2",
+                now,
+                list_id,
+            )
+        try:
+            emit_career_event(
+                category="list",
+                action="list_item_reordered",
+                entity_id=list_id,
+                entity_type="job_list",
+                payload={"item_ids": item_ids},
+            )
+        except Exception:
+            logger.warning("Failed to emit graph event for list item_reordered", exc_info=True)
+
+    async def update_item_notes_async(self, item_id: str, notes: str) -> bool:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.update_item_notes(item_id, notes)
+        async with pool.acquire() as conn:
+            result = await conn.execute(
+                "UPDATE job_list_items SET notes = $1 WHERE item_id = $2",
+                notes,
+                item_id,
+            )
+        success = result.endswith("1")
+        if success:
+            try:
+                emit_career_event(
+                    category="list",
+                    action="list_item_notes_updated",
+                    entity_id=item_id,
+                    entity_type="list_item",
+                    payload={"notes_length": len(notes)},
+                )
+            except Exception:
+                logger.warning("Failed to emit graph event for list item_notes_updated", exc_info=True)
+        return success
+
+    async def update_item_priority_async(self, item_id: str, priority: str) -> bool:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.update_item_priority(item_id, priority)
+        async with pool.acquire() as conn:
+            result = await conn.execute(
+                "UPDATE job_list_items SET priority = $1 WHERE item_id = $2",
+                priority,
+                item_id,
+            )
+        success = result.endswith("1")
+        if success:
+            try:
+                emit_career_event(
+                    category="list",
+                    action="list_item_priority_updated",
+                    entity_id=item_id,
+                    entity_type="list_item",
+                    payload={"priority": priority},
+                )
+            except Exception:
+                logger.warning("Failed to emit graph event for list item_priority_updated", exc_info=True)
+        return success
+
+    async def update_item_status_async(self, item_id: str, status: str) -> bool:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.update_item_status(item_id, status)
+        async with pool.acquire() as conn:
+            result = await conn.execute(
+                "UPDATE job_list_items SET status = $1 WHERE item_id = $2",
+                status,
+                item_id,
+            )
+        success = result.endswith("1")
+        if success:
+            try:
+                emit_career_event(
+                    category="list",
+                    action="list_item_status_updated",
+                    entity_id=item_id,
+                    entity_type="list_item",
+                    payload={"status": status},
+                )
+            except Exception:
+                logger.warning("Failed to emit graph event for list item_status_updated", exc_info=True)
+        return success
+
+    async def mark_item_promoted_async(self, item_id: str) -> bool:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.mark_item_promoted(item_id)
+        async with pool.acquire() as conn:
+            result = await conn.execute(
+                "UPDATE job_list_items SET promoted = TRUE WHERE item_id = $1",
+                item_id,
+            )
+        success = result.endswith("1")
+        if success:
+            try:
+                emit_career_event(
+                    category="list",
+                    action="list_item_promoted",
+                    entity_id=item_id,
+                    entity_type="list_item",
+                    payload={"promoted": True},
+                )
+            except Exception:
+                logger.warning("Failed to emit graph event for list item_promoted", exc_info=True)
+        return success
+
+    async def get_item_async(self, item_id: str) -> Optional[JobListItemModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self.get_item(item_id)
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT item_id, list_id, candidate_id, position, notes, priority, status, promoted, created_at "
+                "FROM job_list_items WHERE item_id = $1",
+                item_id,
+            )
+        if row is None:
+            return None
+        return JobListItemModel(
+            item_id=row["item_id"],
+            list_id=row["list_id"],
+            candidate_id=row["candidate_id"],
+            position=row["position"],
+            notes=row["notes"],
+            priority=row["priority"],
+            status=row["status"],
+            promoted=bool(row["promoted"]),
+            created_at=row["created_at"],
+        )
+
     def _upsert_list_item(self, list_id: str, candidate_id: str, position: int, now: str) -> None:
         with _get_db() as conn:
             existing = conn.execute(
@@ -919,6 +1651,38 @@ class SearchStore:
                     "VALUES (?, ?, ?, ?, NULL, NULL, NULL, 0, ?)",
                     (f"item-{uuid.uuid4().hex[:12]}", list_id, candidate_id, position, now),
                 )
+
+    async def _upsert_list_item_pg(
+        self,
+        conn: asyncpg.Connection,
+        *,
+        list_id: str,
+        candidate_id: str,
+        position: int,
+        now: str,
+    ) -> None:
+        existing = await conn.fetchrow(
+            "SELECT item_id FROM job_list_items WHERE list_id = $1 AND candidate_id = $2",
+            list_id,
+            candidate_id,
+        )
+        if existing:
+            await conn.execute(
+                "UPDATE job_list_items SET position = $1 WHERE item_id = $2",
+                position,
+                existing["item_id"],
+            )
+            return
+        await conn.execute(
+            "INSERT INTO job_list_items "
+            "(item_id, list_id, candidate_id, position, notes, priority, status, promoted, created_at) "
+            "VALUES ($1, $2, $3, $4, NULL, NULL, NULL, FALSE, $5)",
+            f"item-{uuid.uuid4().hex[:12]}",
+            list_id,
+            candidate_id,
+            position,
+            now,
+        )
 
     def _find_existing_candidate_by_fallback(
         self,
@@ -941,6 +1705,34 @@ class SearchStore:
                 "LIMIT 1",
                 (normalized_company, normalized_role, normalized_location),
             ).fetchone()
+        return self._row_to_candidate(row) if row else None
+
+    async def _find_existing_candidate_by_fallback_async(
+        self,
+        company: str,
+        role: str,
+        location: Optional[str],
+    ) -> Optional[JobCandidateModel]:
+        pool = self._runtime_pool()
+        if pool is None:
+            return self._find_existing_candidate_by_fallback(company, role, location)
+        normalized_company = self._normalize_identity_fragment(company)
+        normalized_role = self._normalize_identity_fragment(role)
+        normalized_location = self._normalize_identity_fragment(location or "")
+        async with pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT candidate_id, run_id, source, source_url, company, role, location, "
+                "salary, remote, posted_date, apply_url, discovery_url, extraction_method, "
+                "source_confidence, search_rank, identity_key, is_duplicate, "
+                "duplicate_of_candidate_id, ingested, created_at "
+                "FROM job_candidates "
+                "WHERE lower(trim(company)) = $1 AND lower(trim(role)) = $2 "
+                "AND lower(trim(COALESCE(location, ''))) = $3 "
+                "LIMIT 1",
+                normalized_company,
+                normalized_role,
+                normalized_location,
+            )
         return self._row_to_candidate(row) if row else None
 
     @staticmethod
