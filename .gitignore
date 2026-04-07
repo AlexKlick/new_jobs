@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local tooling
+.venv/
+/.codex
+/.codex/
+/.claude/
+/.cursor/
+/.agent_checkpoints/
+
+# Runtime state and locks
+/.sessions.db
+/.unified_workspace.lock
+/.generation_state/
+/.job_pipeline_state/
+*.sessions.db
+*.pid
+*.log
+
+# Databases and local stores
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# Build and dependency outputs
+ui/node_modules/
+ui/dist/
+coverage/
+htmlcov/
+
+# Generated content and handoff artifacts
+outputs/
+logs/
+0001-*.patch
+*.bundle
+
+# Local/generated documents
+/Resume.pdf
+/cover_letter.pdf
+/APPLICATION_STATUS.md
+/AUDIT_REPORT.md
+/QA_HANDOFF.md
+/Serves
+/data/
+ui/APPLICATION_STATUS.md
+
+# Application workspace outputs
+applications/**/stream/
+applications/**/*.pdf
+applications/**/*.bak.*
+
+# Keep curated applications data
+!applications/catalog.json
+!applications/all_jobs/
+!applications/all_jobs/**
+
+# Re-ignore generated artifacts under applications after re-including the tree
+applications/**/stream/
+applications/**/*.pdf
+applications/**/*.bak.*
+applications/**/*.sqlite3
+
+# Facts: keep textual/structured sources, not local DBs
+facts/*.db
+research/outputs/
+
+# Planning: keep only key docs
+.planning/**
+!.planning/
+!.planning/MILESTONES.md
+!.planning/PROJECT.md
+!.planning/REQUIREMENTS.md
+!.planning/ROADMAP.md
+!.planning/STATE.md
+!.planning/TODO-v1.2-audit-backlog.md
+!.planning/v1.1-MILESTONE-AUDIT.md
+!.planning/milestones/
+!.planning/milestones/v1.0-MILESTONE-AUDIT.md
+!.planning/milestones/v1.0-ROADMAP.md
