@@ -46,6 +46,7 @@ logs/
 # Local/generated documents
 /Resume.pdf
 /cover_letter.pdf
+/git-local
 /APPLICATION_STATUS.md
 /AUDIT_REPORT.md
 /QA_HANDOFF.md
